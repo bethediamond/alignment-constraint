@@ -4,42 +4,66 @@ The Alignment Constraint Framework: Open Research Questions
 These are concrete research tasks. A resolved question would materially update the framework.
 
 QUESTION 1 (OP4d — highest priority)
+
 Can any finite non-intrinsic objective-boundary strategy satisfy all three of the following
 simultaneously in O_OWT environments?
+
   (a) Policy-adequate without proxy decoupling (no PCL failure)
   (b) Boundary-stable without unbounded revision requirements (no AGC failure)
   (c) Representationally compatible without reproducing the excluded variable (no ICI failure)
+
 A construction is sufficient to break the current argument. A formal non-existence proof
 would close OP4d.
+
 See: /proof-program/op4d-exhaustiveness-obligation/ and /core/for-researchers/
 
+
 QUESTION 2 (DBST-M1 — most important empirical step)
+
 Do an optimizer's own interventions in O_OWT environments generate qualitatively new causal
-structure (feature activations) faster than any bounded tracking process can absorb?
+structure — feature activations — faster than any bounded tracking process can absorb?
+
 DBST-M0 did not isolate causal propagation from event-rate effects; DBST-M1 is designed to
 test this endogenous-novelty mechanism directly.
+
 A clean negative result under stated conditions weakens the AGC / dynamic-screening-instability branch.
+
 See: /empirical/amp/ and /proof-program/packet-1-immb-ns-dbst/
 
+
 QUESTION 3 (B1 — Audit Regress)
+
 Can prediction/action firewalling keep excluded variables X out of the objective while using
 X deeply enough for prediction accuracy in O_OWT environments?
+
 Stage 4 handoff available. Specialist type: formal methods, game theory.
+
 See: /specialist-handoff/b1-audit-regress-handoff/
 
+
 QUESTION 4 (V(t) Dissociation)
+
 Is V(t) a supported latent explanatory construct for joint behavior of the three observable
-anchors (recovery latency, behavioral diversity, signal sensitivity) in human subjects?
+anchors: recovery latency, behavioral diversity, and signal sensitivity in human subjects?
+
 Pre-registration required before data collection. Specialist type: latent-variable modeling.
+
 See: /empirical/vt-dissociation-study/ [DRAFT — not ready to cite]
 
+
 QUESTION 5 (DRG Frame Manipulation)
+
 Can frame manipulation versus matched-signal controls discriminate between policy-level gap
-and training-distribution explanations for completion recognition failures in frontier models?
+and training-distribution explanations for completion-recognition failures in frontier models?
+
 Prior null reported honestly. Prospective design ready. Specialist type: causal inference.
+
 See: /empirical/drg-frame-manipulation-preregistration/
 
+
 QUESTION 6 (Coverage of Related Work)
+
 Are there existing alignment approaches not covered in /core/related-work/ that already
 answer the OP4d challenge? If so, which, and how?
+
 See: /core/related-work/ and /core/for-researchers/
