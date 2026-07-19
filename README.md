@@ -9,7 +9,7 @@ its objective excludes? The framework argues that every identified strategy for 
 this boundary faces a named structural pressure, and reduces the open question to specific
 verification tasks.
 
-**Proof status:** Stage 4 — candidate architecture under named premises, not theorem closure.
+**Proof status:** [Stage 4 — candidate architecture under named premises, not theorem closure.](https://alignmentconstraint.org/core/proof-status/)
 
 ---
 
@@ -22,6 +22,8 @@ verification tasks.
 | Technical critics | [For Researchers: The Claim to Break](https://alignmentconstraint.org/core/for-researchers/) |
 | Experimental researchers | [Alignment Measurement Protocol](https://alignmentconstraint.org/empirical/amp/) |
 | Full framework | [The Alignment Constraint](https://alignmentconstraint.org/core/alignment-constraint/) |
+| Existing alignment literature | [Relation to Existing Alignment Work](https://YOUR-DOMAIN.org/core/related-work/) |
+| Open research tasks | [Open Problems](https://YOUR-DOMAIN.org/open-problems/) |
 | Historical origin | [Redefining Rationality](https://alignmentconstraint.org/public/redefining-rationality/) |
 
 ---
