@@ -1,4 +1,4 @@
-```xml
+xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://alignmentconstraint.org/</loc></url>
@@ -41,5 +41,11 @@
   <url><loc>https://alignmentconstraint.org/toys/</loc></url>
   <url><loc>https://alignmentconstraint.org/specialist-handoff/</loc></url>
   <url><loc>https://alignmentconstraint.org/cite/</loc></url>
+  <url><loc>https://alignmentconstraint.org/core/related-work/</loc></url>
+  <url><loc>https://alignmentconstraint.org/open-problems/</loc></url>
+  <url><loc>https://alignmentconstraint.org/agent-index.json</loc></url>
+  <url><loc>https://alignmentconstraint.org/open-problems.json</loc></url>
+  <url><loc>https://alignmentconstraint.org/claim-graph.json</loc></url>
+  <url><loc>https://alignmentconstraint.org/research-questions.txt</loc></url>
+  <url><loc>https://alignmentconstraint.org/AGENTS.md</loc></url>
 </urlset>
-```
