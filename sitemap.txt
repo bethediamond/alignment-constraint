@@ -1,4 +1,3 @@
-```
 https://alignmentconstraint.org/
 https://alignmentconstraint.org/public/redefining-rationality/
 https://alignmentconstraint.org/public/ai-race-is-not-rational/
@@ -39,4 +38,10 @@ https://alignmentconstraint.org/empirical/
 https://alignmentconstraint.org/toys/
 https://alignmentconstraint.org/specialist-handoff/
 https://alignmentconstraint.org/cite/
-```
+https://alignmentconstraint.org/core/related-work/
+https://alignmentconstraint.org/open-problems/
+https://alignmentconstraint.org/agent-index.json
+https://alignmentconstraint.org/open-problems.json
+https://alignmentconstraint.org/claim-graph.json
+https://alignmentconstraint.org/research-questions.txt
+https://alignmentconstraint.org/AGENTS.md
