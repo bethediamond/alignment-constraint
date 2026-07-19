@@ -22,8 +22,8 @@ verification tasks.
 | Technical critics | [For Researchers: The Claim to Break](https://alignmentconstraint.org/core/for-researchers/) |
 | Experimental researchers | [Alignment Measurement Protocol](https://alignmentconstraint.org/empirical/amp/) |
 | Full framework | [The Alignment Constraint](https://alignmentconstraint.org/core/alignment-constraint/) |
-| Existing alignment literature | [Relation to Existing Alignment Work](https://YOUR-DOMAIN.org/core/related-work/) |
-| Open research tasks | [Open Problems](https://YOUR-DOMAIN.org/open-problems/) |
+| Existing alignment literature | [Relation to Existing Alignment Work](https://alignmentconstraint.org/core/related-work/) |
+| Open research tasks | [Open Problems](https://alignmentconstraint.org/open-problems/) |
 | Historical origin | [Redefining Rationality](https://alignmentconstraint.org/public/redefining-rationality/) |
 
 ---
