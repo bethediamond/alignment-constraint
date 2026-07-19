@@ -8,8 +8,6 @@ permalink: /open-problems/
 
 ---
 
-# Open Problems
-
 These are concrete research tasks. Solving any one of them would materially update the
 framework. Each entry has named closure conditions and the specialist type best positioned
 to resolve it.
