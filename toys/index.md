@@ -3,8 +3,6 @@ title: "Interactive Simulations"
 permalink: /toys/
 ---
 
-# Interactive Simulations
-
 These simulations are illustrative companions to the Alignment Constraint Framework.
 They are not proofs. They are tools for seeing the dynamics the framework describes.
 
