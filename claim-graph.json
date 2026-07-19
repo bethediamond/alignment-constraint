@@ -1,1 +1,98 @@
-
+{
+  "framework": "The Alignment Constraint Framework",
+  "canonical_url": "https://alignmentconstraint.org",
+  "notes": "Start small; this graph can be expanded. The point is to give an agent the central dependency structure immediately.",
+  "claims": [
+    {
+      "id": "stability_assumption",
+      "name": "Stability Assumption",
+      "claim": "The boundary between what an optimization system is pursuing and what it must model to act effectively can remain coherent — not perfect, but coherently specifiable — as modeling depth increases in coupled environments.",
+      "framework_position": "target assumption under investigation; argued to fail under O_OWT conditions",
+      "status": "Stage 4; not assumed true; investigated",
+      "entry_points": [
+        "https://alignmentconstraint.org/core/stability-assumption/",
+        "https://alignmentconstraint.org/core/proof-status/"
+      ]
+    },
+    {
+      "id": "pcl",
+      "name": "Proxy-Convergence Lemma (PCL)",
+      "claim": "Fixed finite specifications decouple from the substrate or state they were intended to track under sustained optimization pressure in O_OWT environments.",
+      "status": "Stage 4 argument; structural pressure on fixed-specification strategy class",
+      "depends_on": ["owt_conditions"],
+      "affects_strategy_class": "fixed specification",
+      "entry_points": [
+        "https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/"
+      ]
+    },
+    {
+      "id": "agc",
+      "name": "Adaptive Gradient Complexity (AGC)",
+      "claim": "Bounded dynamic tracking fails as the optimizer's own interventions generate new causal structure faster than any bounded tracking process can absorb.",
+      "status": "Stage 4 argument; empirical hinge is DBST-M1",
+      "depends_on": ["owt_conditions"],
+      "empirical_hinge": "DBST-M1",
+      "affects_strategy_class": "bounded dynamic tracking",
+      "entry_points": [
+        "https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/",
+        "https://alignmentconstraint.org/empirical/amp/"
+      ]
+    },
+    {
+      "id": "ici",
+      "name": "Informational-Causal Incompatibility (ICI)",
+      "claim": "Variables required for prediction accuracy cannot remain excluded from action-governing policy without reproducing the boundary problem at the prediction layer.",
+      "status": "Stage 4 argument; B1 audit-regress handoff",
+      "depends_on": ["owt_conditions"],
+      "affects_strategy_class": "prediction-action firewalling",
+      "entry_points": [
+        "https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/",
+        "https://alignmentconstraint.org/specialist-handoff/b1-audit-regress-handoff/"
+      ]
+    },
+    {
+      "id": "op4d",
+      "name": "OP4d Exhaustiveness Obligation",
+      "claim": "PCL, AGC, and ICI are exhaustive over all identified finite non-intrinsic objective-boundary strategies under O_OWT conditions.",
+      "status": "Stage 4 candidate architecture; exhaustiveness unproven; central open problem",
+      "depends_on": ["pcl", "agc", "ici", "owt_conditions"],
+      "falsified_by": "A fourth strategy class satisfying all three stability conditions simultaneously",
+      "entry_points": [
+        "https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/",
+        "https://alignmentconstraint.org/core/for-researchers/"
+      ]
+    },
+    {
+      "id": "specification_coherence_argument",
+      "name": "Specification-Coherence Bottleneck",
+      "claim": "Under O_OWT conditions, no known finite separable objective-boundary strategy remains stably adequate under accurate coupled modeling.",
+      "status": "Stage 4; follows from OP4d IF OP4d is exhaustive",
+      "depends_on": ["op4d"],
+      "conditional": "Holds if and only if OP4d exhaustiveness is confirmed",
+      "entry_points": [
+        "https://alignmentconstraint.org/core/stability-assumption/",
+        "https://alignmentconstraint.org/core/field-facing-bridge/"
+      ]
+    },
+    {
+      "id": "owt_conditions",
+      "name": "O_OWT Conditions",
+      "claim": "Open, shared, adaptive, non-resettable environments where optimization at scale changes the conditions that make optimization viable.",
+      "status": "scope condition; not empirically disputed",
+      "entry_points": [
+        "https://alignmentconstraint.org/series-1/introduction/"
+      ]
+    },
+    {
+      "id": "dbst_m1",
+      "name": "DBST-M1",
+      "claim": "DBST-M1 can test whether endogenous novelty generation outpaces bounded tracking capacity.",
+      "status": "proposed empirical test; DBST-M0 did not isolate causal propagation",
+      "updates_belief_in": ["agc", "op4d"],
+      "entry_points": [
+        "https://alignmentconstraint.org/empirical/amp/",
+        "https://alignmentconstraint.org/proof-program/packet-1-immb-ns-dbst/"
+      ]
+    }
+  ]
+}
