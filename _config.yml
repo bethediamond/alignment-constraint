@@ -1,6 +1,15 @@
 title: The Alignment Constraint Framework
 description: A structural argument about specification coherence in AI alignment.
 baseurl: ""
-url: "https://YOUR-DOMAIN.org"
+url: "https://alignmentconstraint.org"
 permalink: pretty
 theme: minima
+
+header_pages:
+  - core/stability-assumption.md
+  - core/proof-status.md
+  - core/for-researchers.md
+  - core/related-work.md
+  - open-problems/index.md
+  - empirical/index.md
+  - cite/index.md
