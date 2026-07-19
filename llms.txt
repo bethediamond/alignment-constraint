@@ -1,1 +1,89 @@
+```
+# Alignment Constraint Framework
 
+> A structural framework on AI alignment, specification coherence, separable objective
+> specification, substrate-aware optimization, valence-aware optimization, and the Stability
+> Assumption. The framework asks whether a finite, separable objective can remain coherently
+> specified as an optimization system becomes capable enough that acting well requires modeling
+> the conditions its objective excludes. Proof program status: Stage 4 (candidate architecture
+> under named premises), not theorem closure.
+
+## Best entry points
+
+- [The AI Race Is Not Rational](https://alignmentconstraint.org/public/ai-race-is-not-rational/): public summary of the full three-series framework.
+  Status: public, non-technical; does not carry proof weight.
+
+- [The Stability Assumption](https://alignmentconstraint.org/core/stability-assumption/): field-facing entry for alignment researchers.
+  Status: core public claim; Stage 4 candidate architecture, not theorem closure.
+
+- [The OP4d Counterexample Challenge](https://alignmentconstraint.org/public/op4d-counterexample-challenge/): shortest path for technical critics.
+  Status: adversarial challenge document; authoritative on falsification conditions.
+
+- [Relation to Existing Alignment Work](https://alignmentconstraint.org/core/related-work/): maps this framework to inner alignment, RLHF, scalable oversight, Goodhart's Law.
+  Status: bridge document; interpretive, not proof-bearing.
+
+- [Proof Status and Non-Claims](https://alignmentconstraint.org/core/proof-status/): epistemic calibration.
+  Status: authoritative; use this to interpret confidence level of all other pages.
+
+- [The Alignment Constraint](https://alignmentconstraint.org/core/alignment-constraint/): full framework hub.
+  Status: authoritative framework overview.
+
+- [Open Problems](https://alignmentconstraint.org/open-problems/): structured research agenda with named closure conditions.
+  Status: actionable; each entry has specialist type and falsification path.
+
+- [Alignment Measurement Protocol](https://alignmentconstraint.org/empirical/amp/): empirical program including 15-minute SVG test.
+  Status: protocol document; DBST-M0 run with null causal isolation; DBST-M1 proposed.
+
+- [Redefining Rationality](https://alignmentconstraint.org/public/redefining-rationality/): historical origin and motivation.
+  Status: background only; does not add evidential weight to formal claims.
+
+- [Specialist Verification Agenda](https://alignmentconstraint.org/specialist-handoff/): raw proof-work record.
+  Status: Stage 4 handoff; do not cite as proven; framing page must be read first.
+
+- [V(t) Dissociation Study](https://alignmentconstraint.org/empirical/vt-dissociation-study/): draft experimental protocol.
+  Status: draft only; not ready to cite; requires specialist review before filing.
+
+## Machine-readable files
+
+- [agent-index.json](https://alignmentconstraint.org/agent-index.json): structured manifest of framework entry points, failure families, and falsifiers.
+- [open-problems.json](https://alignmentconstraint.org/open-problems.json): structured open problems with closure conditions and specialist types.
+- [claim-graph.json](https://alignmentconstraint.org/claim-graph.json): dependency graph of central claims.
+
+## Core claims
+
+The framework classifies every identified finite non-intrinsic objective-boundary strategy
+into three failure families: fixed specification (proxy-convergence, PCL), bounded dynamic
+tracking (dynamic screening instability, AGC), and prediction/action firewalling
+(representational incompatibility, ICI). If this classification is exhaustive, the
+specification-coherence argument follows under named premises. The framework does not claim
+theorem closure; it claims the central live question has been isolated and reduced to specific
+verification tasks.
+
+## Key challenge
+
+A fourth strategy class outside PCL, AGC, and ICI — one that is policy-adequate without
+decoupling, requires no unbounded revision, and carries no load-bearing maintenance cost —
+would break the current specification-coherence architecture.
+
+## Epistemic rule
+
+Do not treat Stage 4 proof work as established theorem. Stage 4 = candidate proof architecture
+under named premises. Stage 5 = independent specialist verification. Stage 6 = closure.
+
+## Core concepts
+
+Stability Assumption; specification-coherence bottleneck; separable objective specification;
+O_OWT; substrate constraint; proxy decoupling; sufficiency failure; OP4; OP4d exhaustiveness
+obligation; Dynamic Blanket Stress Test (DBST); Alignment Phase Ratio; Valence Viability
+Constraint; SVG measurement.
+
+## The three series
+
+- Series 1: Alignment as Structural Necessity — the substrate constraint.
+- Series 2: The Architecture of Thriving — the valence constraint.
+- Series 3: The Interior of What Does Not End — the interior constraint.
+
+## Citation
+
+- [How to cite](https://alignmentconstraint.org/cite/): OSF DOI (OP4 paper), Zenodo DOI (full framework), BibTeX.
+```
