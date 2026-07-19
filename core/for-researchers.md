@@ -7,8 +7,6 @@ permalink: /core/for-researchers/
 
 ---
 
-# For Researchers: The Claim to Break
-
 This page is not asking you to read the full framework. It is asking whether one of the
 following is already answered somewhere, or whether you can produce a clean counterexample.
 
