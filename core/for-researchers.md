@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "For Researchers: The Claim to Break"
 permalink: /core/for-researchers/
@@ -66,4 +65,3 @@ See [Proof Status and Non-Claims →](proof-status.md) for the full calibration.
 3. [OP4d: The Exhaustiveness Obligation](../proof-program/op4d-exhaustiveness-obligation.md) — the live vulnerability
 
 *Framework hub: [The Alignment Constraint →](alignment-constraint.md)*
-```
