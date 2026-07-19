@@ -3,8 +3,6 @@ title: "Empirical Program"
 permalink: /empirical/
 ---
 
-# Empirical Program
-
 You do not need to accept the framework to run these tests.
 A clean negative result is the most valuable possible outcome.
 
