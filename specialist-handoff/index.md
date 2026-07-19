@@ -3,8 +3,6 @@ title: "Specialist Verification Agenda"
 description: "The proof-work record and concrete verification questions the Alignment Constraint framework hands off to formal-methods, causal-inference, game-theory, and distributed-systems specialists."
 ---
 
-# Specialist Verification Agenda
-
 **Read this framing before opening any document below.**
 
 This framework distinguishes what it has *argued* from what it has *proven*. The documents in
