@@ -1,4 +1,3 @@
-```
 # Alignment Constraint Framework
 
 > A structural framework on AI alignment, specification coherence, separable objective
