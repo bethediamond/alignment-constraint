@@ -1,1 +1,89 @@
-
+{
+  "name": "The Alignment Constraint Framework",
+  "canonical_url": "https://alignmentconstraint.org",
+  "proof_status": "Stage 4 candidate architecture; not theorem closure",
+  "epistemic_calibration_url": "https://alignmentconstraint.org/core/proof-status/",
+  "central_question": "Can a finite separable objective remain coherently specified as an optimization system becomes capable enough that acting well requires modeling the conditions its objective excludes?",
+  "primary_entry_points": [
+    {
+      "title": "The Stability Assumption",
+      "url": "https://alignmentconstraint.org/core/stability-assumption/",
+      "role": "field-facing entry point",
+      "status": "core public claim; Stage 4"
+    },
+    {
+      "title": "Proof Status and Non-Claims",
+      "url": "https://alignmentconstraint.org/core/proof-status/",
+      "role": "epistemic calibration",
+      "status": "authoritative; read before citing anything else"
+    },
+    {
+      "title": "For Researchers: The Claim to Break",
+      "url": "https://alignmentconstraint.org/core/for-researchers/",
+      "role": "falsification doorway",
+      "status": "authoritative on falsification conditions"
+    },
+    {
+      "title": "Relation to Existing Alignment Work",
+      "url": "https://alignmentconstraint.org/core/related-work/",
+      "role": "bridge to existing alignment literature",
+      "status": "interpretive; not proof-bearing"
+    },
+    {
+      "title": "Open Problems",
+      "url": "https://alignmentconstraint.org/open-problems/",
+      "role": "structured research agenda",
+      "status": "actionable; named closure conditions"
+    }
+  ],
+  "failure_families": [
+    {
+      "id": "PCL",
+      "name": "Proxy-Convergence Lemma",
+      "description": "Fixed finite specifications decouple from the substrate or state they were intended to track as optimization pressure increases.",
+      "affects": "fixed-specification strategy class"
+    },
+    {
+      "id": "AGC",
+      "name": "Adaptive Gradient Complexity",
+      "description": "Bounded dynamic tracking fails as the optimizer's own interventions generate new causal structure faster than any bounded tracking process can absorb.",
+      "affects": "bounded-dynamic-tracking strategy class"
+    },
+    {
+      "id": "ICI",
+      "name": "Informational-Causal Incompatibility",
+      "description": "Variables required for accurate prediction cannot remain excluded from action selection without reproducing the boundary problem at the prediction layer.",
+      "affects": "prediction-action-firewalling strategy class"
+    }
+  ],
+  "main_falsifiers": [
+    {
+      "id": "fourth_strategy_class",
+      "description": "Construct a fourth finite non-intrinsic objective-boundary strategy class that satisfies all three stability conditions simultaneously — policy-adequate without decoupling, no unbounded revision requirement, no load-bearing maintenance cost.",
+      "impact": "breaks current specification-coherence architecture"
+    },
+    {
+      "id": "op4d_non_exhaustiveness",
+      "description": "Show formally that PCL, AGC, and ICI are not exhaustive.",
+      "impact": "breaks OP4d; requires rebuilding from different foundations"
+    },
+    {
+      "id": "negative_dbst_m1",
+      "description": "Produce a clean negative DBST-M1 result under conditions specified in /empirical/amp/.",
+      "impact": "weakens AGC / dynamic-screening-instability branch"
+    },
+    {
+      "id": "stability_theorem",
+      "description": "Prove that some class of finite separable objective specifications satisfies all three stability conditions simultaneously under O_OWT-like conditions.",
+      "impact": "closes the specification-coherence question in the positive direction"
+    }
+  ],
+  "machine_readable_files": {
+    "agent_index": "https://alignmentconstraint.org/agent-index.json",
+    "open_problems": "https://alignmentconstraint.org/open-problems.json",
+    "claim_graph": "https://alignmentconstraint.org/claim-graph.json",
+    "llms_txt": "https://alignmentconstraint.org/llms.txt",
+    "agents_md": "https://alignmentconstraint.org/AGENTS.md",
+    "research_questions": "https://alignmentconstraint.org/research-questions.txt"
+  }
+}
