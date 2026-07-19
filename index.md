@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "The Alignment Constraint Framework"
 description: "A structural argument about whether finite separable objective specification can remain coherent as AI systems become more capable, embedded, and consequential."
@@ -71,4 +70,3 @@ and distributed-systems specialists. These are working documents, not claims of 
 if you can, and let the best solution win.*
 
 *[How to cite →](/cite/)*
-```
