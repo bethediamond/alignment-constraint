@@ -1,1 +1,26 @@
-
+```yaml
+cff-version: 1.2.0
+message: "If you reference this framework, please cite it as below."
+title: "The Alignment Constraint: A Specification-Coherence Framework for AI Alignment"
+type: software
+authors:
+  - name: "John Silliphant"
+date-released: "2026-07-18"
+url: "https://alignmentconstraint.org"
+repository-code: "https://github.com/bethediamond/alignment-constraint"
+abstract: >
+  A three-series structural argument about specification-coherence limits in separable
+  objective alignment. The framework's central open theorem (OP4) asks whether any finite
+  objective boundary can remain stably specified under accurate coupled modeling in open,
+  shared, non-resettable environments. Includes formal proof architecture, empirical
+  measurement protocol, and explicit proof-status calibration at Stage 4.
+keywords:
+  - AI alignment
+  - specification coherence
+  - separable objective specification
+  - stability assumption
+  - OP4
+  - substrate constraint
+  - proxy decoupling
+  - sufficiency failure
+```
