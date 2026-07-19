@@ -79,9 +79,11 @@ Constraint; SVG measurement.
 
 ## The three series
 
-- Series 1: Alignment as Structural Necessity — the substrate constraint.
-- Series 2: The Architecture of Thriving — the valence constraint.
-- Series 3: The Interior of What Does Not End — the interior constraint.
+## The three series
+
+- [Series 1: Alignment as Structural Necessity](https://YOUR-DOMAIN.org/series-1/introduction/) — the substrate constraint.
+- [Series 2: The Architecture of Thriving](https://YOUR-DOMAIN.org/series-2/introduction/) — the valence constraint.
+- [Series 3: The Interior of What Does Not End](https://YOUR-DOMAIN.org/series-3/introduction/) — the interior constraint.
 
 ## Citation
 
