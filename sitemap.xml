@@ -1,1 +1,45 @@
-
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://alignmentconstraint.org/</loc></url>
+  <url><loc>https://alignmentconstraint.org/public/ai-race-is-not-rational/</loc></url>
+  <url><loc>https://alignmentconstraint.org/public/winning-the-wrong-race/</loc></url>
+  <url><loc>https://alignmentconstraint.org/public/op4d-counterexample-challenge/</loc></url>
+  <url><loc>https://alignmentconstraint.org/public/redefining-rationality/</loc></url>
+  <url><loc>https://alignmentconstraint.org/core/stability-assumption/</loc></url>
+  <url><loc>https://alignmentconstraint.org/core/proof-status/</loc></url>
+  <url><loc>https://alignmentconstraint.org/core/for-researchers/</loc></url>
+  <url><loc>https://alignmentconstraint.org/core/alignment-constraint/</loc></url>
+  <url><loc>https://alignmentconstraint.org/core/stability-assumption-full/</loc></url>
+  <url><loc>https://alignmentconstraint.org/core/field-facing-bridge/</loc></url>
+  <url><loc>https://alignmentconstraint.org/core/tightening-sequence/</loc></url>
+  <url><loc>https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/</loc></url>
+  <url><loc>https://alignmentconstraint.org/proof-program/op4d-candidate-normal-form/</loc></url>
+  <url><loc>https://alignmentconstraint.org/proof-program/packet-1-immb-ns-dbst/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-1/introduction/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-1/alignment-of-intelligence/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-1/system-aware-attractor/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-1/the-crossing/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-1/technical-companion/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-2/introduction/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-2/invariant-drive/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-2/depth-constraint/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-2/inner-crossing/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-2/shape-of-what-does-not-end/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-2/technical-companion/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-3/introduction/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-3/participating-structure/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-3/navigation/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-3/resolution/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-3/asymptote/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-3/convergence-map/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-3/epistemic-status-map/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-3/apophatic-discipline-framework/</loc></url>
+  <url><loc>https://alignmentconstraint.org/series-3/technical-companion/</loc></url>
+  <url><loc>https://alignmentconstraint.org/empirical/amp/</loc></url>
+  <url><loc>https://alignmentconstraint.org/empirical/</loc></url>
+  <url><loc>https://alignmentconstraint.org/toys/</loc></url>
+  <url><loc>https://alignmentconstraint.org/specialist-handoff/</loc></url>
+  <url><loc>https://alignmentconstraint.org/cite/</loc></url>
+</urlset>
+```
