@@ -40,5 +40,5 @@ Each series has a Technical Companion (formal layer) and stands alone.
 
 Canonical website: https://alignmentconstraint.org
 Medium edition: https://medium.com/@diamondlight
-Cite: [How to cite →](https://YOUR-DOMAIN.org/cite/)
+Cite: [How to cite →](https://alignmentconstraint.org/cite/)
 ```
