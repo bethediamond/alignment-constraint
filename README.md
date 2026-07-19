@@ -31,6 +31,9 @@ verification tasks.
 - **Series 1 — Alignment as Structural Necessity** — the substrate constraint
 - **Series 2 — The Architecture of Thriving** — the valence constraint
 - **Series 3 — The Interior of What Does Not End** — the interior constraint
+- - **[Series 1 — Alignment as Structural Necessity](https://alignmentconstraint.org/series-1/introduction/)** — the substrate constraint. [Technical Companion →](https://alignmentconstraint.org/series-1/technical-companion/)
+- **[Series 2 — The Architecture of Thriving](https://alignmentconstraint.org/series-2/introduction/)** — the valence constraint. [Technical Companion →](https://alignmentconstraint.org/series-2/technical-companion/)
+- **[Series 3 — The Interior of What Does Not End](https://alignmentconstraint.org/series-3/introduction/)** — the interior constraint. [Technical Companion →](https://alignmentconstraint.org/series-3/technical-companion/)
 
 Each series has a Technical Companion (formal layer) and stands alone.
 [Interactive simulations →](https://alignmentconstraint.org/toys/)
