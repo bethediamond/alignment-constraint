@@ -1,8 +1,6 @@
-```yaml
 title: The Alignment Constraint Framework
 description: A structural argument about specification coherence in AI alignment.
 baseurl: ""
-url: "https://alignmentconstraint.org"
+url: "https://YOUR-DOMAIN.org"
 permalink: pretty
 theme: minima
-```
