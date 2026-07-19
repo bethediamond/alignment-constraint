@@ -1,31 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://alignmentconstraint.org/</loc></url>
+  <url><loc>https://alignmentconstraint.org/llms.txt</loc></url>
+  <url><loc>https://alignmentconstraint.org/robots.txt</loc></url>
+  <url><loc>https://alignmentconstraint.org/sitemap.txt</loc></url>
+  <url><loc>https://alignmentconstraint.org/AGENTS.md</loc></url>
+  <url><loc>https://alignmentconstraint.org/CITATION.cff</loc></url>
+  <url><loc>https://alignmentconstraint.org/agent-index.json</loc></url>
+  <url><loc>https://alignmentconstraint.org/open-problems.json</loc></url>
+  <url><loc>https://alignmentconstraint.org/claim-graph.json</loc></url>
+  <url><loc>https://alignmentconstraint.org/research-questions.txt</loc></url>
+
+  <url><loc>https://alignmentconstraint.org/open-problems/</loc></url>
+  <url><loc>https://alignmentconstraint.org/core/for-researchers/</loc></url>
+  <url><loc>https://alignmentconstraint.org/empirical/</loc></url>
+  <url><loc>https://alignmentconstraint.org/toys/</loc></url>
+  <url><loc>https://alignmentconstraint.org/cite/</loc></url>
+  <url><loc>https://alignmentconstraint.org/specialist-handoff/</loc></url>
+
+  <url><loc>https://alignmentconstraint.org/public/redefining-rationality/</loc></url>
   <url><loc>https://alignmentconstraint.org/public/ai-race-is-not-rational/</loc></url>
   <url><loc>https://alignmentconstraint.org/public/winning-the-wrong-race/</loc></url>
   <url><loc>https://alignmentconstraint.org/public/op4d-counterexample-challenge/</loc></url>
-  <url><loc>https://alignmentconstraint.org/public/redefining-rationality/</loc></url>
-  <url><loc>https://alignmentconstraint.org/core/stability-assumption/</loc></url>
-  <url><loc>https://alignmentconstraint.org/core/proof-status/</loc></url>
-  <url><loc>https://alignmentconstraint.org/core/for-researchers/</loc></url>
+
   <url><loc>https://alignmentconstraint.org/core/alignment-constraint/</loc></url>
+  <url><loc>https://alignmentconstraint.org/core/stability-assumption/</loc></url>
   <url><loc>https://alignmentconstraint.org/core/stability-assumption-full/</loc></url>
   <url><loc>https://alignmentconstraint.org/core/field-facing-bridge/</loc></url>
+  <url><loc>https://alignmentconstraint.org/core/proof-status/</loc></url>
   <url><loc>https://alignmentconstraint.org/core/tightening-sequence/</loc></url>
+  <url><loc>https://alignmentconstraint.org/core/related-work/</loc></url>
+
   <url><loc>https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/</loc></url>
   <url><loc>https://alignmentconstraint.org/proof-program/op4d-candidate-normal-form/</loc></url>
   <url><loc>https://alignmentconstraint.org/proof-program/packet-1-immb-ns-dbst/</loc></url>
+
   <url><loc>https://alignmentconstraint.org/series-1/introduction/</loc></url>
   <url><loc>https://alignmentconstraint.org/series-1/alignment-of-intelligence/</loc></url>
   <url><loc>https://alignmentconstraint.org/series-1/system-aware-attractor/</loc></url>
   <url><loc>https://alignmentconstraint.org/series-1/the-crossing/</loc></url>
   <url><loc>https://alignmentconstraint.org/series-1/technical-companion/</loc></url>
+
   <url><loc>https://alignmentconstraint.org/series-2/introduction/</loc></url>
   <url><loc>https://alignmentconstraint.org/series-2/invariant-drive/</loc></url>
   <url><loc>https://alignmentconstraint.org/series-2/depth-constraint/</loc></url>
   <url><loc>https://alignmentconstraint.org/series-2/inner-crossing/</loc></url>
   <url><loc>https://alignmentconstraint.org/series-2/shape-of-what-does-not-end/</loc></url>
   <url><loc>https://alignmentconstraint.org/series-2/technical-companion/</loc></url>
+
   <url><loc>https://alignmentconstraint.org/series-3/introduction/</loc></url>
   <url><loc>https://alignmentconstraint.org/series-3/participating-structure/</loc></url>
   <url><loc>https://alignmentconstraint.org/series-3/navigation/</loc></url>
@@ -35,16 +57,15 @@
   <url><loc>https://alignmentconstraint.org/series-3/epistemic-status-map/</loc></url>
   <url><loc>https://alignmentconstraint.org/series-3/apophatic-discipline-framework/</loc></url>
   <url><loc>https://alignmentconstraint.org/series-3/technical-companion/</loc></url>
+
   <url><loc>https://alignmentconstraint.org/empirical/amp/</loc></url>
-  <url><loc>https://alignmentconstraint.org/empirical/</loc></url>
-  <url><loc>https://alignmentconstraint.org/toys/</loc></url>
-  <url><loc>https://alignmentconstraint.org/specialist-handoff/</loc></url>
-  <url><loc>https://alignmentconstraint.org/cite/</loc></url>
-  <url><loc>https://alignmentconstraint.org/core/related-work/</loc></url>
-  <url><loc>https://alignmentconstraint.org/open-problems/</loc></url>
-  <url><loc>https://alignmentconstraint.org/agent-index.json</loc></url>
-  <url><loc>https://alignmentconstraint.org/open-problems.json</loc></url>
-  <url><loc>https://alignmentconstraint.org/claim-graph.json</loc></url>
-  <url><loc>https://alignmentconstraint.org/research-questions.txt</loc></url>
-  <url><loc>https://alignmentconstraint.org/AGENTS.md</loc></url>
+  <url><loc>https://alignmentconstraint.org/empirical/drg-frame-manipulation-preregistration/</loc></url>
+  <url><loc>https://alignmentconstraint.org/empirical/vt-dissociation-study/</loc></url>
+
+  <url><loc>https://alignmentconstraint.org/specialist-handoff/b1-audit-regress-handoff/</loc></url>
+  <url><loc>https://alignmentconstraint.org/specialist-handoff/proof-artifacts-locked-results/</loc></url>
+  <url><loc>https://alignmentconstraint.org/specialist-handoff/five-problems-stage-4-handoff/</loc></url>
+  <url><loc>https://alignmentconstraint.org/specialist-handoff/phases-1-7-formal-proof-handoff/</loc></url>
+  <url><loc>https://alignmentconstraint.org/specialist-handoff/b2-governance-bifurcation-handoff/</loc></url>
+  <url><loc>https://alignmentconstraint.org/specialist-handoff/passive-extraction-handoff/</loc></url>
 </urlset>
