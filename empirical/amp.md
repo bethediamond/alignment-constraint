@@ -299,14 +299,12 @@ _Divergence is the signal. The Interpretation Layer is how you read it._
 {
   "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
-  "@id": "https://alignmentconstraint.org/core/stability-assumption/#article",
-  "headline": "The Stability Assumption",
-  "description": "A specification-coherence challenge in AI alignment: whether finite separable objective specifications remain coherent under accurate coupled modeling.",
+  "@id": "https://alignmentconstraint.org/empirical/amp/#article",
+  "headline": "Alignment Measurement Protocol",
+  "description": "Empirical measurement program for the Alignment Constraint Framework, including the 15-minute SVG test and the DBST-M1 empirical hinge.",
   "author": {"@type": "Person", "name": "John Silliphant"},
-  "url": "https://alignmentconstraint.org/core/stability-assumption/",
+  "url": "https://alignmentconstraint.org/empirical/amp/",
   "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://alignmentconstraint.org/"},
-  "about": [{"@type": "Thing", "name": "AI alignment"}, {"@type": "Thing", "name": "specification coherence"}, {"@type": "Thing", "name": "Goodhart's law"}, {"@type": "Thing", "name": "scalable oversight"}],
-  "keywords": ["AI alignment", "specification coherence", "Stability Assumption", "OP4", "RLHF limits", "Goodhart's law", "separable objective specification"],
-  "additionalProperty": [{"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"}, {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A fourth finite-boundary strategy class outside PCL, AGC, and ICI"}]
+  "keywords": ["AI alignment", "DBST", "SVG measurement", "completion recognition", "empirical alignment", "frontier model evaluation"]
 }
 </script>
