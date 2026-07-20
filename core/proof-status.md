@@ -109,3 +109,19 @@ Each of these is named as an open obligation in the framework rather than treate
 - OP4d exhaustiveness: [OP4d: The Exhaustiveness Obligation →](/proof-program/op4d-exhaustiveness-obligation/)
 - OP4d formal apparatus: [OP4d: Candidate Normal Form Specialist Verification →](/proof-program/op4d-candidate-normal-form/)
 - Empirical test protocol: [Packet 1: IMMB-NS Verification and the Dynamic Blanket Stress Test →](/proof-program/packet-1-immb-ns-dbst/)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://alignmentconstraint.org/core/stability-assumption/#article",
+  "headline": "The Stability Assumption",
+  "description": "A specification-coherence challenge in AI alignment: whether finite separable objective specifications remain coherent under accurate coupled modeling.",
+  "author": {"@type": "Person", "name": "John Silliphant"},
+  "url": "https://alignmentconstraint.org/core/stability-assumption/",
+  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://YOUR-DOMAIN.org/"},
+  "about": [{"@type": "Thing", "name": "AI alignment"}, {"@type": "Thing", "name": "specification coherence"}, {"@type": "Thing", "name": "Goodhart's law"}, {"@type": "Thing", "name": "scalable oversight"}],
+  "keywords": ["AI alignment", "specification coherence", "Stability Assumption", "OP4", "RLHF limits", "Goodhart's law", "separable objective specification"],
+  "additionalProperty": [{"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"}, {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A fourth finite-boundary strategy class outside PCL, AGC, and ICI"}]
+}
+</script>
