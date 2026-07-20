@@ -59,3 +59,19 @@ The formal version of this question — including the three strategy families, t
 The full framework is mapped in [The Alignment Constraint](/core/alignment-constraint/).
 
 In concrete terms: show a system that can maintain a finite objective boundary without drifting from its target, expanding to track what it excluded, or generating mounting boundary-maintenance overhead — under conditions where the system’s own actions reshape the environment the boundary was specified over. If there is a finite-boundary strategy outside fixed specification, bounded dynamic tracking, and prediction-action firewalling that remains adequate under accurate coupled modeling in O_OWT environments, that is the thing to show. It would change the framework directly.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://alignmentconstraint.org/core/stability-assumption/#article",
+  "headline": "The Stability Assumption",
+  "description": "A specification-coherence challenge in AI alignment: whether finite separable objective specifications remain coherent under accurate coupled modeling.",
+  "author": {"@type": "Person", "name": "John Silliphant"},
+  "url": "https://alignmentconstraint.org/core/stability-assumption/",
+  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://YOUR-DOMAIN.org/"},
+  "about": [{"@type": "Thing", "name": "AI alignment"}, {"@type": "Thing", "name": "specification coherence"}, {"@type": "Thing", "name": "Goodhart's law"}, {"@type": "Thing", "name": "scalable oversight"}],
+  "keywords": ["AI alignment", "specification coherence", "Stability Assumption", "OP4", "RLHF limits", "Goodhart's law", "separable objective specification"],
+  "additionalProperty": [{"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"}, {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A fourth finite-boundary strategy class outside PCL, AGC, and ICI"}]
+}
+</script>
