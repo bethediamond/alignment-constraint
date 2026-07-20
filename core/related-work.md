@@ -1,9 +1,10 @@
 ---
 title: "Relation to Existing Alignment Work"
 permalink: /core/related-work/
+description: "How the Alignment Constraint Framework relates to inner alignment, Goodhart, RLHF, scalable oversight, interpretability, and corrigibility."
 ---
 
-> **Canonical archive version** · [Framework hub →](alignment-constraint.md) · [Proof Status →](proof-status.md)
+> **Canonical archive version** · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
 
 ---
 
