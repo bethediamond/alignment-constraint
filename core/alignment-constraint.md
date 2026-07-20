@@ -268,14 +268,12 @@ The constraint is not imposed from outside. At sufficient modeling depth, the st
 {
   "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
-  "@id": "https://alignmentconstraint.org/core/stability-assumption/#article",
-  "headline": "The Stability Assumption",
-  "description": "A specification-coherence challenge in AI alignment: whether finite separable objective specifications remain coherent under accurate coupled modeling.",
+  "@id": "https://alignmentconstraint.org/core/alignment-constraint/#article",
+  "headline": "The Alignment Constraint",
+  "description": "Framework hub and proof-architecture map for the Alignment Constraint Framework — a structural argument about specification coherence in AI alignment.",
   "author": {"@type": "Person", "name": "John Silliphant"},
-  "url": "https://alignmentconstraint.org/core/stability-assumption/",
-  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://YOUR-DOMAIN.org/"},
-  "about": [{"@type": "Thing", "name": "AI alignment"}, {"@type": "Thing", "name": "specification coherence"}, {"@type": "Thing", "name": "Goodhart's law"}, {"@type": "Thing", "name": "scalable oversight"}],
-  "keywords": ["AI alignment", "specification coherence", "Stability Assumption", "OP4", "RLHF limits", "Goodhart's law", "separable objective specification"],
-  "additionalProperty": [{"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"}, {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A fourth finite-boundary strategy class outside PCL, AGC, and ICI"}]
+  "url": "https://alignmentconstraint.org/core/alignment-constraint/",
+  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://alignmentconstraint.org/"},
+  "keywords": ["AI alignment", "specification coherence", "Stability Assumption", "OP4", "substrate constraint", "valence constraint"]
 }
 </script>
