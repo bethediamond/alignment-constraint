@@ -115,3 +115,16 @@ page that already answer the OP4d challenge?
 
 **Pages:** [Relation to Existing Alignment Work →](../core/related-work.md) ·
 [For Researchers: The Claim to Break →](../core/for-researchers.md)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://alignmentconstraint.org/open-problems/#article",
+  "headline": "Open Problems in the Alignment Constraint Framework",
+  "description": "Concrete research tasks with named closure conditions, specialist types, and falsification paths. Each solved problem would materially update the framework.",
+  "author": {"@type": "Person", "name": "John Silliphant"},
+  "url": "https://alignmentconstraint.org/open-problems/",
+  "keywords": ["AI alignment", "open problems", "OP4d", "DBST-M1", "formal verification", "alignment research agenda"]
+}
+</script>
