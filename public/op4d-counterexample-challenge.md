@@ -84,3 +84,19 @@ Stage 4 means that every identified exit has been addressed within the current c
 - [Proof Status and Non-Claims](/core/proof-status/) — proof-status calibration
 
 _Note: This note was prepared with LLM assistance. I am responsible for the claims and errors. The request is adversarial: identify the counterexample, the prior result, or the first unjustified move._
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://alignmentconstraint.org/core/stability-assumption/#article",
+  "headline": "The Stability Assumption",
+  "description": "A specification-coherence challenge in AI alignment: whether finite separable objective specifications remain coherent under accurate coupled modeling.",
+  "author": {"@type": "Person", "name": "John Silliphant"},
+  "url": "https://alignmentconstraint.org/core/stability-assumption/",
+  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://YOUR-DOMAIN.org/"},
+  "about": [{"@type": "Thing", "name": "AI alignment"}, {"@type": "Thing", "name": "specification coherence"}, {"@type": "Thing", "name": "Goodhart's law"}, {"@type": "Thing", "name": "scalable oversight"}],
+  "keywords": ["AI alignment", "specification coherence", "Stability Assumption", "OP4", "RLHF limits", "Goodhart's law", "separable objective specification"],
+  "additionalProperty": [{"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"}, {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A fourth finite-boundary strategy class outside PCL, AGC, and ICI"}]
+}
+</script>
