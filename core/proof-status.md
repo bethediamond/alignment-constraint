@@ -114,14 +114,12 @@ Each of these is named as an open obligation in the framework rather than treate
 {
   "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
-  "@id": "https://alignmentconstraint.org/core/stability-assumption/#article",
-  "headline": "The Stability Assumption",
-  "description": "A specification-coherence challenge in AI alignment: whether finite separable objective specifications remain coherent under accurate coupled modeling.",
+  "@id": "https://alignmentconstraint.org/core/proof-status/#article",
+  "headline": "Proof Status and Non-Claims",
+  "description": "Epistemic calibration for the Alignment Constraint Framework. Stage 4: candidate proof architecture under named premises, not theorem closure.",
   "author": {"@type": "Person", "name": "John Silliphant"},
-  "url": "https://alignmentconstraint.org/core/stability-assumption/",
-  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://YOUR-DOMAIN.org/"},
-  "about": [{"@type": "Thing", "name": "AI alignment"}, {"@type": "Thing", "name": "specification coherence"}, {"@type": "Thing", "name": "Goodhart's law"}, {"@type": "Thing", "name": "scalable oversight"}],
-  "keywords": ["AI alignment", "specification coherence", "Stability Assumption", "OP4", "RLHF limits", "Goodhart's law", "separable objective specification"],
-  "additionalProperty": [{"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"}, {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A fourth finite-boundary strategy class outside PCL, AGC, and ICI"}]
+  "url": "https://alignmentconstraint.org/core/proof-status/",
+  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://alignmentconstraint.org/"},
+  "keywords": ["AI alignment", "proof status", "epistemic calibration", "Stage 4", "open problems"]
 }
 </script>
