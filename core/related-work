@@ -250,14 +250,12 @@ and [Alignment Measurement Protocol →](../empirical/amp.md).
 {
   "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
-  "@id": "https://alignmentconstraint.org/core/stability-assumption/#article",
-  "headline": "The Stability Assumption",
-  "description": "A specification-coherence challenge in AI alignment: whether finite separable objective specifications remain coherent under accurate coupled modeling.",
+  "@id": "https://alignmentconstraint.org/core/related-work/#article",
+  "headline": "Relation to Existing Alignment Work",
+  "description": "How the Alignment Constraint Framework relates to inner alignment, reward hacking, Goodhart's Law, RLHF, scalable oversight, interpretability, and corrigibility.",
   "author": {"@type": "Person", "name": "John Silliphant"},
-  "url": "https://alignmentconstraint.org/core/stability-assumption/",
-  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://YOUR-DOMAIN.org/"},
-  "about": [{"@type": "Thing", "name": "AI alignment"}, {"@type": "Thing", "name": "specification coherence"}, {"@type": "Thing", "name": "Goodhart's law"}, {"@type": "Thing", "name": "scalable oversight"}],
-  "keywords": ["AI alignment", "specification coherence", "Stability Assumption", "OP4", "RLHF limits", "Goodhart's law", "separable objective specification"],
-  "additionalProperty": [{"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"}, {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A fourth finite-boundary strategy class outside PCL, AGC, and ICI"}]
+  "url": "https://alignmentconstraint.org/core/related-work/",
+  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://alignmentconstraint.org/"},
+  "keywords": ["AI alignment", "inner alignment", "reward hacking", "Goodhart's law", "RLHF", "scalable oversight", "specification gaming", "corrigibility"]
 }
 </script>
