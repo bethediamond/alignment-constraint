@@ -245,17 +245,3 @@ and [Alignment Measurement Protocol →](../empirical/amp.md).
 - Russell, S. (2019). Human Compatible: Artificial Intelligence and the Problem of Control. Viking.
 
 *Framework hub: [The Alignment Constraint →](alignment-constraint.md)*
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ScholarlyArticle",
-  "@id": "https://alignmentconstraint.org/core/related-work/#article",
-  "headline": "Relation to Existing Alignment Work",
-  "description": "How the Alignment Constraint Framework relates to inner alignment, reward hacking, Goodhart's Law, RLHF, scalable oversight, interpretability, and corrigibility.",
-  "author": {"@type": "Person", "name": "John Silliphant"},
-  "url": "https://alignmentconstraint.org/core/related-work/",
-  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://alignmentconstraint.org/"},
-  "keywords": ["AI alignment", "inner alignment", "reward hacking", "Goodhart's law", "RLHF", "scalable oversight", "specification gaming", "corrigibility"]
-}
-</script>
