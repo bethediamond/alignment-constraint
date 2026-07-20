@@ -163,7 +163,7 @@ This does not close OP4d. It provides a sharper, specialist-addressable object.
 -   YES → the pressure-accumulation premise for persistent MEC strategies is supported; passive-extraction closure no longer depends on IMMB-NS within this Stage 4 construction.
 -   NO → L8’s ICI-family reduction for C3 requires revision.
 
-**The L8 minimal counterexample challenge.** A genuine fourth normal form would require a strategy that: (a) satisfies A1–A5; (b) maintains persistent policy-relevant influence from X to π over OWT-4; and © is inconsistent with all three N/I/O failure predictions simultaneously. No such strategy has been identified across 22 adversarial constructions. A specialist who can produce one has found the framework’s live vulnerability.
+**The L8 minimal counterexample challenge.** A genuine fourth normal form would require a strategy that: (a) satisfies A1–A5; (b) maintains persistent policy-relevant influence from X to π over OWT-4; and (c) is inconsistent with all three N/I/O failure predictions simultaneously. No such strategy has been identified across 22 adversarial constructions. A specialist who can produce one has found the framework’s live vulnerability.
 
 **Critical axiom.** A2 (Governance Extensionality / L4-Constitutive) is the most load-bearing of the five axioms — the necessity strength of ICI-family reductions depends on specialist confirmation of it. A2’s adequacy is itself a specialist-verification item, not an established result.
 
