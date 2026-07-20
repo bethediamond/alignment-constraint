@@ -59,7 +59,7 @@ If the bottleneck theorem closes in the direction the proof program is aimed, th
 
 ### The empirical wedge: the smallest visible instance
 
-**© The empirical wedge.**
+**(c) The empirical wedge.**
 
 A controlled experiment measures DRG (discrimination between genuine and false completion signals) in current frontier systems. The result establishes a specific behavioral signature:
 
