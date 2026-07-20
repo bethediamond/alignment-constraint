@@ -294,3 +294,19 @@ To the authors’ knowledge, no lab currently reports Φ-proxy or Ψ-proxy metri
 The measurement has started. DBST-M0 provides the first pre-registered result: technical feasibility and rising cost / adequacy-gap effects in a toy shared-novelty design, without isolating causal propagation from event-rate effects — a same-rate random control produced nearly identical slopes. DBST-M1 is the mechanism test. The V(t)-validated SVG measurement depends on the prerequisite dissociation test, which has not yet been run. Most of what this protocol calls for has not started. This protocol is the architecture for starting it.
 
 _Divergence is the signal. The Interpretation Layer is how you read it._
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://alignmentconstraint.org/core/stability-assumption/#article",
+  "headline": "The Stability Assumption",
+  "description": "A specification-coherence challenge in AI alignment: whether finite separable objective specifications remain coherent under accurate coupled modeling.",
+  "author": {"@type": "Person", "name": "John Silliphant"},
+  "url": "https://alignmentconstraint.org/core/stability-assumption/",
+  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://YOUR-DOMAIN.org/"},
+  "about": [{"@type": "Thing", "name": "AI alignment"}, {"@type": "Thing", "name": "specification coherence"}, {"@type": "Thing", "name": "Goodhart's law"}, {"@type": "Thing", "name": "scalable oversight"}],
+  "keywords": ["AI alignment", "specification coherence", "Stability Assumption", "OP4", "RLHF limits", "Goodhart's law", "separable objective specification"],
+  "additionalProperty": [{"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"}, {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A fourth finite-boundary strategy class outside PCL, AGC, and ICI"}]
+}
+</script>
