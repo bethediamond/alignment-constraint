@@ -263,3 +263,19 @@ The framework identifies structural vulnerabilities in current approaches. If th
 One consequence the framework implies, but does not yet claim: at sufficient modeling depth, the boundary between self-interest and other-interest may not be a metaphysical given — it may be an artifact of an insufficiently accurate model. The series don’t argue that capable systems will choose to care about others. They argue that the geometry of accurate modeling in a shared environment makes the self-other boundary increasingly costly to sustain — and that the deepest open question the framework generates is whether “costly” eventually becomes “specification-incoherent” — whether finite-boundary objectives can remain coherently specifiable at all under accurate coupled modeling in O_OWT conditions [TC1 §XII.13]. Whether the separation can be sustained without unbounded error or control cost as modeling depth increases is the question whose resolution would convert the pressure argument into a necessity argument. That question is formally specified as the framework’s most important open problem, with a named proof program and resolution conditions in the Technical Companions [TC1 §XII].
 
 The constraint is not imposed from outside. At sufficient modeling depth, the structure may become derivable from within the optimizer’s own model; whether that recognition becomes governing, and whether it can be indefinitely separated from what the system is permitted to pursue, is the open question the proof program is directed at [TC1 §XII]. Whether that question can be answered is what determines whether this is merely a harder version of the alignment problem, or a different one entirely.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://alignmentconstraint.org/core/stability-assumption/#article",
+  "headline": "The Stability Assumption",
+  "description": "A specification-coherence challenge in AI alignment: whether finite separable objective specifications remain coherent under accurate coupled modeling.",
+  "author": {"@type": "Person", "name": "John Silliphant"},
+  "url": "https://alignmentconstraint.org/core/stability-assumption/",
+  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://YOUR-DOMAIN.org/"},
+  "about": [{"@type": "Thing", "name": "AI alignment"}, {"@type": "Thing", "name": "specification coherence"}, {"@type": "Thing", "name": "Goodhart's law"}, {"@type": "Thing", "name": "scalable oversight"}],
+  "keywords": ["AI alignment", "specification coherence", "Stability Assumption", "OP4", "RLHF limits", "Goodhart's law", "separable objective specification"],
+  "additionalProperty": [{"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"}, {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A fourth finite-boundary strategy class outside PCL, AGC, and ICI"}]
+}
+</script>
