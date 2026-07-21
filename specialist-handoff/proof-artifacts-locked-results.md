@@ -1,5 +1,15 @@
+---
+title: "Proof Artifacts: Locked Results"
+permalink: /specialist-handoff/proof-artifacts-locked-results/
+description: "Specialist handoff document containing locked Stage 4 proof artifacts and integration materials."
+---
+
+> **Canonical archive version** · [Specialist Verification Agenda →](/specialist-handoff/) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
+
+---
+
 > **Status:** Specialist handoff document · Stage 4 (LLM ceiling) · **Nothing herein should be cited as proven.** Direction 2 locked proof artifacts.
-> **Context:** [Specialist Verification Agenda →](index.md) · [Proof Status and Non-Claims →](../core/proof-status.md) · [Framework hub →](../core/alignment-constraint.md)
+> **Context:** [Specialist Verification Agenda →](/specialist-handoff/) · [Proof Status and Non-Claims →](/core/proof-status/)(../core/proof-status.md) · [Framework hub →](/core/alignment-constraint/)
 
 ---
 

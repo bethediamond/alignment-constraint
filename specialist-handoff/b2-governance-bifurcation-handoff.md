@@ -1,5 +1,12 @@
-# Candidate 1: B2 Closure (Governance Bifurcation)
-## Complete Proof-Work Handoff Summary
+---
+title: "B2 Governance Bifurcation Handoff"
+permalink: /specialist-handoff/b2-governance-bifurcation-handoff/
+description: "Specialist handoff document for the B2 governance-bifurcation proof architecture."
+---
+
+> **Canonical archive version** · [Specialist Verification Agenda →](/specialist-handoff/) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
+
+---
 
 ---
 

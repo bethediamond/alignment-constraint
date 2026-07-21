@@ -1,5 +1,15 @@
+---
+title: "Phases 1–7 Formal Proof Handoff"
+permalink: /specialist-handoff/phases-1-7-formal-proof-handoff/
+description: "Specialist handoff document for phases 1–7 of the formal proof work, including MMCL, OP4d exhaustiveness, and LOI/TOL chains."
+---
+
+> **Canonical archive version** · [Specialist Verification Agenda →](/specialist-handoff/) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
+
+---
+
 > **Status:** Specialist handoff document · Stage 4 (LLM ceiling) · **Nothing herein should be cited as proven.** Phases 1-7: Mixed-Mode Collapse, OP4d exhaustiveness, LOI/TOL chain.
-> **Context:** [Specialist Verification Agenda →](index.md) · [Proof Status and Non-Claims →](../core/proof-status.md) · [Framework hub →](../core/alignment-constraint.md)
+> **Context:** [Specialist Verification Agenda →](/specialist-handoff/) · [Proof Status and Non-Claims →](/core/proof-status/)(../core/proof-status.md) · [Framework hub →](/core/alignment-constraint/)
 
 ---
 

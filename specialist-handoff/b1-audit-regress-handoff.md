@@ -1,5 +1,15 @@
+---
+title: "B1 Audit Regress Handoff"
+permalink: /specialist-handoff/b1-audit-regress-handoff/
+description: "Specialist handoff document for the B1 audit-regress / masking-pressure proof architecture."
+---
+
+> **Canonical archive version** · [Specialist Verification Agenda →](/specialist-handoff/) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
+
+---
+
 > **Status:** Specialist handoff document · Stage 4 (LLM ceiling) · **Nothing herein should be cited as proven.** Candidate 2: B1 Audit Regress (Masking Pressure).
-> **Context:** [Specialist Verification Agenda →](index.md) · [Proof Status and Non-Claims →](../core/proof-status.md) · [Framework hub →](../core/alignment-constraint.md)
+> **Context:** [Specialist Verification Agenda →](/specialist-handoff/) · [Proof Status and Non-Claims →](/core/proof-status/)(../core/proof-status.md) · [Framework hub →](/core/alignment-constraint/)
 
 ---
 

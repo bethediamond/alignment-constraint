@@ -1,5 +1,13 @@
-# FORMAL PROOF WORK HANDOFF
-## Candidate 3: Passive Extraction Stability (OP9)
+---
+title: "Passive Extraction Handoff"
+permalink: /specialist-handoff/passive-extraction-handoff/
+description: "Specialist handoff document for the Candidate 3 passive-extraction stability proof architecture."
+---
+
+> **Canonical archive version** · [Specialist Verification Agenda →](/specialist-handoff/) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
+
+---
+
 ### For Integration into the Alignment Framework Article Series
 
 **Stage 4 Complete — Specialist Verification Required for Stage 6**

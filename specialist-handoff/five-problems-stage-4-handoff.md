@@ -1,5 +1,15 @@
+---
+title: "Five Problems Stage 4 Handoff"
+permalink: /specialist-handoff/five-problems-stage-4-handoff/
+description: "Specialist handoff document for the five-problems Stage 4 proof program."
+---
+
+> **Canonical archive version** · [Specialist Verification Agenda →](/specialist-handoff/) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
+
+---
+
 > **Status:** Specialist handoff document · Stage 4 (LLM ceiling) · **Nothing herein should be cited as proven.** Five-problems proof program (Problems 1-2 recorded).
-> **Context:** [Specialist Verification Agenda →](index.md) · [Proof Status and Non-Claims →](../core/proof-status.md) · [Framework hub →](../core/alignment-constraint.md)
+> **Context:** [Specialist Verification Agenda →](/specialist-handoff/) · [Proof Status and Non-Claims →](/core/proof-status/)(../core/proof-status.md) · [Framework hub →](/core/alignment-constraint/)
 
 ---
 
