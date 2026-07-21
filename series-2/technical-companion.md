@@ -1,14 +1,12 @@
 ---
 title: "Technical Companion to Series 2: The Valence Constraint"
 permalink: /series-2/technical-companion/
-description: "Technical companion for Series 2, formalizing valence viability, sufficiency failure, V(t), Ψ, and the Valence Constraint."
+description: "The formal companion to Series 2, developing V(t), the Valence Viability Constraint, sufficiency failure, SVG, and the Φ-Ψ unification hypothesis."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-valence-constraint-4b7b4656f433) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
 
 ---
-
-## Technical Companion to *The Architecture of Thriving*
 
 *This document formalizes the Valence Constraint developed in Articles 1–3 and the surviving region characterized in Article 4. It is a companion to the series, not a prerequisite. What follows is for readers who want to engage the mathematical structure of the argument rather than its narrative form.*
 
@@ -22,12 +20,12 @@ description: "Technical companion for Series 2, formalizing valence viability, s
 
 | Post | Title | Role |
 |------|-------|------|
-| [Introduction](/series-2/introduction/) | [The Architecture of Thriving](/series-2/introduction/) | Frame |
-| [Part 1](/series-2/invariant-drive/) | [The Invariant Drive](/series-2/invariant-drive/) | The Universal Generator |
-| [Part 2](/series-2/depth-constraint/) | [The Depth Constraint](/series-2/depth-constraint/) | The Structural Correspondence |
-| [Part 3](/series-2/inner-crossing/) | [The Inner Crossing](/series-2/inner-crossing/) | Ψ = S / D |
-| [Part 4](/series-2/shape-of-what-does-not-end/) | [The Shape of What Does Not End](/series-2/shape-of-what-does-not-end/) | The Asymptote |
-| **→ You are here** | **The Valence Constraint** | Formal Layer (See [TC1 §III.6](/series-1/technical-companion/) for the formal treatment of stable malevolence) |
+| Introduction | The Architecture of Thriving | Frame |
+| Part 1 | The Invariant Drive | The Universal Generator |
+| Part 2 | The Depth Constraint | The Structural Correspondence |
+| Part 3 | The Inner Crossing | Ψ = S / D |
+| Part 4 | The Shape of What Does Not End | The Asymptote |
+| **→ You are here** | **The Valence Constraint** | Formal Layer (See TC1 §III.6 for the formal treatment of stable malevolence) |
 
 Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)
 Experimental Companion: [Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) →](/empirical/amp/)
@@ -451,7 +449,7 @@ A constraint on what can persist — within the stated domain.
 
 ---
 
-*Return to the series introduction: [The Architecture of Thriving →](/series-2/introduction/)*
+*Return to the series introduction: [The Architecture of Thriving →]*
 *For the formal persistence layer: [TC1: The System-Aware Attractor →](/series-1/technical-companion/)*
 *For the empirical layer of the unified framework, see: [Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) →](/empirical/amp/)*
 *Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)*
