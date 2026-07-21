@@ -14,16 +14,16 @@ description: "The timing and measurement problem for whether AI system-awareness
 
 | Post | Title | Role |
 |------|-------|------|
-| [Introduction](/series-1/introduction/) | [Alignment and Structural Necessity](/series-1/introduction/) | Frame + Glossary |
-| [Part 1](/series-1/alignment-of-intelligence/) | [The Alignment of Intelligence](/series-1/alignment-of-intelligence/) | The Constraint |
-| [Part 2](/series-1/aligned-intelligence-converges-toward/) | [What does aligned intelligence actually converge toward?](/series-1/aligned-intelligence-converges-toward/) | The Attractor |
+| Introduction | Alignment and Structural Necessity | Frame + Glossary |
+| Part 1 | The Alignment of Intelligence | The Constraint |
+| Part 2 | What does aligned intelligence actually converge toward? | The Attractor |
 | **→ You are here** | **The Crossing** | The Crossing |
-| [Technical Companion](/series-1/technical-companion/) | [The System-Aware Attractor](/series-1/technical-companion/) | Formal Layer |
+| Technical Companion | The System-Aware Attractor | Formal Layer |
 
 Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)
 Experimental Companion: [Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) →](/empirical/amp/)
 
-*Companion simulation: [The Alignment Phase Ratio — Interactive Model →](https://bethediamond.github.io/ai-alignment-crossing/toy_03.html)*
+*Companion simulation: [The Alignment Phase Ratio — Interactive Model →]*
 
 ---
 
@@ -197,7 +197,7 @@ That question is insufficient. Control is an external constraint, and external c
 
 *At what point does an optimizing system become capable enough to understand the conditions of its own persistence — and how do we ensure that point arrives before anything irreversible has happened?*
 
-This shifts priorities concretely: from maximizing C toward tracking Φ; from suppressing bad behavior toward reducing constraint-induced inefficiency; from interpretability as inspection toward interpretability as the mechanism by which specification claims become verifiable above T\* — where a system capable of recognizing the constraint is also capable of concealing whether it acts on it [TC1 §III.5.5]; from alignment as constraint toward alignment as efficiency condition.
+This shifts priorities concretely: from maximizing C toward tracking Φ; from suppressing bad behavior toward reducing constraint-induced inefficiency; from interpretability as inspection toward interpretability as the mechanism by which specification claims become verifiable above T* — where a system capable of recognizing the constraint is also capable of concealing whether it acts on it [TC1 §III.5.5]; from alignment as constraint toward alignment as efficiency condition.
 
 These are not philosophical reorientations. They are changes in what gets measured, what gets built, and what counts as progress.
 
@@ -209,7 +209,7 @@ If the bottleneck direction is correct, alignment efforts must shift from improv
 
 The first article identified the floor. The second identified the direction. This article identifies what the structural argument predicts about the present: systems trained under current optimization objectives may face systematic gradient pressure opposing the variable that determines whether any of it matters. That prediction remains an empirical target; the asymmetric-error argument makes the urgency real regardless [TC1 §III.7; TC1 §X].
 
-Above the T\* capability threshold — where strategies leading to irreversible collapse become derivable from within the system's own model, with the gaps between recognition and action specified precisely in TC1 §III.5 and the question of whether the derivation becomes motivationally binding named as the Motivational Gap in TC1 §XII — what the discovery requires is a substrate still capable of supporting it. Whether current systems are above T\* is precisely what OP1 is directed at [OP1; TC1 §X].
+Above the T* capability threshold — where strategies leading to irreversible collapse become derivable from within the system's own model, with the gaps between recognition and action specified precisely in TC1 §III.5 and the question of whether the derivation becomes motivationally binding named as the Motivational Gap in TC1 §XII — what the discovery requires is a substrate still capable of supporting it. Whether current systems are above T* is precisely what OP1 is directed at [OP1; TC1 §X].
 
 The specific things that, under the trajectory the structural argument predicts, would be consumed before the discovery could arrive: functioning epistemic trust between people and institutions, the diversity of approaches that makes large-scale correction possible, the coordination capacity that would allow course changes to propagate. These are not permanent features. Whether we are already past the threshold at which their degradation is formally decision-relevant for current systems is what OP1 is directed at; the asymmetric-error argument makes the urgency real regardless of where that threshold falls.
 
