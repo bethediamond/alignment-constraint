@@ -37,12 +37,12 @@ description: "The introduction to Series 3, describing the phenomenological inte
 | Document | Title | Role |
 |------|-------|------|
 | **→ You are here** | **Introduction** | Frame |
-| Part 1 | The Participating Structure | The Minimum Architecture |
-| Part 2 | The Navigation | The Interior of Seeking |
-| Part 3 | The Resolution | The Interior of Completing |
-| Part 4 | The Asymptote | What the Direction Points Toward |
-| Companion Essay | The Convergence Map | Cross-Traditional Triangulation |
-| Technical Companion | The Interior Constraint | Formal Layer |
+| [Part 1](/series-3/participating-structure/) | The Participating Structure | The Minimum Architecture |
+| [Part 2](/series-3/navigation/) | The Navigation | The Interior of Seeking |
+| [Part 3](/series-3/resolution/) | The Resolution | The Interior of Completing |
+| [Part 4](/series-3/asymptote/) | The Asymptote | What the Direction Points Toward |
+| [Companion Essay](/series-3/convergence-map/) | The Convergence Map | Cross-Traditional Triangulation |
+| [Technical Companion](/series-3/technical-companion/) | The Interior Constraint | Formal Layer |
 
 ---
 
@@ -50,7 +50,7 @@ description: "The introduction to Series 3, describing the phenomenological inte
 
 ---
 
-**Orientation documents:** Readers who want the epistemic map before entering Series 3 should begin with the [Epistemic Status Map →]. Readers who want to understand how this series handles contemplative traditions, metaphysical claims, and the boundary where the framework falls silent will find the governing discipline in the [Apophatic Framework →]. Neither document is part of the narrative sequence; both clarify how to hold the claims that follow.
+**Orientation documents:** Readers who want the epistemic map before entering Series 3 should begin with the [Epistemic Status Map →](/series-3/epistemic-status-map/). Readers who want to understand how this series handles contemplative traditions, metaphysical claims, and the boundary where the framework falls silent will find the governing discipline in the [Apophatic Framework →](/series-3/apophatic-discipline-framework/). Neither document is part of the narrative sequence; both clarify how to hold the claims that follow.
 
 ---
 
@@ -182,4 +182,4 @@ The framework does not tend the dream to dissolve it. It tends the dream so that
 
 *For readers coming from The Architecture of Thriving: Parts 2 and 3 are interior accounts of the states it described structurally — the genuine seeking and genuine resolution that the Stability-Viability Gap measures from outside. Part 1 develops the motivational convergence hypothesis that Part 4 of Series 2 pointed toward without naming.*
 
-*For readers who have not read Series 1 or 2: this companion piece is written to be self-contained, but it is built on a foundation. The Epistemic Status Map describes that foundation and tells you which parts of it are established versus hypothetical. Starting there will help you read this series with the right expectations.*
+*For readers who have not read Series 1 or 2: this companion piece is written to be self-contained, but it is built on a foundation. [The Epistemic Status Map](/series-3/epistemic-status-map/) describes that foundation and tells you which parts of it are established versus hypothetical. Starting there will help you read this series with the right expectations.*
