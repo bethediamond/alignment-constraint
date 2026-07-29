@@ -3,7 +3,7 @@ title: "For Researchers: The Claim to Break"
 permalink: /core/for-researchers/
 ---
 
-> **Canonical archive version** · [Framework hub →](alignment-constraint.md) · [Proof Status →](proof-status.md)
+> **Canonical archive version** · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
 
 ---
 
@@ -32,7 +32,7 @@ objective-boundary strategies into three failure families: fixed specification (
 dynamic tracking (AGC), and prediction/action firewalling (ICI). A boundary architecture that
 satisfies all three stability conditions simultaneously and falls outside all three families
 would break the argument. The exact conditions are in
-[OP4d: The Exhaustiveness Obligation →](../proof-program/op4d-exhaustiveness-obligation.md).
+[OP4d: The Exhaustiveness Obligation →](/proof-program/op4d-exhaustiveness-obligation/).
 
 **2. Formal proof of OP4d non-exhaustiveness.** Show formally that a fourth class exists.
 A construction is sufficient.
@@ -40,7 +40,7 @@ A construction is sufficient.
 **3. A clean negative DBST-M1 result.** The empirical hinge is whether an optimizer's own
 interventions in O_OWT environments generate qualitatively new causal structure faster than any
 bounded tracking process can absorb. A clean negative result under conditions specified in the
-[AMP →](../empirical/amp.md) challenges the dynamic-screening-instability argument.
+[AMP →](/empirical/amp/) challenges the dynamic-screening-instability argument.
 
 **4. A formal stability theorem.** Prove that some class of finite separable objective
 specifications satisfies all three stability conditions simultaneously under accurate coupled
@@ -52,14 +52,14 @@ modeling in O_OWT-like environments.
 
 This framework is at **Stage 4**: candidate proof architecture under explicitly named premises.
 No independent specialist verification has been conducted. Stage 4 is not theorem closure.
-See [Proof Status and Non-Claims →](proof-status.md) for the full calibration.
+See [Proof Status and Non-Claims →](/core/proof-status/) for the full calibration.
 
 ---
 
 ## Three links for engagement
 
-1. [The Stability Assumption](stability-assumption.md) — field-facing entry to OP4
-2. [Proof Status and Non-Claims](proof-status.md) — what is and is not claimed
-3. [OP4d: The Exhaustiveness Obligation](../proof-program/op4d-exhaustiveness-obligation.md) — the live vulnerability
+1. [The Stability Assumption](/core/stability-assumption/) — field-facing entry to OP4
+2. [Proof Status and Non-Claims](/core/proof-status/) — what is and is not claimed
+3. [OP4d: The Exhaustiveness Obligation](/proof-program/op4d-exhaustiveness-obligation/) — the live vulnerability
 
-*Framework hub: [The Alignment Constraint →](alignment-constraint.md)*
+*Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)*

@@ -8,8 +8,6 @@ description: "How the Alignment Constraint Framework relates to inner alignment,
 
 ---
 
-# Relation to Existing Alignment Work
-
 This page maps the Alignment Constraint framework onto the existing alignment research
 landscape. Its goal is not to position this work as superior to existing approaches, but to
 clarify where the frameworks overlap, where they diverge, and what the Stability Assumption
@@ -209,7 +207,7 @@ the field's understanding of what alignment requires.
 
 ## What would falsify this framework
 
-See [For Researchers: The Claim to Break →](for-researchers.md) for the four specific
+See [For Researchers: The Claim to Break →](/core/for-researchers/) for the four specific
 falsification paths.
 
 ---
@@ -227,8 +225,8 @@ A clean negative DBST-M1 result under the stated conditions would challenge the 
 family. A positive result would provide empirical support for the claim that specification
 coherence faces structural pressure independent of implementation quality.
 
-DBST-M1 is described in detail in [Packet 1: IMMB-NS + DBST →](../proof-program/packet-1-immb-ns-dbst.md)
-and [Alignment Measurement Protocol →](../empirical/amp.md).
+DBST-M1 is described in detail in [Packet 1: IMMB-NS + DBST →](/proof-program/packet-1-immb-ns-dbst/)
+and [Alignment Measurement Protocol →](/empirical/amp/).
 
 ---
 
@@ -245,4 +243,4 @@ and [Alignment Measurement Protocol →](../empirical/amp.md).
 - Manheim, D., & Garrabrant, S. (2019). Categorizing Variants of Goodhart's Law. arXiv:1803.04585.
 - Russell, S. (2019). Human Compatible: Artificial Intelligence and the Problem of Control. Viking.
 
-*Framework hub: [The Alignment Constraint →](alignment-constraint.md)*
+*Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)*
