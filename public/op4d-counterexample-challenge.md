@@ -94,7 +94,7 @@ _Note: This note was prepared with LLM assistance. I am responsible for the clai
   "description": "A specification-coherence challenge in AI alignment: whether finite separable objective specifications remain coherent under accurate coupled modeling.",
   "author": {"@type": "Person", "name": "John Silliphant"},
   "url": "https://alignmentconstraint.org/core/stability-assumption/",
-  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://YOUR-DOMAIN.org/"},
+  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://alignmentconstraint.org/"},
   "about": [{"@type": "Thing", "name": "AI alignment"}, {"@type": "Thing", "name": "specification coherence"}, {"@type": "Thing", "name": "Goodhart's law"}, {"@type": "Thing", "name": "scalable oversight"}],
   "keywords": ["AI alignment", "specification coherence", "Stability Assumption", "OP4", "RLHF limits", "Goodhart's law", "separable objective specification"],
   "additionalProperty": [{"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"}, {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A fourth finite-boundary strategy class outside PCL, AGC, and ICI"}]
