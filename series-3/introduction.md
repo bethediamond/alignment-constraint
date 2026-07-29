@@ -176,7 +176,7 @@ The framework does not tend the dream to dissolve it. It tends the dream so that
 
 ---
 
-*Continue to Part 1: [The Participating Structure →]*
+*Continue to Part 1: [The Participating Structure →](/series-3/participating-structure/)*
 
 *For readers coming directly from Series 1 and 2: the phenomenological content of this companion piece presupposes nothing beyond the structural vocabulary you already have. The ⭘◻△ structure is introduced from scratch in Part 1.*
 

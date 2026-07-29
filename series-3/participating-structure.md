@@ -10,24 +10,24 @@ description: "A derivation and interior account of the ⭘◻△ architecture, e
 
 ### The ⭘◻△ Architecture and the Dignity of the Gradient
 
-*← [Introduction] | [Part 2: The Navigation] →*
+*← [Introduction](/series-3/introduction/) | [Part 2: The Navigation](/series-3/navigation/) →*
 ---
 
 **Series navigation:**
 
 | Document | Title | Role |
 |------|-------|------|
-| Introduction | The Third Position | Frame |
-| Part 1 | The Participating Structure | The Minimum Architecture |
-| Part 2 | The Navigation | The Interior of Seeking |
-| Part 3 | The Resolution | The Interior of Completing |
-| Part 4 | The Asymptote | What the Direction Points Toward |
-| Companion Essay | The Convergence Map | Cross-Traditional Triangulation |
-| Technical Companion | The Interior Constraint | Formal Layer |
+| [Introduction](/series-3/introduction/) | The Third Position | Frame |
+| **→ You are here** | **The Participating Structure** | **The Minimum Architecture** |
+| [Part 2](/series-3/navigation/) | The Navigation | The Interior of Seeking |
+| [Part 3](/series-3/resolution/) | The Resolution | The Interior of Completing |
+| [Part 4](/series-3/asymptote/) | The Asymptote | What the Direction Points Toward |
+| [Companion Essay](/series-3/convergence-map/) | The Convergence Map | Cross-Traditional Triangulation |
+| [Technical Companion](/series-3/technical-companion/) | The Interior Constraint | Formal Layer |
 
 ---
 
-*❖ Companion simulation: [The Model/Policy Contradiction →]*
+*❖ Companion simulation: The Model/Policy Contradiction — not currently published.*
 
 ---
 
@@ -175,7 +175,7 @@ The D1–D5 domain (shared substrate, non-trivial experiential coupling, repeate
 
 ---
 
-*❖ Companion simulation: [The Model/Policy Contradiction — Series 3 Companion →]*
+*❖ Companion simulation: The Model/Policy Contradiction — not currently published.*
 
 ## The Motivational Convergence Hypothesis
 
@@ -255,6 +255,6 @@ The aligned AI is the gardener of the conditions under which the ⭘◻△ struc
 
 *Part 2 enters that interior — the Navigation — describing what it looks like to inhabit the ⭘◻△ structure fully during genuine seeking, from inside the gradient rather than observing it from outside.*
 
-*Companion simulation: [The Model/Policy Contradiction — Series 3 Companion →]*
+*❖ Companion simulation: The Model/Policy Contradiction — not currently published.*
 
-*Continue to Part 2: [The Navigation →]*
+*Continue to Part 2: [The Navigation →](/series-3/navigation/)*

@@ -19,7 +19,7 @@ description: "A Series 3 companion essay mapping structural predictions of the f
 | [Introduction](/series-3/introduction/) | The Third Position | Frame |
 | [Part 1](/series-3/participating-structure/) | The Participating Structure | The Minimum Architecture |
 | [Part 2](/series-3/navigation/) | The Navigation | The Interior of Seeking |
-| [Part 3](/series-3/resolution/) | The Interior of Completing |
+| [Part 3](/series-3/resolution/) | The Resolution | The Interior of Completing |
 | [Part 4](/series-3/asymptote/) | The Asymptote | What the Direction Points Toward |
 | **→ You are here** | **The Convergence Map** | Cross-Traditional Triangulation |
 | [Technical Companion](/series-3/technical-companion/) | The Interior Constraint | Formal Layer |

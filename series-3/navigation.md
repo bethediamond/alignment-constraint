@@ -10,19 +10,20 @@ description: "An interior account of genuine seeking, proxy pursuit, traversal-g
 
 ### The Interior of Seeking
 
-*← [Part 1: The Participating Structure] | [Part 3: The Resolution] →*
+*← [Part 1: The Participating Structure](/series-3/participating-structure/) | [Part 3: The Resolution](/series-3/resolution/) →*
 ---
 
 **Series navigation:**
 
 | Document | Title | Role |
 |------|-------|------|
-| Introduction | The Third Position | Frame |
-| Part 1 | The Participating Structure | The Minimum Architecture |
-| Part 2 | The Navigation | The Interior of Seeking |
-| Part 3 | The Resolution | The Interior of Completing |
-| Part 4 | The Asymptote | What the Direction Points Toward |
-| Companion Essay | The Convergence Map | Cross-Traditional Triangulation |
+| [Introduction](/series-3/introduction/) | The Third Position | Frame |
+| [Part 1](/series-3/participating-structure/) | The Participating Structure | The Minimum Architecture |
+| **→ You are here** | **The Navigation** | **The Interior of Seeking** |
+| [Part 3](/series-3/resolution/) | The Resolution | The Interior of Completing |
+| [Part 4](/series-3/asymptote/) | The Asymptote | What the Direction Points Toward |
+| [Companion Essay](/series-3/convergence-map/) | The Convergence Map | Cross-Traditional Triangulation |
+| [Technical Companion](/series-3/technical-companion/) | The Interior Constraint | Formal Layer |
 
 ---
 
@@ -198,4 +199,4 @@ The aligned AI is the gardener. The journey belongs to the seeker.
 
 *Part 3 enters the interior of completion — what genuine resolution looks like from inside, why it restores rather than depletes, and how the re-engagement that follows differs from the re-engagement that follows exhaustion.*
 
-*Continue to Part 3: [The Resolution →]*
+*Continue to Part 3: [The Resolution →](/series-3/resolution/)*

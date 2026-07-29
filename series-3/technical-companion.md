@@ -26,7 +26,7 @@ description: "The proof-program companion to Series 3, formalizing the interior 
 | [Introduction](/series-3/introduction/) | The Third Position | Frame |
 | [Part 1](/series-3/participating-structure/) | The Participating Structure | The Minimum Architecture |
 | [Part 2](/series-3/navigation/) | The Navigation | The Interior of Seeking |
-| [Part 3](/series-3/resolution/) | The Interior of Completing |
+| [Part 3](/series-3/resolution/) | The Resolution | The Interior of Completing |
 | [Part 4](/series-3/asymptote/) | The Asymptote | What the Direction Points Toward |
 | [Companion Essay](/series-3/convergence-map/) | The Convergence Map | Cross-Traditional Triangulation |
 | **→ You are here** | **The Interior Constraint** | **Formal Layer** |
@@ -331,7 +331,7 @@ That is the claim the three series together are reaching toward. This is how far
 
 ---
 
-*Return to [Introduction: The Third Position →]*
-*For the structural foundation: [The System-Aware Attractor: Technical Companion →]*
-*For the valence formal layer: [The Valence Constraint: Technical Companion →]*
-*For the empirical layer: [Alignment Measurement Protocol →]*
+*Return to [Introduction: The Third Position →](/series-3/introduction/)*
+*For the structural foundation: [The System-Aware Attractor: Technical Companion →](/series-1/technical-companion/)*
+*For the valence formal layer: [The Valence Constraint: Technical Companion →](/series-2/technical-companion/)*
+*For the empirical layer: [Alignment Measurement Protocol →](/empirical/amp/)*
