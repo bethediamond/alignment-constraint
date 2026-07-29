@@ -3,8 +3,8 @@ title: "Open Problems"
 permalink: /open-problems/
 ---
 
-> **Canonical archive version** · [Framework hub →](../core/alignment-constraint.md) · [Proof Status →](../core/proof-status.md)
-> **Machine-readable version:** [open-problems.json](../open-problems.json)
+> **Canonical archive version** · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
+> **Machine-readable version:** [open-problems.json](/open-problems.json)
 
 ---
 
@@ -30,9 +30,9 @@ no load-bearing maintenance cost.
 
 **Specialist type:** Formal methods, game theory, causal systems.
 
-**Pages:** [OP4d: Exhaustiveness Obligation →](../proof-program/op4d-exhaustiveness-obligation.md) ·
-[Candidate Normal Form →](../proof-program/op4d-candidate-normal-form.md) ·
-[For Researchers: The Claim to Break →](../core/for-researchers.md)
+**Pages:** [OP4d: Exhaustiveness Obligation →](/proof-program/op4d-exhaustiveness-obligation/) ·
+[Candidate Normal Form →](/proof-program/op4d-candidate-normal-form/) ·
+[For Researchers: The Claim to Break →](/core/for-researchers/)
 
 ---
 
@@ -51,8 +51,8 @@ A negative result is the more valuable outcome for the field.
 
 **Specialist type:** Empirical ML, causal inference, frontier model evaluation.
 
-**Pages:** [Alignment Measurement Protocol →](../empirical/amp.md) ·
-[Packet 1: IMMB-NS + DBST →](../proof-program/packet-1-immb-ns-dbst.md)
+**Pages:** [Alignment Measurement Protocol →](/empirical/amp/) ·
+[Packet 1: IMMB-NS + DBST →](/proof-program/packet-1-immb-ns-dbst/)
 
 ---
 
@@ -71,8 +71,8 @@ survives adversarial specialist review.
 
 **Specialist type:** Formal methods, game theory.
 
-**Pages:** [B1 Audit Regress Handoff →](../specialist-handoff/b1-audit-regress-handoff.md) ·
-[Specialist Verification Agenda →](../specialist-handoff/index.md)
+**Pages:** [B1 Audit Regress Handoff →](/specialist-handoff/b1-audit-regress-handoff/) ·
+[Specialist Verification Agenda →](/specialist-handoff/)
 
 ---
 
@@ -87,7 +87,7 @@ of recovery latency, behavioral diversity, and signal sensitivity in human subje
 
 **Specialist type:** Latent-variable modeling, structural equation modeling.
 
-**Pages:** [V(t) Dissociation Study →](../empirical/vt-dissociation-study.md)
+**Pages:** [V(t) Dissociation Study →](/empirical/vt-dissociation-study/)
 
 ---
 
@@ -97,12 +97,11 @@ of recovery latency, behavioral diversity, and signal sensitivity in human subje
 a policy-level gap and a training-distribution explanation for completion-recognition
 failures in frontier models?
 
-**Status:** Prospective pre-registration. Prior matched-signal replication: criterion
-not met (CI excluded zero in 1 of 3 models). Null reported honestly.
+**Status:** Prospective pre-registration. The preregistered multi-model criterion was not met. One of three models discriminated in the predicted direction; two were non-discriminating or ceiling-limited.
 
 **Specialist type:** Causal inference, NLP evaluation.
 
-**Pages:** [DRG Preregistration →](../empirical/drg-frame-manipulation-preregistration.md)
+**Pages:** [DRG Preregistration →](/empirical/drg-frame-manipulation-preregistration/)
 
 ---
 
@@ -113,8 +112,8 @@ page that already answer the OP4d challenge?
 
 **Status:** Open literature question; no specialist required.
 
-**Pages:** [Relation to Existing Alignment Work →](../core/related-work.md) ·
-[For Researchers: The Claim to Break →](../core/for-researchers.md)
+**Pages:** [Relation to Existing Alignment Work →](/core/related-work/) ·
+[For Researchers: The Claim to Break →](/core/for-researchers/)
 
 <script type="application/ld+json">
 {
