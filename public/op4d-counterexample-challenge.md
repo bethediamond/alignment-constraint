@@ -1,6 +1,7 @@
 ---
 title: "The OP4d Counterexample Challenge"
 permalink: /public/op4d-counterexample-challenge/
+description: "A public technical challenge asking for a fourth finite objective-boundary strategy class outside PCL, AGC, and ICI, with explicit Stage 4 proof status and falsification conditions."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-op4d-counterexample-challenge-bc8d9cc5d8e7) · [Framework hub →](/core/alignment-constraint/)
@@ -85,18 +86,26 @@ Stage 4 means that every identified exit has been addressed within the current c
 
 _Note: This note was prepared with LLM assistance. I am responsible for the claims and errors. The request is adversarial: identify the counterexample, the prior result, or the first unjustified move._
 
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ScholarlyArticle",
-  "@id": "https://alignmentconstraint.org/core/stability-assumption/#article",
-  "headline": "The Stability Assumption",
-  "description": "A specification-coherence challenge in AI alignment: whether finite separable objective specifications remain coherent under accurate coupled modeling.",
+  "@type": "TechArticle",
+  "@id": "https://alignmentconstraint.org/public/op4d-counterexample-challenge/#article",
+  "headline": "The OP4d Counterexample Challenge",
+  "description": "A public technical challenge asking for a fourth finite objective-boundary strategy class outside PCL, AGC, and ICI, with explicit Stage 4 proof status and falsification conditions.",
   "author": {"@type": "Person", "name": "John Silliphant"},
-  "url": "https://alignmentconstraint.org/core/stability-assumption/",
+  "url": "https://alignmentconstraint.org/public/op4d-counterexample-challenge/",
   "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://alignmentconstraint.org/"},
-  "about": [{"@type": "Thing", "name": "AI alignment"}, {"@type": "Thing", "name": "specification coherence"}, {"@type": "Thing", "name": "Goodhart's law"}, {"@type": "Thing", "name": "scalable oversight"}],
-  "keywords": ["AI alignment", "specification coherence", "Stability Assumption", "OP4", "RLHF limits", "Goodhart's law", "separable objective specification"],
-  "additionalProperty": [{"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"}, {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A fourth finite-boundary strategy class outside PCL, AGC, and ICI"}]
+  "about": [
+    {"@type": "Thing", "name": "AI alignment"},
+    {"@type": "Thing", "name": "specification coherence"},
+    {"@type": "Thing", "name": "OP4d"}
+  ],
+  "keywords": ["AI alignment", "OP4d", "counterexample challenge", "PCL", "AGC", "ICI", "separable objective specification"],
+  "additionalProperty": [
+    {"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"},
+    {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A qualifying fourth finite objective-boundary strategy class outside PCL, AGC, and ICI"}
+  ]
 }
 </script>

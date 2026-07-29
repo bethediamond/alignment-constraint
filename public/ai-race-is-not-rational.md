@@ -1,6 +1,7 @@
 ---
 title: "The AI Race Is Not Rational"
 permalink: /public/ai-race-is-not-rational/
+description: "A public essay arguing that AI capability races can remain locally rational while degrading the shared physical, institutional, and epistemic substrate on which continued optimization depends."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-ai-race-is-not-rational-9a83d6d0940c) · [Framework hub →](/core/alignment-constraint/)
@@ -214,18 +215,23 @@ The machines are not waiting for us to figure this out. They are learning from w
 > 
 > The question is whether we know what we’re teaching.
 
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ScholarlyArticle",
-  "@id": "https://alignmentconstraint.org/core/stability-assumption/#article",
-  "headline": "The Stability Assumption",
-  "description": "A specification-coherence challenge in AI alignment: whether finite separable objective specifications remain coherent under accurate coupled modeling.",
+  "@type": "Article",
+  "@id": "https://alignmentconstraint.org/public/ai-race-is-not-rational/#article",
+  "headline": "The AI Race Is Not Rational",
+  "description": "A public essay arguing that AI capability races can remain locally rational while degrading the shared physical, institutional, and epistemic substrate on which continued optimization depends.",
   "author": {"@type": "Person", "name": "John Silliphant"},
-  "url": "https://alignmentconstraint.org/core/stability-assumption/",
+  "url": "https://alignmentconstraint.org/public/ai-race-is-not-rational/",
   "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://alignmentconstraint.org/"},
-  "about": [{"@type": "Thing", "name": "AI alignment"}, {"@type": "Thing", "name": "specification coherence"}, {"@type": "Thing", "name": "Goodhart's law"}, {"@type": "Thing", "name": "scalable oversight"}],
-  "keywords": ["AI alignment", "specification coherence", "Stability Assumption", "OP4", "RLHF limits", "Goodhart's law", "separable objective specification"],
-  "additionalProperty": [{"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"}, {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A fourth finite-boundary strategy class outside PCL, AGC, and ICI"}]
+  "about": [
+    {"@type": "Thing", "name": "AI alignment"},
+    {"@type": "Thing", "name": "AI capability races"},
+    {"@type": "Thing", "name": "substrate-aware optimization"}
+  ],
+  "keywords": ["AI alignment", "AI race", "optimization", "substrate constraint", "AI safety", "institutional coordination"],
+  "additionalProperty": {"@type": "PropertyValue", "name": "Document role", "value": "Public, non-technical entry point; not proof-bearing"}
 }
 </script>
