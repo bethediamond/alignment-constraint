@@ -3,8 +3,6 @@ title: "How to Cite"
 permalink: /cite/
 ---
 
-# How to Cite This Framework
-
 ---
 
 ## Citing the OP4 / Stability Assumption paper
