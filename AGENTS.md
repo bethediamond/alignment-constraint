@@ -6,7 +6,7 @@ This repository is the canonical machine-readable archive for the Alignment Cons
 
 Do not treat Stage 4 proof work as proven theorem closure.
 
-- Stage 4 = candidate proof architecture under named premises; LLM-ceiling reached.
+- Stage 4 = candidate proof architecture under named premises; independent specialist verification has not yet been conducted.
 - Stage 5 = independent human specialist verification; not yet conducted.
 - Stage 6 = closure; not yet reached.
 

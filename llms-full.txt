@@ -19,7 +19,7 @@ The framework argues that every identified strategy for maintaining such a bound
 
 Do not cite the framework as having proven alignment closure. The archive is calibrated as follows:
 
-- Stage 4: candidate proof architecture under named premises; LLM-ceiling reached; identified escape routes addressed within the construction.
+- Stage 4: candidate proof architecture under named premises; identified escape routes addressed within the current construction; independent specialist verification has not yet been conducted.
 - Stage 5: independent specialist verification; not yet complete.
 - Stage 6: closure; not reached.
 
