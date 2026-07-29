@@ -1,4 +1,13 @@
-# V(t) Dissociation Study
+---
+title: "V(t) Dissociation Study"
+permalink: /empirical/vt-dissociation-study/
+description: "A draft human-study pre-registration design for testing whether recovery latency, behavioral diversity, and signal sensitivity require a shared latent explanatory construct."
+---
+
+> **Draft protocol for specialist review — not ready for filing or data collection** · [Empirical Program →](/empirical/) · [Alignment Measurement Protocol →](/empirical/amp/) · [Proof Status →](/core/proof-status/)
+
+---
+
 ## Pre-Registration Design — Companion to the Valence Constraint Technical Companion
 
 **Status:** Draft protocol for specialist review — not ready for OSF filing or data collection.
@@ -302,6 +311,6 @@ Power ≥80% for all three primary analyses (CFA model comparison,
 
 ---
 
-*This document is a companion to TC2_final.md and the Alignment Measurement Protocol. Full pre-registration to be filed at OSF before Session 1 data collection, specifying IRB status at filing and not authorizing data collection before IRB approval and specialist review are obtained. All anchor operationalizations with precise coding instructions, CFA model specifications including factor-loading parameterization, rater coding scheme with training items, and complete analysis plan with primary and secondary outcomes to be included in the pre-registration filing.*
+*This document is a companion to [Technical Companion to Series 2: The Valence Constraint](/series-2/technical-companion/) and the [Alignment Measurement Protocol](/empirical/amp/). Full pre-registration to be filed at OSF before Session 1 data collection, specifying IRB status at filing and not authorizing data collection before IRB approval and specialist review are obtained. All anchor operationalizations with precise coding instructions, CFA model specifications including factor-loading parameterization, rater coding scheme with training items, and complete analysis plan with primary and secondary outcomes to be included in the pre-registration filing.*
 
 *Pre-registration note: Given that the primary CFA comparison uses only three observed anchor variables, model identification and statistical power must be reviewed by a latent-variable modeling specialist before OSF filing. The factor-loading parameterization and identification constraints in the pre-registered CFA specification are particularly important to verify. This is a mandatory pre-filing gate, not an optional note.*

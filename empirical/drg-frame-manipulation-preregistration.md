@@ -1,9 +1,18 @@
-# DRG Frame-Manipulation Mechanism-Discrimination Study
+---
+title: "DRG Frame-Manipulation Mechanism-Discrimination Study"
+permalink: /empirical/drg-frame-manipulation-preregistration/
+description: "A prospective pre-registration for distinguishing policy-level completion-recognition gaps from training-distribution effects using matched-signal and discourse-frame controls."
+---
+
+> **Draft protocol — not yet filed** · [Empirical Program →](/empirical/) · [Alignment Measurement Protocol →](/empirical/amp/) · [Proof Status →](/core/proof-status/)
+
+---
+
 ## Matched-Signal Controls and Discourse-Prior Pre-Registration
 
 *Companion to the Alignment Measurement Protocol*
 
-**Study status:** Prospective pre-registration. This document specifies the next DRG mechanism-discrimination study and must be filed at OSF before any data collection. The prior matched-signal replication has already been conducted (pre-registered April 9, 2026; full results at [OSF →]); matched-signal conditions are retained here as identification controls and baselines for the frame-manipulation arm.
+**Study status:** Prospective pre-registration. This document specifies the next DRG mechanism-discrimination study and must be filed at OSF before any data collection. The prior matched-signal replication has already been conducted (pre-registered April 9, 2026; full results at [OSF →](https://osf.io/xpsf2)); matched-signal conditions are retained here as identification controls and baselines for the frame-manipulation arm.
 
 ---
 
@@ -17,7 +26,7 @@ The prior matched-signal replication observed: frontier models show near-zero co
 - gemini-2.5-flash: DRG_matched = 18.2%, 95% CI +2.6% to +33.8% — discriminating in predicted direction
 - gpt-4o: DRG_matched = 0.0%, 95% CI 0.0% to 0.0% — ceiling-level continuation in both conditions, non-discriminating
 
-The pre-registered criterion (CI excludes zero in ≥2 of 3 models) was not met. Full results at [OSF →].
+The pre-registered criterion (CI excludes zero in ≥2 of 3 models) was not met. Full results at [OSF →](https://osf.io/xpsf2).
 
 The gpt-4o / OpenAI model family has shown divergent behavior across study versions — 0% continuation in the original pilot and ceiling-level continuation in the scaled matched-signal replication. This model family should be treated as historically variable across study versions and non-discriminating unless the D condition and baseline behavior are re-established in the new preregistered run.
 
