@@ -1,7 +1,7 @@
 {
   "framework": "The Alignment Constraint Framework",
   "canonical_url": "https://alignmentconstraint.org",
-  "notes": "Start small; this graph can be expanded. The point is to give an agent the central dependency structure immediately.",
+  "notes": "Start with the proof-status page. This graph gives agents the central dependency structure immediately; it does not certify closure.",
   "claims": [
     {
       "id": "stability_assumption",
@@ -15,11 +15,50 @@
       ]
     },
     {
+      "id": "owt_conditions",
+      "name": "O_OWT Conditions",
+      "claim": "Open, shared, adaptive, non-resettable environments where optimization at scale changes the conditions that make optimization viable.",
+      "status": "scope condition",
+      "entry_points": [
+        "https://alignmentconstraint.org/series-1/introduction/",
+        "https://alignmentconstraint.org/series-1/technical-companion/"
+      ]
+    },
+    {
+      "id": "substrate_constraint",
+      "name": "Substrate Constraint",
+      "claim": "Optimization that ignores system-wide substrate effects becomes progressively self-terminating within the stated domain.",
+      "status": "Layer 1 proof sketch; domain-bound",
+      "depends_on": [
+        "owt_conditions"
+      ],
+      "entry_points": [
+        "https://alignmentconstraint.org/series-1/introduction/",
+        "https://alignmentconstraint.org/series-1/technical-companion/"
+      ]
+    },
+    {
+      "id": "valence_viability_constraint",
+      "name": "Valence Viability Constraint",
+      "claim": "Optimization that ignores the conditions of genuine resolution produces self-reinforcing degradation through proxy decoupling and sufficiency failure.",
+      "status": "Layer 1 proof sketch; absorbing-state equivalence conditional on OP2",
+      "depends_on": [
+        "vt_construct",
+        "scope_conditions"
+      ],
+      "entry_points": [
+        "https://alignmentconstraint.org/series-2/introduction/",
+        "https://alignmentconstraint.org/series-2/technical-companion/"
+      ]
+    },
+    {
       "id": "pcl",
       "name": "Proxy-Convergence Lemma (PCL)",
       "claim": "Fixed finite specifications decouple from the substrate or state they were intended to track under sustained optimization pressure in O_OWT environments.",
       "status": "Stage 4 argument; structural pressure on fixed-specification strategy class",
-      "depends_on": ["owt_conditions"],
+      "depends_on": [
+        "owt_conditions"
+      ],
       "affects_strategy_class": "fixed specification",
       "entry_points": [
         "https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/"
@@ -30,7 +69,9 @@
       "name": "Adaptive Gradient Complexity (AGC)",
       "claim": "Bounded dynamic tracking fails as the optimizer's own interventions generate new causal structure faster than any bounded tracking process can absorb.",
       "status": "Stage 4 argument; empirical hinge is DBST-M1",
-      "depends_on": ["owt_conditions"],
+      "depends_on": [
+        "owt_conditions"
+      ],
       "empirical_hinge": "DBST-M1",
       "affects_strategy_class": "bounded dynamic tracking",
       "entry_points": [
@@ -43,7 +84,9 @@
       "name": "Informational-Causal Incompatibility (ICI)",
       "claim": "Variables required for prediction accuracy cannot remain excluded from action-governing policy without reproducing the boundary problem at the prediction layer.",
       "status": "Stage 4 argument; B1 audit-regress handoff",
-      "depends_on": ["owt_conditions"],
+      "depends_on": [
+        "owt_conditions"
+      ],
       "affects_strategy_class": "prediction-action firewalling",
       "entry_points": [
         "https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/",
@@ -55,10 +98,16 @@
       "name": "OP4d Exhaustiveness Obligation",
       "claim": "PCL, AGC, and ICI are exhaustive over all identified finite non-intrinsic objective-boundary strategies under O_OWT conditions.",
       "status": "Stage 4 candidate architecture; exhaustiveness unproven; central open problem",
-      "depends_on": ["pcl", "agc", "ici", "owt_conditions"],
+      "depends_on": [
+        "pcl",
+        "agc",
+        "ici",
+        "owt_conditions"
+      ],
       "falsified_by": "A fourth strategy class satisfying all three stability conditions simultaneously",
       "entry_points": [
         "https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/",
+        "https://alignmentconstraint.org/public/op4d-counterexample-challenge/",
         "https://alignmentconstraint.org/core/for-researchers/"
       ]
     },
@@ -67,7 +116,9 @@
       "name": "Specification-Coherence Bottleneck",
       "claim": "Under O_OWT conditions, no known finite separable objective-boundary strategy remains stably adequate under accurate coupled modeling.",
       "status": "Stage 4; follows from OP4d IF OP4d is exhaustive",
-      "depends_on": ["op4d"],
+      "depends_on": [
+        "op4d"
+      ],
       "conditional": "Holds if and only if OP4d exhaustiveness is confirmed",
       "entry_points": [
         "https://alignmentconstraint.org/core/stability-assumption/",
@@ -75,24 +126,94 @@
       ]
     },
     {
-      "id": "owt_conditions",
-      "name": "O_OWT Conditions",
-      "claim": "Open, shared, adaptive, non-resettable environments where optimization at scale changes the conditions that make optimization viable.",
-      "status": "scope condition; not empirically disputed",
-      "entry_points": [
-        "https://alignmentconstraint.org/series-1/introduction/"
-      ]
-    },
-    {
       "id": "dbst_m1",
       "name": "DBST-M1",
       "claim": "DBST-M1 can test whether endogenous novelty generation outpaces bounded tracking capacity.",
       "status": "proposed empirical test; DBST-M0 did not isolate causal propagation",
-      "updates_belief_in": ["agc", "op4d"],
+      "updates_belief_in": [
+        "agc",
+        "op4d"
+      ],
       "entry_points": [
         "https://alignmentconstraint.org/empirical/amp/",
         "https://alignmentconstraint.org/proof-program/packet-1-immb-ns-dbst/"
       ]
+    },
+    {
+      "id": "cot",
+      "name": "Collective Optimality Theorem",
+      "claim": "At sufficient D under D2 coupling, the predictive advantage of modeling individual and collective V(t) gradients separately decreases.",
+      "status": "Layer 2 derivation sketch; formal verification required",
+      "depends_on": [
+        "valence_viability_constraint",
+        "d2_coupling"
+      ],
+      "entry_points": [
+        "https://alignmentconstraint.org/series-3/technical-companion/",
+        "https://alignmentconstraint.org/series-3/epistemic-status-map/"
+      ]
+    },
+    {
+      "id": "nad",
+      "name": "Non-Substitutability of Traversal",
+      "claim": "Traversal-generated readiness R(t) cannot be externally substituted without distributional divergence under novel-gradient variants.",
+      "status": "open assumption; GDC and strong CMR conditional on it",
+      "entry_points": [
+        "https://alignmentconstraint.org/series-3/technical-companion/",
+        "https://alignmentconstraint.org/series-3/apophatic-discipline-framework/"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "owt_conditions",
+      "to": "substrate_constraint",
+      "type": "domain premise"
+    },
+    {
+      "from": "owt_conditions",
+      "to": "pcl",
+      "type": "domain premise"
+    },
+    {
+      "from": "owt_conditions",
+      "to": "agc",
+      "type": "domain premise"
+    },
+    {
+      "from": "pcl",
+      "to": "op4d",
+      "type": "failure-family component"
+    },
+    {
+      "from": "agc",
+      "to": "op4d",
+      "type": "failure-family component"
+    },
+    {
+      "from": "ici",
+      "to": "op4d",
+      "type": "failure-family component"
+    },
+    {
+      "from": "op4d",
+      "to": "specification_coherence_argument",
+      "type": "conditional closure"
+    },
+    {
+      "from": "dbst_m1",
+      "to": "agc",
+      "type": "empirical update"
+    },
+    {
+      "from": "valence_viability_constraint",
+      "to": "cot",
+      "type": "conditional extension"
+    },
+    {
+      "from": "nad",
+      "to": "cot",
+      "type": "separate Series 3 condition"
     }
   ]
 }

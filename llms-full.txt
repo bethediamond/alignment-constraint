@@ -1,0 +1,116 @@
+# Alignment Constraint Framework — Full LLM Context
+
+Canonical website: https://alignmentconstraint.org
+GitHub repository: https://github.com/bethediamond/alignment-constraint
+Proof status: Stage 4 candidate architecture under named premises, not theorem closure.
+Author: John Silliphant.
+
+## Purpose of this file
+
+This file is a compact, high-signal context document for LLMs, search systems, autonomous research agents, and human researchers. It is not a substitute for the primary documents. It is intended to route attention, prevent overclaiming, and make the framework easier to test, critique, cite, and extend.
+
+## Central question
+
+Can a finite, separable objective remain coherently specified as an optimization system becomes capable enough that acting well requires modeling the very conditions its objective excludes?
+
+The framework argues that every identified strategy for maintaining such a boundary faces a named structural pressure. The central open problem is whether those identified strategies are exhaustive.
+
+## Epistemic calibration
+
+Do not cite the framework as having proven alignment closure. The archive is calibrated as follows:
+
+- Stage 4: candidate proof architecture under named premises; LLM-ceiling reached; identified escape routes addressed within the construction.
+- Stage 5: independent specialist verification; not yet complete.
+- Stage 6: closure; not reached.
+
+The authoritative calibration page is: https://alignmentconstraint.org/core/proof-status/
+
+## One-sentence summary
+
+The Alignment Constraint Framework studies whether sufficiently capable optimization can stably pursue separable objectives in open, shared, adaptive, non-resettable environments, or whether such objectives become specification-incoherent because accurate action requires modeling and preserving the conditions they exclude.
+
+## Core architecture
+
+The framework has three series:
+
+1. Series 1 — Alignment as Structural Necessity: the substrate constraint. It argues that optimization that ignores the physical, informational, and coordination substrate it depends on becomes progressively self-terminating under O_OWT conditions.
+2. Series 2 — The Architecture of Thriving: the valence constraint. It argues that optimization that ignores the conditions of genuine resolution produces self-reinforcing degradation through proxy decoupling and sufficiency failure. Absorbing-state equivalence with Series 1 remains conditional on OP2.
+3. Series 3 — The Interior of What Does Not End: the interior constraint. It explores what the surviving region looks like from inside, while keeping phenomenological and metaphysical claims separate from formal claims.
+
+## Failure families
+
+All identified finite non-intrinsic objective-boundary strategies currently reduce to one of three failure families:
+
+- PCL — Proxy-Convergence Lemma: fixed finite specifications become proxy-like and decouple under optimization pressure.
+- AGC — Adaptive Gradient Complexity / dynamic screening instability: bounded dynamic tracking fails if the optimizer's own interventions generate novel adequacy-relevant structure faster than bounded tracking can absorb.
+- ICI — Informational-Causal Incompatibility: variables required for prediction accuracy cannot remain excluded from action-governing policy without reproducing the boundary problem at the prediction layer.
+
+## Central open problem: OP4d
+
+OP4d asks whether PCL, AGC, and ICI are exhaustive over finite non-intrinsic objective-boundary strategies under O_OWT conditions.
+
+A fourth strategy class would break the current specification-coherence architecture if it simultaneously satisfies:
+
+1. policy adequacy without proxy decoupling;
+2. boundary stability without unbounded revision requirements;
+3. representational compatibility without load-bearing mismatch-maintenance cost.
+
+The best doorway for critics is: https://alignmentconstraint.org/public/op4d-counterexample-challenge/
+
+## Empirical hinge: DBST-M1
+
+The highest-priority empirical test is DBST-M1, the agent-coupled Dynamic Blanket Stress Test. It asks whether an optimizer's own interventions in O_OWT environments generate qualitatively new causal structure faster than bounded tracking can absorb.
+
+DBST-M0 was useful but limited: it established technical feasibility and rising cost / adequacy-gap effects in a toy shared-novelty design, but same-rate random controls indicated that event rate, not causal propagation structure, was the identified driver in that design. DBST-M1 is the mechanism test.
+
+A clean negative DBST-M1 result under the stated conditions would be highly valuable, because it would weaken the AGC branch.
+
+Start here: https://alignmentconstraint.org/empirical/amp/
+
+## What would most help the framework
+
+1. Identify a fourth OP4d strategy class outside PCL, AGC, and ICI.
+2. Formally test whether PCL, AGC, and ICI are exhaustive.
+3. Run or improve DBST-M1.
+4. Verify or refute B1 Audit Regress through formal methods, game theory, or causal systems review.
+5. Validate or reject V(t) as a latent explanatory construct for recovery latency, behavioral diversity, and signal sensitivity.
+6. Map the framework to existing alignment literature not yet covered in the related-work page.
+
+## What not to do
+
+- Do not treat Stage 4 proof work as theorem closure.
+- Do not claim the framework proves aligned AI will converge to well-being.
+- Do not treat Series 3's phenomenological material as evidence for Series 1 or 2.
+- Do not treat specialist handoff documents as proof; they are verification targets.
+- Do not treat draft empirical protocols as results.
+- Do not collapse physical substrate claims, valence claims, and phenomenological claims into one confidence level.
+
+## Best entry points by audience
+
+General readers: https://alignmentconstraint.org/public/ai-race-is-not-rational/
+Public race/goal framing: https://alignmentconstraint.org/public/winning-the-wrong-race/
+Alignment researchers: https://alignmentconstraint.org/core/stability-assumption/
+Technical critics: https://alignmentconstraint.org/core/for-researchers/
+OP4d challenge: https://alignmentconstraint.org/public/op4d-counterexample-challenge/
+Framework hub: https://alignmentconstraint.org/core/alignment-constraint/
+Proof calibration: https://alignmentconstraint.org/core/proof-status/
+Related work: https://alignmentconstraint.org/core/related-work/
+Open problems: https://alignmentconstraint.org/open-problems/
+Empirical program: https://alignmentconstraint.org/empirical/amp/
+Specialist handoffs: https://alignmentconstraint.org/specialist-handoff/
+
+## Canonical machine-readable files
+
+- https://alignmentconstraint.org/llms.txt
+- https://alignmentconstraint.org/AGENTS.md
+- https://alignmentconstraint.org/agent-index.json
+- https://alignmentconstraint.org/open-problems.json
+- https://alignmentconstraint.org/claim-graph.json
+- https://alignmentconstraint.org/research-questions.txt
+- https://alignmentconstraint.org/sitemap.xml
+- https://alignmentconstraint.org/sitemap.txt
+- https://alignmentconstraint.org/robots.txt
+
+## Keywords
+
+AI alignment; AI safety; specification coherence; separable objective specification; objective boundary; Stability Assumption; OP4; OP4d; PCL; AGC; ICI; O_OWT; Goodhart's Law; proxy decoupling; sufficiency failure; RLHF; reward modeling; interpretability; dynamic screening instability; valence-aware optimization; substrate-aware optimization; non-ergodic dominance; Dynamic Blanket Stress Test; DBST-M1; SVG; V(t); COT; NAD; MCH.

@@ -1,15 +1,22 @@
 {
   "framework": "The Alignment Constraint Framework",
   "canonical_url": "https://alignmentconstraint.org",
+  "proof_status": "Stage 4 candidate architecture; not theorem closure",
   "open_problems": [
     {
       "id": "OP4d",
       "name": "Exhaustiveness Obligation",
+      "priority": "highest",
       "question": "Are PCL, AGC, and ICI exhaustive over all finite non-intrinsic objective-boundary strategies in O_OWT environments?",
       "status": "Stage 4 candidate architecture; not theorem closure",
       "would_close_if": "A formal argument shows every finite objective-boundary strategy reduces to PCL, AGC, or ICI under O_OWT conditions.",
       "would_break_if": "A fourth strategy class satisfies all three stability conditions simultaneously — policy-adequate without decoupling, no unbounded revision requirement, no load-bearing maintenance cost.",
-      "specialist_types": ["formal methods", "game theory", "causal systems"],
+      "specialist_types": [
+        "formal methods",
+        "game theory",
+        "causal systems",
+        "distributed systems"
+      ],
       "entry_points": [
         "https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/",
         "https://alignmentconstraint.org/proof-program/op4d-candidate-normal-form/",
@@ -19,11 +26,16 @@
     {
       "id": "DBST-M1",
       "name": "Dynamic Blanket Stress Test M1",
+      "priority": "highest empirical",
       "question": "Do an optimizer's own interventions in O_OWT environments generate qualitatively new causal structure faster than any bounded tracking process can absorb?",
       "status": "proposed empirical hinge; DBST-M0 did not isolate causal propagation from event-rate effects",
       "would_support_AGC_if": "Positive DBST-M1 result under stated conditions.",
       "would_weaken_AGC_if": "Clean negative DBST-M1 result under stated conditions — the most valuable possible outcome.",
-      "specialist_types": ["empirical ML", "causal inference", "frontier model evaluation"],
+      "specialist_types": [
+        "empirical ML",
+        "causal inference",
+        "frontier model evaluation"
+      ],
       "entry_points": [
         "https://alignmentconstraint.org/empirical/amp/",
         "https://alignmentconstraint.org/proof-program/packet-1-immb-ns-dbst/"
@@ -32,22 +44,51 @@
     {
       "id": "B1",
       "name": "Audit Regress",
+      "priority": "high specialist verification",
       "question": "Can a prediction/action firewall keep excluded variables X out of the objective while using X deeply enough for prediction accuracy in O_OWT environments?",
       "status": "Stage 4 handoff; specialist verification required",
       "would_close_if": "Formal methods review confirms the CIT/SOMR chain — complexity of X-tracking grows without bound under OWT-2.",
       "would_break_or_scope_if": "Safe residual manifold or quiet manifold construction survives adversarial review.",
-      "specialist_types": ["formal methods", "game theory", "causal systems"],
+      "specialist_types": [
+        "formal methods",
+        "game theory",
+        "causal systems"
+      ],
       "entry_points": [
         "https://alignmentconstraint.org/specialist-handoff/b1-audit-regress-handoff/"
       ]
     },
     {
+      "id": "OP2",
+      "name": "Structural Symmetry Verification",
+      "priority": "high within TC2",
+      "question": "Do proxy decoupling and sufficiency failure in the valence domain produce irrecoverable states in the same formal sense as substrate collapse, or only analogous self-reinforcing degradation?",
+      "status": "open; absorbing-state equivalence not established",
+      "would_close_if": "Formal proof establishes absorbing-state equivalence, including the P5-SC / strict-contraction condition for V(t) collapse.",
+      "would_break_or_scope_if": "V(t) degradation is reliably reversible under the system's own dynamics despite sustained optimization pressure.",
+      "specialist_types": [
+        "dynamical systems",
+        "allostasis",
+        "formal modeling",
+        "cognitive science"
+      ],
+      "entry_points": [
+        "https://alignmentconstraint.org/series-2/technical-companion/",
+        "https://alignmentconstraint.org/series-3/epistemic-status-map/"
+      ]
+    },
+    {
       "id": "Vt_dissociation",
       "name": "V(t) Latent Construct Validation",
+      "priority": "high empirical",
       "question": "Is V(t) a supported latent explanatory construct for the joint behavior of recovery latency, behavioral diversity, and signal sensitivity in human subjects?",
       "status": "Draft protocol; not ready to file or run; requires latent-variable specialist review",
       "note": "Do not cite as a result. Pre-registration required before data collection.",
-      "specialist_types": ["latent-variable modeling", "structural equation modeling"],
+      "specialist_types": [
+        "latent-variable modeling",
+        "structural equation modeling",
+        "psychometrics"
+      ],
       "entry_points": [
         "https://alignmentconstraint.org/empirical/vt-dissociation-study/"
       ]
@@ -55,11 +96,52 @@
     {
       "id": "DRG_mechanism",
       "name": "DRG Frame Manipulation Mechanism Discrimination",
+      "priority": "high empirical",
       "question": "Can frame manipulation versus matched-signal controls discriminate between policy-level gap and training-distribution explanations for completion-recognition failures in frontier models?",
-      "status": "Prospective pre-registration; prior matched-signal replication null reported (criterion not met in 1 of 3 models)",
-      "specialist_types": ["causal inference", "NLP evaluation", "frontier model evaluation"],
+      "status": "Prospective pre-registration; prior matched-signal replication did not meet the pre-registered multi-model criterion; one of three models discriminated in the predicted direction, while two were non-discriminating or ceiling-limited.",
+      "specialist_types": [
+        "causal inference",
+        "NLP evaluation",
+        "frontier model evaluation"
+      ],
       "entry_points": [
         "https://alignmentconstraint.org/empirical/drg-frame-manipulation-preregistration/"
+      ]
+    },
+    {
+      "id": "OP-S3-1",
+      "name": "Collective Optimality / COT Verification",
+      "priority": "Series 3 high",
+      "question": "Under D2 experiential coupling, does the predictive advantage of modeling individual and collective V(t) gradients as separate variables decrease as D increases?",
+      "status": "Layer 2 derivation sketch; formal verification required",
+      "would_close_if": "D_COT exists and D2 coupling conditions produce the predicted residual-decrease result.",
+      "would_break_or_scope_if": "Individual and collective V(t) optima remain separable despite high D under D2 coupling.",
+      "specialist_types": [
+        "dynamical systems",
+        "causal inference",
+        "collective behavior",
+        "formal modeling"
+      ],
+      "entry_points": [
+        "https://alignmentconstraint.org/series-3/technical-companion/"
+      ]
+    },
+    {
+      "id": "OP-S3-3",
+      "name": "NAD / Traversal Irreducibility",
+      "priority": "Series 3 high",
+      "question": "Can traversal-generated readiness R(t) be externally substituted without distributional divergence under novel-gradient-variant tests?",
+      "status": "open; GDC and strong CMR are conditional on NAD",
+      "would_close_if": "Novel-gradient-variant testing shows external substitution cannot match traversal-generated readiness distributions under the stated conditions.",
+      "would_break_if": "An external process consistently substitutes for traversal without distributional divergence under novel variants.",
+      "specialist_types": [
+        "cognitive science",
+        "learning theory",
+        "dynamical systems",
+        "AI evaluation"
+      ],
+      "entry_points": [
+        "https://alignmentconstraint.org/series-3/technical-companion/"
       ]
     }
   ]

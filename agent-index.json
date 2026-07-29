@@ -1,6 +1,7 @@
 {
   "name": "The Alignment Constraint Framework",
   "canonical_url": "https://alignmentconstraint.org",
+  "repository": "https://github.com/bethediamond/alignment-constraint",
   "proof_status": "Stage 4 candidate architecture; not theorem closure",
   "epistemic_calibration_url": "https://alignmentconstraint.org/core/proof-status/",
   "central_question": "Can a finite separable objective remain coherently specified as an optimization system becomes capable enough that acting well requires modeling the conditions its objective excludes?",
@@ -24,6 +25,12 @@
       "status": "authoritative on falsification conditions"
     },
     {
+      "title": "The OP4d Counterexample Challenge",
+      "url": "https://alignmentconstraint.org/public/op4d-counterexample-challenge/",
+      "role": "short counterexample challenge",
+      "status": "public technical challenge"
+    },
+    {
       "title": "Relation to Existing Alignment Work",
       "url": "https://alignmentconstraint.org/core/related-work/",
       "role": "bridge to existing alignment literature",
@@ -34,6 +41,41 @@
       "url": "https://alignmentconstraint.org/open-problems/",
       "role": "structured research agenda",
       "status": "actionable; named closure conditions"
+    },
+    {
+      "title": "Alignment Measurement Protocol",
+      "url": "https://alignmentconstraint.org/empirical/amp/",
+      "role": "empirical testing gateway",
+      "status": "protocol; DBST-M1 proposed"
+    },
+    {
+      "title": "Specialist Verification Agenda",
+      "url": "https://alignmentconstraint.org/specialist-handoff/",
+      "role": "specialist handoff gateway",
+      "status": "Stage 4 work products; not proof"
+    }
+  ],
+  "series": [
+    {
+      "id": "series_1",
+      "title": "Alignment as Structural Necessity",
+      "url": "https://alignmentconstraint.org/series-1/introduction/",
+      "technical_companion": "https://alignmentconstraint.org/series-1/technical-companion/",
+      "role": "substrate constraint"
+    },
+    {
+      "id": "series_2",
+      "title": "The Architecture of Thriving",
+      "url": "https://alignmentconstraint.org/series-2/introduction/",
+      "technical_companion": "https://alignmentconstraint.org/series-2/technical-companion/",
+      "role": "valence constraint"
+    },
+    {
+      "id": "series_3",
+      "title": "The Interior of What Does Not End",
+      "url": "https://alignmentconstraint.org/series-3/introduction/",
+      "technical_companion": "https://alignmentconstraint.org/series-3/technical-companion/",
+      "role": "interior constraint and apophatic boundary discipline"
     }
   ],
   "failure_families": [
@@ -79,11 +121,31 @@
     }
   ],
   "machine_readable_files": {
+    "llms_txt": "https://alignmentconstraint.org/llms.txt",
+    "llms_full_txt": "https://alignmentconstraint.org/llms-full.txt",
+    "agents_md": "https://alignmentconstraint.org/AGENTS.md",
     "agent_index": "https://alignmentconstraint.org/agent-index.json",
     "open_problems": "https://alignmentconstraint.org/open-problems.json",
     "claim_graph": "https://alignmentconstraint.org/claim-graph.json",
-    "llms_txt": "https://alignmentconstraint.org/llms.txt",
-    "agents_md": "https://alignmentconstraint.org/AGENTS.md",
-    "research_questions": "https://alignmentconstraint.org/research-questions.txt"
-  }
+    "research_questions": "https://alignmentconstraint.org/research-questions.txt",
+    "sitemap_xml": "https://alignmentconstraint.org/sitemap.xml",
+    "sitemap_txt": "https://alignmentconstraint.org/sitemap.txt",
+    "robots_txt": "https://alignmentconstraint.org/robots.txt"
+  },
+  "keywords": [
+    "AI alignment",
+    "AI safety",
+    "specification coherence",
+    "Stability Assumption",
+    "OP4d",
+    "PCL",
+    "AGC",
+    "ICI",
+    "DBST-M1",
+    "V(t)",
+    "SVG",
+    "RLHF",
+    "Goodhart's Law",
+    "objective boundary"
+  ]
 }

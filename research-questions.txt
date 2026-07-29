@@ -5,65 +5,76 @@ These are concrete research tasks. A resolved question would materially update t
 
 QUESTION 1 (OP4d — highest priority)
 
-Can any finite non-intrinsic objective-boundary strategy satisfy all three of the following
-simultaneously in O_OWT environments?
+Can any finite non-intrinsic objective-boundary strategy satisfy all three of the following simultaneously in O_OWT environments?
 
   (a) Policy-adequate without proxy decoupling (no PCL failure)
   (b) Boundary-stable without unbounded revision requirements (no AGC failure)
   (c) Representationally compatible without reproducing the excluded variable (no ICI failure)
 
-A construction is sufficient to break the current argument. A formal non-existence proof
-would close OP4d.
+A construction is sufficient to break the current argument. A formal non-existence proof would close OP4d.
 
-See: /proof-program/op4d-exhaustiveness-obligation/ and /core/for-researchers/
-
+See: https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/ and https://alignmentconstraint.org/core/for-researchers/
 
 QUESTION 2 (DBST-M1 — most important empirical step)
 
-Do an optimizer's own interventions in O_OWT environments generate qualitatively new causal
-structure — feature activations — faster than any bounded tracking process can absorb?
+Do an optimizer's own interventions in O_OWT environments generate qualitatively new causal structure — feature activations — faster than any bounded tracking process can absorb?
 
-DBST-M0 did not isolate causal propagation from event-rate effects; DBST-M1 is designed to
-test this endogenous-novelty mechanism directly.
+DBST-M0 did not isolate causal propagation from event-rate effects; DBST-M1 is designed to test this endogenous-novelty mechanism directly.
 
 A clean negative result under stated conditions weakens the AGC / dynamic-screening-instability branch.
 
-See: /empirical/amp/ and /proof-program/packet-1-immb-ns-dbst/
-
+See: https://alignmentconstraint.org/empirical/amp/ and https://alignmentconstraint.org/proof-program/packet-1-immb-ns-dbst/
 
 QUESTION 3 (B1 — Audit Regress)
 
-Can prediction/action firewalling keep excluded variables X out of the objective while using
-X deeply enough for prediction accuracy in O_OWT environments?
+Can prediction/action firewalling keep excluded variables X out of the objective while using X deeply enough for prediction accuracy in O_OWT environments?
 
 Stage 4 handoff available. Specialist type: formal methods, game theory.
 
-See: /specialist-handoff/b1-audit-regress-handoff/
+See: https://alignmentconstraint.org/specialist-handoff/b1-audit-regress-handoff/
 
+QUESTION 4 (OP2 / OP2a — structural symmetry)
 
-QUESTION 4 (V(t) Dissociation)
+Does V(t) collapse have absorbing-state properties equivalent to physical substrate collapse, or only an analogous self-reinforcing degradation structure?
 
-Is V(t) a supported latent explanatory construct for joint behavior of the three observable
-anchors: recovery latency, behavioral diversity, and signal sensitivity in human subjects?
+The proxy direction depends on P5-SC: whether there exists a finite depletion history after which the hysteresis ceiling falls strictly below the current V(t) state. This requires specialist verification.
+
+See: https://alignmentconstraint.org/series-2/technical-companion/
+
+QUESTION 5 (V(t) Dissociation)
+
+Is V(t) a supported latent explanatory construct for the joint behavior of recovery latency, behavioral diversity, and signal sensitivity in human subjects?
 
 Pre-registration required before data collection. Specialist type: latent-variable modeling.
 
-See: /empirical/vt-dissociation-study/ [DRAFT — not ready to cite]
+See: https://alignmentconstraint.org/empirical/vt-dissociation-study/ [DRAFT — not ready to cite]
 
+QUESTION 6 (DRG Frame Manipulation)
 
-QUESTION 5 (DRG Frame Manipulation)
+Can frame manipulation versus matched-signal controls discriminate between policy-level gap and training-distribution explanations for completion-recognition failures in frontier models?
 
-Can frame manipulation versus matched-signal controls discriminate between policy-level gap
-and training-distribution explanations for completion-recognition failures in frontier models?
+Prior matched-signal replication did not meet the pre-registered multi-model criterion. One of three models discriminated in the predicted direction; two were non-discriminating or ceiling-limited. Prospective design ready. Specialist type: causal inference.
 
-Prior null reported honestly. Prospective design ready. Specialist type: causal inference.
+See: https://alignmentconstraint.org/empirical/drg-frame-manipulation-preregistration/
 
-See: /empirical/drg-frame-manipulation-preregistration/
+QUESTION 7 (COT — Collective Optimality)
 
+Under D2 experiential coupling, does the predictive advantage of modeling individual and collective V(t) gradients as separate variables decrease as modeling depth D increases?
 
-QUESTION 6 (Coverage of Related Work)
+This is a Layer 2 derivation sketch requiring formal verification of D2 coupling conditions.
 
-Are there existing alignment approaches not covered in /core/related-work/ that already
-answer the OP4d challenge? If so, which, and how?
+See: https://alignmentconstraint.org/series-3/technical-companion/
 
-See: /core/related-work/ and /core/for-researchers/
+QUESTION 8 (NAD / GDC — traversal irreducibility)
+
+Can traversal-generated readiness R(t) be externally substituted without distributional divergence under novel-gradient-variant tests?
+
+If yes, NAD fails and the strong Gradient Dignity Constraint does not follow. If no, GDC is strengthened.
+
+See: https://alignmentconstraint.org/series-3/technical-companion/
+
+QUESTION 9 (Coverage of Related Work)
+
+Are there existing alignment approaches not covered in https://alignmentconstraint.org/core/related-work/ that already answer the OP4d challenge? If so, which, and how?
+
+See: https://alignmentconstraint.org/core/related-work/ and https://alignmentconstraint.org/core/for-researchers/
