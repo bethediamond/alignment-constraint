@@ -43,5 +43,5 @@ John Silliphant (2026). *The Alignment Constraint Framework* (v1.0). Zenodo. DOI
 
 ---
 
-GitHub archive: https://github.com/YOUR-GITHUB-USERNAME/alignment-constraint
+GitHub archive: https://github.com/bethediamond/alignment-constraint
 Medium edition: https://medium.com/@diamondlight
