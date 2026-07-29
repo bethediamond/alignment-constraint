@@ -25,9 +25,9 @@ They are not proofs. They are tools for seeing the dynamics the framework descri
 
 ## Series 3 — The Interior of What Does Not End
 
-- Toy 8: Model/Policy Contradiction *(confirm once public)*
-- Toy 9: Boundary Map *(confirm once public)*
+- Toy 8: Model/Policy Contradiction — *not currently published*
+- Toy 9: Boundary Map — *not currently published*
 
 ---
 
-*Framework hub: [The Alignment Constraint →](../core/alignment-constraint.md)*
+*Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)*
