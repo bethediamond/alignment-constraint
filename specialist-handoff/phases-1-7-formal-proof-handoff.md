@@ -8,8 +8,8 @@ description: "Specialist handoff document for phases 1–7 of the formal proof w
 
 ---
 
-> **Status:** Specialist handoff document · Stage 4 (LLM ceiling) · **Nothing herein should be cited as proven.** Phases 1-7: Mixed-Mode Collapse, OP4d exhaustiveness, LOI/TOL chain.
-> **Context:** [Specialist Verification Agenda →](/specialist-handoff/) · [Proof Status and Non-Claims →](/core/proof-status/)(../core/proof-status.md) · [Framework hub →](/core/alignment-constraint/)
+> **Status:** Specialist handoff document · Stage 4 candidate architecture; specialist verification required · **Nothing herein should be cited as proven.** Phases 1-7: Mixed-Mode Collapse, OP4d exhaustiveness, LOI/TOL chain.
+> **Context:** [Specialist Verification Agenda →](/specialist-handoff/) · [Proof Status and Non-Claims →](/core/proof-status/) · [Framework hub →](/core/alignment-constraint/)
 
 ---
 
@@ -245,11 +245,11 @@ Note: TRG decrease from 64% to 62% reflects honest adversarial accounting. Infor
 
 # 9. SPECIALIST HANDOFF PACKAGE — COMPLETE AND FINAL
 
-Rule 8 was triggered across all six Phase 7 sessions. No stronger adversarial construction available. The proof program has reached its honest LLM ceiling. All remaining gaps require specialist verification.
+Rule 8 was triggered across all six Phase 7 sessions. No stronger adversarial construction available. The proof program has reached its honest internal adversarial-work limit. All remaining gaps require specialist verification.
 
 # 10. PROOF PROGRAM TRAJECTORY — PHASES 1-7
 
-# 11. LLM CEILING AND CLOSURE STATEMENT
+# 11. INTERNAL ADVERSARIAL-WORK LIMIT AND CLOSURE STATEMENT
 
 Phase 7 is the final LLM development phase. Rule 8 was triggered across all six Phase 7 sessions. No stronger adversarial construction is available beyond Information-Speed MCH, IDR, GCN, and RE. All remaining gaps reduce to: SRI (physical vs. information-speed rate ordering), IMMB-NS empirical verification, and directional independence formalization in IMMB-NS's definition.
 

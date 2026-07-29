@@ -19,7 +19,7 @@ description: "Specialist handoff document for the Candidate 3 passive-extraction
 | Field | Value |
 |---|---|
 | **Problem** | Candidate 3: Passive Extraction Stability (OP9) |
-| **Completion** | **95% — Stage 4 Ceiling Reached** |
+| **Completion** | **95% of the recorded Stage 4 internal work — specialist verification required** |
 | **Stage** | Stage 4 — Proof Architecture Complete. Awaiting Stage 5 Specialist Verification. |
 | **Verdict** | **A) Closes under stated premises** |
 | **Primary Route** | Route B (Valence/TC2) — independent of OP4a and IMMB-NS |

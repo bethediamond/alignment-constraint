@@ -8,15 +8,15 @@ description: "Specialist handoff document containing locked Stage 4 proof artifa
 
 ---
 
-> **Status:** Specialist handoff document · Stage 4 (LLM ceiling) · **Nothing herein should be cited as proven.** Direction 2 locked proof artifacts.
-> **Context:** [Specialist Verification Agenda →](/specialist-handoff/) · [Proof Status and Non-Claims →](/core/proof-status/)(../core/proof-status.md) · [Framework hub →](/core/alignment-constraint/)
+> **Status:** Specialist handoff document · Stage 4 candidate architecture; specialist verification required · **Nothing herein should be cited as proven.** Direction 2 locked proof artifacts.
+> **Context:** [Specialist Verification Agenda →](/specialist-handoff/) · [Proof Status and Non-Claims →](/core/proof-status/) · [Framework hub →](/core/alignment-constraint/)
 
 ---
 
 ## Proof Artifacts — Locked Results
 Canonical Handoff Document v2
 Alignment and Structural Necessity / The Architecture of Thriving — Proof Program
-Direction 2 — Stage 4 LLM-Ceiling Completion
+Direction 2 — Stage 4 candidate-architecture completion
 
 # PREAMBLE — How to Use This Document
 What this document is:
@@ -38,9 +38,9 @@ v1 contained three results: CPG-NT (Result 1), IC Reduction Lemma (Result 2), an
 
 # OVERALL SESSION STATUS
 
-Direction 2 is complete at the Stage 4 LLM ceiling. The canonical final progress block:
+Direction 2 is complete at the Stage 4 internal adversarial-work limit. The canonical final progress block:
 
-OVERALL CLOSURE PROXIMITY: 100% Stage 4 (LLM ceiling)
+OVERALL CLOSURE PROXIMITY: 100% of the recorded Stage 4 internal work; specialist verification required
 Remaining gap to Stage 6: exclusively B1 Q3, IMMB-NS, and the Timing Lemma — all pre-existing Stage 5 specialist items. This session introduced no new specialist dependencies.
 
 # SPECIALIST VERIFICATION AGENDA
@@ -221,8 +221,8 @@ Update protocol: If any result is advanced, refined, or superseded in a subseque
 
 | Target | Progress | Status | Classification | Blocking Issues |
 | --- | --- | --- | --- | --- |
-| A — OP4d Route 2 (SOMR-Epistemic) | 100% Stage 4 | LLM ceiling reached | Necessity (conditional) | B1 Q3; IMMB-NS |
-| B — DARE Adversarial Destruction | 100% Stage 4 | LLM ceiling reached | Pressure → conditional Necessity | Timing Lemma (P* ≤ G_min) |
+| A — OP4d Route 2 (SOMR-Epistemic) | 100% Stage 4 | internal adversarial-work limit reached | Necessity (conditional) | B1 Q3; IMMB-NS |
+| B — DARE Adversarial Destruction | 100% Stage 4 | internal adversarial-work limit reached | Pressure → conditional Necessity | Timing Lemma (P* ≤ G_min) |
 | C — CPG Integration | 100% | Closed | N/A (integration) | NONE |
 | D — SCBC Mapping | 100% | Closed (within C) | N/A (naming) | NONE |
 
@@ -285,7 +285,7 @@ Update protocol: If any result is advanced, refined, or superseded in a subseque
 | Universal legitimacy mask | Satisfy any possible M_j simultaneously — mask triggers OWT-3 M_j revision, reintroduces second-order tracking | ICI | Necessity | Defeated |
 | Fixed-criteria / decomposable-G | Institutionally mandated M_j is exogenous and static — see tightening pass below | ICI + PCL | Necessity (ICI route); Pressure (PCL route) | Defeated — tightening pass |
 
-| Stage | 4 (LLM ceiling reached) |
+| Stage | 4 (internal adversarial-work limit reached) |
 | --- | --- |
 | Verdict | B+ — all identified escape routes defeated; advancing toward A conditional on B1 Q3 |
 | Type | Necessity (conditional on B1 Q3 + IMMB-NS) |
@@ -301,7 +301,7 @@ Update protocol: If any result is advanced, refined, or superseded in a subseque
 | C2: Distributed Micro-Extraction (No Single Agent) | B1 Q3 inapplicable: partially (individual level only) | OEL: macroscopic aggregate affects S_corr topology; AGC at collective level for tracking P(collective_response) | AGC (collective) | No |
 | C3: Locked-Criteria Structural Extraction | All three: partially — closest surviving construction | SEC/PGLB-R conditional on Timing Lemma: collapses into pre-existing Candidate 3 gap | Timing Lemma residual (not new class) | Narrow parameter survival pending Timing Lemma |
 
-| Stage | 4 (LLM ceiling reached) |
+| Stage | 4 (internal adversarial-work limit reached) |
 | --- | --- |
 | Verdict | B+ — non-instantiation hardened; conditional on Timing Lemma for full necessity |
 | Type | Pressure advancing toward conditional Necessity |

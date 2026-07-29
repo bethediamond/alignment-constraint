@@ -8,14 +8,14 @@ description: "Specialist handoff document for the five-problems Stage 4 proof pr
 
 ---
 
-> **Status:** Specialist handoff document · Stage 4 (LLM ceiling) · **Nothing herein should be cited as proven.** Five-problems proof program (Problems 1-2 recorded).
-> **Context:** [Specialist Verification Agenda →](/specialist-handoff/) · [Proof Status and Non-Claims →](/core/proof-status/)(../core/proof-status.md) · [Framework hub →](/core/alignment-constraint/)
+> **Status:** Specialist handoff document · Stage 4 candidate architecture; specialist verification required · **Nothing herein should be cited as proven.** Five-problems proof program (Problems 1-2 recorded).
+> **Context:** [Specialist Verification Agenda →](/specialist-handoff/) · [Proof Status and Non-Claims →](/core/proof-status/) · [Framework hub →](/core/alignment-constraint/)
 
 ---
 
 ## Handoff Summary: Problems 1 And 2 Complete
 ## Meta-Status
-Sessions completed: 2 of 5 planned problems Overall proof program status: Both problems at Stage 4 LLM ceiling with Rule 8 triggered. Specialist verification required for final closure of both. No further LLM adversarial work recommended on either problem.
+Sessions completed: 2 of 5 planned problems Overall proof program status: Both problems reached the Stage 4 internal adversarial-work limit, with Rule 8 triggered. Specialist verification required for final closure of both. No further LLM adversarial work recommended on either problem.
 
 ## Problem 1: Ici Representational Incompatibility — Article-Layer Example
 What Was Produced
@@ -135,7 +135,7 @@ L4-Constitutive application to gradient-conditioned policies (Formal Methods spe
 # PROBLEM 3: OP2a — V(t) ABSORBING STATE (PROXY DIRECTION)
 ## META-STATUS
 Sessions completed: 1 (multi-phase within session, Phases 1–7 plus Phase 2 and Phase 3 prompts executed)
-Overall proof program status: 82% Stage 4, Verdict B. Rule 8 triggered. LLM adversarial ceiling reached. Specialist verification required for final closure.
+Overall proof program status: 82% Stage 4, Verdict B. Rule 8 triggered; the internal adversarial-work limit was reached. Specialist verification required for final closure.
 Scope: Proxy direction only (OP2a). Sufficiency direction (OP2b) not addressed in this session. No drift into sufficiency direction occurred.
 ## PHASE 3 VERDICT: PROGRESSIVE DIFFICULTY, NOT STRUCTURAL UNAVAILABILITY
 The argument as developed establishes progressive difficulty, not structural unavailability. This is the honest Stage 4 result. The proof architecture is complete, the remaining gap is precisely named and localized, and its character is clear.
@@ -291,7 +291,7 @@ MEC-AS: time-vulnerability of inaction under sustained extraction (mechanism des
 ARCG: non-compressibility of adequacy-relevant joint consequence space (causal graph theorist / information theorist)
 # PROBLEM 5: B1 — SPECIALIST VERIFICATION QUESTION REFINEMENT
 ## META-STATUS
-B1 overall: 100% Stage 4, Verdict A. LLM ceiling reached. No further adversarial proof work productive.
+B1 overall: 100% Stage 4, Verdict A. The internal adversarial-work limit was reached. No further adversarial proof work productive.
 Session goal: Refine Q1, Q2, Q3 from the B1 Closure Handoff so each admits a determinate YES/NO answer from a specialist. A question admitting “it depends” or “that’s unclear” has failed this session’s test.
 Result: Complete three-specialist package produced. Rule 8 triggered and confirmed. All questions locked.
 Critical interpretive note: Each NO answer does NOT collapse the B1 framework — it scopes it. A NO on Q1 means Route A fails at necessity but Route B (SCC) remains. A NO on Q2 means TI is scoped to objectives with inherently dependent trajectories. A NO on Q3a means ID-DFB Step 4 requires a magnitude bound or pathway directness condition. A NO on Q3b(i) means CIT requires a stronger coupling premise. A NO on Q3b(ii) means ARL is a necessary empirical finding, not a definitional move. In each case, the framework continues under scope restriction.
@@ -371,13 +371,13 @@ YES establishes: ARL is a necessary empirical finding, not merely a definitional
 NO requires: ARL is a legitimate scope restriction; Route A closes for the alignment-relevant case as claimed without the empirical component becoming load-bearing.
 Note for specialist: The same formal methods engagement should address the SOMR epistemic extension (Problem 2 specialist question): whether B1’s SOMR (Second-Order Modeling Requirement) applies to epistemic/detection-threshold modeling, not only terminal valence modeling. If Q3a answers YES, this provides supporting evidence that SOMR’s epistemic form also holds. Also address L4-Constitutive adequacy as a criterion for functional objective weight (Problem 1 specialist question).
 # COMPLETION TRACKING TABLE — FINAL STATE (ALL 5 PROBLEMS)
-Updated after all five problem sessions. LLM ceiling reached on all five problems. Specialist verification is the next action for each.
+Updated after all five problem sessions. The internal adversarial-work limit was reached on all five problems. Specialist verification is the next action for each.
 Problem 1 — ICI Article-Layer Example: 97% Stage 4, Verdict B. Primary gap: L4-Constitutive specialist verification (gradient conditioning on X’s states = terminal objective weight?). Next action: bundle with Problem 5 Q3b formal methods engagement. Rule 8 triggered.
 Problem 2 — OP4d Exhaustiveness: 91% Stage 4, Verdict B. Primary gaps: TC2 §1.4(c) trajectory-space interpretation (TC2 dynamics specialist) and B1 Q3 SOMR for epistemic modeling (formal methods specialist — now has refined interface from Problem 5). Next action: specialist engagement on both, coordinate with Problem 5 Q3 package. Rule 8 triggered.
 Problem 3 — OP2a Proxy Direction Absorbing State: 82% Stage 4, Verdict B. Primary gap: P5-SC (P5 strict contraction — does hysteresis ceiling cross below V at finite V > 0 for AI systems?). Secondary: P1 precision-floor, P4 asymmetry formalization. Next action: TC2 dynamics / allostasis specialist. Rule 8 triggered.
 Problem 4 — OP4a Dynamic Screening Instability: 83% Stage 4, Verdict B. Primary gaps: IMMB-NS (Tier 1 hinge — Dynamic Blanket Stress Test), MEC-AS (time-vulnerability of inaction — mechanism design theorist), ARCG (non-compressibility of adequacy-relevant consequence space — causal graph / information theorist). VRNE Mode 1 (sparse innovation) survives as named open gap. Next action: three specialist engagements. Rule 8 triggered.
 Problem 5 — B1 Specialist Verification Prep: 100% Stage 4, Verdict A. All three specialist questions (Q1, Q2, Q3a, Q3b) in final determinate form. Next action: send to game theorist (Q1), causal inference specialist (Q2), and formal methods specialist (Q3a + Q3b + SOMR extension + L4-Constitutive). Rule 8 triggered.
-Items at LLM ceiling — specialist verification only, do not run further LLM sessions on: B2 (97% Stage 4, Verdict B), Passive Extraction C3 (95% Stage 4, Verdict A), OP9 overall (~90% Stage 4, mixed), MMCL Timing Lemma (89.5% Stage 4, Verdict B), LOI/TOL TRG (76% Stage 4, Verdict B), all five problems in this document.
+Items at the internal adversarial-work limit — specialist verification only, do not run further LLM sessions on: B2 (97% Stage 4, Verdict B), Passive Extraction C3 (95% Stage 4, Verdict A), OP9 overall (~90% Stage 4, mixed), MMCL Timing Lemma (89.5% Stage 4, Verdict B), LOI/TOL TRG (76% Stage 4, Verdict B), all five problems in this document.
 Blocked — do not work on yet: OP4b (~65% Stage 4, Verdict C) — downstream of OP4a; address OP4a specialist questions first.
 Highest-priority specialist action: IMMB-NS via Dynamic Blanket Stress Test — single empirical result advances Problems 3 (VRNE Mode 2), 4 (FBC/SAR/VRNE Mode 2), and OP9 simultaneously. This is the highest-leverage single action in the entire proof program.
 

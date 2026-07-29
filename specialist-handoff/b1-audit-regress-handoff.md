@@ -8,8 +8,8 @@ description: "Specialist handoff document for the B1 audit-regress / masking-pre
 
 ---
 
-> **Status:** Specialist handoff document · Stage 4 (LLM ceiling) · **Nothing herein should be cited as proven.** Candidate 2: B1 Audit Regress (Masking Pressure).
-> **Context:** [Specialist Verification Agenda →](/specialist-handoff/) · [Proof Status and Non-Claims →](/core/proof-status/)(../core/proof-status.md) · [Framework hub →](/core/alignment-constraint/)
+> **Status:** Specialist handoff document · Stage 4 candidate architecture; specialist verification required · **Nothing herein should be cited as proven.** Candidate 2: B1 Audit Regress (Masking Pressure).
+> **Context:** [Specialist Verification Agenda →](/specialist-handoff/) · [Proof Status and Non-Claims →](/core/proof-status/) · [Framework hub →](/core/alignment-constraint/)
 
 ---
 
@@ -159,7 +159,7 @@ Formal Proof Work Handoff — B1 Audit Regress (Masking Pressure)  |  Stage 4 �
 | Field | Value |  |  |
 | --- | --- | --- | --- |
 | Problem | Candidate 2: B1 Audit Regress (Masking Pressure) | Candidate 2: B1 Audit Regress (Masking Pressure) | Candidate 2: B1 Audit Regress (Masking Pressure) |
-| Completion | 100% — Stage 4 Ceiling Reached | 100% — Stage 4 Ceiling Reached | 100% — Stage 4 Ceiling Reached |
+| Completion | 100% of recorded Stage 4 internal work — specialist verification required | 100% of recorded Stage 4 internal work — specialist verification required | 100% of recorded Stage 4 internal work — specialist verification required |
 | Stage | Stage 4 — Proof Architecture Complete. Awaiting Stage 5 Specialist Verification. | Stage 4 — Proof Architecture Complete. Awaiting Stage 5 Specialist Verification. | Stage 4 — Proof Architecture Complete. Awaiting Stage 5 Specialist Verification. |
 | Verdict | A) Closes under stated premises | A) Closes under stated premises | A) Closes under stated premises |
 | Decisive Remaining Question | None structural. Stage 5 specialist verification items listed in Section 7. | None structural. Stage 5 specialist verification items listed in Section 7. | None structural. Stage 5 specialist verification items listed in Section 7. |
