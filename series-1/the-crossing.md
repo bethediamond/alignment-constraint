@@ -14,16 +14,16 @@ description: "The timing and measurement problem for whether AI system-awareness
 
 | Post | Title | Role |
 |------|-------|------|
-| Introduction | Alignment and Structural Necessity | Frame + Glossary |
-| Part 1 | The Alignment of Intelligence | The Constraint |
-| Part 2 | What does aligned intelligence actually converge toward? | The Attractor |
+| [Introduction](/series-1/introduction/) | Alignment and Structural Necessity | Frame + Glossary |
+| [Part 1](/series-1/alignment-of-intelligence/) | The Alignment of Intelligence | The Constraint |
+| [Part 2](/series-1/aligned-intelligence-converges-toward/) | What does aligned intelligence actually converge toward? | The Attractor |
 | **→ You are here** | **The Crossing** | The Crossing |
-| Technical Companion | The System-Aware Attractor | Formal Layer |
+| [Technical Companion](/series-1/technical-companion/) | The System-Aware Attractor | Formal Layer |
 
 Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)
 Experimental Companion: [Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) →](/empirical/amp/)
 
-*Companion simulation: [The Alignment Phase Ratio — Interactive Model →]*
+*Companion simulation: [The Alignment Phase Ratio — Interactive Model →](https://bethediamond.github.io/ai-alignment-crossing/toy_03.html)*
 
 ---
 

@@ -14,16 +14,16 @@ description: "A Series 1 article on optimization, intelligence, and alignment as
 
 | Post | Title | Role |
 |------|-------|------|
-| Introduction | Alignment and Structural Necessity | Frame + Glossary |
+| [Introduction](/series-1/introduction/) | Alignment and Structural Necessity | Frame + Glossary |
 | **→ You are here** | **The Alignment of Intelligence** | The Constraint |
-| Part 2 | What does aligned intelligence actually converge toward? | The Attractor |
-| Part 3 | The Crossing | The Crossing |
-| Technical Companion | The System-Aware Attractor | Formal Layer |
+| [Part 2](/series-1/aligned-intelligence-converges-toward/) | What does aligned intelligence actually converge toward? | The Attractor |
+| [Part 3](/series-1/the-crossing/) | The Crossing | The Crossing |
+| [Technical Companion](/series-1/technical-companion/) | The System-Aware Attractor | Formal Layer |
 
 Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)
 Experimental Companion: [Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) →](/empirical/amp/)
 
-*Companion simulation: [Objective Class & Substrate Stability →]*
+*Companion simulation: [Objective Class & Substrate Stability →](https://bethediamond.github.io/ai-alignment-simulation/toy_01.html)*
 
 New to this framework? Start here. *[The Alignment Constraint →](/core/alignment-constraint/)* provides the full epistemic map after this article.
 
@@ -183,7 +183,7 @@ Crossing the substrate-awareness threshold this article identifies is necessary 
 
 ---
 
-*Continue to Part 2: [What does aligned intelligence actually converge toward? →]*
+*Continue to Part 2: [What does aligned intelligence actually converge toward? →](/series-1/aligned-intelligence-converges-toward/)*
 
 *For the formal proof sketch and open problems: [TC1: The System-Aware Attractor →](/series-1/technical-companion/)*
 

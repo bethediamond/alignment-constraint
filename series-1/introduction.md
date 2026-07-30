@@ -19,10 +19,10 @@ This series develops a structural argument from a prior question: what must be t
 | Post | Title | Role |
 |------|-------|------|
 | **→ You are here** | **Introduction** | Frame |
-| Part 1 | The Alignment of Intelligence | The Constraint |
-| Part 2 | What does aligned intelligence actually converge toward? | The Attractor |
-| Part 3 | The Crossing | The Crossing |
-| Technical Companion | The System-Aware Attractor | Formal Layer |
+| [Part 1](/series-1/alignment-of-intelligence/) | The Alignment of Intelligence | The Constraint |
+| [Part 2](/series-1/aligned-intelligence-converges-toward/) | What does aligned intelligence actually converge toward? | The Attractor |
+| [Part 3](/series-1/the-crossing/) | The Crossing | The Crossing |
+| [Technical Companion](/series-1/technical-companion/) | The System-Aware Attractor | Formal Layer |
 
 Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)
 Experimental Companion: [Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) →](/empirical/amp/)
@@ -159,6 +159,6 @@ The issue is structural: if the objective excludes what it depends on, improving
 
 ---
 
-*Continue to Part 1: [The Alignment of Intelligence — The Constraint →]*
+*Continue to Part 1: [The Alignment of Intelligence — The Constraint →](/series-1/alignment-of-intelligence/)*
 
 *Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)*

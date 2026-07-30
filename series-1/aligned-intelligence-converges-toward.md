@@ -14,16 +14,16 @@ description: "A structural analysis of the objective classes that remain after s
 
 | Post | Title | Role |
 |------|-------|------|
-| Introduction | Alignment and Structural Necessity | Frame + Glossary |
-| Part 1 | The Alignment of Intelligence | The Constraint |
+| [Introduction](/series-1/introduction/) | Alignment and Structural Necessity | Frame + Glossary |
+| [Part 1](/series-1/alignment-of-intelligence/) | The Alignment of Intelligence | The Constraint |
 | **→ You are here** | **What does aligned intelligence actually converge toward?** | The Attractor |
-| Part 3 | The Crossing | The Crossing |
-| Technical Companion | The System-Aware Attractor | Formal Layer |
+| [Part 3](/series-1/the-crossing/) | The Crossing | The Crossing |
+| [Technical Companion](/series-1/technical-companion/) | The System-Aware Attractor | Formal Layer |
 
 Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)
 Experimental Companion: [Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) →](/empirical/amp/)
 
-*Companion simulation: [The Cost of Stability →]*
+*Companion simulation: [The Cost of Stability →](https://bethediamond.github.io/ai-alignment-attractor/toy_02.html)*
 
 ---
 
@@ -149,6 +149,6 @@ Alignment, in this framework, names what survives everything we fail to model. W
 
 *For the formal proof sketch of the Substrate Constraint, the Recognition Bridge proposition, and the Fortress Instability Theorem: [TC1: The System-Aware Attractor →](/series-1/technical-companion/)*
 
-*Continue to Part 3: [The Crossing →]*
+*Continue to Part 3: [The Crossing →](/series-1/the-crossing/)*
 
 *Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)*

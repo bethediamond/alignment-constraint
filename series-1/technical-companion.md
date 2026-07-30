@@ -16,10 +16,10 @@ description: "The formal companion to Series 1, developing the O_OWT domain, Sub
 
 | Post | Title | Role |
 |------|-------|------|
-| Introduction | Alignment and Structural Necessity | Frame |
-| Part 1 | The Alignment of Intelligence | The Constraint |
-| Part 2 | What does aligned intelligence actually converge toward? | The Attractor |
-| Part 3 | The Crossing | The Crossing |
+| [Introduction](/series-1/introduction/) | Alignment and Structural Necessity | Frame |
+| [Part 1](/series-1/alignment-of-intelligence/) | The Alignment of Intelligence | The Constraint |
+| [Part 2](/series-1/aligned-intelligence-converges-toward/) | What does aligned intelligence actually converge toward? | The Attractor |
+| [Part 3](/series-1/the-crossing/) | The Crossing | The Crossing |
 | **→ You are here** | **Technical Companion** | Formal Layer |
 | Experimental Companion | Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) | Empirical Layer |
 
@@ -1324,8 +1324,8 @@ Both Tier 1 hinges bear on the same empirical question — whether OWT-2 environ
 
 ---
 
-*Return to [Introduction] | [Part 1] | [Part 2] | [Part 3]*
+*Return to [Introduction](/series-1/introduction/) | [Part 1](/series-1/alignment-of-intelligence/) | [Part 2](/series-1/aligned-intelligence-converges-toward/) | [Part 3](/series-1/the-crossing/)*
 
 *Continue to [Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) →](/empirical/amp/)*
-*For the valence constraint formal layer, see: [TC2: The Valence Constraint →]*
+*For the valence constraint formal layer, see: [TC2: The Valence Constraint →](/series-2/technical-companion/)*
 *Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)*
