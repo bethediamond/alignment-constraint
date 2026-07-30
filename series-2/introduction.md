@@ -25,11 +25,11 @@ description: "The introduction to Series 2, developing the Valence Failure, V(t)
 | Post | Title | Role |
 |------|-------|------|
 | **→ You are here** | **Introduction** | Frame |
-| Part 1 | The Invariant Drive | The Universal Generator |
-| Part 2 | The Depth Constraint | The Structural Correspondence |
-| Part 3 | The Inner Crossing | Ψ = S / D |
-| Part 4 | The Shape of What Does Not End | The Asymptote |
-| Technical Companion | The Valence Constraint | Formal Layer |
+| [Part 1](/series-2/invariant-drive/) | The Invariant Drive | The Universal Generator |
+| [Part 2](/series-2/depth-constraint/) | The Depth Constraint | The Structural Correspondence |
+| [Part 3](/series-2/inner-crossing/) | The Inner Crossing | Ψ = S / D |
+| [Part 4](/series-2/shape-of-what-does-not-end/) | The Shape of What Does Not End | The Asymptote |
+| [Technical Companion](/series-2/technical-companion/) | The Valence Constraint | Formal Layer |
 
 Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)
 Experimental Companion: [Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) →](/empirical/amp/)
@@ -182,6 +182,6 @@ This observation motivated the inquiry. The formal argument that follows stands 
 
 ---
 
-*Continue to Part 1: [The Invariant Drive →]*
+*Continue to Part 1: [The Invariant Drive →](/series-2/invariant-drive/)*
 
 *Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)*

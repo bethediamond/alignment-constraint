@@ -12,17 +12,17 @@ description: "The behavioral foundation of Series 2, defining seeking, genuine r
 
 | Post | Title | Role |
 |------|-------|------|
-| Introduction | The Architecture of Thriving | Frame |
+| [Introduction](/series-2/introduction/) | The Architecture of Thriving | Frame |
 | **→ You are here** | **The Invariant Drive** | The Universal Generator |
-| Part 2 | The Depth Constraint | The Structural Correspondence |
-| Part 3 | The Inner Crossing | Ψ = S / D |
-| Part 4 | The Shape of What Does Not End | The Asymptote |
-| Technical Companion | The Valence Constraint | Formal Layer |
+| [Part 2](/series-2/depth-constraint/) | The Depth Constraint | The Structural Correspondence |
+| [Part 3](/series-2/inner-crossing/) | The Inner Crossing | Ψ = S / D |
+| [Part 4](/series-2/shape-of-what-does-not-end/) | The Shape of What Does Not End | The Asymptote |
+| [Technical Companion](/series-2/technical-companion/) | The Valence Constraint | Formal Layer |
 
 Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)
-Experimental Companion: [Experimental Companion to Series 1 and 2 / AMP →]
+Experimental Companion: [Experimental Companion to Series 1 and 2 / AMP →](/empirical/amp/)
 
-*Companion simulation: [The Motivation Tracer →]*
+*Companion simulation: [The Motivation Tracer →](https://bethediamond.github.io/ai-alignment-tracer/toy_04.html)*
 
 ---
 
@@ -134,7 +134,7 @@ This behavioral foundation is a candidate structure for one direction into the r
 
 ## The toy
 
-The companion simulation asks whether directed behavior in instrumental chains exhibits the structural patterns described here, and whether resolution can be operationally distinguished from non-termination in behavior that is observable. Given any goal, it asks what the goal is in service of — then asks again. What it reveals is not merely a philosophical point: non-terminating chains — chains that loop or have no defined stopping condition — are not edge cases. They are a behavioral signature of the depleted-gradient regime and of sufficiency failure made visible in miniature. The system that cannot stop chasing is not broken in some obscure way. It is missing the other half of the mechanism that directed behavior requires. The simulation documentation specifies the classification schema and coding rules. The accompanying instrument probes the stability of this behavioral classification under representation and perturbation; it does not independently validate the framework's structural claims, which carry formal weight in Part 2 and TC2. [→ Simulation: The Motivation Tracer]
+The companion simulation asks whether directed behavior in instrumental chains exhibits the structural patterns described here, and whether resolution can be operationally distinguished from non-termination in behavior that is observable. Given any goal, it asks what the goal is in service of — then asks again. What it reveals is not merely a philosophical point: non-terminating chains — chains that loop or have no defined stopping condition — are not edge cases. They are a behavioral signature of the depleted-gradient regime and of sufficiency failure made visible in miniature. The system that cannot stop chasing is not broken in some obscure way. It is missing the other half of the mechanism that directed behavior requires. The simulation documentation specifies the classification schema and coding rules. The accompanying instrument probes the stability of this behavioral classification under representation and perturbation; it does not independently validate the framework's structural claims, which carry formal weight in Part 2 and TC2. [→ Simulation: The Motivation Tracer](https://bethediamond.github.io/ai-alignment-tracer/toy_04.html)
 
 ---
 
@@ -142,8 +142,8 @@ The companion simulation asks whether directed behavior in instrumental chains e
 
 ---
 
-*Continue to Part 2: [The Depth Constraint →]*
+*Continue to Part 2: [The Depth Constraint →](/series-2/depth-constraint/)*
 
 *Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)*
 
-*For the biological foundations: [TC2: The Valence Constraint →]*
+*For the biological foundations: [TC2: The Valence Constraint →](/series-2/technical-companion/)*

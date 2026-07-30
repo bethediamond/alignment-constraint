@@ -12,17 +12,17 @@ description: "A Series 2 article on depth, valence, and the constraints required
 
 | Post | Title | Role |
 |------|-------|------|
-| Introduction | The Architecture of Thriving | Frame |
-| Part 1 | The Invariant Drive | The Universal Generator |
+| [Introduction](/series-2/introduction/) | The Architecture of Thriving | Frame |
+| [Part 1](/series-2/invariant-drive/) | The Invariant Drive | The Universal Generator |
 | **→ You are here** | **The Depth Constraint** | The Structural Correspondence |
-| Part 3 | The Inner Crossing | Ψ = S / D |
-| Part 4 | The Shape of What Does Not End | The Asymptote |
-| Technical Companion | The Valence Constraint | Formal Layer |
+| [Part 3](/series-2/inner-crossing/) | The Inner Crossing | Ψ = S / D |
+| [Part 4](/series-2/shape-of-what-does-not-end/) | The Shape of What Does Not End | The Asymptote |
+| [Technical Companion](/series-2/technical-companion/) | The Valence Constraint | Formal Layer |
 
 Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)
 Experimental Companion: [Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) →](/empirical/amp/)
 
-*Companion simulation: [The Proxy Decay Simulator →] — illustrates proxy decoupling within a minimal model class; its absorbing-state behavior is structural within that model, not a proof of the framework's full equivalence claims (see OP2).*
+*Companion simulation: [The Proxy Decay Simulator →](https://bethediamond.github.io/ai-alignment-proxy/toy_05.html) — illustrates proxy decoupling within a minimal model class; its absorbing-state behavior is structural within that model, not a proof of the framework's full equivalence claims (see OP2).*
 
 ---
 
@@ -162,8 +162,8 @@ Overall verdict: partially discriminating — the pre-registered criterion was n
 
 ---
 
-*Continue to Part 3: [The Inner Crossing →]*
+*Continue to Part 3: [The Inner Crossing →](/series-2/inner-crossing/)*
 
 *Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)*
 
-*For the formal proof sketch of the Valence Viability Constraint: [TC2: The Valence Constraint →]*
+*For the formal proof sketch of the Valence Viability Constraint: [TC2: The Valence Constraint →](/series-2/technical-companion/)*

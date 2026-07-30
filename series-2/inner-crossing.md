@@ -12,17 +12,17 @@ description: "A measurement-oriented account of the ratio between an AI system�
 
 | Post | Title | Role |
 |------|-------|------|
-| Introduction | The Architecture of Thriving | Frame |
-| Part 1 | The Invariant Drive | The Universal Generator |
-| Part 2 | The Depth Constraint | The Structural Correspondence |
+| [Introduction](/series-2/introduction/) | The Architecture of Thriving | Frame |
+| [Part 1](/series-2/invariant-drive/) | The Invariant Drive | The Universal Generator |
+| [Part 2](/series-2/depth-constraint/) | The Depth Constraint | The Structural Correspondence |
 | **→ You are here** | **The Inner Crossing** | Ψ = S / D |
-| Part 4 | The Shape of What Does Not End | The Asymptote |
-| Technical Companion | The Valence Constraint | Formal Layer |
+| [Part 4](/series-2/shape-of-what-does-not-end/) | The Shape of What Does Not End | The Asymptote |
+| [Technical Companion](/series-2/technical-companion/) | The Valence Constraint | Formal Layer |
 
 Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)
 Experimental Companion: [Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) →](/empirical/amp/)
 
-*Companion simulation: [The Ψ Phase Space →]*
+*Companion simulation: [The Ψ Phase Space →](https://bethediamond.github.io/ai-alignment-phase/toy_06.html)*
 
 ---
 
@@ -148,10 +148,10 @@ S is scaling. D is not yet being measured.
 
 ---
 
-*Continue to Part 4: [The Shape of What Does Not End →]*
+*Continue to Part 4: [The Shape of What Does Not End →](/series-2/shape-of-what-does-not-end/)*
 
 *Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)*
 
-*For the formal treatment of Ψ: [TC2: The Valence Constraint →]*
+*For the formal treatment of Ψ: [TC2: The Valence Constraint →](/series-2/technical-companion/)*
 
 *For the measurement protocol: [Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) →](/empirical/amp/)*

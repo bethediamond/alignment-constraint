@@ -20,11 +20,11 @@ description: "The formal companion to Series 2, developing V(t), the Valence Via
 
 | Post | Title | Role |
 |------|-------|------|
-| Introduction | The Architecture of Thriving | Frame |
-| Part 1 | The Invariant Drive | The Universal Generator |
-| Part 2 | The Depth Constraint | The Structural Correspondence |
-| Part 3 | The Inner Crossing | Ψ = S / D |
-| Part 4 | The Shape of What Does Not End | The Asymptote |
+| [Introduction](/series-2/introduction/) | The Architecture of Thriving | Frame |
+| [Part 1](/series-2/invariant-drive/) | The Invariant Drive | The Universal Generator |
+| [Part 2](/series-2/depth-constraint/) | The Depth Constraint | The Structural Correspondence |
+| [Part 3](/series-2/inner-crossing/) | The Inner Crossing | Ψ = S / D |
+| [Part 4](/series-2/shape-of-what-does-not-end/) | The Shape of What Does Not End | The Asymptote |
 | **→ You are here** | **The Valence Constraint** | Formal Layer (See TC1 §III.6 for the formal treatment of stable malevolence) |
 
 Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)
@@ -449,7 +449,7 @@ A constraint on what can persist — within the stated domain.
 
 ---
 
-*Return to the series introduction: [The Architecture of Thriving →]*
+*Return to the series introduction: [The Architecture of Thriving →](/series-2/introduction/)*
 *For the formal persistence layer: [TC1: The System-Aware Attractor →](/series-1/technical-companion/)*
 *For the empirical layer of the unified framework, see: [Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) →](/empirical/amp/)*
 *Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)*

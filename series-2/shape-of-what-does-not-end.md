@@ -12,17 +12,17 @@ description: "A Series 2 article on persistence, resolution, and the form of str
 
 | Post | Title | Role |
 |------|-------|------|
-| Introduction | The Architecture of Thriving | Frame |
-| Part 1 | The Invariant Drive | The Universal Generator |
-| Part 2 | The Depth Constraint | The Structural Correspondence |
-| Part 3 | The Inner Crossing | Ψ = S / D |
+| [Introduction](/series-2/introduction/) | The Architecture of Thriving | Frame |
+| [Part 1](/series-2/invariant-drive/) | The Invariant Drive | The Universal Generator |
+| [Part 2](/series-2/depth-constraint/) | The Depth Constraint | The Structural Correspondence |
+| [Part 3](/series-2/inner-crossing/) | The Inner Crossing | Ψ = S / D |
 | **→ You are here** | **The Shape of What Does Not End** | The Asymptote |
-| Technical Companion | The Valence Constraint | Formal Layer |
+| [Technical Companion](/series-2/technical-companion/) | The Valence Constraint | Formal Layer |
 
 Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)
 Experimental Companion: [Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP) →](/empirical/amp/)
 
-*Companion simulation: [The Valence Landscape →]*
+*Companion simulation: [The Valence Landscape →](https://bethediamond.github.io/ai-alignment-landscape/toy_07.html)*
 
 ---
 
@@ -146,7 +146,7 @@ The constraint does not guarantee a destination. It makes the question of what r
 
 ---
 
-*For the formal treatment of the surviving region and the Φ-Ψ unification hypothesis: [TC2: The Valence Constraint →]*
+*For the formal treatment of the surviving region and the Φ-Ψ unification hypothesis: [TC2: The Valence Constraint →](/series-2/technical-companion/)*
 
 *Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)*
 
