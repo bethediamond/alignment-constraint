@@ -214,24 +214,3 @@ The machines are not waiting for us to figure this out. They are learning from w
 > The machines are learning our answer right now.
 > 
 > The question is whether we know what we’re teaching.
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "@id": "https://alignmentconstraint.org/public/ai-race-is-not-rational/#article",
-  "headline": "The AI Race Is Not Rational",
-  "description": "A public essay arguing that AI capability races can remain locally rational while degrading the shared physical, institutional, and epistemic substrate on which continued optimization depends.",
-  "author": {"@type": "Person", "name": "John Silliphant"},
-  "url": "https://alignmentconstraint.org/public/ai-race-is-not-rational/",
-  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://alignmentconstraint.org/"},
-  "about": [
-    {"@type": "Thing", "name": "AI alignment"},
-    {"@type": "Thing", "name": "AI capability races"},
-    {"@type": "Thing", "name": "substrate-aware optimization"}
-  ],
-  "keywords": ["AI alignment", "AI race", "optimization", "substrate constraint", "AI safety", "institutional coordination"],
-  "additionalProperty": {"@type": "PropertyValue", "name": "Document role", "value": "Public, non-technical entry point; not proof-bearing"}
-}
-</script>

@@ -85,27 +85,3 @@ Stage 4 means that every identified exit has been addressed within the current c
 - [Proof Status and Non-Claims](/core/proof-status/) — proof-status calibration
 
 _Note: This note was prepared with LLM assistance. I am responsible for the claims and errors. The request is adversarial: identify the counterexample, the prior result, or the first unjustified move._
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "@id": "https://alignmentconstraint.org/public/op4d-counterexample-challenge/#article",
-  "headline": "The OP4d Counterexample Challenge",
-  "description": "A public technical challenge asking for a fourth finite objective-boundary strategy class outside PCL, AGC, and ICI, with explicit Stage 4 proof status and falsification conditions.",
-  "author": {"@type": "Person", "name": "John Silliphant"},
-  "url": "https://alignmentconstraint.org/public/op4d-counterexample-challenge/",
-  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://alignmentconstraint.org/"},
-  "about": [
-    {"@type": "Thing", "name": "AI alignment"},
-    {"@type": "Thing", "name": "specification coherence"},
-    {"@type": "Thing", "name": "OP4d"}
-  ],
-  "keywords": ["AI alignment", "OP4d", "counterexample challenge", "PCL", "AGC", "ICI", "separable objective specification"],
-  "additionalProperty": [
-    {"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"},
-    {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A qualifying fourth finite objective-boundary strategy class outside PCL, AGC, and ICI"}
-  ]
-}
-</script>
