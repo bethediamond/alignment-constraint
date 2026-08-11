@@ -44,7 +44,7 @@ in an O_OWT environment.
 
 ## Reward hacking and specification gaming
 
-**Existing work (Krakovna et al. 2020; Leike et al.):** Reward hacking refers to systems
+**Existing work (Krakovna et al. 2020; Leike et al. 2017):** Reward hacking refers to systems
 achieving high reward by exploiting features of the reward function that were not intended
 by the designer. Specification gaming is the broader class of behaviors where the agent
 satisfies the literal specification while violating the designer's intent.
@@ -116,7 +116,7 @@ faces.
 
 ## Scalable oversight
 
-**Existing work (Christiano et al. 2018; Irving et al. 2018; Leike et al. 2022):** Scalable
+**Existing work (Christiano et al. 2018; Irving et al. 2018; Bowman et al. 2022):** Scalable
 oversight aims to maintain meaningful human supervision of AI systems even as their
 capabilities exceed what humans can directly evaluate. Approaches include amplification,
 debate, and iterated distillation.
@@ -142,7 +142,7 @@ challenge for scalable oversight, not a dismissal of the approach.
 
 ## Interpretability and monitoring
 
-**Existing work (Anthropic, Google DeepMind, others):** Mechanistic interpretability aims
+**Existing work (Elhage et al. 2021; Olsson et al. 2022):** Mechanistic interpretability aims
 to understand what AI systems are computing — their internal representations, circuits,
 and behaviors — to enable monitoring and verification of alignment.
 
@@ -232,15 +232,20 @@ and [Alignment Measurement Protocol →](/empirical/amp/).
 
 ## References
 
-- Goodhart, C. (1975). Problems of Monetary Management: The U.K. Experience. Papers in Monetary Economics, Reserve Bank of Australia.
-- Soares, N., Fallenstein, B., Yudkowsky, E., & Armstrong, S. (2015). Corrigibility. AAAI Workshop on AI and Ethics.
-- Christiano, P., Leike, J., Brown, T., Martic, M., Legg, S., & Amodei, D. (2017). Deep Reinforcement Learning from Human Preferences. NeurIPS.
+- Goodhart, C. A. E. (1975). Problems of Monetary Management: The U.K. Experience. *Papers in Monetary Economics*, Reserve Bank of Australia.
+- Soares, N., Fallenstein, B., Yudkowsky, E., & Armstrong, S. (2015). Corrigibility. *AAAI Workshop on AI and Ethics*.
+- Christiano, P. F., Leike, J., Brown, T., Martic, M., Legg, S., & Amodei, D. (2017). Deep Reinforcement Learning from Human Preferences. *Advances in Neural Information Processing Systems 30*.
+- Christiano, P., Shlegeris, B., & Amodei, D. (2018). Supervising Strong Learners by Amplifying Weak Experts. arXiv:1810.08575.
 - Irving, G., Christiano, P., & Amodei, D. (2018). AI Safety via Debate. arXiv:1805.00899.
-- Hadfield-Menell, D., Milli, S., Abbeel, P., Russell, S., & Dragan, A. (2017). Inverse Reward Design. NeurIPS.
+- Bowman, S. R., et al. (2022). Measuring Progress on Scalable Oversight for Large Language Models. arXiv:2211.03540.
+- Ziegler, D. M., Stiennon, N., Wu, J., Brown, T. B., Radford, A., Amodei, D., Christiano, P., & Irving, G. (2019). Fine-Tuning Language Models from Human Preferences. arXiv:1909.08593.
+- Hadfield-Menell, D., Milli, S., Abbeel, P., Russell, S., & Dragan, A. (2017). Inverse Reward Design. *Advances in Neural Information Processing Systems 30*.
 - Hubinger, E., van Merwijk, C., Mikulik, V., Skalse, J., & Garrabrant, S. (2019). Risks from Learned Optimization in Advanced Machine Learning Systems. arXiv:1906.01820.
-- Krakovna, V., et al. (2020). Specification Gaming: The Flip Side of AI Ingenuity. DeepMind Blog.
+- Krakovna, V., Uesato, J., Mikulik, V., Rahtz, M., Everitt, T., Kumar, R., Kenton, Z., Leike, J., & Legg, S. (2020). Specification Gaming: The Flip Side of AI Ingenuity. DeepMind.
 - Leike, J., Martic, M., Krakovna, V., Ortega, P. A., Everitt, T., Lefrancq, A., Orseau, L., & Legg, S. (2017). AI Safety Gridworlds. arXiv:1711.09883.
 - Manheim, D., & Garrabrant, S. (2019). Categorizing Variants of Goodhart's Law. arXiv:1803.04585.
-- Russell, S. (2019). Human Compatible: Artificial Intelligence and the Problem of Control. Viking.
+- Elhage, N., et al. (2021). A Mathematical Framework for Transformer Circuits. *Transformer Circuits Thread*.
+- Olsson, C., et al. (2022). In-context Learning and Induction Heads. *Transformer Circuits Thread*.
+- Russell, S. (2019). *Human Compatible: Artificial Intelligence and the Problem of Control*. Viking.
 
 *Framework hub: [The Alignment Constraint →](/core/alignment-constraint/)*
