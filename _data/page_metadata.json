@@ -1,4 +1,22 @@
 {
+  "/": {
+    "schema_type": "WebSite",
+    "document_role": "Framework homepage and routing hub"
+  },
+  "/apply/": {
+    "schema_type": "TechArticle",
+    "document_role": "Framework application method and worked-case guide",
+    "proof_status": "Application guide within a Stage 4 framework; worked applications are conditional analyses and do not constitute evidence that the framework is correct.",
+    "keywords": [
+      "AI alignment",
+      "specification coherence",
+      "PCL",
+      "AGC",
+      "ICI",
+      "OP4d",
+      "application method"
+    ]
+  },
   "/cite/": {
     "schema_type": "WebPage",
     "document_role": "Citation and versioning guide",
@@ -68,6 +86,11 @@
     "document_role": "Proof-program tightening and verification note",
     "proof_status": "Proof-program note within Stage 4; not theorem closure."
   },
+  "/empirical/": {
+    "schema_type": "WebPage",
+    "document_role": "Empirical program index",
+    "proof_status": "Empirical research-program index; each listed result or protocol retains its own stated status."
+  },
   "/empirical/amp/": {
     "schema_type": "TechArticle",
     "document_role": "Empirical measurement protocol and evidence summary",
@@ -78,19 +101,10 @@
     "document_role": "Prospective mechanism-discrimination preregistration design",
     "proof_status": "Prospective preregistration design; not yet a result."
   },
-  "/empirical/": {
-    "schema_type": "WebPage",
-    "document_role": "Empirical program index",
-    "proof_status": "Empirical research-program index; each listed result or protocol retains its own stated status."
-  },
   "/empirical/vt-dissociation-study/": {
     "schema_type": "TechArticle",
     "document_role": "Draft latent-construct dissociation study design",
     "proof_status": "Draft protocol only; not a result; latent-variable specialist review is required before filing."
-  },
-  "/": {
-    "schema_type": "WebSite",
-    "document_role": "Framework homepage and routing hub"
   },
   "/open-problems/": {
     "schema_type": "TechArticle",
@@ -257,6 +271,11 @@
     "document_role": "Series 3 technical companion / proof-program sketch",
     "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure."
   },
+  "/specialist-handoff/": {
+    "schema_type": "WebPage",
+    "document_role": "Specialist verification agenda and handoff index",
+    "proof_status": "Stage 4 specialist handoff; independent specialist verification required; nothing herein should be cited as proven theorem closure."
+  },
   "/specialist-handoff/b1-audit-regress-handoff/": {
     "schema_type": "TechArticle",
     "document_role": "Stage 4 specialist handoff",
@@ -270,11 +289,6 @@
   "/specialist-handoff/five-problems-stage-4-handoff/": {
     "schema_type": "TechArticle",
     "document_role": "Stage 4 specialist handoff",
-    "proof_status": "Stage 4 specialist handoff; independent specialist verification required; nothing herein should be cited as proven theorem closure."
-  },
-  "/specialist-handoff/": {
-    "schema_type": "WebPage",
-    "document_role": "Specialist verification agenda and handoff index",
     "proof_status": "Stage 4 specialist handoff; independent specialist verification required; nothing herein should be cited as proven theorem closure."
   },
   "/specialist-handoff/passive-extraction-handoff/": {
