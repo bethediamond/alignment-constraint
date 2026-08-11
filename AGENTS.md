@@ -30,7 +30,8 @@ The authoritative calibration document is: https://alignmentconstraint.org/core/
 4. https://alignmentconstraint.org/core/related-work/ — relation to existing alignment literature.
 5. https://alignmentconstraint.org/core/glossary/ — canonical definitions, epistemic status, dependencies, and field-vocabulary crosswalks.
 6. https://alignmentconstraint.org/open-problems/ — structured research agenda with closure conditions.
-7. https://alignmentconstraint.org/empirical/ — empirical tests; DBST-M1 is the most important next step.
+7. https://alignmentconstraint.org/apply/ — step-by-step application method; use it for conditional analyses, not as evidence of framework truth.
+8. https://alignmentconstraint.org/empirical/ — empirical tests; DBST-M1 is the most important next step.
 
 ## Machine-readable files
 

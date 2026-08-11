@@ -15,6 +15,7 @@ Proof status: Stage 4 candidate architecture under named premises, not theorem c
 - /public/op4d-counterexample-challenge/ — public counterexample challenge
 - /empirical/amp/ — Alignment Measurement Protocol and empirical program
 - /open-problems/ — open problems index
+- /apply/ — step-by-step application method and worked cases
 - /specialist-handoff/ — specialist verification agenda
 
 ## Machine-readable root files

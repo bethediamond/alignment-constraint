@@ -12,6 +12,7 @@ https://alignmentconstraint.org/sitemap.txt
 https://alignmentconstraint.org/CITATION.cff
 https://alignmentconstraint.org/MANIFEST.md
 https://alignmentconstraint.org/open-problems/
+https://alignmentconstraint.org/apply/
 https://alignmentconstraint.org/core/for-researchers/
 https://alignmentconstraint.org/core/related-work/
 https://alignmentconstraint.org/core/glossary/

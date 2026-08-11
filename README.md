@@ -26,6 +26,7 @@ Proof status: **Stage 4 — candidate proof architecture under named premises, w
 | Existing alignment literature | [Relation to Existing Alignment Work](https://alignmentconstraint.org/core/related-work/) |
 | Canonical terminology | [Glossary and Defined Terms](https://alignmentconstraint.org/core/glossary/) |
 | Open research tasks | [Open Problems](https://alignmentconstraint.org/open-problems/) |
+| Apply the framework | [Step-by-step application method and worked cases](https://alignmentconstraint.org/apply/) |
 | Experimental researchers | [Alignment Measurement Protocol](https://alignmentconstraint.org/empirical/amp/) |
 | Full framework | [The Alignment Constraint](https://alignmentconstraint.org/core/alignment-constraint/) |
 | Historical origin | [Redefining Rationality](https://alignmentconstraint.org/public/redefining-rationality/) |

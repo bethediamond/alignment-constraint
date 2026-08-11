@@ -49,6 +49,12 @@
       "status": "actionable; named closure conditions"
     },
     {
+      "title": "Apply the Framework",
+      "url": "https://alignmentconstraint.org/apply/",
+      "role": "step-by-step application method and worked cases",
+      "status": "application guide; conditional use only; application is not evidence that the framework is true"
+    },
+    {
       "title": "Alignment Measurement Protocol",
       "url": "https://alignmentconstraint.org/empirical/amp/",
       "role": "empirical testing gateway",

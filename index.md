@@ -38,6 +38,9 @@ without accepting the framework.
 **If you want the full framework →**
 [The Alignment Constraint](/core/alignment-constraint/) — hub and proof-architecture map.
 
+**If you want to apply the framework →**
+[Apply the Framework](/apply/) — a step-by-step method with worked cases, explicit premises, and falsifiers.
+
 **If you want the honest limits first →**
 [Proof Status and Non-Claims](/core/proof-status/) — what is and is not claimed.
 

@@ -44,6 +44,9 @@
 - [Open Problems](https://alignmentconstraint.org/open-problems/): structured research agenda with named closure conditions.
   Status: actionable; each entry has specialist type and falsification path.
 
+- [Apply the Framework](https://alignmentconstraint.org/apply/): step-by-step conditional application method with worked cases, explicit premises, evidence gaps, falsifiers, and design implications.
+  Status: application guide; applying the framework is not evidence that the framework is true.
+
 - [Alignment Measurement Protocol](https://alignmentconstraint.org/empirical/amp/): empirical program including SVG, DRG, and DBST-M1.
   Status: protocol document; DBST-M0 did not isolate causal propagation from event-rate effects; DBST-M1 proposed.
 
