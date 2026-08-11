@@ -1,1 +1,63 @@
+---
+---
 
+@import "minima";
+
+/*
+ * Alignment Constraint Framework — compact Claim Card presentation
+ *
+ * The Claim Card text remains ordinary rendered HTML near the top of each
+ * technical page. This changes presentation only; it does not hide, collapse,
+ * reorder, or alter the card's content or semantics.
+ */
+
+h2#claim-card {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  padding: 0.5rem 0.8rem 0.35rem;
+  border: 1px solid #e5e5e5;
+  border-bottom: 0;
+  border-radius: 6px 6px 0 0;
+  background: #f8f8f8;
+  font-size: 0.95rem;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+h2#claim-card + ul {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 1.75rem;
+  padding: 0.55rem 0.85rem 0.65rem;
+  border: 1px solid #e5e5e5;
+  border-top: 0;
+  border-radius: 0 0 6px 6px;
+  background: #f8f8f8;
+  list-style: none;
+  font-size: 0.93rem;
+  line-height: 1.45;
+}
+
+h2#claim-card + ul > li {
+  margin: 0.22rem 0;
+  padding: 0;
+}
+
+h2#claim-card + ul > li:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+  h2#claim-card {
+    padding: 0.45rem 0.65rem 0.3rem;
+    font-size: 0.9rem;
+  }
+
+  h2#claim-card + ul {
+    padding: 0.5rem 0.65rem 0.6rem;
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+}
