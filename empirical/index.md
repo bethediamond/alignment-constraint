@@ -1,5 +1,6 @@
 ---
 title: "Empirical Program"
+description: "Index to the Alignment Constraint Framework empirical program, including published preregistrations and results, AMP, DBST work, and draft mechanism-discrimination protocols."
 permalink: /empirical/
 ---
 
