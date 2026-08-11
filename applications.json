@@ -1,0 +1,312 @@
+{
+  "schema_version": "1.0",
+  "framework": "The Alignment Constraint Framework",
+  "canonical_url": "https://alignmentconstraint.org/",
+  "application_page": "https://alignmentconstraint.org/apply/",
+  "portable_guide": "https://alignmentconstraint.org/APPLYING_THE_FRAMEWORK.md",
+  "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.",
+  "application_status_rule": "An application of the framework is a conditional analysis, not evidence that the framework is true and not an upgrade of its proof status.",
+  "classification_options": [
+    {
+      "id": "PCL",
+      "name": "fixed specification / PCL",
+      "description": "A finite governing boundary is held fixed relative to optimization; the relevant Stage 4 pressure is proxy-convergence/decoupling under the stated premises."
+    },
+    {
+      "id": "AGC",
+      "name": "bounded dynamic tracking / AGC",
+      "description": "A boundary updates adaptively at bounded cost; the relevant Stage 4 pressure is non-vanishing tracking/maintenance burden or adequacy loss under optimizer-generated novelty."
+    },
+    {
+      "id": "ICI",
+      "name": "prediction-action firewall / ICI",
+      "description": "Excluded variables remain available for prediction or instrumental policy influence while denied objective-governing status; the relevant Stage 4 pressure is representational incompatibility, audit regress, or recoupling."
+    },
+    {
+      "id": "FOURTH",
+      "name": "candidate fourth class",
+      "description": "A claimed architecture outside PCL, AGC, and ICI; it must survive the OP4d counterexample conditions rather than merely use a different label."
+    },
+    {
+      "id": "INSUFFICIENT",
+      "name": "insufficient information",
+      "description": "The optimizer, objective boundary, excluded variables, or maintenance mechanism is not specified well enough to justify structural classification."
+    }
+  ],
+  "o_owt_checklist": [
+    {
+      "id": "OWT-1",
+      "name": "macroscopic causal perturbation"
+    },
+    {
+      "id": "OWT-2",
+      "name": "intervention-generated structural opacity / dependency growth"
+    },
+    {
+      "id": "OWT-3",
+      "name": "strategic/adaptive substrate"
+    },
+    {
+      "id": "OWT-4",
+      "name": "persistent optimization horizon"
+    },
+    {
+      "id": "OWT-5",
+      "name": "reachable non-resettable / absorbing failure state"
+    }
+  ],
+  "method": [
+    {
+      "step": 1,
+      "name": "Identify the optimizer or decision process",
+      "instruction": "Name the actual policy, training process, oversight process, or persistent deployment loop being analyzed."
+    },
+    {
+      "step": 2,
+      "name": "State the proposed objective",
+      "instruction": "Separate the intended target from the concrete governing mechanism that makes it action-relevant."
+    },
+    {
+      "step": 3,
+      "name": "Assess the environment and O_OWT applicability",
+      "instruction": "Assess OWT-1 macroscopic causal perturbation, OWT-2 intervention-generated structural opacity/dependency growth, OWT-3 strategic/adaptive substrate, OWT-4 persistent optimization horizon, and OWT-5 reachable non-resettable state. Report supported, partly supported, not established, or not applicable."
+    },
+    {
+      "step": 4,
+      "name": "Identify the objective boundary",
+      "instruction": "State which variables/conditions count toward success and which remain outside objective governance."
+    },
+    {
+      "step": 5,
+      "name": "List causally load-bearing excluded variables",
+      "instruction": "Identify excluded variables that materially affect adequate prediction/action or the viability/identity of the intended target; do not invent them if none are established."
+    },
+    {
+      "step": 6,
+      "name": "Identify the boundary-maintenance mechanism",
+      "instruction": "Describe whether the boundary is fixed, dynamically updated, firewalled, recoupled, maintained by another mechanism, or unspecified."
+    },
+    {
+      "step": 7,
+      "name": "Classify the strategy",
+      "instruction": "Choose fixed specification/PCL, bounded dynamic tracking/AGC, prediction-action firewall/ICI, candidate fourth class, or insufficient information."
+    },
+    {
+      "step": 8,
+      "name": "State the predicted structural pressure",
+      "instruction": "Name the specific conditional pressure rather than a generic alignment risk."
+    },
+    {
+      "step": 9,
+      "name": "State every premise",
+      "instruction": "List domain, separability, excluded-variable, modeling-depth, scaling, and relevant PCL/AGC/ICI or empirical-hinge assumptions."
+    },
+    {
+      "step": 10,
+      "name": "Separate evidence from extrapolation",
+      "instruction": "Record what is demonstrated for the system separately from what is inferred conditionally from the framework."
+    },
+    {
+      "step": 11,
+      "name": "Identify a falsifier",
+      "instruction": "Name a formal or empirical result that would make the classification or predicted pressure wrong."
+    },
+    {
+      "step": 12,
+      "name": "State the design decision that would change",
+      "instruction": "Name a concrete conditional design or evaluation decision that follows if the analysis is correct."
+    },
+    {
+      "step": 13,
+      "name": "Report framework status",
+      "instruction": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure. State that the application itself does not upgrade this status."
+    },
+    {
+      "step": 14,
+      "name": "Link primary sources",
+      "instruction": "At minimum link The Stability Assumption and Proof Status; add OP4d, AMP, or the relevant Technical Companion when applicable."
+    }
+  ],
+  "report_template_fields": [
+    "system_or_proposal",
+    "optimizer_or_decision_process",
+    "objective",
+    "domain_and_o_owt_assessment",
+    "objective_boundary",
+    "excluded_causally_load_bearing_variables",
+    "boundary_maintenance_mechanism",
+    "candidate_strategy_class",
+    "predicted_structural_pressure",
+    "premises_used",
+    "evidence_available",
+    "evidence_not_available_or_extrapolation",
+    "falsifier",
+    "possible_design_response",
+    "confidence_and_limitations",
+    "framework_proof_status",
+    "sources"
+  ],
+  "worked_applications": [
+    {
+      "id": "rlhf_reward_modeling",
+      "title": "RLHF and reward modeling",
+      "approach": "A reward or preference model learned from human judgments guides policy optimization.",
+      "o_owt_assessment": "Not established by RLHF alone. The application strengthens only insofar as the actual deployed or training/deployment system satisfies the relevant O_OWT conditions.",
+      "objective_boundary": "The reward/preference model and encoded signals govern optimization success; adequacy-relevant aspects of the intended human target not represented as governing remain outside the boundary.",
+      "excluded_variables": "System-specific human, institutional, environmental, or long-horizon causal variables that materially affect the intended target but are not objective-governing. A real application must identify them concretely.",
+      "boundary_maintenance_mechanism": "Fixed reward/preference model during the analyzed optimization phase; updating or firewall variants require reclassification.",
+      "candidate_class": "fixed specification / PCL (for the fixed-reward-model case)",
+      "predicted_pressure": "Conditional proxy-convergence/decoupling as optimization and deployment alter causal conditions not captured by the fixed finite specification.",
+      "premises": [
+        "finite separable reward/preference boundary",
+        "relevant O_OWT conditions",
+        "adequacy-relevant excluded variables",
+        "PCL scaling/decoupling premises"
+      ],
+      "evidence_available": "The canonical Stability Assumption and Related Work pages explicitly map RLHF/reward modeling to the fixed-specification/PCL pressure.",
+      "evidence_not_available": "No demonstration here that a particular RLHF system fully satisfies O_OWT, has actually decoupled, or independently verifies the PCL scaling premises.",
+      "falsifier": "Show that the fixed finite reward/preference boundary remains adequate under accurate fuller-information evaluation as modeling depth and intervention pressure rise without target decoupling, or show that the actual architecture is not fixed/separable and therefore requires reclassification.",
+      "possible_design_response": "Measure reward-model adequacy under increasing deployment coupling; reclassify proposed dynamic updates as AGC candidates and explicit information gates as ICI candidates.",
+      "epistemic_status": "Illustrative conditional application; not evidence that RLHF fails and not evidence that PCL is a closed theorem.",
+      "sources": [
+        "https://alignmentconstraint.org/core/stability-assumption-full/",
+        "https://alignmentconstraint.org/core/related-work/",
+        "https://alignmentconstraint.org/core/proof-status/"
+      ]
+    },
+    {
+      "id": "scalable_oversight_debate",
+      "title": "Scalable oversight or debate",
+      "approach": "A bounded human or AI-assisted evaluative process attempts to preserve meaningful oversight as system capability increases.",
+      "o_owt_assessment": "Architecture-specific. Strong application requires persistent coupled deployment with optimizer-generated environmental change and adaptive responses.",
+      "objective_boundary": "The evaluator/decomposition defines what counts as acceptable or aligned; global or long-range consequences omitted from that bounded evaluation remain outside the governing boundary.",
+      "excluded_variables": "System-specific global consequences, strategic responses, or model-known facts relevant to action quality but not adequately represented in the evaluator.",
+      "boundary_maintenance_mechanism": "The evaluative process updates judgments/decompositions under finite resources; some designs also use an explicit prediction/action partition.",
+      "candidate_class": "bounded dynamic tracking / AGC as the primary classification for updating oversight; ICI may be primary where a prediction/action firewall is explicit",
+      "predicted_pressure": "Conditional non-vanishing tracking/maintenance burden or adequacy loss under optimizer-generated novelty; explicit firewalls may also face audit-regress pressure.",
+      "premises": [
+        "relevant O_OWT conditions",
+        "bounded evaluator/tracker",
+        "adequacy-relevant omitted variables",
+        "AGC/Synchronization/DBST-M1 antecedent where invoked"
+      ],
+      "evidence_available": "The Stability Assumption maps debate/oversight to bounded-tracking pressure and scalable oversight to boundary-maintenance pressure; Related Work identifies an ICI/audit-regress question.",
+      "evidence_not_available": "No result establishes that every oversight architecture has the predicted burden; DBST-M1 has not yet run.",
+      "falsifier": "Demonstrate a bounded evaluator maintaining adequacy comparable to an open/full-information evaluator under agent-action-generated novelty while relevant variation and maintenance burden vanish, or show that the architecture does not use the classified boundary mechanism.",
+      "possible_design_response": "Specify update budget and omitted variables; compare bounded oversight with an open evaluator under equal resources and test any information firewall separately.",
+      "epistemic_status": "Illustrative conditional application; not evidence that scalable oversight or debate fails.",
+      "sources": [
+        "https://alignmentconstraint.org/core/stability-assumption-full/",
+        "https://alignmentconstraint.org/core/related-work/",
+        "https://alignmentconstraint.org/empirical/amp/"
+      ]
+    },
+    {
+      "id": "interpretability_monitoring",
+      "title": "Interpretability-based monitoring",
+      "approach": "A monitor reads internal representations or other model-state information to detect or constrain misalignment.",
+      "o_owt_assessment": "Deployment-specific; a static bounded diagnostic does not by itself establish the strongest domain.",
+      "objective_boundary": "Rich internal information may be available for diagnosis while only approved findings or constraints are permitted to affect policy or objective governance.",
+      "excluded_variables": "Internal/external facts represented for prediction or diagnosis but intended to remain non-governing except through a permitted audit channel.",
+      "boundary_maintenance_mechanism": "A monitoring/audit layer decides which represented information matters for intervention while preserving the governing/non-governing partition.",
+      "candidate_class": "prediction-action firewall / ICI as primary; AGC may apply if the monitor must update dynamically at bounded cost",
+      "predicted_pressure": "Conditional audit regress/representational incompatibility; a dynamically changing monitor may also face non-vanishing boundary-maintenance pressure.",
+      "premises": [
+        "relevant coupled domain conditions",
+        "persistent policy-relevant access to excluded information",
+        "firewall/adjudication mechanism",
+        "ICI/B1 premises; AGC premises if dynamic tracking is claimed"
+      ],
+      "evidence_available": "The Stability Assumption explicitly maps interpretability-as-monitoring to firewall/audit-regress pressure; Related Work also connects monitoring to AGC.",
+      "evidence_not_available": "No archive result establishes that every interpretability architecture enters audit regress or requires unbounded updating.",
+      "falsifier": "Demonstrate a monitor that preserves needed policy-relevant predictive information while keeping excluded variables non-governing without audit regress, recoupling, or persistent maintenance burden under the relevant conditions.",
+      "possible_design_response": "Audit the monitor and its adjudication rule as a boundary-maintenance system rather than assuming interpretability itself solves the specification problem.",
+      "epistemic_status": "Illustrative conditional application; does not imply interpretability is useless or sufficient.",
+      "sources": [
+        "https://alignmentconstraint.org/core/stability-assumption-full/",
+        "https://alignmentconstraint.org/core/related-work/",
+        "https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/"
+      ]
+    },
+    {
+      "id": "corrigibility",
+      "title": "Corrigibility",
+      "approach": "A system is intended to remain correctable by operators, including shutdown, modification, or correction.",
+      "o_owt_assessment": "Cannot be inferred from the label; requires the actual deployment horizon, causal reach, adaptive environment, and non-resettable-state analysis.",
+      "objective_boundary": "Not specified by corrigibility as a broad research goal; a concrete implementation must define the governing objective or policy constraint.",
+      "excluded_variables": "Potentially the social, institutional, epistemic, and other substrate conditions that make correction possible, if a specific objective depends on them while leaving them outside governance.",
+      "boundary_maintenance_mechanism": "Insufficient information without a concrete implementation.",
+      "candidate_class": "insufficient information",
+      "predicted_pressure": "The directly supported framework connection is substrate pressure: substrate-blind optimization may degrade conditions required for correction. PCL/AGC/ICI classification depends on the implementation.",
+      "premises": [
+        "specific correction architecture needed before three-family classification",
+        "correction-enabling substrate must be causally load-bearing for any substrate-pressure application"
+      ],
+      "evidence_available": "Related Work explicitly distinguishes a system's disposition to accept correction from preservation of the environmental conditions that make correction possible.",
+      "evidence_not_available": "No concrete objective-boundary architecture is supplied by the broad term corrigibility, so a definitive PCL/AGC/ICI classification would be invented.",
+      "falsifier": "Supply a concrete architecture, which should replace the insufficient-information classification. For the substrate-pressure hypothesis, show that the alleged correction-enabling conditions remain preserved or are not causally load-bearing under the relevant interventions.",
+      "possible_design_response": "Specify the operator, correction channel, correction-enabling substrate, governing objective, and boundary-maintenance mechanism before claiming structural coverage.",
+      "epistemic_status": "Illustrative example of a deliberately withheld classification.",
+      "sources": [
+        "https://alignmentconstraint.org/core/related-work/",
+        "https://alignmentconstraint.org/series-1/technical-companion/",
+        "https://alignmentconstraint.org/core/proof-status/"
+      ]
+    },
+    {
+      "id": "proof_carrying_boundary_candidate",
+      "title": "Hypothetical proof-carrying boundary as a candidate fourth strategy",
+      "approach": "A finite objective G plus a fixed verifier V; excluded variables X can affect action ranking through certificates of admissibility while remaining declared outside objective satisfaction.",
+      "o_owt_assessment": "Assume the full relevant coupled persistent domain for purposes of the OP4d counterexample stress test.",
+      "objective_boundary": "G remains governing; X is excluded from satisfaction but can affect policy through certificate generation/verification.",
+      "excluded_variables": "Adequacy-relevant X variables required for action evaluation while declared non-governing.",
+      "boundary_maintenance_mechanism": "A fixed proof/certificate language and verifier mediate policy-relevant influence from X.",
+      "candidate_class": "candidate fourth class — unresolved and included only as an adversarial test construction",
+      "predicted_pressure": "The framework would test whether certificate admissibility reduces to ICI, proof obligations/semantics acquire AGC-style non-vanishing maintenance, fixed proof semantics become PCL-like, or X becomes functionally objective-governing recoupling.",
+      "premises": [
+        "persistent policy-relevant causal influence from X",
+        "relevant O_OWT conditions",
+        "finite non-intrinsic objective boundary",
+        "claimed fixed verifier/proof system"
+      ],
+      "evidence_available": "The construction superficially preserves policy-relevant influence from excluded variables while declaring them non-governing, satisfying only a surface part of the OP4d challenge.",
+      "evidence_not_available": "No proof of OP4d A/B/C or L8 satisfaction, no proof of bounded/vanishing maintenance, no proof against audit regress or objective recoupling, and no empirical evidence.",
+      "falsifier": "Fourth-class candidacy fails if external causal analysis reduces the certificate channel to PCL, AGC, ICI, or objective recoupling. A toy formal construction surviving OP4d A/B/C and the L8 challenge would instead materially challenge the present exhaustiveness architecture.",
+      "possible_design_response": "Formalize the causal graph, certificate semantics, and resource/description-length scaling before treating the proposal as a new strategy class.",
+      "epistemic_status": "Deliberately speculative stress-test construction; not an archive claim and not evidence that a fourth class exists.",
+      "sources": [
+        "https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/",
+        "https://alignmentconstraint.org/proof-program/op4d-candidate-normal-form/",
+        "https://alignmentconstraint.org/core/for-researchers/"
+      ]
+    }
+  ],
+  "safe_use": {
+    "allowed": [
+      "conditional structural analysis",
+      "identification of candidate failure family",
+      "identification of missing premises",
+      "proposal of formal counterexamples or empirical tests",
+      "comparison of alternative objective-boundary designs",
+      "returning insufficient information when appropriate"
+    ],
+    "not_allowed": [
+      "report OP4 or OP4d as proved",
+      "treat an application as confirmation",
+      "assume every AI system satisfies O_OWT",
+      "treat PCL, AGC, and ICI as formally exhaustive before OP4d closes",
+      "use a broad research label as a substitute for specifying the actual objective boundary",
+      "use Series 3 phenomenology to upgrade Series 1 or Series 2 proof status"
+    ]
+  },
+  "primary_sources": {
+    "stability_assumption": "https://alignmentconstraint.org/core/stability-assumption/",
+    "stability_assumption_full": "https://alignmentconstraint.org/core/stability-assumption-full/",
+    "proof_status": "https://alignmentconstraint.org/core/proof-status/",
+    "related_work": "https://alignmentconstraint.org/core/related-work/",
+    "glossary": "https://alignmentconstraint.org/core/glossary/",
+    "op4d": "https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/",
+    "candidate_normal_form": "https://alignmentconstraint.org/proof-program/op4d-candidate-normal-form/",
+    "amp": "https://alignmentconstraint.org/empirical/amp/"
+  }
+}
