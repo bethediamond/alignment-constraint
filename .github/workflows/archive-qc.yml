@@ -1,1 +1,23 @@
+name: Archive QC
 
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  archive-qc:
+    name: Check archive quality
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Show Python version
+        run: python3 --version
+
+      - name: Run archive validator
+        run: python3 scripts/validate_archive.py
