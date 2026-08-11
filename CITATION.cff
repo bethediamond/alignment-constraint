@@ -1,24 +1,30 @@
 cff-version: 1.2.0
-message: "If you use this framework, please cite it using this metadata."
+message: "If you use this framework before the v1.0.0 DOI is published, cite the canonical archive. DOI metadata will be added only after the corresponding public records resolve."
 title: "The Alignment Constraint Framework"
 authors:
   - family-names: "Silliphant"
     given-names: "John"
-abstract: "A structural framework on AI alignment, specification coherence, separable objective specification, substrate-aware optimization, valence-aware optimization, and the Stability Assumption."
+    orcid: "https://orcid.org/0009-0008-3015-2589"
+version: "1.0.0"
+license: "CC-BY-4.0"
+url: "https://alignmentconstraint.org"
+repository-code: "https://github.com/bethediamond/alignment-constraint"
+abstract: >-
+  A structural framework on AI alignment, specification coherence, separable objective
+  specification, substrate-aware optimization, valence-aware optimization, and the
+  Stability Assumption. Current proof status: Stage 4 — candidate proof architecture under
+  named premises, without independent specialist verification and without theorem closure.
 keywords:
   - "AI alignment"
   - "AI safety"
   - "specification coherence"
+  - "separable objective specification"
   - "Stability Assumption"
+  - "OP4"
   - "OP4d"
   - "PCL"
   - "AGC"
   - "ICI"
   - "DBST-M1"
-  - "V(t)"
   - "Goodhart's Law"
   - "RLHF"
-url: "https://alignmentconstraint.org"
-repository-code: "https://github.com/bethediamond/alignment-constraint"
-version: "2026-07-28"
-date-released: "2026-07-28"

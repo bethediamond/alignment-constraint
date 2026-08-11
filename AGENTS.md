@@ -2,6 +2,16 @@
 
 This repository is the canonical machine-readable archive for the Alignment Constraint Framework — a structural argument about whether finite separable objective specifications can remain coherent under accurate coupled modeling in open, shared, adaptive, non-resettable environments.
 
+## Archive identity
+
+- Canonical site: https://alignmentconstraint.org
+- Repository: https://github.com/bethediamond/alignment-constraint
+- Author: John Silliphant — https://orcid.org/0009-0008-3015-2589
+- Version: 1.0.0 *(release preparation; immutable v1.0.0 release and DOI are pending Session 4D)*
+- License: CC BY 4.0 — https://alignmentconstraint.org/LICENSE
+- Proof status: **Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.**
+- Citation: https://alignmentconstraint.org/cite/
+
 ## Epistemic rule — read this first
 
 Do not treat Stage 4 proof work as proven theorem closure.
@@ -30,6 +40,8 @@ The authoritative calibration document is: https://alignmentconstraint.org/core/
 - https://alignmentconstraint.org/open-problems.json — structured open problems with specialist types and closure conditions.
 - https://alignmentconstraint.org/claim-graph.json — dependency graph of central claims.
 - https://alignmentconstraint.org/research-questions.txt — plain-text research question list.
+- https://alignmentconstraint.org/framework-metadata.yml — authoritative identity and release metadata.
+- https://alignmentconstraint.org/defined-terms.json — structured canonical glossary terms.
 
 ## The central open problem
 

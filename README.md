@@ -2,12 +2,16 @@
 
 A structural framework on AI alignment, specification coherence, separable objective specification, substrate-aware optimization, valence-aware optimization, and the Stability Assumption.
 
-Canonical website: https://alignmentconstraint.org
-Repository: https://github.com/bethediamond/alignment-constraint
+Canonical website: https://alignmentconstraint.org  
+Repository: https://github.com/bethediamond/alignment-constraint  
+Author: John Silliphant — https://orcid.org/0009-0008-3015-2589  
+Version: 1.0.0 *(release preparation; immutable v1.0.0 release and DOI are pending Session 4D)*  
+License: CC BY 4.0 — see the repository-root `LICENSE` file  
+Citation: https://alignmentconstraint.org/cite/
 
 Central question: Can a finite, separable objective remain coherently specified as an optimization system becomes capable enough that acting well requires modeling the conditions its objective excludes?
 
-Proof status: Stage 4 — candidate architecture under named premises, not theorem closure. Read the calibration page before citing any technical claim: https://alignmentconstraint.org/core/proof-status/
+Proof status: **Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.** Read the calibration page before citing any technical claim: https://alignmentconstraint.org/core/proof-status/
 
 ---
 
@@ -67,6 +71,8 @@ These files are included to make the framework legible to search systems, LLMs, 
 - [open-problems.json](https://alignmentconstraint.org/open-problems.json) — machine-readable open problems
 - [claim-graph.json](https://alignmentconstraint.org/claim-graph.json) — dependency graph of central claims
 - [research-questions.txt](https://alignmentconstraint.org/research-questions.txt) — plain-text research question list
+- [framework-metadata.yml](https://alignmentconstraint.org/framework-metadata.yml) — authoritative framework identity and release metadata
+- [defined-terms.json](https://alignmentconstraint.org/defined-terms.json) — structured canonical glossary terms
 - [sitemap.xml](https://alignmentconstraint.org/sitemap.xml) — XML sitemap
 - [sitemap.txt](https://alignmentconstraint.org/sitemap.txt) — plain-text sitemap
 - [robots.txt](https://alignmentconstraint.org/robots.txt) — crawler permissions

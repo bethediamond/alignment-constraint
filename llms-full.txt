@@ -2,8 +2,11 @@
 
 Canonical website: https://alignmentconstraint.org
 GitHub repository: https://github.com/bethediamond/alignment-constraint
-Proof status: Stage 4 candidate architecture under named premises, not theorem closure.
-Author: John Silliphant.
+Author: John Silliphant — https://orcid.org/0009-0008-3015-2589
+Version: 1.0.0 (release preparation; immutable v1.0.0 release and DOI are pending Session 4D)
+License: CC BY 4.0 — https://alignmentconstraint.org/LICENSE
+Proof status: Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.
+Citation: https://alignmentconstraint.org/cite/
 
 ## Purpose of this file
 
@@ -108,6 +111,8 @@ Specialist handoffs: https://alignmentconstraint.org/specialist-handoff/
 - https://alignmentconstraint.org/open-problems.json
 - https://alignmentconstraint.org/claim-graph.json
 - https://alignmentconstraint.org/research-questions.txt
+- https://alignmentconstraint.org/framework-metadata.yml
+- https://alignmentconstraint.org/defined-terms.json
 - https://alignmentconstraint.org/sitemap.xml
 - https://alignmentconstraint.org/sitemap.txt
 - https://alignmentconstraint.org/robots.txt
