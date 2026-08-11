@@ -416,6 +416,13 @@ Primary sources: [OP4d: The Exhaustiveness Obligation](https://alignmentconstrai
 
 ---
 
+## Submit a counterexample
+
+To submit a proposed fourth strategy class or other counterexample, contact [diamondlight@gmail.com](mailto:diamondlight@gmail.com?subject=OP4d%20counterexample).  
+**Subject:** `OP4d counterexample`
+
+---
+
 ## Machine-readable companions
 
 - Portable Markdown application guide: `https://alignmentconstraint.org/APPLYING_THE_FRAMEWORK.md`
