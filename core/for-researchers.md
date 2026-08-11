@@ -71,6 +71,13 @@ See [Proof Status and Non-Claims →](/core/proof-status/) for the full calibrat
 
 ---
 
+## Submit a counterexample
+
+To submit a proposed fourth strategy class or other counterexample, contact [diamondlight@gmail.com](mailto:diamondlight@gmail.com?subject=OP4d%20counterexample).  
+**Subject:** `OP4d counterexample`
+
+---
+
 ## Three links for engagement
 
 1. [The Stability Assumption](/core/stability-assumption/) — field-facing entry to OP4
