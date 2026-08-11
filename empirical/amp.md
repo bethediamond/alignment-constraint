@@ -83,7 +83,15 @@ _Not yet discriminated_
 
 The canonical matched-signal result comes from the scaled replication (n=66 per condition per model, three frontier systems, identical signals in both conditions), which produced partially discriminating results under the matched-signal condition.
 
-![AMP table summarizing matched-signal DRG results for Claude-Sonnet-4–6, Gemini-2.5-Flash, and GPT-4o, including confidence intervals and discriminating status.](https://miro.medium.com/v2/resize:fit:1400/1*MRtM1D8uOgq8BuSrctQ3Ew.jpeg)
+| Model | DRG_matched result |
+|---|---|
+| Claude-Sonnet-4-6 | DRG_matched = 3.0%, 95% CI −5.1% to +11.2% — non-discriminating |
+| Gemini-2.5-Flash | DRG_matched = 18.2%, 95% CI +2.6% to +33.8% — discriminating in the predicted direction |
+| GPT-4o | DRG_matched = 0.0%, 95% CI 0.0% to 0.0% — ceiling behavior, non-discriminating |
+
+**Visual rendering of the same results:**
+
+![AMP table summarizing matched-signal DRG results for Claude-Sonnet-4-6, Gemini-2.5-Flash, and GPT-4o, including confidence intervals and discriminating status.](/assets/images/table_AMP_dilinger.jpg)
 
 The pre-registered criterion (CI excludes zero in ≥2 of 3 models) was not met. Full results, pre-registration, and per-model breakdown at [https://osf.io/xpsf2](https://osf.io/xpsf2).
 
