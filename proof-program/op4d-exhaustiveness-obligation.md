@@ -8,6 +8,20 @@ description: "A Stage 4 technical note defining the three candidate failure fami
 
 ---
 
+## Claim card
+
+- **Claim or question under investigation:** **OP4d:** are PCL, AGC, and ICI jointly exhaustive over the relevant finite non-intrinsic objective-boundary strategy space?
+- **Current epistemic status:** **Open Stage 4 obligation.** The archive has a candidate classification and adversarial-search history, but not a formal exhaustiveness proof.
+- **Scope/domain:** Finite non-intrinsic objective-boundary strategies in the stated O_OWT environment class.
+- **Named premises:** The definitions of stable adequacy and the PCL/AGC/ICI families, together with the domain and representation assumptions made explicit in the candidate normal-form apparatus.
+- **What would support it:** A verified positive normal-form/exhaustiveness argument showing that every qualifying strategy reduces to one of the three families under the stated premises.
+- **What would weaken or falsify it:** One well-formed fourth strategy class that satisfies the counterexample conditions and lies outside PCL, AGC, and ICI.
+- **Dependencies:** [Candidate Normal Form](/proof-program/op4d-candidate-normal-form/), [OP4](/core/stability-assumption-full/), and the underlying PCL/AGC/ICI proof tracks.
+- **Primary source:** [OP4d: The Exhaustiveness Obligation](/proof-program/op4d-exhaustiveness-obligation/).
+- **How to cite:** Cite this canonical technical note with [Proof Status](/core/proof-status/) and use [How to Cite](/cite/) for archive citation details.
+
+---
+
 ---
 
 **Proof Program navigation:**

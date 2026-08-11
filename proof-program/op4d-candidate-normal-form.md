@@ -8,6 +8,20 @@ description: "The Stage 4 specialist apparatus for OP4d, including the Candidate
 
 ---
 
+## Claim card
+
+- **Claim or question under investigation:** Does the Candidate Normal Form correctly reduce every relevant finite objective-boundary strategy to the three known arms under its stated axioms, leaving no fourth class?
+- **Current epistemic status:** **Stage 4 candidate architecture — specialist verification pending.** This document does not close OP4d or establish Stage 6.
+- **Scope/domain:** Formal classification of finite non-intrinsic objective-boundary strategies for OP4d under the document’s five axioms and eight named lemmas.
+- **Named premises:** The five stated axioms, especially the load-bearing A2/A3 conditions, plus the eight lemma statements and their contradiction constructions.
+- **What would support it:** Specialist confirmation of Q1–Q3, adequacy of the load-bearing axioms, verification of the lemma reductions, and failure of the L8 construction challenge to yield a valid fourth class.
+- **What would weaken or falsify it:** A failure of a load-bearing axiom or lemma, or an L8-compatible minimal fourth-class counterexample satisfying the document’s stated constraints.
+- **Dependencies:** [OP4d technical note](/proof-program/op4d-exhaustiveness-obligation/), PCL/AGC/ICI, the Q1–Q3 specialist questions, A2 adequacy, and the L8 counterexample challenge.
+- **Primary source:** [OP4d Candidate Normal Form](/proof-program/op4d-candidate-normal-form/).
+- **How to cite:** Cite this page as a **candidate specialist apparatus**, not a theorem; pair it with [Proof Status](/core/proof-status/) and [How to Cite](/cite/).
+
+---
+
 **Problem:** OP4d — Specification Failure-Mode Exhaustiveness
 **Status:** Stage 4 candidate architecture — specialist verification pending
 **Document role:** Formal specialist apparatus for OP4d's Candidate Normal Form Theorem and exhaustiveness question

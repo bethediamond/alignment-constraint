@@ -8,6 +8,20 @@ description: "An empirical specialist packet defining the IMMB-NS hinge, the Syn
 
 ---
 
+## Claim card
+
+- **Claim or question under investigation:** Does **IMMB-NS** hold — do an optimizer’s own interventions generate qualitatively new adequacy-relevant causal structure that a bounded tracking process cannot absorb — and can DBST-M1 discriminate that mechanism?
+- **Current epistemic status:** **Stage 4 open empirical/formal hinge.** DBST-M0 has run but did not isolate the endogenous-novelty mechanism; DBST-M1 remains the mechanism test. IMMB-NS is not established.
+- **Scope/domain:** OWT-2/OWT-3-style adaptive environments in which interventions alter causal structure and other agents adapt, with bounded dynamic boundary tracking under increasing intervention pressure.
+- **Named premises:** Structural opacity, adaptive response, endogenous intervention-generated novelty, the Synchronization Condition, and the specified DBST-M1 causal design and comparison conditions.
+- **What would support it:** A positive pre-specified DBST-M1 mechanism result or an independent formal derivation of IMMB-NS from the stated conditions.
+- **What would weaken or falsify it:** A clean negative DBST-M1 result under the stated regime, or a formal argument showing that intervention-generated novelty remains representationally absorbable by a bounded tracker.
+- **Dependencies:** TC1 §§ XII.8/XII.13, [AMP](/empirical/amp/), AGC/OP4a, and the OP4d/OP9 routes identified in this packet.
+- **Primary source:** [Packet 1: IMMB-NS Verification and DBST](/proof-program/packet-1-immb-ns-dbst/); formal source: [TC1](/series-1/technical-companion/).
+- **How to cite:** Cite this page as a Stage 4 specialist/empirical packet and pair it with [Proof Status](/core/proof-status/) and [How to Cite](/cite/).
+
+---
+
 **Formal source:** TC1: The System-Aware Attractor, §XII.8 and §XII.13
 **Empirical source:** Experimental Companion to Series 1 and 2 / Alignment Measurement Protocol (AMP)
 **Document role:** Empirical engagement packet for researchers who want to test the IMMB-NS hinge without reading TC1 in full. The accessible entry point to the framework is Document 0. Readers unfamiliar with the framework's proof program should read the proof status note (*Proof Status and Non-Claims*) before this packet.
