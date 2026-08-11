@@ -1,1 +1,300 @@
-
+{
+  "/cite/": {
+    "schema_type": "WebPage",
+    "document_role": "Citation and versioning guide",
+    "proof_status": "Citation guide; the epistemic status of cited claims remains document-specific."
+  },
+  "/core/alignment-constraint/": {
+    "schema_type": "TechArticle",
+    "document_role": "Framework hub and proof-architecture map",
+    "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.",
+    "keywords": [
+      "AI alignment",
+      "specification coherence",
+      "Stability Assumption",
+      "OP4",
+      "substrate constraint",
+      "valence constraint"
+    ]
+  },
+  "/core/field-facing-bridge/": {
+    "schema_type": "TechArticle",
+    "document_role": "Field-facing bridge to the alignment research literature",
+    "proof_status": "Field-facing bridge within a Stage 4 framework; not theorem closure."
+  },
+  "/core/for-researchers/": {
+    "schema_type": "TechArticle",
+    "document_role": "Falsification and technical-engagement doorway",
+    "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure."
+  },
+  "/core/glossary/": {
+    "schema_type": "DefinedTermSet",
+    "document_role": "Canonical glossary and terminology crosswalk",
+    "proof_status": "Interpretation aid; it does not create new claims or upgrade existing claims."
+  },
+  "/core/proof-status/": {
+    "schema_type": "TechArticle",
+    "document_role": "Authoritative epistemic calibration and non-claims map",
+    "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure."
+  },
+  "/core/related-work/": {
+    "schema_type": "TechArticle",
+    "document_role": "Related-work and field-vocabulary bridge",
+    "proof_status": "Interpretive bridge document; not proof-bearing.",
+    "keywords": [
+      "AI alignment",
+      "inner alignment",
+      "reward hacking",
+      "Goodhart’s Law",
+      "RLHF",
+      "scalable oversight",
+      "interpretability",
+      "corrigibility",
+      "specification coherence"
+    ]
+  },
+  "/core/stability-assumption-full/": {
+    "schema_type": "ScholarlyArticle",
+    "document_role": "Primary technical manuscript for OP4 / The Stability Assumption",
+    "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure."
+  },
+  "/core/stability-assumption/": {
+    "schema_type": "TechArticle",
+    "document_role": "Field-facing entry to OP4 / The Stability Assumption",
+    "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure."
+  },
+  "/core/tightening-sequence/": {
+    "schema_type": "TechArticle",
+    "document_role": "Proof-program tightening and verification note",
+    "proof_status": "Proof-program note within Stage 4; not theorem closure."
+  },
+  "/empirical/amp/": {
+    "schema_type": "TechArticle",
+    "document_role": "Empirical measurement protocol and evidence summary",
+    "proof_status": "Empirical protocol within a Stage 4 framework; DBST-M0 did not isolate causal propagation, DBST-M1 has not yet run, and V(t)-validated SVG remains conditional on its prerequisite dissociation test."
+  },
+  "/empirical/drg-frame-manipulation-preregistration/": {
+    "schema_type": "TechArticle",
+    "document_role": "Prospective mechanism-discrimination preregistration design",
+    "proof_status": "Prospective preregistration design; not yet a result."
+  },
+  "/empirical/": {
+    "schema_type": "WebPage",
+    "document_role": "Empirical program index",
+    "proof_status": "Empirical research-program index; each listed result or protocol retains its own stated status."
+  },
+  "/empirical/vt-dissociation-study/": {
+    "schema_type": "TechArticle",
+    "document_role": "Draft latent-construct dissociation study design",
+    "proof_status": "Draft protocol only; not a result; latent-variable specialist review is required before filing."
+  },
+  "/": {
+    "schema_type": "WebSite",
+    "document_role": "Framework homepage and routing hub"
+  },
+  "/open-problems/": {
+    "schema_type": "TechArticle",
+    "document_role": "Research agenda and falsification index",
+    "proof_status": "Stage 4 research agenda, not a proof artifact.",
+    "keywords": [
+      "AI alignment",
+      "open problems",
+      "OP4d",
+      "DBST-M1",
+      "formal verification",
+      "alignment research agenda"
+    ]
+  },
+  "/proof-program/op4d-candidate-normal-form/": {
+    "schema_type": "TechArticle",
+    "document_role": "OP4d candidate representation-theorem proof-program note",
+    "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure."
+  },
+  "/proof-program/op4d-exhaustiveness-obligation/": {
+    "schema_type": "TechArticle",
+    "document_role": "OP4d exhaustiveness technical note and counterexample specification",
+    "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure."
+  },
+  "/proof-program/packet-1-immb-ns-dbst/": {
+    "schema_type": "TechArticle",
+    "document_role": "Empirical/formal specialist packet for IMMB-NS and DBST",
+    "proof_status": "Stage 4 specialist packet; DBST-M0 limitations are recorded and DBST-M1 is proposed, not completed."
+  },
+  "/public/ai-race-is-not-rational/": {
+    "schema_type": "Article",
+    "document_role": "Public framework essay",
+    "proof_status": "Public, non-technical entry point; not proof-bearing.",
+    "keywords": [
+      "AI alignment",
+      "AI race",
+      "optimization",
+      "substrate constraint",
+      "AI safety",
+      "institutional coordination"
+    ]
+  },
+  "/public/op4d-counterexample-challenge/": {
+    "schema_type": "TechArticle",
+    "document_role": "Public technical counterexample challenge",
+    "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.",
+    "keywords": [
+      "AI alignment",
+      "OP4d",
+      "counterexample challenge",
+      "PCL",
+      "AGC",
+      "ICI",
+      "separable objective specification"
+    ]
+  },
+  "/public/redefining-rationality/": {
+    "schema_type": "Article",
+    "document_role": "Public framework essay",
+    "proof_status": "Public/historical motivation; not proof-bearing."
+  },
+  "/public/winning-the-wrong-race/": {
+    "schema_type": "Article",
+    "document_role": "Public framework essay",
+    "proof_status": "Public, non-technical essay; not proof-bearing."
+  },
+  "/series-1/aligned-intelligence-converges-toward/": {
+    "schema_type": "Article",
+    "document_role": "Series 1 framework article",
+    "proof_status": "Framework article within a Stage 4 proof program; the article does not establish theorem closure."
+  },
+  "/series-1/alignment-of-intelligence/": {
+    "schema_type": "Article",
+    "document_role": "Series 1 framework article",
+    "proof_status": "Framework article within a Stage 4 proof program; the article does not establish theorem closure."
+  },
+  "/series-1/introduction/": {
+    "schema_type": "Article",
+    "document_role": "Series 1 introduction",
+    "proof_status": "Framework article within a Stage 4 proof program; the article does not establish theorem closure."
+  },
+  "/series-1/technical-companion/": {
+    "schema_type": "TechArticle",
+    "document_role": "Series 1 technical companion",
+    "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure."
+  },
+  "/series-1/the-crossing/": {
+    "schema_type": "Article",
+    "document_role": "Series 1 framework article",
+    "proof_status": "Framework article within a Stage 4 proof program; the article does not establish theorem closure."
+  },
+  "/series-2/depth-constraint/": {
+    "schema_type": "Article",
+    "document_role": "Series 2 framework article",
+    "proof_status": "Framework article within a Stage 4 proof program; the article does not establish theorem closure."
+  },
+  "/series-2/inner-crossing/": {
+    "schema_type": "Article",
+    "document_role": "Series 2 framework article",
+    "proof_status": "Framework article within a Stage 4 proof program; the article does not establish theorem closure."
+  },
+  "/series-2/introduction/": {
+    "schema_type": "Article",
+    "document_role": "Series 2 introduction",
+    "proof_status": "Framework article within a Stage 4 proof program; the article does not establish theorem closure."
+  },
+  "/series-2/invariant-drive/": {
+    "schema_type": "Article",
+    "document_role": "Series 2 framework article",
+    "proof_status": "Framework article within a Stage 4 proof program; the article does not establish theorem closure."
+  },
+  "/series-2/shape-of-what-does-not-end/": {
+    "schema_type": "Article",
+    "document_role": "Series 2 framework article",
+    "proof_status": "Framework article within a Stage 4 proof program; the article does not establish theorem closure."
+  },
+  "/series-2/technical-companion/": {
+    "schema_type": "TechArticle",
+    "document_role": "Series 2 technical companion",
+    "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure."
+  },
+  "/series-3/apophatic-discipline-framework/": {
+    "schema_type": "Article",
+    "document_role": "Series 3 epistemic-discipline companion",
+    "proof_status": "Series 3 interpretive/phenomenological material; it does not add evidential weight to Series 1 or Series 2 and does not establish theorem closure."
+  },
+  "/series-3/asymptote/": {
+    "schema_type": "Article",
+    "document_role": "Series 3 interpretive framework article",
+    "proof_status": "Series 3 interpretive/phenomenological material; it does not add evidential weight to Series 1 or Series 2 and does not establish theorem closure."
+  },
+  "/series-3/convergence-map/": {
+    "schema_type": "Article",
+    "document_role": "Series 3 cross-traditional convergence map",
+    "proof_status": "Series 3 interpretive/phenomenological material; it does not add evidential weight to Series 1 or Series 2 and does not establish theorem closure."
+  },
+  "/series-3/epistemic-status-map/": {
+    "schema_type": "Article",
+    "document_role": "Series 3 epistemic-status map",
+    "proof_status": "Series 3 interpretive/phenomenological material; it does not add evidential weight to Series 1 or Series 2 and does not establish theorem closure."
+  },
+  "/series-3/introduction/": {
+    "schema_type": "Article",
+    "document_role": "Series 3 introduction",
+    "proof_status": "Series 3 interpretive/phenomenological material; it does not add evidential weight to Series 1 or Series 2 and does not establish theorem closure."
+  },
+  "/series-3/navigation/": {
+    "schema_type": "Article",
+    "document_role": "Series 3 interpretive framework article",
+    "proof_status": "Series 3 interpretive/phenomenological material; it does not add evidential weight to Series 1 or Series 2 and does not establish theorem closure."
+  },
+  "/series-3/participating-structure/": {
+    "schema_type": "Article",
+    "document_role": "Series 3 interpretive framework article",
+    "proof_status": "Series 3 interpretive/phenomenological material; it does not add evidential weight to Series 1 or Series 2 and does not establish theorem closure."
+  },
+  "/series-3/resolution/": {
+    "schema_type": "Article",
+    "document_role": "Series 3 interpretive framework article",
+    "proof_status": "Series 3 interpretive/phenomenological material; it does not add evidential weight to Series 1 or Series 2 and does not establish theorem closure."
+  },
+  "/series-3/technical-companion/": {
+    "schema_type": "TechArticle",
+    "document_role": "Series 3 technical companion / proof-program sketch",
+    "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure."
+  },
+  "/specialist-handoff/b1-audit-regress-handoff/": {
+    "schema_type": "TechArticle",
+    "document_role": "Stage 4 specialist handoff",
+    "proof_status": "Stage 4 specialist handoff; independent specialist verification required; nothing herein should be cited as proven theorem closure."
+  },
+  "/specialist-handoff/b2-governance-bifurcation-handoff/": {
+    "schema_type": "TechArticle",
+    "document_role": "Stage 4 specialist handoff",
+    "proof_status": "Stage 4 specialist handoff; independent specialist verification required; nothing herein should be cited as proven theorem closure."
+  },
+  "/specialist-handoff/five-problems-stage-4-handoff/": {
+    "schema_type": "TechArticle",
+    "document_role": "Stage 4 specialist handoff",
+    "proof_status": "Stage 4 specialist handoff; independent specialist verification required; nothing herein should be cited as proven theorem closure."
+  },
+  "/specialist-handoff/": {
+    "schema_type": "WebPage",
+    "document_role": "Specialist verification agenda and handoff index",
+    "proof_status": "Stage 4 specialist handoff; independent specialist verification required; nothing herein should be cited as proven theorem closure."
+  },
+  "/specialist-handoff/passive-extraction-handoff/": {
+    "schema_type": "TechArticle",
+    "document_role": "Stage 4 specialist handoff",
+    "proof_status": "Stage 4 specialist handoff; independent specialist verification required; nothing herein should be cited as proven theorem closure."
+  },
+  "/specialist-handoff/phases-1-7-formal-proof-handoff/": {
+    "schema_type": "TechArticle",
+    "document_role": "Stage 4 specialist handoff",
+    "proof_status": "Stage 4 specialist handoff; independent specialist verification required; nothing herein should be cited as proven theorem closure."
+  },
+  "/specialist-handoff/proof-artifacts-locked-results/": {
+    "schema_type": "TechArticle",
+    "document_role": "Stage 4 specialist handoff",
+    "proof_status": "Stage 4 specialist handoff; independent specialist verification required; nothing herein should be cited as proven theorem closure."
+  },
+  "/toys/": {
+    "schema_type": "WebPage",
+    "document_role": "Illustrative simulation index",
+    "proof_status": "Illustrative simulations; not proofs."
+  }
+}
