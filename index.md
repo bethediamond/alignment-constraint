@@ -41,6 +41,10 @@ without accepting the framework.
 **If you want the honest limits first →**
 [Proof Status and Non-Claims](/core/proof-status/) — what is and is not claimed.
 
+**If you need canonical definitions →**
+[Glossary and Defined Terms](/core/glossary/) — framework vocabulary, epistemic status,
+dependencies, and crosswalks to related AI-alignment terminology.
+
 **If you want the historical origin →**
 [Redefining Rationality](/public/redefining-rationality/) — the 1992 observation.
 

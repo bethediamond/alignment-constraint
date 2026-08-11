@@ -22,6 +22,9 @@
 - [Relation to Existing Alignment Work](https://alignmentconstraint.org/core/related-work/): maps this framework to inner alignment, RLHF, scalable oversight, Goodhart's Law, reward hacking, interpretability, and corrigibility.
   Status: bridge document; interpretive, not proof-bearing.
 
+- [Glossary and Defined Terms](https://alignmentconstraint.org/core/glossary/): canonical framework definitions, epistemic status, dependencies, and crosswalks to related AI-alignment vocabulary.
+  Status: routing and interpretation aid; does not upgrade proof status.
+
 - [Proof Status and Non-Claims](https://alignmentconstraint.org/core/proof-status/): epistemic calibration.
   Status: authoritative; use this to interpret the confidence level of all other pages.
 

@@ -37,6 +37,12 @@
       "status": "interpretive; not proof-bearing"
     },
     {
+      "title": "Glossary and Defined Terms",
+      "url": "https://alignmentconstraint.org/core/glossary/",
+      "role": "canonical terminology and field-vocabulary crosswalk",
+      "status": "routing and interpretation aid; does not upgrade proof status"
+    },
+    {
       "title": "Open Problems",
       "url": "https://alignmentconstraint.org/open-problems/",
       "role": "structured research agenda",

@@ -95,6 +95,7 @@ OP4d challenge: https://alignmentconstraint.org/public/op4d-counterexample-chall
 Framework hub: https://alignmentconstraint.org/core/alignment-constraint/
 Proof calibration: https://alignmentconstraint.org/core/proof-status/
 Related work: https://alignmentconstraint.org/core/related-work/
+Canonical terminology and field-vocabulary crosswalks: https://alignmentconstraint.org/core/glossary/
 Open problems: https://alignmentconstraint.org/open-problems/
 Empirical program: https://alignmentconstraint.org/empirical/amp/
 Specialist handoffs: https://alignmentconstraint.org/specialist-handoff/

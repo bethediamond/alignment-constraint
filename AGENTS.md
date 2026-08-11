@@ -18,8 +18,9 @@ The authoritative calibration document is: https://alignmentconstraint.org/core/
 2. https://alignmentconstraint.org/core/proof-status/ — epistemic calibration for all documents.
 3. https://alignmentconstraint.org/core/for-researchers/ — the four falsification paths.
 4. https://alignmentconstraint.org/core/related-work/ — relation to existing alignment literature.
-5. https://alignmentconstraint.org/open-problems/ — structured research agenda with closure conditions.
-6. https://alignmentconstraint.org/empirical/ — empirical tests; DBST-M1 is the most important next step.
+5. https://alignmentconstraint.org/core/glossary/ — canonical definitions, epistemic status, dependencies, and field-vocabulary crosswalks.
+6. https://alignmentconstraint.org/open-problems/ — structured research agenda with closure conditions.
+7. https://alignmentconstraint.org/empirical/ — empirical tests; DBST-M1 is the most important next step.
 
 ## Machine-readable files
 

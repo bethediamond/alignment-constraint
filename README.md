@@ -20,6 +20,7 @@ Proof status: Stage 4 — candidate architecture under named premises, not theor
 | AI alignment researchers | [The Stability Assumption](https://alignmentconstraint.org/core/stability-assumption/) |
 | Technical critics | [For Researchers: The Claim to Break](https://alignmentconstraint.org/core/for-researchers/) |
 | Existing alignment literature | [Relation to Existing Alignment Work](https://alignmentconstraint.org/core/related-work/) |
+| Canonical terminology | [Glossary and Defined Terms](https://alignmentconstraint.org/core/glossary/) |
 | Open research tasks | [Open Problems](https://alignmentconstraint.org/open-problems/) |
 | Experimental researchers | [Alignment Measurement Protocol](https://alignmentconstraint.org/empirical/amp/) |
 | Full framework | [The Alignment Constraint](https://alignmentconstraint.org/core/alignment-constraint/) |
