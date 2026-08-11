@@ -8,6 +8,20 @@ description: "A field-facing entry essay on whether separable objective specific
 
 ---
 
+## Claim card
+
+- **Claim or question under investigation:** Does finite separable objective specification have a stable completion condition as accurate modeling deepens in coupled environments?
+- **Current epistemic status:** **Stage 4 candidate architecture; not theorem closure.** This page is a field-facing statement of the structural question, not a proof.
+- **Scope/domain:** Sustained optimization with finite objective boundaries, especially in open, shared, non-resettable O_OWT-like environments where action requires increasingly accurate coupled modeling.
+- **Named premises:** A finite separable objective boundary; increasing modeling depth and intervention pressure; causally load-bearing variables outside the objective; the stated O_OWT/domain conditions for the strongest version.
+- **What would support it:** Independent verification of the PCL/AGC/ICI pressure arguments, evidence for the DBST-M1 endogenous-novelty hinge, and a successful exhaustiveness argument for OP4d.
+- **What would weaken or falsify it:** A qualifying fourth boundary strategy, a clean bounded-boundary result under the stated conditions, or a formal stability theorem showing that a finite separable objective can satisfy all three stability conditions.
+- **Dependencies:** [Full OP4 paper](/core/stability-assumption-full/), [OP4d Exhaustiveness](/proof-program/op4d-exhaustiveness-obligation/), [AMP](/empirical/amp/), and [Proof Status](/core/proof-status/).
+- **Primary source:** [OP4: The Stability Assumption](/core/stability-assumption-full/).
+- **How to cite:** Cite the canonical archive page and use [How to Cite](/cite/); preserve the Stage 4 / non-closure status.
+
+---
+
 Does separable objective specification have a stable completion condition? Or does the boundary between what a system optimizes for and what it must model break down as modeling depth increases — not as a practical difficulty, but as a structural feature of accurate action in coupled environments?
 
 Every alignment approach — including this one — is making a structural bet about the answer.
@@ -59,19 +73,3 @@ The formal version of this question — including the three strategy families, t
 The full framework is mapped in [The Alignment Constraint](/core/alignment-constraint/).
 
 In concrete terms: show a system that can maintain a finite objective boundary without drifting from its target, expanding to track what it excluded, or generating mounting boundary-maintenance overhead — under conditions where the system’s own actions reshape the environment the boundary was specified over. If there is a finite-boundary strategy outside fixed specification, bounded dynamic tracking, and prediction-action firewalling that remains adequate under accurate coupled modeling in O_OWT environments, that is the thing to show. It would change the framework directly.
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ScholarlyArticle",
-  "@id": "https://alignmentconstraint.org/core/stability-assumption/#article",
-  "headline": "The Stability Assumption",
-  "description": "A specification-coherence challenge in AI alignment: whether finite separable objective specifications remain coherent under accurate coupled modeling.",
-  "author": {"@type": "Person", "name": "John Silliphant"},
-  "url": "https://alignmentconstraint.org/core/stability-assumption/",
-  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://alignmentconstraint.org/"},
-  "about": [{"@type": "Thing", "name": "AI alignment"}, {"@type": "Thing", "name": "specification coherence"}, {"@type": "Thing", "name": "Goodhart's law"}, {"@type": "Thing", "name": "scalable oversight"}],
-  "keywords": ["AI alignment", "specification coherence", "Stability Assumption", "OP4", "RLHF limits", "Goodhart's law", "separable objective specification"],
-  "additionalProperty": [{"@type": "PropertyValue", "name": "Proof status", "value": "Stage 4 candidate architecture; not theorem closure"}, {"@type": "PropertyValue", "name": "Primary falsifier", "value": "A fourth finite-boundary strategy class outside PCL, AGC, and ICI"}]
-}
-</script>

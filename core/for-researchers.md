@@ -7,6 +7,20 @@ permalink: /core/for-researchers/
 
 ---
 
+## Claim card
+
+- **Claim or question under investigation:** Can the current specification-coherence architecture be broken by a counterexample, non-exhaustiveness proof, negative mechanism test, or positive stability theorem?
+- **Current epistemic status:** **Stage 4 candidate architecture; not theorem closure.** This is a falsification doorway, not a proof.
+- **Scope/domain:** Finite non-intrinsic objective-boundary strategies under the framework’s stated O_OWT-like conditions.
+- **Named premises:** The three stability conditions, the PCL/AGC/ICI classification, the O_OWT/domain assumptions, and the empirical conditions specified for DBST-M1.
+- **What would support it:** Independent verification of the three pressure families and failure, under serious search, to produce a counterexample would strengthen the program, but absence of a counterexample alone is not proof of exhaustiveness.
+- **What would weaken or falsify it:** A qualifying fourth strategy class; formal OP4d non-exhaustiveness; a clean negative DBST-M1 result against the endogenous-novelty route; or a formal theorem establishing a stable finite separable objective class.
+- **Dependencies:** [OP4](/core/stability-assumption-full/), [OP4d](/proof-program/op4d-exhaustiveness-obligation/), [AMP](/empirical/amp/), and [Proof Status](/core/proof-status/).
+- **Primary source:** [For Researchers: The Claim to Break](/core/for-researchers/).
+- **How to cite:** Cite the relevant underlying technical page plus [Proof Status](/core/proof-status/); use [How to Cite](/cite/) for archive citation details.
+
+---
+
 This page is not asking you to read the full framework. It is asking whether one of the
 following is already answered somewhere, or whether you can produce a clean counterexample.
 

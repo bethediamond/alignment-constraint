@@ -8,6 +8,20 @@ description: "Full OP4 paper on the Stability Assumption and objective-boundary 
 
 ---
 
+## Claim card
+
+- **Claim or question under investigation:** **OP4 — No Stable Narrow-Boundary Regime:** can any finite separable objective remain stably adequate under accurate coupled modeling in O_OWT conditions?
+- **Current epistemic status:** **Stage 4 candidate architecture; not theorem closure and not independently specialist-verified.** OP4 remains an open theorem target.
+- **Scope/domain:** Finite separable objective specifications under increasing modeling depth and intervention pressure in the explicitly stated O_OWT regime.
+- **Named premises:** The O_OWT/domain assumptions; the three conditions of stable adequacy; the PCL, AGC/dynamic-screening, and ICI/firewall pressure arguments; and an exhaustive classification of relevant strategy classes.
+- **What would support it:** Specialist verification of the named proof tracks, empirical support for the AGC/DBST-M1 hinge, and successful closure of OP4d exhaustiveness.
+- **What would weaken or falsify it:** A fourth strategy class outside the three identified families that satisfies all stability conditions, a clean bounded-boundary empirical result under the stated regime, or a formal positive stability theorem.
+- **Dependencies:** [Proof Status](/core/proof-status/), [OP4d Exhaustiveness](/proof-program/op4d-exhaustiveness-obligation/), [Candidate Normal Form](/proof-program/op4d-candidate-normal-form/), and [Packet 1 / DBST](/proof-program/packet-1-immb-ns-dbst/).
+- **Primary source:** This canonical OP4 paper: [The Stability Assumption](/core/stability-assumption-full/).
+- **How to cite:** Until a paper DOI is live, cite this canonical page via [How to Cite](/cite/) and explicitly retain the Stage 4 / non-closure qualification.
+
+---
+
 ---
 
 **Proof Program navigation:**

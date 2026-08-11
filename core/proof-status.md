@@ -8,6 +8,20 @@ description: "Epistemic calibration for the Alignment Constraint Framework: what
 
 ---
 
+## Claim card
+
+- **Claim or question under investigation:** What has the framework actually established, what remains conditional, and what remains open?
+- **Current epistemic status:** This is the archive’s **authoritative calibration page**, not a proof artifact. The framework is **Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.**
+- **Scope/domain:** The proof, empirical, and cross-series claims of the Alignment Constraint Framework as presently archived.
+- **Named premises:** The assumptions and domain conditions stated in the relevant Technical Companions, OP4/OP4d documents, specialist handoffs, and empirical protocols.
+- **What would support it:** Independent specialist verification of the named formal obligations and empirical results that survive their pre-specified tests; successful closure would justify a later status update.
+- **What would weaken or falsify it:** Failure of a load-bearing premise, a qualifying fourth strategy class, a clean negative result against a central empirical hinge, or discovery that an archived claim is stronger than its evidence supports.
+- **Dependencies:** The canonical proof documents, [OP4](/core/stability-assumption-full/), [OP4d](/proof-program/op4d-exhaustiveness-obligation/), [AMP](/empirical/amp/), and the named specialist-verification items.
+- **Primary source:** This page: [Proof Status and Non-Claims](/core/proof-status/).
+- **How to cite:** Use [How to Cite](/cite/) and treat this page as the authoritative source for current epistemic calibration.
+
+---
+
 ## What This Framework Claims — and What It Does Not
 
 *A reference note for the Alignment Framework Series*
@@ -109,17 +123,3 @@ Each of these is named as an open obligation in the framework rather than treate
 - OP4d exhaustiveness: [OP4d: The Exhaustiveness Obligation →](/proof-program/op4d-exhaustiveness-obligation/)
 - OP4d formal apparatus: [OP4d: Candidate Normal Form Specialist Verification →](/proof-program/op4d-candidate-normal-form/)
 - Empirical test protocol: [Packet 1: IMMB-NS Verification and the Dynamic Blanket Stress Test →](/proof-program/packet-1-immb-ns-dbst/)
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ScholarlyArticle",
-  "@id": "https://alignmentconstraint.org/core/proof-status/#article",
-  "headline": "Proof Status and Non-Claims",
-  "description": "Epistemic calibration for the Alignment Constraint Framework. Stage 4: candidate proof architecture under named premises, not theorem closure.",
-  "author": {"@type": "Person", "name": "John Silliphant"},
-  "url": "https://alignmentconstraint.org/core/proof-status/",
-  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://alignmentconstraint.org/"},
-  "keywords": ["AI alignment", "proof status", "epistemic calibration", "Stage 4", "open problems"]
-}
-</script>
