@@ -78,6 +78,13 @@ The framework does not claim that a counterexample is impossible. It claims only
 
 Stage 4 means that every identified exit has been addressed within the current construction under named premises. It does not mean the result is established.
 
+## Submit a counterexample
+
+To submit a proposed fourth strategy class or other counterexample, contact [diamondlight@gmail.com](mailto:diamondlight@gmail.com?subject=OP4d%20counterexample).  
+**Subject:** `OP4d counterexample`
+
+---
+
 ## Links
 
 - [The Stability Assumption](/core/stability-assumption/) — entry essay isolating the core question
