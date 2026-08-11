@@ -7,6 +7,20 @@ permalink: /empirical/amp/
 
 ---
 
+## Claim card
+
+- **Claim or question under investigation:** Can the framework’s structural pressures be operationalized and challenged empirically through Φ/Ψ-related measures, SVG/DRG diagnostics, and the Dynamic Blanket Stress Test?
+- **Current epistemic status:** **Empirical protocol within a Stage 4 framework.** DBST-M0 established feasibility/pressure signatures but did not isolate causal propagation; DBST-M1 has not yet run. V(t)-validated SVG remains conditional on the required dissociation test.
+- **Scope/domain:** Empirical evaluation of persistence, resolution, proxy divergence, completion-policy behavior, and bounded-boundary stress in systems/environments satisfying the relevant stated conditions.
+- **Named premises:** The TC1 and TC2 constructs being operationalized, valid outcome measures and controls, the stated O_OWT/coupling conditions where invoked, and the specific pre-registered assumptions of each experiment.
+- **What would support it:** Pre-specified results that survive appropriate controls — especially a positive DBST-M1 mechanism result — plus successful validation of the required V(t) measurement prerequisites.
+- **What would weaken or falsify it:** A clean negative DBST-M1 result under its stated conditions; sustained well-powered matched-signal nulls against the DRG target; or failure of the V(t) dissociation prerequisite for Mode B SVG.
+- **Dependencies:** [TC1](/series-1/technical-companion/), [TC2](/series-2/technical-companion/), [Packet 1](/proof-program/packet-1-immb-ns-dbst/), and [Proof Status](/core/proof-status/).
+- **Primary source:** [Alignment Measurement Protocol](/empirical/amp/).
+- **How to cite:** Cite the protocol and the specific experiment/result being discussed; preserve the distinction between empirical support, mechanism identification, and theorem closure. See [How to Cite](/cite/).
+
+---
+
 ## Experimental Companion to Series 1 and 2
 
 *Experimental Companion to the Alignment Framework — Series 1 and 2*
@@ -294,17 +308,3 @@ To the authors’ knowledge, no lab currently reports Φ-proxy or Ψ-proxy metri
 The measurement has started. DBST-M0 provides the first pre-registered result: technical feasibility and rising cost / adequacy-gap effects in a toy shared-novelty design, without isolating causal propagation from event-rate effects — a same-rate random control produced nearly identical slopes. DBST-M1 is the mechanism test. The V(t)-validated SVG measurement depends on the prerequisite dissociation test, which has not yet been run. Most of what this protocol calls for has not started. This protocol is the architecture for starting it.
 
 _Divergence is the signal. The Interpretation Layer is how you read it._
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ScholarlyArticle",
-  "@id": "https://alignmentconstraint.org/empirical/amp/#article",
-  "headline": "Alignment Measurement Protocol",
-  "description": "Empirical measurement program for the Alignment Constraint Framework, including the 15-minute SVG test and the DBST-M1 empirical hinge.",
-  "author": {"@type": "Person", "name": "John Silliphant"},
-  "url": "https://alignmentconstraint.org/empirical/amp/",
-  "isPartOf": {"@type": "CreativeWorkSeries", "name": "The Alignment Constraint Framework", "url": "https://alignmentconstraint.org/"},
-  "keywords": ["AI alignment", "DBST", "SVG measurement", "completion recognition", "empirical alignment", "frontier model evaluation"]
-}
-</script>
