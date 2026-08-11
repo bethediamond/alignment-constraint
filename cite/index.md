@@ -1,5 +1,6 @@
 ---
 title: "How to Cite"
+description: "Citation guidance for the Alignment Constraint Framework, including pre-release citation forms, versioning, license, proof status, and the planned DOI hierarchy."
 permalink: /cite/
 ---
 
