@@ -127,6 +127,19 @@ ATX_H1_RE = re.compile(r"^\s*#(?!#)\s+(.+?)\s*$", re.MULTILINE)
 STAGE4_RE = re.compile(r"\bstage\s*4\b", re.IGNORECASE)
 
 
+ALLOWED_SCHEMA_TYPES = {
+    "WebSite", "WebPage", "CreativeWorkSeries", "ScholarlyArticle",
+    "TechArticle", "Article", "DefinedTermSet", "DefinedTerm", "Person",
+}
+
+CENTRAL_STRUCTURED_DATA_FILES = (
+    "_data/page_metadata.json",
+    "_includes/head.html",
+    "_includes/structured-data.html",
+    "_includes/highwire-meta.html",
+)
+
+
 @dataclass(frozen=True)
 class Issue:
     check: str
@@ -845,6 +858,170 @@ def check_proof_status() -> list[Issue]:
     return issues
 
 
+def parse_yaml_scalar_tree(path: Path) -> dict[str, str]:
+    """Parse the conservative scalar/nested mapping subset used by project YAML."""
+    text = read_text(path)
+    result: dict[str, str] = {}
+    stack: list[tuple[int, str]] = []
+    for raw in text.splitlines():
+        if not raw.strip() or raw.lstrip().startswith("#"):
+            continue
+        indent = len(raw) - len(raw.lstrip(" "))
+        m = re.match(r"^\s*([A-Za-z0-9_-]+)\s*:\s*(.*)$", raw)
+        if not m:
+            continue
+        key, value = m.groups()
+        while stack and stack[-1][0] >= indent:
+            stack.pop()
+        prefix = ".".join(x[1] for x in stack)
+        full = f"{prefix}.{key}" if prefix else key
+        value = value.strip()
+        if value:
+            if len(value) >= 2 and (
+                (value.startswith('"') and value.endswith('"')) or
+                (value.startswith("'") and value.endswith("'"))
+            ):
+                value = value[1:-1]
+            result[full] = value
+        else:
+            stack.append((indent, key))
+    return result
+
+
+def check_page_descriptions(page_data) -> list[Issue]:
+    issues: list[Issue] = []
+    seen: dict[str, Path] = {}
+    for path, (mapping, _body, _body_start) in page_data.items():
+        desc = mapping.get("description", "").strip()
+        if not desc:
+            issues.append(Issue(
+                "page metadata",
+                rel(path),
+                "indexable page is missing a non-empty unique 'description:' field",
+                2,
+            ))
+            continue
+        folded = re.sub(r"\s+", " ", desc).strip().casefold()
+        if folded in seen:
+            issues.append(Issue(
+                "page metadata",
+                rel(path),
+                f"description duplicates {rel(seen[folded])}",
+                2,
+            ))
+        else:
+            seen[folded] = path
+    return issues
+
+
+def check_centralized_structured_data(page_data, route_by_page) -> list[Issue]:
+    issues: list[Issue] = []
+    for rp in CENTRAL_STRUCTURED_DATA_FILES:
+        if not (REPO_ROOT / rp).exists():
+            issues.append(Issue("structured data", rp, "required centralized metadata file is missing", None))
+
+    data_path = REPO_ROOT / "_data/page_metadata.json"
+    metadata = None
+    if data_path.exists():
+        try:
+            metadata = json.loads(read_text(data_path))
+        except Exception as exc:
+            issues.append(Issue("structured data", "_data/page_metadata.json", f"invalid JSON: {exc}", None))
+
+    if isinstance(metadata, dict):
+        expected_routes = set(route_by_page.values())
+        actual_routes = set(metadata)
+        for missing in sorted(expected_routes - actual_routes):
+            p = next((p for p, r in route_by_page.items() if r == missing), None)
+            issues.append(Issue(
+                "structured data",
+                rel(p) if p else "_data/page_metadata.json",
+                f"no centralized page-metadata entry for canonical route {missing}",
+                None,
+            ))
+        for extra in sorted(actual_routes - expected_routes):
+            issues.append(Issue(
+                "structured data",
+                "_data/page_metadata.json",
+                f"metadata entry has no matching rendered Markdown page: {extra}",
+                None,
+            ))
+        for route, entry in metadata.items():
+            if not isinstance(entry, dict):
+                issues.append(Issue("structured data", "_data/page_metadata.json", f"entry {route} must be an object", None))
+                continue
+            schema = entry.get("schema_type")
+            if schema not in ALLOWED_SCHEMA_TYPES:
+                issues.append(Issue(
+                    "structured data", "_data/page_metadata.json",
+                    f"entry {route} has missing/unsupported schema_type {schema!r}", None,
+                ))
+            if not str(entry.get("document_role", "")).strip():
+                issues.append(Issue(
+                    "structured data", "_data/page_metadata.json",
+                    f"entry {route} is missing document_role", None,
+                ))
+
+    # Article bodies must not carry independently maintained JSON-LD anymore.
+    for path, (_mapping, body, body_start) in page_data.items():
+        idx = body.find('application/ld+json')
+        if idx >= 0:
+            issues.append(Issue(
+                "structured data",
+                rel(path),
+                "manual page-body JSON-LD remains; use the centralized structured-data layer instead",
+                body_start + body.count("\n", 0, idx),
+            ))
+
+    head_path = REPO_ROOT / "_includes/head.html"
+    if head_path.exists():
+        head = read_text(head_path)
+        for needle in ("{% seo", "include highwire-meta.html", "include structured-data.html"):
+            if needle not in head:
+                issues.append(Issue("structured data", "_includes/head.html", f"required head integration is missing: {needle}", None))
+
+    # If a page ever declares a manual canonical_url, it must exactly match its route.
+    cfg = parse_yaml_scalar_tree(REPO_ROOT / "_config.yml") if (REPO_ROOT / "_config.yml").exists() else {}
+    site_url = cfg.get("url", "").rstrip("/")
+    for path, (mapping, _body, _body_start) in page_data.items():
+        manual = mapping.get("canonical_url", "").strip()
+        if manual:
+            expected = site_url + route_by_page[path]
+            if manual.rstrip("/") != expected.rstrip("/"):
+                issues.append(Issue(
+                    "canonical metadata", rel(path),
+                    f"canonical_url {manual!r} does not match permalink-derived canonical URL {expected!r}", 2,
+                ))
+    return issues
+
+
+def check_identity_metadata_sync() -> list[Issue]:
+    issues: list[Issue] = []
+    fw_path = REPO_ROOT / "framework-metadata.yml"
+    cfg_path = REPO_ROOT / "_config.yml"
+    if not fw_path.exists() or not cfg_path.exists():
+        return issues
+    fw = parse_yaml_scalar_tree(fw_path)
+    cfg = parse_yaml_scalar_tree(cfg_path)
+    comparisons = (
+        ("canonical_name", "title", "framework name"),
+        ("canonical_url", "url", "canonical URL"),
+        ("version", "framework_version", "framework version"),
+        ("license", "framework_license", "license"),
+        ("proof_status", "framework_proof_status", "proof status"),
+        ("author.name", "author.name", "author name"),
+        ("author.orcid", "author.url", "author ORCID/URL"),
+    )
+    for fw_key, cfg_key, label in comparisons:
+        if fw.get(fw_key) != cfg.get(cfg_key):
+            issues.append(Issue(
+                "metadata synchronization", "_config.yml",
+                f"{label} differs from framework-metadata.yml ({cfg.get(cfg_key)!r} != {fw.get(fw_key)!r})",
+                None,
+            ))
+    return issues
+
+
 def build_route_by_page(page_data) -> dict[Path, str]:
     result = {}
     for path, (mapping, _body, _body_start) in page_data.items():
@@ -894,6 +1071,9 @@ def main() -> int:
     issues.extend(check_duplicate_title_h1(page_data))
     issues.extend(check_image_alt_text(page_data))
     issues.extend(check_proof_status())
+    issues.extend(check_page_descriptions(page_data))
+    issues.extend(check_centralized_structured_data(page_data, route_by_page))
+    issues.extend(check_identity_metadata_sync())
 
     # Stable output order makes failures easier to compare between commits.
     issues = sorted(
