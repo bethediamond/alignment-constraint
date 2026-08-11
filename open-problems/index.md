@@ -8,6 +8,20 @@ permalink: /open-problems/
 
 ---
 
+## Claim card
+
+- **Claim or question under investigation:** Which unresolved formal and empirical tasks would materially strengthen, weaken, close, or break the current framework?
+- **Current epistemic status:** **Stage 4 research agenda, not a proof artifact.** Each item remains open unless its entry explicitly says otherwise.
+- **Scope/domain:** The named open obligations across OP4/OP4d, PCL/AGC/ICI, DBST, Series 2 dynamics, cross-series unification, and applicability.
+- **Named premises:** The proof-status map and the assumptions attached to each individual open problem; there is no additional global premise introduced by this index.
+- **What would support it:** Solving an item under its stated closure conditions, independent specialist verification, or a pre-specified empirical result supporting the corresponding hinge.
+- **What would weaken or falsify it:** The listed break conditions — especially a qualifying fourth strategy class, a clean negative mechanism result where specified, failure of a load-bearing premise, or a formal stability theorem.
+- **Dependencies:** [Proof Status](/core/proof-status/), [OP4](/core/stability-assumption-full/), [OP4d](/proof-program/op4d-exhaustiveness-obligation/), and [AMP](/empirical/amp/).
+- **Primary source:** [Open Problems](/open-problems/) and its [machine-readable companion](/open-problems.json).
+- **How to cite:** Cite the specific open-problem entry and [Proof Status](/core/proof-status/); use [How to Cite](/cite/) for archive citation details.
+
+---
+
 These are concrete research tasks. Solving any one of them would materially update the
 framework. Each entry has named closure conditions and the specialist type best positioned
 to resolve it.
