@@ -1,0 +1,39 @@
+{%- comment -%}
+Framework-specific structured data. Jekyll SEO Tag continues to provide its normal
+canonical/Open Graph/general JSON-LD output. This include adds a single centralized,
+more specific Schema.org description driven by _data/page_metadata.json.
+{%- endcomment -%}
+{%- assign ac_meta = site.data.page_metadata[page.url] -%}
+{%- if ac_meta -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": {{ ac_meta.schema_type | jsonify }},
+  "@id": {{ page.url | absolute_url | append: "#alignment-constraint-primary" | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  {% if ac_meta.schema_type == "WebSite" or ac_meta.schema_type == "DefinedTermSet" %}"name": {{ page.title | jsonify }},{% else %}"headline": {{ page.title | jsonify }},{% endif %}
+  "description": {{ page.description | jsonify }},
+  "inLanguage": {{ page.lang | default: site.lang | default: "en" | jsonify }},
+  "version": {{ site.framework_version | jsonify }},
+  "license": {{ site.framework_license_url | jsonify }},
+  "genre": {{ ac_meta.document_role | jsonify }},
+  "author": {
+    "@type": "Person",
+    "@id": {{ site.author.url | append: "#person" | jsonify }},
+    "name": {{ site.author.name | jsonify }},
+    "url": {{ site.author.url | jsonify }}
+  }{% unless ac_meta.schema_type == "WebSite" %},
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "@id": {{ site.framework_series_id | jsonify }},
+    "name": {{ site.title | jsonify }},
+    "url": {{ site.url | append: "/" | jsonify }},
+    "version": {{ site.framework_version | jsonify }}
+  }{% endunless %}{% if ac_meta.proof_status %},
+  "creativeWorkStatus": {{ ac_meta.proof_status | jsonify }}{% endif %}{% if ac_meta.keywords %},
+  "keywords": {{ ac_meta.keywords | join: ", " | jsonify }}{% endif %}{% if page.date_published %},
+  "datePublished": {{ page.date_published | date_to_xmlschema | jsonify }}{% endif %}{% if page.date_modified %},
+  "dateModified": {{ page.date_modified | date_to_xmlschema | jsonify }}{% endif %}
+}
+</script>
+{%- endif -%}

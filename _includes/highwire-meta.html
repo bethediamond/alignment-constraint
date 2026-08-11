@@ -1,0 +1,20 @@
+{%- comment -%}
+Optional Google-Scholar/Highwire metadata. Nothing renders unless the corresponding
+front-matter field actually exists on a page. This is intended for the future OP4
+paper landing page; it does not invent dates, DOI values, or publication status.
+{%- endcomment -%}
+{%- if page.citation_title -%}
+<meta name="citation_title" content="{{ page.citation_title | escape }}">
+{%- endif -%}
+{%- if page.citation_author -%}
+<meta name="citation_author" content="{{ page.citation_author | escape }}">
+{%- endif -%}
+{%- if page.citation_publication_date -%}
+<meta name="citation_publication_date" content="{{ page.citation_publication_date | escape }}">
+{%- endif -%}
+{%- if page.citation_pdf_url -%}
+<meta name="citation_pdf_url" content="{{ page.citation_pdf_url | absolute_url | escape }}">
+{%- endif -%}
+{%- if page.citation_doi -%}
+<meta name="citation_doi" content="{{ page.citation_doi | escape }}">
+{%- endif -%}
