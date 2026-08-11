@@ -1,0 +1,16 @@
+canonical_name: "The Alignment Constraint Framework"
+primary_paper: "The Stability Assumption"
+central_problem: "Specification coherence of finite separable objectives"
+central_open_theorem: "OP4 — No Stable Narrow-Boundary Regime"
+exhaustiveness_obligation: "OP4d"
+version: "1.0.0"
+proof_status: "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure."
+canonical_url: "https://alignmentconstraint.org"
+repository: "https://github.com/bethediamond/alignment-constraint"
+license: "CC BY 4.0"
+author:
+  name: "John Silliphant"
+  orcid: "https://orcid.org/0009-0008-3015-2589"
+op4_doi: null
+framework_doi: null
+release_date: null
