@@ -976,9 +976,14 @@ def check_centralized_structured_data(page_data, route_by_page) -> list[Issue]:
     head_path = REPO_ROOT / "_includes/head.html"
     if head_path.exists():
         head = read_text(head_path)
-        for needle in ("{% seo", "include highwire-meta.html", "include structured-data.html"):
-            if needle not in head:
-                issues.append(Issue("structured data", "_includes/head.html", f"required head integration is missing: {needle}", None))
+        head_requirements = (
+            (re.compile(r"\{%[-]?\s*seo\s*[-]?%\}"), "{% seo %}"),
+            (re.compile(r"\{%[-]?\s*include\s+highwire-meta\.html\s*[-]?%\}"), "{% include highwire-meta.html %}"),
+            (re.compile(r"\{%[-]?\s*include\s+structured-data\.html\s*[-]?%\}"), "{% include structured-data.html %}"),
+        )
+        for pattern, label in head_requirements:
+            if not pattern.search(head):
+                issues.append(Issue("structured data", "_includes/head.html", f"required head integration is missing: {label}", None))
 
     # If a page ever declares a manual canonical_url, it must exactly match its route.
     cfg = parse_yaml_scalar_tree(REPO_ROOT / "_config.yml") if (REPO_ROOT / "_config.yml").exists() else {}
