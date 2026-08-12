@@ -1,6 +1,6 @@
 ---
 title: "The Alignment Constraint Framework"
-description: "A structural argument about whether finite separable objective specification can remain coherent as AI systems become more capable, embedded, and consequential."
+description: "A research framework on whether finite AI objectives remain coherent under deeper modeling, with proof status, falsifiers, tests, and applications."
 ---
 
 A structural argument about a single question: **can an optimization system keep pursuing a
