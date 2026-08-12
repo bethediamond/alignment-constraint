@@ -1,7 +1,7 @@
 ---
 title: "Five Problems Stage 4 Handoff"
 permalink: /specialist-handoff/five-problems-stage-4-handoff/
-description: "Specialist handoff document for the five-problems Stage 4 proof program."
+description: "Five unresolved Stage 4 proof problems, their dependencies, verification tasks, and the results needed to update the framework."
 ---
 
 > **Canonical archive version** · [Specialist Verification Agenda →](/specialist-handoff/) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

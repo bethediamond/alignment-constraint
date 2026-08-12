@@ -1,7 +1,7 @@
 ---
 title: "B2 Governance Bifurcation Handoff"
 permalink: /specialist-handoff/b2-governance-bifurcation-handoff/
-description: "Specialist handoff document for the B2 governance-bifurcation proof architecture."
+description: "Stage 4 handoff on governance bifurcation, integrated transformative objectives, L4-Constitutive, and the remaining pressure-versus-necessity gap."
 ---
 
 > **Canonical archive version** · [Specialist Verification Agenda →](/specialist-handoff/) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

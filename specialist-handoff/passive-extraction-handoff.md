@@ -1,7 +1,7 @@
 ---
 title: "Passive Extraction Handoff"
 permalink: /specialist-handoff/passive-extraction-handoff/
-description: "Specialist handoff document for the Candidate 3 passive-extraction stability proof architecture."
+description: "Stage 4 specialist handoff on passive extraction, excluded agents, V(t), distributed error correction, and the conditions required for stability analysis."
 ---
 
 > **Canonical archive version** · [Specialist Verification Agenda →](/specialist-handoff/) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

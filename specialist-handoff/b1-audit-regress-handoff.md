@@ -1,7 +1,7 @@
 ---
 title: "B1 Audit Regress Handoff"
 permalink: /specialist-handoff/b1-audit-regress-handoff/
-description: "Specialist handoff document for the B1 audit-regress / masking-pressure proof architecture."
+description: "Stage 4 specialist handoff for the B1 audit-regress route, including prediction/action firewalling, masking pressure, and the CIT/SOMR verification chain."
 ---
 
 > **Canonical archive version** · [Specialist Verification Agenda →](/specialist-handoff/) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

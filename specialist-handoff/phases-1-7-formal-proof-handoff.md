@@ -1,7 +1,7 @@
 ---
 title: "Phases 1–7 Formal Proof Handoff"
 permalink: /specialist-handoff/phases-1-7-formal-proof-handoff/
-description: "Specialist handoff document for phases 1–7 of the formal proof work, including MMCL, OP4d exhaustiveness, and LOI/TOL chains."
+description: "Stage 4 handoff for formal proof phases 1–7, including MMCL, OP4d exhaustiveness, LOI/TOL chains, dependencies, and specialist verification tasks."
 ---
 
 > **Canonical archive version** · [Specialist Verification Agenda →](/specialist-handoff/) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

@@ -1,7 +1,7 @@
 ---
 title: "Proof Artifacts: Locked Results"
 permalink: /specialist-handoff/proof-artifacts-locked-results/
-description: "Specialist handoff document containing locked Stage 4 proof artifacts and integration materials."
+description: "Specialist record of locked Stage 4 proof artifacts, preserved intermediate results, integration constraints, and items requiring independent verification."
 ---
 
 > **Canonical archive version** · [Specialist Verification Agenda →](/specialist-handoff/) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

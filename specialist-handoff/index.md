@@ -1,7 +1,7 @@
 ---
 title: "Specialist Verification Agenda"
 permalink: /specialist-handoff/
-description: "The proof-work record and concrete verification questions the Alignment Constraint framework hands off to formal-methods, causal-inference, game-theory, and distributed-systems specialists."
+description: "Stage 4 verification questions and proof handoffs for formal methods, causal inference, game theory, distributed systems, and empirical specialists."
 ---
 
 **Read this framing before opening any document below.**
