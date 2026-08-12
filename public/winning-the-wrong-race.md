@@ -1,7 +1,7 @@
 ---
 title: "We’re Winning the Wrong Race"
 permalink: /public/winning-the-wrong-race/
-description: "A public essay arguing that AI amplifies the goals and contexts it is given, making the definition of winning central to alignment."
+description: "Public essay on why AI can amplify whatever goals and contexts it is given, making the definition of winning a central alignment problem."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/were-winning-the-wrong-race-9ef38b061cfa) · [Series 1 →](/series-1/introduction/) · [Stability Assumption →](/core/stability-assumption/)

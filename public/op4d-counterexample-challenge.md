@@ -1,7 +1,7 @@
 ---
 title: "The OP4d Counterexample Challenge"
 permalink: /public/op4d-counterexample-challenge/
-description: "A public technical challenge asking for a fourth finite objective-boundary strategy class outside PCL, AGC, and ICI, with explicit Stage 4 proof status and falsification conditions."
+description: "An AI alignment challenge to construct a fourth finite objective-boundary strategy outside PCL, AGC, and ICI under explicit Stage 4 conditions."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-op4d-counterexample-challenge-bc8d9cc5d8e7) · [Framework hub →](/core/alignment-constraint/)

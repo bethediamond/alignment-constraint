@@ -1,7 +1,7 @@
 ---
 title: "Redefining Rationality"
 permalink: /public/redefining-rationality/
-description: "A public essay proposing a distinction between relative rationality and capital-R Rationality, framed around optimal well-being for all and the development of AI."
+description: "Public essay distinguishing relative rationality from a broader Rationality oriented toward durable well-being across agents and shared conditions."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/redefining-rationality-cab469cc5b6c) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

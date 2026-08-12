@@ -1,7 +1,7 @@
 ---
 title: "The AI Race Is Not Rational"
 permalink: /public/ai-race-is-not-rational/
-description: "A public essay arguing that AI capability races can remain locally rational while degrading the shared physical, institutional, and epistemic substrate on which continued optimization depends."
+description: "Public essay on how locally rational AI capability races can degrade the shared physical, institutional, and epistemic substrate they depend on."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-ai-race-is-not-rational-9a83d6d0940c) · [Framework hub →](/core/alignment-constraint/)
