@@ -16,6 +16,8 @@ premises, not theorem closure.
 This site is the machine-readable canonical archive. Polished reading versions live on
 Medium (linked from each page). The full text lives here because it is open and crawlable.
 
+**Version 1.0.0:** [framework DOI](https://doi.org/10.5281/zenodo.21895924) · [OP4 / Stability Assumption preprint DOI](https://doi.org/10.5281/zenodo.21895992) · [How to cite](/cite/) · CC BY 4.0
+
 ---
 
 ## Choose your doorway

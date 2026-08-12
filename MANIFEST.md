@@ -2,7 +2,12 @@
 
 Canonical website: https://alignmentconstraint.org
 GitHub repository: https://github.com/bethediamond/alignment-constraint
-Proof status: Stage 4 candidate architecture under named premises, not theorem closure.
+Version: 1.0.0
+Release date: 2026-08-12
+Framework DOI: https://doi.org/10.5281/zenodo.21895924
+OP4 preprint DOI: https://doi.org/10.5281/zenodo.21895992
+License: CC BY 4.0
+Proof status: Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.
 
 ## Primary entry points
 
@@ -31,6 +36,8 @@ Proof status: Stage 4 candidate architecture under named premises, not theorem c
 - /sitemap.xml — XML sitemap
 - /sitemap.txt — plain-text sitemap
 - /CITATION.cff — citation metadata for GitHub and citation tooling
+- /release-manifest.json — machine-readable v1.0.0 release inventory and file hashes
+- /SHA256SUMS.txt — SHA-256 checksums for release files (excluding the checksum file itself)
 
 ## Series
 

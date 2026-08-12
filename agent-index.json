@@ -2,7 +2,7 @@
   "name": "The Alignment Constraint Framework",
   "canonical_url": "https://alignmentconstraint.org",
   "repository": "https://github.com/bethediamond/alignment-constraint",
-  "proof_status": "Stage 4 candidate architecture; not theorem closure",
+  "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.",
   "epistemic_calibration_url": "https://alignmentconstraint.org/core/proof-status/",
   "central_question": "Can a finite separable objective remain coherently specified as an optimization system becomes capable enough that acting well requires modeling the conditions its objective excludes?",
   "primary_entry_points": [
@@ -142,7 +142,10 @@
     "research_questions": "https://alignmentconstraint.org/research-questions.txt",
     "sitemap_xml": "https://alignmentconstraint.org/sitemap.xml",
     "sitemap_txt": "https://alignmentconstraint.org/sitemap.txt",
-    "robots_txt": "https://alignmentconstraint.org/robots.txt"
+    "robots_txt": "https://alignmentconstraint.org/robots.txt",
+    "framework_metadata": "https://alignmentconstraint.org/framework-metadata.yml",
+    "release_manifest": "https://alignmentconstraint.org/release-manifest.json",
+    "checksums": "https://alignmentconstraint.org/SHA256SUMS.txt"
   },
   "keywords": [
     "AI alignment",
@@ -159,5 +162,14 @@
     "RLHF",
     "Goodhart's Law",
     "objective boundary"
-  ]
+  ],
+  "version": "1.0.0",
+  "release_date": "2026-08-12",
+  "license": "CC BY 4.0",
+  "framework_doi": "10.5281/zenodo.21895924",
+  "framework_doi_url": "https://doi.org/10.5281/zenodo.21895924",
+  "op4_doi": "10.5281/zenodo.21895992",
+  "op4_doi_url": "https://doi.org/10.5281/zenodo.21895992",
+  "release_url": "https://github.com/bethediamond/alignment-constraint/releases/tag/v1.0.0",
+  "citation_url": "https://alignmentconstraint.org/cite/"
 }

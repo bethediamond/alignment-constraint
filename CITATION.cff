@@ -1,11 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this framework before the v1.0.0 DOI is published, cite the canonical archive. DOI metadata will be added only after the corresponding public records resolve."
+message: "If you use the Alignment Constraint Framework, cite the versioned framework record below. For the primary technical thesis, see the preferred citation."
 title: "The Alignment Constraint Framework"
 authors:
   - family-names: "Silliphant"
     given-names: "John"
     orcid: "https://orcid.org/0009-0008-3015-2589"
 version: "1.0.0"
+date-released: "2026-08-12"
+doi: "10.5281/zenodo.21895924"
 license: "CC-BY-4.0"
 url: "https://alignmentconstraint.org"
 repository-code: "https://github.com/bethediamond/alignment-constraint"
@@ -28,3 +30,16 @@ keywords:
   - "DBST-M1"
   - "Goodhart's Law"
   - "RLHF"
+preferred-citation:
+  type: article
+  title: "The Stability Assumption: Specification-Coherence Limits in Separable Objective Alignment"
+  authors:
+    - family-names: "Silliphant"
+      given-names: "John"
+      orcid: "https://orcid.org/0009-0008-3015-2589"
+  year: 2026
+  date-released: "2026-08-12"
+  status: preprint
+  version: "1.0.0"
+  doi: "10.5281/zenodo.21895992"
+  url: "https://doi.org/10.5281/zenodo.21895992"

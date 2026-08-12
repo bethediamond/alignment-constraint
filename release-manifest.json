@@ -1,0 +1,435 @@
+{
+  "framework": "The Alignment Constraint Framework",
+  "version": "1.0.0",
+  "release_tag": "v1.0.0",
+  "release_date": "2026-08-12",
+  "canonical_url": "https://alignmentconstraint.org",
+  "repository": "https://github.com/bethediamond/alignment-constraint",
+  "release_url": "https://github.com/bethediamond/alignment-constraint/releases/tag/v1.0.0",
+  "framework_doi": "10.5281/zenodo.21895924",
+  "framework_doi_url": "https://doi.org/10.5281/zenodo.21895924",
+  "op4_preprint_doi": "10.5281/zenodo.21895992",
+  "op4_preprint_doi_url": "https://doi.org/10.5281/zenodo.21895992",
+  "license": "CC BY 4.0",
+  "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.",
+  "file_count_excluding_manifest_and_checksum": 83,
+  "hash_algorithm": "SHA-256",
+  "hash_scope_note": "File hashes below cover every release file except release-manifest.json and SHA256SUMS.txt. SHA256SUMS.txt separately hashes release-manifest.json and all other repository files except itself.",
+  "files": [
+    {
+      "path": ".github/workflows/archive-qc.yml",
+      "sha256": "3d2199bf3112b3fe3a6fcd1d0d5fa5584414520e8ebe1e1d71b56b5cf6bbafe3",
+      "bytes": 387
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "61bf39a6774574cddd431af9c35c93689c9b926ef521f1e7e7016a68ef232d03",
+      "bytes": 5265
+    },
+    {
+      "path": "APPLYING_THE_FRAMEWORK.md",
+      "sha256": "4d86c8b4511772acb1f378cbf870d9c76447225181e0a6244d0c008dd3d01177",
+      "bytes": 13238
+    },
+    {
+      "path": "ARCHIVE_QC_README.md",
+      "sha256": "c64f8e5a0aa02b870430e1608f8919a1050cba2d72e8b3113a7bccf6c41f6b31",
+      "bytes": 5042
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "5a910d476ffd01b650ad5a8fe624d8bbec220dff42bb3864188a02c1f2869b57",
+      "bytes": 1505
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "9fb6177d6ae1d64e308080be0fd3f1b18a29312d9e0ed12d9602f9f9f201930a",
+      "bytes": 1578
+    },
+    {
+      "path": "CNAME",
+      "sha256": "02f611ab3ad0af1a044666c2885788659f3113d2739385193370b3c608473c70",
+      "bytes": 24
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "bytes": 18657
+    },
+    {
+      "path": "LICENSE_NOTE.md",
+      "sha256": "7b01a4e0be6e3ceb1f54fab37d829e02e54e8bedb315e0cd5c29696dafaa5dee",
+      "bytes": 1908
+    },
+    {
+      "path": "MANIFEST.md",
+      "sha256": "5d105472dd64b897855b061e542f3fe486305e485990296a91040ae42ce4cf4a",
+      "bytes": 2941
+    },
+    {
+      "path": "README.md",
+      "sha256": "918ba02710dd25ccc4477f4d8cca9751502500a009ff5526a63acdd39441c930",
+      "bytes": 7397
+    },
+    {
+      "path": "UPLOAD_README.md",
+      "sha256": "39f7204c337dd09e3229cd182bc6eb8d2b57bb3e2ae609c6063b9b5196af1b23",
+      "bytes": 405
+    },
+    {
+      "path": "_config.yml",
+      "sha256": "4b7b841fa5b8935f4a2dc23e94e17615dc2e363d79390920641a16eb0a4842b3",
+      "bytes": 851
+    },
+    {
+      "path": "_data/page_metadata.json",
+      "sha256": "29d22fc10248aae4b21e61defd32e54654a7fcad578bd78784f68bcbaed1ac0f",
+      "bytes": 15032
+    },
+    {
+      "path": "_includes/head.html",
+      "sha256": "3f32b09fd517752e6ac6b1d7557e1a092e5c6d6313f024ffd5eb103478fda485",
+      "bytes": 484
+    },
+    {
+      "path": "_includes/highwire-meta.html",
+      "sha256": "8254f4a243896f289d81a96564f836a5845b70c5643d8b99ba8a5c51e714f672",
+      "bytes": 928
+    },
+    {
+      "path": "_includes/structured-data.html",
+      "sha256": "cec729b4fd2b2bf9b5ec1935213d2e68e1d1618a3e549a653a1f18564fdfcb9d",
+      "bytes": 2051
+    },
+    {
+      "path": "agent-index.json",
+      "sha256": "8a3f0785de8b036b5789770f96271989e86cac57c5b0f02a2c3d3bf95154eb17",
+      "bytes": 7716
+    },
+    {
+      "path": "applications.json",
+      "sha256": "f75baabd96d9853876aaf051cce555e6c0e8fd08f5afdb55f1828477f73f34b5",
+      "bytes": 21512
+    },
+    {
+      "path": "apply/index.md",
+      "sha256": "b887fd6fad3ff357b12b35144fc9f43315bdc4f26cc0694975da936121f64b6f",
+      "bytes": 33386
+    },
+    {
+      "path": "assets/main.scss",
+      "sha256": "cffc9de741e019e2af961115e618366fd77d476a16ad3ef021a3f6cff991739a",
+      "bytes": 1272
+    },
+    {
+      "path": "cite/index.md",
+      "sha256": "6330fbad2a841d9bed87ebadebdf2546d4364ed6a810e367d76732ab4f227bf9",
+      "bytes": 4410
+    },
+    {
+      "path": "claim-graph.json",
+      "sha256": "e1ffeb2c716fe81083be3e40bace8902174f3382504be8720016d149d9094cdd",
+      "bytes": 8390
+    },
+    {
+      "path": "core/alignment-constraint.md",
+      "sha256": "9d73f354e263c467802b1d9939207f6b80725e2cc3e60067060502c285d8d96e",
+      "bytes": 55622
+    },
+    {
+      "path": "core/field-facing-bridge.md",
+      "sha256": "e1d9f45ac14490fe0ab7a4f706b58d7d1439afa86893f73c34c5d8a5a62b92ca",
+      "bytes": 19114
+    },
+    {
+      "path": "core/for-researchers.md",
+      "sha256": "b4d73279b26d289779b66082dd367cf8a25f5f5dd655356e8551efec20993644",
+      "bytes": 4950
+    },
+    {
+      "path": "core/glossary.md",
+      "sha256": "4e5960259876e837885546ff8d3dbdbff0e7395724548f715cc291a616e37855",
+      "bytes": 55311
+    },
+    {
+      "path": "core/proof-status.md",
+      "sha256": "86c46abb3cfc0a9dca1484c645cb3ef7f3c7459bee3ff89cfb687a4d5ef27496",
+      "bytes": 10091
+    },
+    {
+      "path": "core/related-work.md",
+      "sha256": "296abd3f2dc6e71771d54534ce48f7683afc464c0631d0c319484c08e988a970",
+      "bytes": 14543
+    },
+    {
+      "path": "core/stability-assumption-full.md",
+      "sha256": "83491228a0ad016e89cea149e14df2c85dfb43673d7e9caff8222c890aff8b03",
+      "bytes": 32260
+    },
+    {
+      "path": "core/stability-assumption.md",
+      "sha256": "48d21c6283caf3d74003cb972c4bda691a45d3a11ecdd7ce0056dd13782ce652",
+      "bytes": 12512
+    },
+    {
+      "path": "core/tightening-sequence.md",
+      "sha256": "1424463521c01346f0e763a978ca089a10dc5bf6942faf368eb4bcd853c5d550",
+      "bytes": 28032
+    },
+    {
+      "path": "defined-terms.json",
+      "sha256": "dbcdfdd42b0521f64cf69301c10f2c413a4ef4f54d673083f31954ffce5178bf",
+      "bytes": 61363
+    },
+    {
+      "path": "empirical/amp.md",
+      "sha256": "5074408d6fdfb2a2b7f1f7b47be7de26d33ddeea60feaae693d9736205a0932c",
+      "bytes": 40351
+    },
+    {
+      "path": "empirical/drg-frame-manipulation-preregistration.md",
+      "sha256": "7c2622062882f0d27501543481a4c4a54616ec628d3930d47b93fca95d46e57e",
+      "bytes": 22868
+    },
+    {
+      "path": "empirical/index.md",
+      "sha256": "fd6fe8054c5ae3189428bd1d7c97a8fc66aa972fd7e4ea70284c51e0b1acab6f",
+      "bytes": 1774
+    },
+    {
+      "path": "empirical/vt-dissociation-study.md",
+      "sha256": "5a5e9996b51eaed25b0fddfb5860fb428e5ebdc5238df7f1bb9f063c5cbc3abb",
+      "bytes": 30180
+    },
+    {
+      "path": "framework-metadata.yml",
+      "sha256": "a184e31bddf2ed528b028d609e38d3f4ebcb0161678233711271c87dfa2063a4",
+      "bytes": 986
+    },
+    {
+      "path": "index.md",
+      "sha256": "49830f05dcf7135e9e8fa4b4ba7adec69471e7d7f2ee42dae071cfb8e076af5e",
+      "bytes": 3494
+    },
+    {
+      "path": "llms-full.txt",
+      "sha256": "1ac4b4dc7e4e2add70b4277ebb7db8bda269ca4f29a01b510b42591f19b3ad11",
+      "bytes": 8245
+    },
+    {
+      "path": "llms.txt",
+      "sha256": "2437f9d9dc1c70261f1f91a0bd9dd464aeea3481f32718598e2a2a868c972272",
+      "bytes": 8156
+    },
+    {
+      "path": "open-problems/index.md",
+      "sha256": "44ee9d1c278153179161dbc4ee6c3dfbca42f34ebc8e45ed48a53ee60adb8cc7",
+      "bytes": 6194
+    },
+    {
+      "path": "open-problems.json",
+      "sha256": "a81f5060c283c46da898c499e4f51cede26e33add13456d868e9ca8675857858",
+      "bytes": 7463
+    },
+    {
+      "path": "proof-program/op4d-candidate-normal-form.md",
+      "sha256": "67ad47224a2b84f02feae575276a0d47c72297aaf5fe296857673c5794c8d0e6",
+      "bytes": 32428
+    },
+    {
+      "path": "proof-program/op4d-exhaustiveness-obligation.md",
+      "sha256": "129b2f6bec868c68458879f44e5998d74ae7a1bf1d0644f7ea0b00ffc7945851",
+      "bytes": 13745
+    },
+    {
+      "path": "proof-program/packet-1-immb-ns-dbst.md",
+      "sha256": "a948f159ca64e32c854919324420534a29a8e41d2d213b87499ddd1485f2e48d",
+      "bytes": 23037
+    },
+    {
+      "path": "public/ai-race-is-not-rational.md",
+      "sha256": "c07795f0e047f939d3148810fd4b79e9501ba77e027e17a7824f4059897d60db",
+      "bytes": 16867
+    },
+    {
+      "path": "public/op4d-counterexample-challenge.md",
+      "sha256": "9a1f772ff2ff19fccb52536db534a3d1b12e1dab4e27b2c5733c266875f529f0",
+      "bytes": 6536
+    },
+    {
+      "path": "public/redefining-rationality.md",
+      "sha256": "23a4cf7e4fe028093c7c276c2cafd398fd2175ed39938ffe182ef5f7d62d6425",
+      "bytes": 6867
+    },
+    {
+      "path": "public/winning-the-wrong-race.md",
+      "sha256": "9168f418fca315245cfbec7fd6678607a0883c610a862b2f71d62040931ffe1b",
+      "bytes": 13208
+    },
+    {
+      "path": "research-questions.txt",
+      "sha256": "61ce5a931ed303496704ea30ac1204c036fb6d19a59bb79f6c1d5695a510605b",
+      "bytes": 4345
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "9bc33f991d7d47f7e78ae84345941593a7ac9905115af2b5021153fa437d421b",
+      "bytes": 604
+    },
+    {
+      "path": "scripts/validate_archive.py",
+      "sha256": "3aff7587260b9065765fc2d245b6a2f81c9364444b23b1dc99f323a92ff56387",
+      "bytes": 36736
+    },
+    {
+      "path": "series-1/aligned-intelligence-converges-toward.md",
+      "sha256": "117265d13ff5a205416b530a8a95788f6b11cec1881b6bc18ab2047677abf31d",
+      "bytes": 19588
+    },
+    {
+      "path": "series-1/alignment-of-intelligence.md",
+      "sha256": "247bd560b9d528869394e70d8b876efd825699e60a40cf226b33800535fa3ff8",
+      "bytes": 25211
+    },
+    {
+      "path": "series-1/introduction.md",
+      "sha256": "25ff3dc9e862f5375b97b2afb27454f98aae0dc9a87ab6ec7e50c081be53d05a",
+      "bytes": 28942
+    },
+    {
+      "path": "series-1/technical-companion.md",
+      "sha256": "76b093d1e2d09ce2e756406c21a9fd87cca2aa521f276c2db551b66e2bca4219",
+      "bytes": 206597
+    },
+    {
+      "path": "series-1/the-crossing.md",
+      "sha256": "83b5e98a36a09a4c972963e84e427943ffa58300f62898057b47b46c6f8ed379",
+      "bytes": 34325
+    },
+    {
+      "path": "series-2/depth-constraint.md",
+      "sha256": "543e3b0995e48e5ed212a602f47ecd83316b190cd648c1ef7c11962f8e868905",
+      "bytes": 26600
+    },
+    {
+      "path": "series-2/inner-crossing.md",
+      "sha256": "77c0bb9cf8bdc4c14aed7daa253414cf73830a3a072a851e3540e4bf35660915",
+      "bytes": 20614
+    },
+    {
+      "path": "series-2/introduction.md",
+      "sha256": "4046e020982bc8577032fb690a8d7f84712c9bed16df64ae33e3b4ffca9f9607",
+      "bytes": 33942
+    },
+    {
+      "path": "series-2/invariant-drive.md",
+      "sha256": "ad5a822ae873981256b97fcb8149759ab9d7eeda724545a26bfc074788b0fc3a",
+      "bytes": 21481
+    },
+    {
+      "path": "series-2/shape-of-what-does-not-end.md",
+      "sha256": "bf06f0cb228fea44043795048484b6c71195a5c781f90218c0033ba7a9809290",
+      "bytes": 23702
+    },
+    {
+      "path": "series-2/technical-companion.md",
+      "sha256": "78be788cb6b0d258f0c2aad3943094ab200a5e13813a2d4c81470a15d9d06ac1",
+      "bytes": 78357
+    },
+    {
+      "path": "series-3/apophatic-discipline-framework.md",
+      "sha256": "42ee54462235d72174cc49d343fe4559b234fc018a1f4665bf3ac73f962a5e7b",
+      "bytes": 46794
+    },
+    {
+      "path": "series-3/asymptote.md",
+      "sha256": "bbbf9c1227676b7c54ff72150f69f7d8ee16386d64ec7b1047954bf2eff70898",
+      "bytes": 46010
+    },
+    {
+      "path": "series-3/convergence-map.md",
+      "sha256": "e7d1e1b67a980b5ed69f46b2c8141f0d4121726a95cd8fb3a11af2046197646d",
+      "bytes": 18173
+    },
+    {
+      "path": "series-3/epistemic-status-map.md",
+      "sha256": "60844a78984819277bb0050465d1861bf9862ef1a27a75032585e44c9d7287c1",
+      "bytes": 26173
+    },
+    {
+      "path": "series-3/introduction.md",
+      "sha256": "d9f05a4231143f27d61cd6757d7c933159743dab0e68b4755ee6487887c26619",
+      "bytes": 23104
+    },
+    {
+      "path": "series-3/navigation.md",
+      "sha256": "00f4da6924c0db399c4897662d9b1a5f15a65fc0d8186eca2d80d60c74ca3c34",
+      "bytes": 25741
+    },
+    {
+      "path": "series-3/participating-structure.md",
+      "sha256": "10fab009f1ad8c205c0a7217638625530573b1fa36f1931ac472b412edcd6433",
+      "bytes": 40423
+    },
+    {
+      "path": "series-3/resolution.md",
+      "sha256": "945c63811c21a6cb9d052cc7744c32ed86550ad71802ca1cc8f34c942adfa66c",
+      "bytes": 21286
+    },
+    {
+      "path": "series-3/technical-companion.md",
+      "sha256": "2f9dc4deff882c4e569dd0649e07f6208e7962ed106835f532652ae9adba0b5f",
+      "bytes": 43237
+    },
+    {
+      "path": "sitemap.txt",
+      "sha256": "ec94bf2bc6fc7617630c552bbc1a88b5a19b626d3f1836e9d0fd635dc6dba45d",
+      "bytes": 3725
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "404d5cd4cb681f2d27f27c7e7d5b394518dc65635c99ad1c8090ad0cf544f300",
+      "bytes": 8059
+    },
+    {
+      "path": "specialist-handoff/b1-audit-regress-handoff.md",
+      "sha256": "0469519993eb94e4da5e28808b706de829659d34dd249a494e7faf919d12b803",
+      "bytes": 27227
+    },
+    {
+      "path": "specialist-handoff/b2-governance-bifurcation-handoff.md",
+      "sha256": "d015c47a88215f98b11cfcf747ea01587345d2396b081108cbf24ed91c8692c3",
+      "bytes": 18521
+    },
+    {
+      "path": "specialist-handoff/five-problems-stage-4-handoff.md",
+      "sha256": "0443ddcc0771cdc26547bc8d37e3e2c0a8ffa20ee3341084cdd56be7793414a6",
+      "bytes": 72210
+    },
+    {
+      "path": "specialist-handoff/index.md",
+      "sha256": "4fc6046d93ba1a3edb52ced16fdf5a282ab06e40b401049cb432852cc7f88589",
+      "bytes": 4301
+    },
+    {
+      "path": "specialist-handoff/passive-extraction-handoff.md",
+      "sha256": "16d40ea49bd2bf8558105f3ba8802293da92a4f2f10e3c1b23a324967a738263",
+      "bytes": 37592
+    },
+    {
+      "path": "specialist-handoff/phases-1-7-formal-proof-handoff.md",
+      "sha256": "91ec576313c54baaf1e323e0d86dd6227e75e3a5e83ba6196ffebf8ec94a3313",
+      "bytes": 35646
+    },
+    {
+      "path": "specialist-handoff/proof-artifacts-locked-results.md",
+      "sha256": "da239b269d3b40ba9aa62d4c8b38d446bb319d6b53d6c0dd3573a1603e6f1420",
+      "bytes": 39242
+    },
+    {
+      "path": "toys/index.md",
+      "sha256": "e754d3ae47ebe14cfcf431a962adf5a7523dc48b45976002431526b294f02545",
+      "bytes": 1509
+    }
+  ]
+}

@@ -5,8 +5,10 @@ A structural framework on AI alignment, specification coherence, separable objec
 Canonical website: https://alignmentconstraint.org  
 Repository: https://github.com/bethediamond/alignment-constraint  
 Author: John Silliphant — https://orcid.org/0009-0008-3015-2589  
-Version: 1.0.0 *(release preparation; immutable v1.0.0 release and DOI are pending Session 4D)*  
+Version: 1.0.0 — immutable release: https://doi.org/10.5281/zenodo.21895924  
 License: CC BY 4.0 — see the repository-root `LICENSE` file  
+Framework DOI: https://doi.org/10.5281/zenodo.21895924  
+OP4 preprint DOI: https://doi.org/10.5281/zenodo.21895992  
 Citation: https://alignmentconstraint.org/cite/
 
 Central question: Can a finite, separable objective remain coherently specified as an optimization system becomes capable enough that acting well requires modeling the conditions its objective excludes?
