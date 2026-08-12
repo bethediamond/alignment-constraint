@@ -1,7 +1,7 @@
 ---
 title: "Technical Companion to Series 2: The Valence Constraint"
 permalink: /series-2/technical-companion/
-description: "The formal companion to Series 2, developing V(t), the Valence Viability Constraint, sufficiency failure, SVG, and the Φ-Ψ unification hypothesis."
+description: "Formal Series 2 companion developing V(t), the Valence Viability Constraint, sufficiency failure, SVG, P1–P5, and the conditional Φ–Ψ hypothesis."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-valence-constraint-4b7b4656f433) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

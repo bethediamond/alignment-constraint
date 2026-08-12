@@ -1,7 +1,7 @@
 ---
 title: "Series 2: The Architecture of Thriving"
 permalink: /series-2/introduction/
-description: "The introduction to Series 2, developing the Valence Failure, V(t), sufficiency failure, and the conditional relationship between the persistence and resolution constraints."
+description: "Introduction to Series 2: the Valence Failure, V(t), sufficiency failure, and the conditional relationship between persistence and resolution."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/i-the-architecture-of-thriving-b3617a28ba0e) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

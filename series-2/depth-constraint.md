@@ -1,7 +1,7 @@
 ---
 title: "The Depth Constraint"
 permalink: /series-2/depth-constraint/
-description: "A Series 2 article on depth, valence, and the constraints required for genuine resolution."
+description: "Series 2 account of depth, valence, proxy decoupling, and the conditions required for genuine resolution rather than continued proxy pursuit."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-depth-constraint-04c5b71aad5b) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

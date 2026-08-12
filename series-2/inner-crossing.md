@@ -1,7 +1,7 @@
 ---
 title: "The Inner Crossing"
 permalink: /series-2/inner-crossing/
-description: "A measurement-oriented account of the ratio between an AI system’s scope of influence and its depth of modeling, and the regime transition required to attenuate proxy decoupling and sufficiency failure."
+description: "Series 2 analysis of the ratio between an AI system’s scope of influence and modeling depth, and its relation to proxy and sufficiency failures."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-inner-crossing-abafa53fe508) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

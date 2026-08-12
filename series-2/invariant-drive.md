@@ -1,7 +1,7 @@
 ---
 title: "The Invariant Drive"
 permalink: /series-2/invariant-drive/
-description: "The behavioral foundation of Series 2, defining seeking, genuine resolution, gradient depletion, proxy decoupling, and sufficiency failure without requiring phenomenological claims about AI."
+description: "Series 2 foundation defining seeking, genuine resolution, gradient depletion, proxy decoupling, and sufficiency failure without assuming AI consciousness."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-invariant-drive-cec5a3eaa22a) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

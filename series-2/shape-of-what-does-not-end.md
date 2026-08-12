@@ -1,7 +1,7 @@
 ---
 title: "The Shape of What Does Not End"
 permalink: /series-2/shape-of-what-does-not-end/
-description: "A Series 2 article on persistence, resolution, and the form of structures that do not self-terminate."
+description: "Series 2 conditions for a persistent, resolution-capable system, without claiming a unique moral or phenomenological endpoint."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-shape-of-what-does-not-end-aee2dda478cc) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
