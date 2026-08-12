@@ -3,7 +3,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {%- seo -%}
+  {%- assign ac_meta = site.data.page_metadata[page.url] -%}
+  {%- assign ac_seo_title = ac_meta.seo_title | default: page.title | default: site.title -%}
+  <title>{{ ac_seo_title | escape }}</title>
+  {%- seo title=false -%}
   {%- include highwire-meta.html -%}
   {%- include structured-data.html -%}
 
