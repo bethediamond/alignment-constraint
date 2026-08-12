@@ -1,6 +1,6 @@
 ---
 title: "Open Problems"
-description: "Research agenda for the Alignment Constraint Framework, listing unresolved formal and empirical problems, closure conditions, falsifiers, and relevant specialist types."
+description: "Actionable formal and empirical research problems for the Stage 4 framework, with closure conditions, specialist needs, dependencies, and falsifiers."
 permalink: /open-problems/
 ---
 
