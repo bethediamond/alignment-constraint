@@ -1,6 +1,6 @@
 ---
 title: "How to Cite"
-description: "Citation guidance for the Alignment Constraint Framework, including the v1.0.0 framework DOI, the OP4 preprint DOI, the living canonical archive, license, and proof status."
+description: "Citation guidance for the Alignment Constraint Framework v1.0.0 and The Stability Assumption preprint, with DOI, BibTeX, license, and version."
 permalink: /cite/
 ---
 
