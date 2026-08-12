@@ -1,7 +1,7 @@
 ---
 title: "DRG Frame-Manipulation Mechanism-Discrimination Study"
 permalink: /empirical/drg-frame-manipulation-preregistration/
-description: "A prospective pre-registration for distinguishing policy-level completion-recognition gaps from training-distribution effects using matched-signal and discourse-frame controls."
+description: "Prospective study design testing whether framing and matched signals can distinguish policy-level completion gaps from training-distribution effects."
 ---
 
 > **Draft protocol — not yet filed** · [Empirical Program →](/empirical/) · [Alignment Measurement Protocol →](/empirical/amp/) · [Proof Status →](/core/proof-status/)

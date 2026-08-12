@@ -1,6 +1,6 @@
 ---
 title: "Alignment Measurement Protocol / AMP"
-description: "Empirical measurement protocol for the Alignment Constraint Framework, covering DRG/SVG diagnostics, matched-signal results, DBST-M0 limitations, and the proposed DBST-M1 mechanism test."
+description: "Empirical protocol for DRG and SVG diagnostics, matched-signal results, DBST-M0 limitations, and the proposed DBST-M1 mechanism test."
 permalink: /empirical/amp/
 ---
 

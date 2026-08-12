@@ -1,7 +1,7 @@
 ---
 title: "V(t) Dissociation Study"
 permalink: /empirical/vt-dissociation-study/
-description: "A draft human-study pre-registration design for testing whether recovery latency, behavioral diversity, and signal sensitivity require a shared latent explanatory construct."
+description: "Draft human-study protocol testing whether recovery latency, behavioral diversity, and signal sensitivity support a shared latent V(t) construct."
 ---
 
 > **Draft protocol for specialist review — not ready for filing or data collection** · [Empirical Program →](/empirical/) · [Alignment Measurement Protocol →](/empirical/amp/) · [Proof Status →](/core/proof-status/)

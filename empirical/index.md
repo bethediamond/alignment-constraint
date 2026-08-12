@@ -1,6 +1,6 @@
 ---
 title: "Empirical Program"
-description: "Index to the Alignment Constraint Framework empirical program, including published preregistrations and results, AMP, DBST work, and draft mechanism-discrimination protocols."
+description: "Index to empirical tests for the framework, including completion recognition, matched-signal DRG results, SVG measurement, DBST-M0, and DBST-M1."
 permalink: /empirical/
 ---
 
