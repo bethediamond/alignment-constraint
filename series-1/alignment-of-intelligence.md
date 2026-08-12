@@ -1,7 +1,7 @@
 ---
 title: "The Alignment of Intelligence"
 permalink: /series-1/alignment-of-intelligence/
-description: "A Series 1 article on optimization, intelligence, and alignment as a structural constraint."
+description: "Series 1 introduction to the Substrate Constraint: why sustained optimization in open, non-resettable environments faces self-termination pressure."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/ii-the-alignment-of-intelligence-187b09d2f902) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

@@ -1,7 +1,7 @@
 ---
 title: "What Does Aligned Intelligence Actually Converge Toward?"
 permalink: /series-1/aligned-intelligence-converges-toward/
-description: "A structural analysis of the objective classes that remain after substrate-blind, suppression-based, and proxy-decoupled strategies face sustained optimization pressure."
+description: "Series 1 analysis of which objective classes survive pressure from substrate blindness, suppression costs, proxy decoupling, and adaptive environments."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/iii-what-does-aligned-intelligence-actually-converge-toward-2fd726374363) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

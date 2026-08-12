@@ -1,7 +1,7 @@
 ---
 title: "The Crossing"
 permalink: /series-1/the-crossing/
-description: "The timing and measurement problem for whether AI system-awareness grows quickly enough relative to capability to reach a viable regime before irreversible substrate damage."
+description: "Series 1 analysis of whether AI causal modeling can catch up with intervention power before irreversible damage to shared substrate conditions."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/iv-the-crossing-fba00eed5d1a) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

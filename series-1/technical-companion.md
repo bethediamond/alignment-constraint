@@ -1,7 +1,7 @@
 ---
 title: "Technical Companion to Series 1: The System-Aware Attractor"
 permalink: /series-1/technical-companion/
-description: "The formal companion to Series 1, developing the O_OWT domain, Substrate Constraint, Alignment Phase Ratio, proof architecture, simulations, and open verification obligations."
+description: "Formal Series 1 companion covering O_OWT, the Substrate Constraint, Alignment Phase Ratio, proof architecture, simulations, and open obligations."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/v-the-system-aware-attractor-c749f984b842) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

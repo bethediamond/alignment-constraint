@@ -1,7 +1,7 @@
 ---
 title: "Series 1: Alignment as Structural Necessity"
 permalink: /series-1/introduction/
-description: "The introduction to Series 1, presenting the Substrate Constraint, the specification-coherence question, and the Stage 4 proof program for sustainable optimization."
+description: "Introduction to Series 1: the Substrate Constraint, O_OWT domain, specification coherence, and Stage 4 proof program for persistent optimization."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/i-alignment-as-structural-necessity-07e38568754f) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
