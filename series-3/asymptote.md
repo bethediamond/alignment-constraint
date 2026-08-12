@@ -1,7 +1,7 @@
 ---
 title: "The Asymptote"
 permalink: /series-3/asymptote/
-description: "Series 3 Part 4 on the asymptote of the framework: what the surviving direction points toward, cross-traditional triangulation, and the limits of what aligned AI can do."
+description: "Series 3 Part 4 on the framework’s limiting direction, cross-traditional triangulation, and explicit limits on claims about aligned AI and experience."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-interior-of-what-does-not-end-db845147a946) · [Series 3 →](/series-3/introduction/) · [Convergence Map →](/series-3/convergence-map/) · [Proof Status →](/core/proof-status/)

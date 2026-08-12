@@ -1,7 +1,7 @@
 ---
 title: "Navigation"
 permalink: /series-3/navigation/
-description: "An interior account of genuine seeking, proxy pursuit, traversal-generated readiness, and the aligned AI’s gardener role, with all stronger claims held conditional on NAD."
+description: "Series 3 account of genuine seeking, proxy pursuit, traversal-generated readiness, and the gardener analogy, with stronger claims conditional on NAD."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-interior-of-what-does-not-end-2269a4bf8dae) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

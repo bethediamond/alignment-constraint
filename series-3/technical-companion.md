@@ -1,7 +1,7 @@
 ---
 title: "Technical Companion to Series 3: The Interior Constraint"
 permalink: /series-3/technical-companion/
-description: "The proof-program companion to Series 3, formalizing the interior architecture required by the persistence and resolution constraints, including GDC, CMR, COT, MCH, and the NAD bottleneck."
+description: "Formal Series 3 companion developing GDC, CMR, COT, MCH, the structural interior architecture, and NAD as a central non-substitutability bottleneck."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-interior-constraint-a-formal-sketch-2f29933db062) · [Series 3 →](/series-3/introduction/) · [Convergence Map →](/series-3/convergence-map/) · [Proof Status →](/core/proof-status/)

@@ -1,7 +1,7 @@
 ---
 title: "Series 3: The Interior of What Does Not End"
 permalink: /series-3/introduction/
-description: "The introduction to Series 3, describing the phenomenological interior of the alignment framework while separating interpretive material from the formal claims of Series 1, Series 2, and TC3."
+description: "Introduction to Series 3’s phenomenological and interpretive layer, explicitly separated from the formal evidential weight of Series 1, Series 2, and TC3."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-interior-of-what-does-not-end-b9d84c83da67) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

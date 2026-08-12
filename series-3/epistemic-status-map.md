@@ -1,7 +1,7 @@
 ---
 title: "Epistemic Status Map of the Alignment Framework"
 permalink: /series-3/epistemic-status-map/
-description: "A map of epistemic status, claim strength, falsification conditions, and layer separation across the Alignment Constraint Framework."
+description: "Map of claim strength, dependencies, falsification conditions, and formal, empirical, interpretive, and phenomenological layers across the framework."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/epistemic-status-map-of-the-alignment-framework-fb182c665eed) · [Series 3 →](/series-3/introduction/) · [Apophatic Discipline →](/series-3/apophatic-discipline-framework/) · [Proof Status →](/core/proof-status/)

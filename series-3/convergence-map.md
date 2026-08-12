@@ -1,7 +1,7 @@
 ---
 title: "The Convergence Map"
 permalink: /series-3/convergence-map/
-description: "A Series 3 companion essay mapping structural predictions of the framework against independent contemplative and philosophical traditions as consistency-supporting triangulation, not proof."
+description: "Series 3 mapping of framework predictions to philosophical and contemplative traditions as descriptive triangulation, not proof or confirmation."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-convergence-map-e2e482e9fbfa) · [Series 3 →](/series-3/introduction/) · [The Asymptote →](/series-3/asymptote/) · [Proof Status →](/core/proof-status/)

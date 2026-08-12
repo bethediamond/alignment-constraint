@@ -1,7 +1,7 @@
 ---
 title: "Participating Structure"
 permalink: /series-3/participating-structure/
-description: "A derivation and interior account of the ⭘◻△ architecture, ecological navigation, Gradient Dignity, and the distinction between weak and strong Completion Model Requirements."
+description: "Series 3 account of the ⭘◻△ architecture, ecological navigation, Gradient Dignity, and weak versus strong Completion Model Requirements."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-interior-of-what-does-not-end-5a4f93d553b2) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

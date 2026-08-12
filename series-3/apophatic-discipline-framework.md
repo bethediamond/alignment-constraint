@@ -1,7 +1,7 @@
 ---
 title: "Apophatic Discipline Framework"
 permalink: /series-3/apophatic-discipline-framework/
-description: "A Series 3 standalone companion defining the red lines, permitted moves, and precision rules that prevent phenomenological exploration from becoming metaphysical overclaim."
+description: "Series 3 companion defining red lines and precision rules that keep phenomenological exploration separate from stronger formal or metaphysical claims."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/apophatic-discipline-framework-72fde3440158) · [Series 3 →](/series-3/introduction/) · [Epistemic Status Map →](/series-3/epistemic-status-map/) · [Proof Status →](/core/proof-status/)
