@@ -1,7 +1,7 @@
 ---
 title: "OP4: The Stability Assumption"
 permalink: /core/stability-assumption-full/
-description: "Full OP4 paper on the Stability Assumption and objective-boundary stability under accurate coupled modeling."
+description: "Full Stage 4 OP4 paper on whether finite separable AI objectives remain coherently adequate under accurate coupled modeling in O_OWT environments."
 citation_title: "The Stability Assumption: Specification-Coherence Limits in Separable Objective Alignment"
 citation_author: "John Silliphant"
 citation_publication_date: "2026-08-12"

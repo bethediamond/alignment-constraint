@@ -1,7 +1,7 @@
 ---
 title: "Proof Status and Non-Claims"
 permalink: /core/proof-status/
-description: "Epistemic calibration for the Alignment Constraint Framework: what is claimed, what is not claimed, and what remains open."
+description: "Authoritative epistemic calibration for the framework: what is established, conditional, open, unverified, or explicitly not claimed at Stage 4."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/what-this-framework-claims-and-what-it-does-not-fecca0c7901a) · [Framework hub →](/core/alignment-constraint/)

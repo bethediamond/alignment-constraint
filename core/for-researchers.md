@@ -1,6 +1,6 @@
 ---
 title: "For Researchers: The Claim to Break"
-description: "A falsification-oriented entry point to the Alignment Constraint Framework, outlining four ways to break or materially weaken the current specification-coherence architecture."
+description: "A falsification-first entry point: four ways to break or weaken the Stage 4 specification-coherence architecture, including a fourth strategy class."
 permalink: /core/for-researchers/
 ---
 

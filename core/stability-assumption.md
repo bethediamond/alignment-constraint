@@ -1,7 +1,7 @@
 ---
 title: "The Stability Assumption"
 permalink: /core/stability-assumption/
-description: "A field-facing entry essay on whether separable objective specification has a stable completion condition under accurate coupled modeling."
+description: "Field-facing statement of the Stability Assumption: whether separable objective specification has a stable completion condition under coupled modeling."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-stability-assumption-b5dbdcfa6a2c) · [Framework hub →](/core/alignment-constraint/) · [Full OP4 paper →](/core/stability-assumption-full/)

@@ -1,7 +1,7 @@
 ---
 title: "When Better Objectives Are Not Enough"
 permalink: /core/field-facing-bridge/
-description: "A field-facing bridge framing the Alignment Constraint Framework as a specification-coherence bottleneck in AI alignment."
+description: "A field-facing introduction to the specification-coherence bottleneck: whether better AI objectives remain stable as modeling depth and coupling increase."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/when-better-objectives-are-not-enough-a-specification-coherence-bottleneck-in-alignment-ae83b1322b01) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

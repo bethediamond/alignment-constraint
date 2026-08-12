@@ -1,6 +1,6 @@
 ---
 title: "The Alignment Constraint"
-description: "Framework hub and proof-architecture map for the Alignment Constraint Framework."
+description: "Framework hub for the Alignment Constraint: the Stability Assumption, OP4, proof architecture, empirical tests, open problems, and three series."
 permalink: /core/alignment-constraint/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "The Tightening Sequence"
 permalink: /core/tightening-sequence/
-description: "A proof-program note on the tightening sequence for the Alignment Constraint Framework."
+description: "A technical note on proof-program repairs, stronger premises, burden definitions, non-stationarity, and remaining closure work in the Stage 4 framework."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-tightening-sequence-e8e96de8fef5) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
