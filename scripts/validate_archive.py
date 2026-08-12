@@ -946,10 +946,26 @@ def check_centralized_structured_data(page_data, route_by_page) -> list[Issue]:
                 f"metadata entry has no matching rendered Markdown page: {extra}",
                 None,
             ))
+        seen_seo_titles: dict[str, str] = {}
         for route, entry in metadata.items():
             if not isinstance(entry, dict):
                 issues.append(Issue("structured data", "_data/page_metadata.json", f"entry {route} must be an object", None))
                 continue
+            seo_title = str(entry.get("seo_title", "")).strip()
+            if not seo_title:
+                issues.append(Issue(
+                    "SEO metadata", "_data/page_metadata.json",
+                    f"entry {route} is missing seo_title", None,
+                ))
+            else:
+                folded_title = re.sub(r"\s+", " ", seo_title).strip().casefold()
+                if folded_title in seen_seo_titles:
+                    issues.append(Issue(
+                        "SEO metadata", "_data/page_metadata.json",
+                        f"entry {route} duplicates seo_title used by {seen_seo_titles[folded_title]}", None,
+                    ))
+                else:
+                    seen_seo_titles[folded_title] = route
             schema = entry.get("schema_type")
             if schema not in ALLOWED_SCHEMA_TYPES:
                 issues.append(Issue(
@@ -977,7 +993,7 @@ def check_centralized_structured_data(page_data, route_by_page) -> list[Issue]:
     if head_path.exists():
         head = read_text(head_path)
         head_requirements = (
-            (re.compile(r"\{%[-]?\s*seo\s*[-]?%\}"), "{% seo %}"),
+            (re.compile(r"\{%[-]?\s*seo(?:\s+[^%]*?)?\s*[-]?%\}"), "{% seo %}"),
             (re.compile(r"\{%[-]?\s*include\s+highwire-meta\.html\s*[-]?%\}"), "{% include highwire-meta.html %}"),
             (re.compile(r"\{%[-]?\s*include\s+structured-data\.html\s*[-]?%\}"), "{% include structured-data.html %}"),
         )
