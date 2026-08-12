@@ -1,0 +1,77 @@
+name: IndexNow
+
+on:
+  workflow_run:
+    workflows: ["pages-build-deployment"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow-main
+  cancel-in-progress: false
+
+jobs:
+  submit-changed-urls:
+    name: Notify IndexNow after successful Pages deployment
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Choose deployed commit
+        id: deployed
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_run" ]; then
+            echo "sha=${{ github.event.workflow_run.head_sha }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "sha=${{ github.sha }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check out deployed repository revision
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ steps.deployed.outputs.sha }}
+          fetch-depth: 2
+
+      - name: Verify IndexNow key is live on the deployed custom domain
+        shell: bash
+        env:
+          KEY_FILE: "0036edb8983b5cdafb67a64e3dac7f332367d81d0c9e15f85ac8597b9c6248e4.txt"
+          KEY_URL: "https://alignmentconstraint.org/0036edb8983b5cdafb67a64e3dac7f332367d81d0c9e15f85ac8597b9c6248e4.txt"
+        run: |
+          expected="$(tr -d '\r\n' < "$KEY_FILE")"
+          for attempt in {1..12}; do
+            actual="$(curl --fail --silent --show-error --max-time 15 "$KEY_URL" 2>/dev/null | tr -d '\r\n' || true)"
+            if [ "$actual" = "$expected" ]; then
+              echo "IndexNow ownership key is live and matches."
+              exit 0
+            fi
+            echo "Key not visible yet (attempt $attempt/12); waiting 10 seconds..."
+            sleep 10
+          done
+          echo "ERROR: Deployed IndexNow key could not be verified at $KEY_URL"
+          exit 1
+
+      - name: Submit changed canonical public URLs
+        shell: bash
+        env:
+          HEAD_SHA: ${{ steps.deployed.outputs.sha }}
+        run: |
+          BASE_SHA="${HEAD_SHA}^"
+          EXTRA=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            EXTRA="--dry-run"
+            echo "Manual run: dry-run mode only; no IndexNow request will be sent."
+          fi
+
+          python3 scripts/indexnow_submit.py \
+            --base "$BASE_SHA" \
+            --head "$HEAD_SHA" \
+            --key-file "0036edb8983b5cdafb67a64e3dac7f332367d81d0c9e15f85ac8597b9c6248e4.txt" \
+            $EXTRA
