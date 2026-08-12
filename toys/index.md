@@ -1,6 +1,6 @@
 ---
 title: "Interactive Simulations"
-description: "Browser-based illustrative simulations accompanying the Alignment Constraint Framework across Series 1 and Series 2; simulations are explanatory tools, not proofs."
+description: "Browser-based simulations illustrating Series 1 and Series 2 dynamics in the Alignment Constraint Framework; explanatory tools, not proofs."
 permalink: /toys/
 ---
 
