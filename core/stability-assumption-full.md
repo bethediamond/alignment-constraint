@@ -2,9 +2,14 @@
 title: "OP4: The Stability Assumption"
 permalink: /core/stability-assumption-full/
 description: "Full OP4 paper on the Stability Assumption and objective-boundary stability under accurate coupled modeling."
+citation_title: "The Stability Assumption: Specification-Coherence Limits in Separable Objective Alignment"
+citation_author: "John Silliphant"
+citation_publication_date: "2026-08-12"
+citation_doi: "10.5281/zenodo.21895992"
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/op4-the-stability-assumption-e19955599adb) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
+> **Scholarly preprint:** [10.5281/zenodo.21895992](https://doi.org/10.5281/zenodo.21895992) · **Framework v1.0.0:** [10.5281/zenodo.21895924](https://doi.org/10.5281/zenodo.21895924)
 
 ---
 
@@ -18,7 +23,7 @@ description: "Full OP4 paper on the Stability Assumption and objective-boundary 
 - **What would weaken or falsify it:** A fourth strategy class outside the three identified families that satisfies all stability conditions, a clean bounded-boundary empirical result under the stated regime, or a formal positive stability theorem.
 - **Dependencies:** [Proof Status](/core/proof-status/), [OP4d Exhaustiveness](/proof-program/op4d-exhaustiveness-obligation/), [Candidate Normal Form](/proof-program/op4d-candidate-normal-form/), and [Packet 1 / DBST](/proof-program/packet-1-immb-ns-dbst/).
 - **Primary source:** This canonical OP4 paper: [The Stability Assumption](/core/stability-assumption-full/).
-- **How to cite:** Until a paper DOI is live, cite this canonical page via [How to Cite](/cite/) and explicitly retain the Stage 4 / non-closure qualification.
+- **How to cite:** Cite the scholarly preprint DOI [10.5281/zenodo.21895992](https://doi.org/10.5281/zenodo.21895992) and retain the Stage 4 / non-closure qualification. See [How to Cite](/cite/).
 
 ---
 
