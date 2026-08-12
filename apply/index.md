@@ -1,7 +1,7 @@
 ---
 title: "Apply the Alignment Constraint Framework"
 permalink: /apply/
-description: "A step-by-step method for conditionally applying the Alignment Constraint Framework to AI alignment proposals, with worked examples, falsifiers, and explicit Stage 4 limits."
+description: "A step-by-step method for applying the Stage 4 framework to AI alignment proposals, identifying PCL, AGC, ICI, assumptions, and falsifiers."
 ---
 
 > **Application guide** · [Proof Status →](https://alignmentconstraint.org/core/proof-status/) · [The Stability Assumption →](https://alignmentconstraint.org/core/stability-assumption/) · [Glossary →](https://alignmentconstraint.org/core/glossary/)
