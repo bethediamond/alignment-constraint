@@ -1,7 +1,7 @@
 ---
 title: "OP4d: The Exhaustiveness Obligation"
 permalink: /proof-program/op4d-exhaustiveness-obligation/
-description: "A Stage 4 technical note defining the three candidate failure families, the OP4d exhaustiveness vulnerability, and the counterexamples that would break the current architecture."
+description: "Stage 4 technical note asking whether PCL, AGC, and ICI exhaust finite objective-boundary strategies and what counterexamples would break the claim."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/op4d-the-exhaustiveness-obligation-e5710071f066) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

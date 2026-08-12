@@ -1,7 +1,7 @@
 ---
 title: "OP4d Candidate Normal Form"
 permalink: /proof-program/op4d-candidate-normal-form/
-description: "The Stage 4 specialist apparatus for OP4d, including the Candidate Normal Form Theorem, five axioms, eight lemmas, three verification questions, and the L8 counterexample challenge."
+description: "Stage 4 OP4d apparatus: five axioms, eight lemmas, three specialist questions, and the counterexample conditions for a genuine fourth strategy class."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/op4d-candidate-normal-form-specialist-verification-bd29a48283d4) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)

@@ -1,7 +1,7 @@
 ---
 title: "Packet 1: IMMB-NS Verification and the Dynamic Blanket Stress Test"
 permalink: /proof-program/packet-1-immb-ns-dbst/
-description: "An empirical specialist packet defining the IMMB-NS hinge, the Synchronization Condition, DBST-M0 limitations, and the DBST-M1 mechanism test and falsification criteria."
+description: "Specialist packet defining IMMB-NS, the Synchronization Condition, DBST-M0 limits, and DBST-M1 tests of endogenous causal novelty under optimization."
 ---
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/packet-1-immb-ns-verification-and-the-dynamic-blanket-stress-test-778576bbe999) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
