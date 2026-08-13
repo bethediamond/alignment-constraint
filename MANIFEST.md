@@ -38,6 +38,13 @@ Proof status: Stage 4 — candidate proof architecture under named premises, wit
 - /CITATION.cff — citation metadata for GitHub and citation tooling
 - /release-manifest.json — machine-readable v1.0.0 release inventory and file hashes
 - /SHA256SUMS.txt — SHA-256 checksums for release files (excluding the checksum file itself)
+- /data/README.md — documentation for the derived v1.0.0 machine-ingestion corpus
+- /data/corpus.jsonl — deterministic section-level v1.0.0 corpus
+- /data/claims.jsonl — derived claim/open-problem records with provenance
+- /data/terms.jsonl — derived canonical term records with provenance
+- https://huggingface.co/datasets/diamondlight/alignment-constraint-framework — external distribution mirror; not canonical authority
+
+The `/data/` files are derived from the immutable v1.0.0 release. The Hugging Face copy is a distribution mirror only; the canonical website and versioned framework DOI remain authoritative.
 
 ## Series
 

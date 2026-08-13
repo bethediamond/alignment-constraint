@@ -145,7 +145,12 @@
     "robots_txt": "https://alignmentconstraint.org/robots.txt",
     "framework_metadata": "https://alignmentconstraint.org/framework-metadata.yml",
     "release_manifest": "https://alignmentconstraint.org/release-manifest.json",
-    "checksums": "https://alignmentconstraint.org/SHA256SUMS.txt"
+    "checksums": "https://alignmentconstraint.org/SHA256SUMS.txt",
+    "machine_corpus_readme": "https://alignmentconstraint.org/data/README.md",
+    "machine_corpus": "https://alignmentconstraint.org/data/corpus.jsonl",
+    "machine_claims": "https://alignmentconstraint.org/data/claims.jsonl",
+    "machine_terms": "https://alignmentconstraint.org/data/terms.jsonl",
+    "huggingface_dataset_mirror": "https://huggingface.co/datasets/diamondlight/alignment-constraint-framework"
   },
   "keywords": [
     "AI alignment",
@@ -171,5 +176,16 @@
   "op4_doi": "10.5281/zenodo.21895992",
   "op4_doi_url": "https://doi.org/10.5281/zenodo.21895992",
   "release_url": "https://github.com/bethediamond/alignment-constraint/releases/tag/v1.0.0",
-  "citation_url": "https://alignmentconstraint.org/cite/"
+  "citation_url": "https://alignmentconstraint.org/cite/",
+  "machine_ingestion": {
+    "version": "1.0.0",
+    "release_tag": "v1.0.0",
+    "documentation": "https://alignmentconstraint.org/data/README.md",
+    "corpus": "https://alignmentconstraint.org/data/corpus.jsonl",
+    "claims": "https://alignmentconstraint.org/data/claims.jsonl",
+    "terms": "https://alignmentconstraint.org/data/terms.jsonl",
+    "mirror": "https://huggingface.co/datasets/diamondlight/alignment-constraint-framework",
+    "authority_note": "The local /data/ files are derived from the immutable v1.0.0 release. The Hugging Face dataset is a distribution mirror only; alignmentconstraint.org and the versioned framework DOI remain authoritative.",
+    "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure."
+  }
 }

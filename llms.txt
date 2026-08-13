@@ -68,6 +68,13 @@
 - [sitemap.xml](https://alignmentconstraint.org/sitemap.xml): XML sitemap.
 - [sitemap.txt](https://alignmentconstraint.org/sitemap.txt): plain-text sitemap.
 - [robots.txt](https://alignmentconstraint.org/robots.txt): crawler permissions.
+- [Machine-ingestion corpus documentation](https://alignmentconstraint.org/data/README.md): provenance, schema, and authority rules for the fixed v1.0.0 derived corpus.
+- [corpus.jsonl](https://alignmentconstraint.org/data/corpus.jsonl): deterministic section-level source corpus for v1.0.0.
+- [claims.jsonl](https://alignmentconstraint.org/data/claims.jsonl): canonical claim/open-problem objects with release provenance.
+- [terms.jsonl](https://alignmentconstraint.org/data/terms.jsonl): canonical defined-term objects with release provenance.
+- [Hugging Face dataset mirror](https://huggingface.co/datasets/diamondlight/alignment-constraint-framework): distribution/ingestion mirror only.
+
+Authority rule: the local `/data/` files are derived from the immutable v1.0.0 release; the Hugging Face copy is a mirror. The canonical website and versioned framework DOI remain authoritative.
 
 ## Core claims
 

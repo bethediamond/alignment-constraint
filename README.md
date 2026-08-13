@@ -80,6 +80,16 @@ These files are included to make the framework legible to search systems, LLMs, 
 - [sitemap.txt](https://alignmentconstraint.org/sitemap.txt) — plain-text sitemap
 - [robots.txt](https://alignmentconstraint.org/robots.txt) — crawler permissions
 
+### Versioned machine-ingestion corpus
+
+- [Corpus documentation](https://alignmentconstraint.org/data/README.md) — schema, provenance, rebuild, and authority rules
+- [corpus.jsonl](https://alignmentconstraint.org/data/corpus.jsonl) — deterministic section-level source corpus for v1.0.0
+- [claims.jsonl](https://alignmentconstraint.org/data/claims.jsonl) — provenance-bearing claim-graph and open-problem records
+- [terms.jsonl](https://alignmentconstraint.org/data/terms.jsonl) — provenance-bearing canonical defined terms
+- [Hugging Face dataset mirror](https://huggingface.co/datasets/diamondlight/alignment-constraint-framework) — distribution/ingestion mirror
+
+The local `/data/` files are derived from the immutable v1.0.0 release. The Hugging Face copy is a distribution mirror only; **alignmentconstraint.org and the versioned framework DOI remain authoritative.**
+
 ---
 
 ## Empirical program
