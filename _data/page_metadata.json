@@ -98,6 +98,19 @@
     "proof_status": "Proof-program note within Stage 4; not theorem closure.",
     "seo_title": "Tightening the Alignment Constraint Proof Program"
   },
+  "/data/": {
+    "schema_type": "WebPage",
+    "document_role": "Human-facing landing page for the versioned machine-ingestion corpus and dataset mirror",
+    "proof_status": "Derived distribution of framework v1.0.0; it creates no new claims and does not upgrade the framework beyond Stage 4.",
+    "keywords": [
+      "AI alignment dataset",
+      "machine-readable corpus",
+      "JSONL",
+      "Alignment Constraint Framework",
+      "Hugging Face"
+    ],
+    "seo_title": "Alignment Constraint Machine-Readable AI Dataset"
+  },
   "/empirical/": {
     "schema_type": "WebPage",
     "document_role": "Empirical program index",
