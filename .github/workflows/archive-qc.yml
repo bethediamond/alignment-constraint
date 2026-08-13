@@ -19,3 +19,6 @@ jobs:
 
       - name: Run archive validator
         run: python3 scripts/validate_archive.py
+
+      - name: Validate machine-ingestion corpus
+        run: python3 scripts/validate_machine_corpus.py
