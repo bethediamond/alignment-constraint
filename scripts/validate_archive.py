@@ -35,6 +35,7 @@ PUBLIC_DIRS = {
     "apply",
     "cite",
     "core",
+    "data",
     "empirical",
     "open-problems",
     "proof-program",
