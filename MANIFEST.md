@@ -48,6 +48,23 @@ Proof status: Stage 4 — candidate proof architecture under named premises, wit
 
 The `/data/` files are derived from the immutable v1.0.0 release. The Hugging Face copy is a distribution mirror only; the canonical website and versioned framework DOI remain authoritative.
 
+## Community participation
+
+- /CONTRIBUTING.md — contribution routes, proof-status rule, and synchronization guidance
+- /CODE_OF_CONDUCT.md — conduct expectations for technical criticism and community participation
+- /.github/ISSUE_TEMPLATE/counterexample.yml — structured OP4d counterexample submission
+- /.github/ISSUE_TEMPLATE/archive-error.yml — archive/citation/metadata error report
+- /.github/ISSUE_TEMPLATE/literature-pointer.yml — related-literature submission
+- /.github/ISSUE_TEMPLATE/empirical-replication.yml — replication, negative-result, and method-critique submission
+- /.github/ISSUE_TEMPLATE/translation-review.yml — technical translation-review submission
+- /.github/ISSUE_TEMPLATE/config.yml — issue chooser routing
+- /.github/pull_request_template.md — pull-request calibration and synchronization checklist
+- https://github.com/bethediamond/alignment-constraint/discussions — broad research discussion route
+
+Issues are for specific actionable work. Discussions are for broader questions and exploratory
+research conversation. Specialist handoff files remain working verification materials, not
+proof certificates.
+
 ## Series
 
 Series 1 — Alignment as Structural Necessity:

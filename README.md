@@ -63,6 +63,25 @@ Key files:
 
 ---
 
+## Contribute, challenge, or correct
+
+This project welcomes counterexamples, corrections, missing literature, negative empirical
+results, failed replications, and translation review.
+
+- [Contribution guide](CONTRIBUTING.md)
+- [Open a structured issue](https://github.com/bethediamond/alignment-constraint/issues/new/choose)
+- [GitHub Discussions](https://github.com/bethediamond/alignment-constraint/discussions)
+- [OP4d Counterexample Challenge](https://alignmentconstraint.org/public/op4d-counterexample-challenge/)
+
+Use **Issues** for specific actionable reports and **Discussions** for broader research
+questions or exploratory objections.
+
+The contribution process does not change the framework's current status: **Stage 4 —
+candidate proof architecture under named premises, without independent specialist
+verification and without theorem closure.**
+
+---
+
 ## Machine-readable files
 
 These files are included to make the framework legible to search systems, LLMs, autonomous research agents, and future indexing systems.
