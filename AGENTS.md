@@ -45,7 +45,7 @@ The authoritative calibration document is: https://alignmentconstraint.org/core/
 - https://alignmentconstraint.org/research-questions.txt — plain-text research question list.
 - https://alignmentconstraint.org/framework-metadata.yml — authoritative identity and release metadata.
 - https://alignmentconstraint.org/defined-terms.json — structured canonical glossary terms.
-- https://alignmentconstraint.org/data/README.md — versioned machine-corpus documentation and provenance.
+- https://alignmentconstraint.org/data/ — versioned machine-corpus documentation and provenance.
 - https://alignmentconstraint.org/data/corpus.jsonl — deterministic section-level corpus derived from v1.0.0.
 - https://alignmentconstraint.org/data/claims.jsonl — claim/open-problem records derived from canonical machine-readable sources.
 - https://alignmentconstraint.org/data/terms.jsonl — term records derived from `defined-terms.json`.

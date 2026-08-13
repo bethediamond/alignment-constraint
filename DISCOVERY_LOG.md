@@ -19,6 +19,8 @@ Alignment Constraint Framework.
 | 2026-08-12 | Google Scholar | Scholarly discovery check | The Stability Assumption: Specification-Coherence Limits in Separable Objective Alignment | — | N/A | Work was not yet available to select/add from Google Scholar indexing. | 2026-08-26 |
 | 2026-08-12 | Zenodo / DOI | DOI resolution check | https://doi.org/10.5281/zenodo.21895924 | Zenodo | Yes | Framework DOI resolves. Search-engine and scholarly-index discovery remain separate checks. | 2026-08-26 |
 | 2026-08-12 | Zenodo / DOI | DOI resolution check | https://doi.org/10.5281/zenodo.21895992 | Zenodo | Yes | OP4 / Stability Assumption DOI resolves. Google Scholar indexing not yet observed. | 2026-08-26 |
+| 2026-08-12 | Canonical GitHub/site archive | Machine-ingestion corpus publication | https://alignmentconstraint.org/data/ | Canonical v1.0.0 release | Yes | Published deterministic v1.0.0 machine corpus: 818 section records, 20 claim/open-problem records, and 24 term records; archive and corpus validation passed. | 2026-08-26 |
+| 2026-08-12 | Hugging Face | Dataset mirror publication/versioning | https://huggingface.co/datasets/diamondlight/alignment-constraint-framework | Canonical site + v1.0.0 release | Yes | Public distribution mirror recognizes corpus, claims, and terms configurations; tag v1.0.0 points to mirror commit 7ae62cda75a993d81b881f4a6fc7eec7a2204b90. Mirror is non-canonical. | 2026-08-26 |
 
 ## Items to record next
 

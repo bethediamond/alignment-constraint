@@ -82,7 +82,7 @@ These files are included to make the framework legible to search systems, LLMs, 
 
 ### Versioned machine-ingestion corpus
 
-- [Corpus documentation](https://alignmentconstraint.org/data/README.md) — schema, provenance, rebuild, and authority rules
+- [Corpus documentation](https://alignmentconstraint.org/data/) — schema, provenance, rebuild, and authority rules
 - [corpus.jsonl](https://alignmentconstraint.org/data/corpus.jsonl) — deterministic section-level source corpus for v1.0.0
 - [claims.jsonl](https://alignmentconstraint.org/data/claims.jsonl) — provenance-bearing claim-graph and open-problem records
 - [terms.jsonl](https://alignmentconstraint.org/data/terms.jsonl) — provenance-bearing canonical defined terms

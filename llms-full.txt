@@ -119,7 +119,7 @@ Specialist handoffs: https://alignmentconstraint.org/specialist-handoff/
 - https://alignmentconstraint.org/sitemap.xml
 - https://alignmentconstraint.org/sitemap.txt
 - https://alignmentconstraint.org/robots.txt
-- https://alignmentconstraint.org/data/README.md — versioned machine-corpus schema, provenance, and authority rules
+- https://alignmentconstraint.org/data/ — versioned machine-corpus schema, provenance, and authority rules
 - https://alignmentconstraint.org/data/corpus.jsonl — deterministic section-level v1.0.0 source corpus
 - https://alignmentconstraint.org/data/claims.jsonl — provenance-bearing claim/open-problem records
 - https://alignmentconstraint.org/data/terms.jsonl — provenance-bearing canonical term records

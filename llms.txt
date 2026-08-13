@@ -68,7 +68,7 @@
 - [sitemap.xml](https://alignmentconstraint.org/sitemap.xml): XML sitemap.
 - [sitemap.txt](https://alignmentconstraint.org/sitemap.txt): plain-text sitemap.
 - [robots.txt](https://alignmentconstraint.org/robots.txt): crawler permissions.
-- [Machine-ingestion corpus documentation](https://alignmentconstraint.org/data/README.md): provenance, schema, and authority rules for the fixed v1.0.0 derived corpus.
+- [Machine-ingestion corpus documentation](https://alignmentconstraint.org/data/): provenance, schema, and authority rules for the fixed v1.0.0 derived corpus.
 - [corpus.jsonl](https://alignmentconstraint.org/data/corpus.jsonl): deterministic section-level source corpus for v1.0.0.
 - [claims.jsonl](https://alignmentconstraint.org/data/claims.jsonl): canonical claim/open-problem objects with release provenance.
 - [terms.jsonl](https://alignmentconstraint.org/data/terms.jsonl): canonical defined-term objects with release provenance.

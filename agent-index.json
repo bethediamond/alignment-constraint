@@ -150,7 +150,8 @@
     "machine_corpus": "https://alignmentconstraint.org/data/corpus.jsonl",
     "machine_claims": "https://alignmentconstraint.org/data/claims.jsonl",
     "machine_terms": "https://alignmentconstraint.org/data/terms.jsonl",
-    "huggingface_dataset_mirror": "https://huggingface.co/datasets/diamondlight/alignment-constraint-framework"
+    "huggingface_dataset_mirror": "https://huggingface.co/datasets/diamondlight/alignment-constraint-framework",
+    "machine_corpus_landing": "https://alignmentconstraint.org/data/"
   },
   "keywords": [
     "AI alignment",
@@ -186,6 +187,7 @@
     "terms": "https://alignmentconstraint.org/data/terms.jsonl",
     "mirror": "https://huggingface.co/datasets/diamondlight/alignment-constraint-framework",
     "authority_note": "The local /data/ files are derived from the immutable v1.0.0 release. The Hugging Face dataset is a distribution mirror only; alignmentconstraint.org and the versioned framework DOI remain authoritative.",
-    "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure."
+    "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.",
+    "landing": "https://alignmentconstraint.org/data/"
   }
 }
