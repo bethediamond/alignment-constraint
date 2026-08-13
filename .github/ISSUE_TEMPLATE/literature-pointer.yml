@@ -1,0 +1,63 @@
+name: Literature pointer
+description: Suggest prior or contemporary work that may support, weaken, overlap with, or reframe a framework claim.
+title: "[Literature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Missing prior art and literature that weakens novelty are useful findings. Please prefer a primary source when possible.
+
+  - type: input
+    id: citation
+    attributes:
+      label: Citation
+      placeholder: Author, title, venue/year
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Primary-source URL or DOI
+      placeholder: https://doi.org/... or publisher/arXiv URL
+    validations:
+      required: true
+
+  - type: dropdown
+    id: relation
+    attributes:
+      label: How does this source relate?
+      options:
+        - Potential prior art / overlap
+        - Supports a premise or analogy
+        - Weakens a premise
+        - Potential counterexample
+        - Alternative formalization
+        - Important Related Work context
+        - Uncertain / needs review
+    validations:
+      required: true
+
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why is it relevant?
+      description: Identify the specific framework claim, term, problem, or page it bears on.
+    validations:
+      required: true
+
+  - type: textarea
+    id: quotation_or_location
+    attributes:
+      label: Relevant section, theorem, result, or passage
+      description: Point to the exact location when possible; summarize rather than reproducing long copyrighted passages.
+    validations:
+      required: false
+
+  - type: textarea
+    id: implications
+    attributes:
+      label: Possible implication for the archive
+      description: What should be reconsidered, cited, qualified, or compared if this source is relevant?
+    validations:
+      required: false

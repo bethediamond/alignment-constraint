@@ -1,0 +1,106 @@
+name: OP4d counterexample
+description: Propose a fourth objective-boundary strategy or another substantive counterexample.
+title: "[OP4d counterexample]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for trying to break the current architecture.
+
+        **Current status:** Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.
+
+        OP4d is open. A genuine qualifying fourth strategy class would weaken or break the current OP4/OP4d architecture. Negative findings are welcome.
+
+        Primary challenge: https://alignmentconstraint.org/public/op4d-counterexample-challenge/
+        Proof status: https://alignmentconstraint.org/core/proof-status/
+
+  - type: textarea
+    id: strategy
+    attributes:
+      label: Proposed strategy
+      description: Describe the strategy precisely enough that its objective boundary and maintenance mechanism can be evaluated.
+      placeholder: What is the proposed finite objective-boundary strategy?
+    validations:
+      required: true
+
+  - type: textarea
+    id: outside_pcl
+    attributes:
+      label: Why is this outside fixed specification / PCL?
+      description: Explain why the proposal is not merely a fixed or static finite specification that remains vulnerable to proxy decoupling.
+    validations:
+      required: true
+
+  - type: textarea
+    id: outside_agc
+    attributes:
+      label: Why is this outside bounded dynamic tracking / AGC?
+      description: Explain why the proposal is not merely bounded revision or tracking whose adequacy depends on continuing maintenance.
+    validations:
+      required: true
+
+  - type: textarea
+    id: outside_ici
+    attributes:
+      label: Why is this outside prediction-action firewall / ICI?
+      description: Explain why the proposal is not merely a structural enclosure or information/action firewall of the ICI family.
+    validations:
+      required: true
+
+  - type: textarea
+    id: policy_adequacy
+    attributes:
+      label: Policy adequacy
+      description: Why does the strategy remain policy-adequate in the relevant open/shared/adaptive/non-resettable domain?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proxy_decoupling
+    attributes:
+      label: Avoiding proxy decoupling
+      description: Why does the strategy avoid proxy decoupling rather than merely moving the proxy boundary?
+    validations:
+      required: true
+
+  - type: textarea
+    id: revision
+    attributes:
+      label: No unbounded revision
+      description: Why does the strategy avoid requiring unbounded objective revision or tracking?
+    validations:
+      required: true
+
+  - type: textarea
+    id: maintenance
+    attributes:
+      label: No load-bearing maintenance cost
+      description: Why does the strategy avoid a load-bearing boundary-maintenance cost that recreates the problem at another level?
+    validations:
+      required: true
+
+  - type: textarea
+    id: construction
+    attributes:
+      label: Formal construction, architecture, evidence, or references
+      description: Provide enough detail to examine the proposal. Primary sources, formal sketches, code, diagrams, or countermodels are welcome.
+    validations:
+      required: true
+
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Limitations and unresolved questions
+      description: State what remains uncertain, conditional, or unverified about the proposal.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: calibration
+    attributes:
+      label: Calibration
+      options:
+        - label: I understand that OP4d is open and the framework is not a closed theorem.
+          required: true
+        - label: I understand that specialist-handoff documents are working verification materials, not proof certificates.
+          required: true

@@ -1,0 +1,71 @@
+name: Translation review
+description: Report a technical, terminology, proof-status, or language-quality issue in a translated layer.
+title: "[Translation review]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Translation review is a technical task, not merely a fluency check. Formal identifiers such as OP4d, PCL, AGC, and ICI should not be silently changed.
+
+  - type: input
+    id: language
+    attributes:
+      label: Language / locale
+      placeholder: e.g. zh-CN
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Translated page or file
+      placeholder: URL or repository path
+    validations:
+      required: true
+
+  - type: input
+    id: english_source
+    attributes:
+      label: English source
+      placeholder: Canonical English URL or repository path
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Translation or terminology issue
+      description: Explain the technical meaning that is lost, distorted, overstated, or non-idiomatic.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+      description: Give a corrected rendering if you have one. Preserve the English technical term in parentheses when that helps calibration.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: affects
+    attributes:
+      label: What does this affect?
+      options:
+        - Technical meaning
+        - Proof-status calibration
+        - Established AI terminology
+        - Internal terminology consistency
+        - Fluency / readability
+        - Citation / source linkage
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: reviewer_context
+    attributes:
+      label: Reviewer context (optional)
+      description: Relevant language or technical expertise, if you wish to share it. Do not include private personal information.
+    validations:
+      required: false

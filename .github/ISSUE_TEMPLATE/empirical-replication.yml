@@ -1,0 +1,80 @@
+name: Empirical replication or negative result
+description: Report a replication, failed replication, control result, or empirical-method critique.
+title: "[Replication]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Negative and inconclusive results are welcome. Please separate what the result establishes from what it does not establish.
+
+  - type: input
+    id: target
+    attributes:
+      label: Target experiment or protocol
+      placeholder: AMP, DBST-M0, DBST-M1, or another named protocol
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source/version tested
+      placeholder: URL, commit, DOI, release, or protocol version
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and versions
+      description: Model/API, software, dependencies, hardware if relevant, date, and other reproducibility details.
+    validations:
+      required: true
+
+  - type: textarea
+    id: deviations
+    attributes:
+      label: Deviations from the published protocol
+      description: State every known deviation. Write "None known" if you followed it exactly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: controls
+    attributes:
+      label: Controls, randomization, and seeds
+      description: Describe the control condition(s), randomization, seeds, exclusions, and stopping rule when relevant.
+    validations:
+      required: true
+
+  - type: textarea
+    id: results
+    attributes:
+      label: Results
+      description: Give the primary result and uncertainty/statistical information where applicable.
+    validations:
+      required: true
+
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Reproducibility artifacts
+      description: Link code, data, logs, notebook, preregistration, or archived outputs.
+    validations:
+      required: false
+
+  - type: textarea
+    id: interpretation
+    attributes:
+      label: Interpretation
+      description: What does this result support, weaken, or leave unresolved? Avoid treating a single run as more decisive than it is.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: calibration
+    attributes:
+      label: Calibration
+      options:
+        - label: I have separated the observed result from broader framework claims and extrapolations.
+          required: true

@@ -1,1 +1,8 @@
-
+blank_issues_enabled: false
+contact_links:
+  - name: Broad research question or exploratory discussion
+    url: https://github.com/bethediamond/alignment-constraint/discussions
+    about: Use GitHub Discussions when the topic is exploratory rather than a specific actionable issue.
+  - name: Canonical OP4d counterexample challenge
+    url: https://alignmentconstraint.org/public/op4d-counterexample-challenge/
+    about: Read the current challenge conditions and proof-status calibration before submitting a counterexample.
