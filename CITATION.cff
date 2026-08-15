@@ -1,10 +1,11 @@
 cff-version: 1.2.0
-message: "If you use the Alignment Constraint Framework, cite the versioned framework record below. For the primary technical thesis, see the preferred citation."
+message: "For OP4-specific claims, please cite the preferred technical paper below; for the complete archive, cite this framework release."
 title: "The Alignment Constraint Framework"
 authors:
   - family-names: "Silliphant"
     given-names: "John"
     orcid: "https://orcid.org/0009-0008-3015-2589"
+    email: "diamondlight@gmail.com"
 version: "1.0.0"
 date-released: "2026-08-12"
 doi: "10.5281/zenodo.21895924"
@@ -14,8 +15,9 @@ repository-code: "https://github.com/bethediamond/alignment-constraint"
 abstract: >-
   A structural framework on AI alignment, specification coherence, separable objective
   specification, substrate-aware optimization, valence-aware optimization, and the
-  Stability Assumption. Current proof status: Stage 4 — candidate proof architecture under
-  named premises, without independent specialist verification and without theorem closure.
+  Stability Assumption. Current proof status: Stage 4 — candidate proof architecture
+  under named premises, without independent specialist verification and without theorem
+  closure.
 keywords:
   - "AI alignment"
   - "AI safety"
@@ -31,15 +33,16 @@ keywords:
   - "Goodhart's Law"
   - "RLHF"
 preferred-citation:
-  type: article
-  title: "The Stability Assumption: Specification-Coherence Limits in Separable Objective Alignment"
+  type: generic
   authors:
     - family-names: "Silliphant"
       given-names: "John"
       orcid: "https://orcid.org/0009-0008-3015-2589"
+  title: "The Stability Assumption: Specification-Coherence Limits in Separable Objective Alignment"
   year: 2026
-  date-released: "2026-08-12"
-  status: preprint
   version: "1.0.0"
   doi: "10.5281/zenodo.21895992"
   url: "https://doi.org/10.5281/zenodo.21895992"
+  publisher:
+    name: "Zenodo"
+  status: preprint
