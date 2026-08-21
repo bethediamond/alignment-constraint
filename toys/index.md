@@ -1,6 +1,6 @@
 ---
 title: "Interactive Simulations"
-description: "Browser-based simulations illustrating Series 1 and Series 2 dynamics in the Alignment Constraint Framework; explanatory tools, not proofs."
+description: "Browser-based simulations illustrating Series 1, Series 2, and Series 3 dynamics in the Alignment Constraint Framework; explanatory tools, not proofs."
 permalink: /toys/
 ---
 
@@ -26,8 +26,8 @@ They are not proofs. They are tools for seeing the dynamics the framework descri
 
 ## Series 3 — The Interior of What Does Not End
 
-- Toy 8: Model/Policy Contradiction — *not currently published*
-- Toy 9: Boundary Map — *not currently published*
+- [Toy 8: Model/Policy Contradiction](https://bethediamond.github.io/ai-alignment-contradiction/companion_08.html) — MCH hypothesis display under stipulated toy parameters; illustrative, not evidence. ([source](https://github.com/bethediamond/ai-alignment-contradiction))
+- [Toy 9: Boundary Map](https://bethediamond.github.io/ai-alignment-boundary/companion_09.html) — interactive proof-program map; consistency-supporting visualization, not proof. ([source](https://github.com/bethediamond/ai-alignment-boundary))
 
 ---
 
