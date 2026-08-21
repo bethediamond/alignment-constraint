@@ -104,7 +104,20 @@ Canonical terminology and field-vocabulary crosswalks: https://alignmentconstrai
 Open problems: https://alignmentconstraint.org/open-problems/
 Apply the framework: https://alignmentconstraint.org/apply/
 Empirical program: https://alignmentconstraint.org/empirical/amp/
+Interactive simulations: https://alignmentconstraint.org/toys/
 Specialist handoffs: https://alignmentconstraint.org/specialist-handoff/
+
+
+## Series 3 interactive companions
+
+These are explanatory/interactive companions. They do not add proof weight.
+
+- Toy 8 — The Model/Policy Contradiction: https://bethediamond.github.io/ai-alignment-contradiction/companion_08.html
+  Status: MCH hypothesis display under stipulated toy parameters; not empirical system placement and not evidence that MCH is true.
+- Toy 9 — The Boundary Map: https://bethediamond.github.io/ai-alignment-boundary/companion_09.html
+  Status: interactive map of open proof-program routes and their candidate convergence; consistency-supporting visualization, not theorem closure.
+
+Canonical simulation index: https://alignmentconstraint.org/toys/
 
 ## Canonical machine-readable files
 

@@ -21,6 +21,8 @@ Alignment Constraint Framework.
 | 2026-08-12 | Zenodo / DOI | DOI resolution check | https://doi.org/10.5281/zenodo.21895992 | Zenodo | Yes | OP4 / Stability Assumption DOI resolves. Google Scholar indexing not yet observed. | 2026-08-26 |
 | 2026-08-12 | Canonical GitHub/site archive | Machine-ingestion corpus publication | https://alignmentconstraint.org/data/ | Canonical v1.0.0 release | Yes | Published deterministic v1.0.0 machine corpus: 818 section records, 20 claim/open-problem records, and 24 term records; archive and corpus validation passed. | 2026-08-26 |
 | 2026-08-12 | Hugging Face | Dataset mirror publication/versioning | https://huggingface.co/datasets/diamondlight/alignment-constraint-framework | Canonical site + v1.0.0 release | Yes | Public distribution mirror recognizes corpus, claims, and terms configurations; tag v1.0.0 points to mirror commit 7ae62cda75a993d81b881f4a6fc7eec7a2204b90. Mirror is non-canonical. | 2026-08-26 |
+| 2026-08-21 | GitHub Pages | Series 3 interactive-companion publication | https://bethediamond.github.io/ai-alignment-contradiction/companion_08.html | Series 3 Part 1 + Toy 8 repository | Yes | Repository made public and `companion_08.html` published; canonical routing synchronized. Verify Pages deployment after commit. | 2026-08-22 |
+| 2026-08-21 | GitHub Pages | Series 3 interactive-companion publication | https://bethediamond.github.io/ai-alignment-boundary/companion_09.html | Series 3 Part 4 + Toy 9 repository | Yes | Repository made public and `companion_09.html` published; canonical routing synchronized. Verify Pages deployment after commit. | 2026-08-22 |
 
 ## Items to record next
 

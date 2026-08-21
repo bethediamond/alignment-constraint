@@ -110,6 +110,12 @@ Stability Assumption; specification-coherence bottleneck; separable objective sp
 - [Series 2: The Architecture of Thriving](https://alignmentconstraint.org/series-2/introduction/) — the valence constraint.
 - [Series 3: The Interior of What Does Not End](https://alignmentconstraint.org/series-3/introduction/) — the interior constraint and apophatic boundary discipline.
 
+## Interactive simulations
+
+- [Simulation index](https://alignmentconstraint.org/toys/) — illustrative browser-based companions; simulations do not upgrade proof status.
+- [Toy 8: The Model/Policy Contradiction](https://bethediamond.github.io/ai-alignment-contradiction/companion_08.html) — Series 3 MCH hypothesis display under stipulated toy parameters; not empirical system placement.
+- [Toy 9: The Boundary Map](https://bethediamond.github.io/ai-alignment-boundary/companion_09.html) — Series 3 proof-program map; consistency-supporting visualization, not theorem closure.
+
 ## Empirical hinge
 
 The most important next empirical step is DBST-M1. DBST-M1 tests whether an optimizer's own interventions in O_OWT environments generate qualitatively new causal structure faster than any bounded tracking process can absorb.

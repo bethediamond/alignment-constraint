@@ -4,7 +4,12 @@ All notable public archive releases of the Alignment Constraint Framework are re
 
 ## [Unreleased]
 
-No substantive changes are queued at the time of the v1.0.0 release.
+### Discovery and interactive companions
+
+- Published the Series 3 interactive companion **Toy 8 — The Model/Policy Contradiction** at https://bethediamond.github.io/ai-alignment-contradiction/companion_08.html.
+- Published the Series 3 interactive companion **Toy 9 — The Boundary Map** at https://bethediamond.github.io/ai-alignment-boundary/companion_09.html.
+- Synchronized the Series 3 article links, simulation index, and live machine-routing files with the two public companions.
+- No substantive framework claim or proof-status change. The immutable v1.0.0 release corpus and release hashes remain unchanged.
 
 ## [1.0.0] - 2026-08-12
 

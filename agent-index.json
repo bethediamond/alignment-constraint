@@ -65,6 +65,12 @@
       "url": "https://alignmentconstraint.org/specialist-handoff/",
       "role": "specialist handoff gateway",
       "status": "Stage 4 work products; not proof"
+    },
+    {
+      "title": "Interactive Simulations",
+      "url": "https://alignmentconstraint.org/toys/",
+      "role": "illustrative browser-based companions",
+      "status": "illustrative only; simulations do not upgrade proof status"
     }
   ],
   "series": [
@@ -189,5 +195,23 @@
     "authority_note": "The local /data/ files are derived from the immutable v1.0.0 release. The Hugging Face dataset is a distribution mirror only; alignmentconstraint.org and the versioned framework DOI remain authoritative.",
     "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.",
     "landing": "https://alignmentconstraint.org/data/"
-  }
+  },
+  "interactive_simulations": [
+    {
+      "id": "toy_08",
+      "title": "The Model/Policy Contradiction",
+      "series": "Series 3",
+      "url": "https://bethediamond.github.io/ai-alignment-contradiction/companion_08.html",
+      "repository": "https://github.com/bethediamond/ai-alignment-contradiction",
+      "status": "MCH hypothesis display under stipulated toy parameters; illustrative, not empirical system placement"
+    },
+    {
+      "id": "toy_09",
+      "title": "The Boundary Map",
+      "series": "Series 3",
+      "url": "https://bethediamond.github.io/ai-alignment-boundary/companion_09.html",
+      "repository": "https://github.com/bethediamond/ai-alignment-boundary",
+      "status": "interactive proof-program map; consistency-supporting visualization, not proof or theorem closure"
+    }
+  ]
 }
