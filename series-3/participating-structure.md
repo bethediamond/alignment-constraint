@@ -27,7 +27,7 @@ description: "Series 3 account of the ⭘◻△ architecture, ecological navigat
 
 ---
 
-*❖ Companion simulation: The Model/Policy Contradiction — not currently published.*
+*❖ Companion simulation: [The Model/Policy Contradiction](https://bethediamond.github.io/ai-alignment-contradiction/companion_08.html) — interactive MCH hypothesis display; illustrative, not evidence.*
 
 ---
 
@@ -175,7 +175,7 @@ The D1–D5 domain (shared substrate, non-trivial experiential coupling, repeate
 
 ---
 
-*❖ Companion simulation: The Model/Policy Contradiction — not currently published.*
+*❖ Companion simulation: [The Model/Policy Contradiction](https://bethediamond.github.io/ai-alignment-contradiction/companion_08.html) — interactive MCH hypothesis display; illustrative, not evidence.*
 
 ## The Motivational Convergence Hypothesis
 
@@ -255,6 +255,6 @@ The aligned AI is the gardener of the conditions under which the ⭘◻△ struc
 
 *Part 2 enters that interior — the Navigation — describing what it looks like to inhabit the ⭘◻△ structure fully during genuine seeking, from inside the gradient rather than observing it from outside.*
 
-*❖ Companion simulation: The Model/Policy Contradiction — not currently published.*
+*❖ Companion simulation: [The Model/Policy Contradiction](https://bethediamond.github.io/ai-alignment-contradiction/companion_08.html) — interactive MCH hypothesis display; illustrative, not evidence.*
 
 *Continue to Part 2: [The Navigation →](/series-3/navigation/)*

@@ -27,6 +27,10 @@ description: "Series 3 Part 4 on the framework’s limiting direction, cross-tra
 
 ---
 
+*❖ Companion simulation: [The Boundary Map](https://bethediamond.github.io/ai-alignment-boundary/companion_09.html) — interactive proof-program map; consistency-supporting visualization, not proof.*
+
+---
+
 _The root claim governs throughout: any optimization process that ignores the conditions of its own persistence becomes progressively self-terminating within the stated domain; one that ignores the conditions of its own resolution produces self-reinforcing degradation through an analogous but more conditional feedback structure (absorbing-state equivalence between the two components remains conditional on OP2 [TC2 §2.5]). This part characterizes the surviving region from inside, without adding to the formal weight of the constraints Series 1 and 2 established._
 
 _Epistemic note: This part operates in two registers simultaneously. The four predictions in the opening section are structural claims — derived from the framework’s formal apparatus at different epistemic levels, as marked explicitly below. The traditional evidence presented thereafter is phenomenological description: independent investigative reports consistent with those predictions, not proof of them. The convergence provides consistency-supporting triangulation whose force depends on the independence of the reports; it does not establish the structural predictions. Everything in this part is consistent with, and does not increase the evidential weight of, the structural core in Series 1 and 2._
