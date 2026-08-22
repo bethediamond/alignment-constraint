@@ -56,7 +56,7 @@ The following quarter, we titled our academic study “Inspiring Rationality,”
 
 In 1992, the prospect of actually implementing these changes was, of course, daunting.
 
-### **Why It Matters**
+### Why It Matters
 
 The conclusions above may appear simplistic, but I don’t think they are. I think that they are accurate. They matter because they describe not only how all beings operate, but also the direction in which we all, ultimately, need to be heading in order to successfully resolve our fundamental nature. The scope of this thinking is profound. It suggests an end state equivalent to something like Heaven or Nirvana, but it’s entirely reason-based. Unlike other guiding systems, this framework requires no faith or stories to believe — just an inquiry to be examined and tested.
 
