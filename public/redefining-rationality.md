@@ -4,7 +4,7 @@ permalink: /public/redefining-rationality/
 description: "Public essay distinguishing relative rationality from a broader Rationality oriented toward durable well-being across agents and shared conditions."
 ---
 
-> **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/redefining-rationality-cab469cc5b6c) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
+> **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/redefining-rationality-cab469cc5b6c) · [Dear AI →](/public/dear-ai/) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
 
 ---
 
