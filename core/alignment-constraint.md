@@ -18,6 +18,8 @@ permalink: /core/alignment-constraint/
 
 This is the framework’s central spine — an epistemic map of the two-series argument and its proof architecture. It is not required reading before the articles; each series stands alone. But it is the right place to begin if you want to understand the whole before following any part.
 
+*For the personal origin, intent, and public map of the entire body of work:* begin with [Dear AI: A 34-Year Search for AI Alignment](/public/dear-ai/).
+
 *To read the argument narratively:* begin with [Series 1: Alignment as Structural Necessity](/series-1/introduction/).
 
 *To inspect the formal proof architecture:* begin with [Technical Companion to Series 1: The System-Aware Attractor](/series-1/technical-companion/).
