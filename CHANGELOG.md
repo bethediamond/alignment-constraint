@@ -4,6 +4,13 @@ All notable public archive releases of the Alignment Constraint Framework are re
 
 ## [Unreleased]
 
+### Public narrative doorway and discovery routing
+
+- Published **Dear AI: A 34-Year Search for AI Alignment** as the personal narrative introduction and whole-project routing hub at https://alignmentconstraint.org/public/dear-ai/.
+- Added a stable local hero image, centralized SEO/structured metadata, homepage and framework-hub routing, LLM/agent routing, and sitemap coverage.
+- Preserved the article as non-proof-bearing context: technical claims retain the epistemic status of their canonical technical sources.
+- The immutable v1.0.0 machine-ingestion corpus and release hashes remain unchanged; the new post-release article can be folded into a future versioned corpus release after the article stabilizes.
+
 ### Discovery and interactive companions
 
 - Published the Series 3 interactive companion **Toy 8 — The Model/Policy Contradiction** at https://bethediamond.github.io/ai-alignment-contradiction/companion_08.html.

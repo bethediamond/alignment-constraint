@@ -24,6 +24,9 @@ Alignment Constraint Framework.
 | 2026-08-21 | GitHub Pages | Series 3 interactive-companion publication | https://bethediamond.github.io/ai-alignment-contradiction/companion_08.html | Series 3 Part 1 + Toy 8 repository | Yes | Repository made public and `companion_08.html` published; canonical routing synchronized. Verify Pages deployment after commit. | 2026-08-22 |
 | 2026-08-21 | GitHub Pages | Series 3 interactive-companion publication | https://bethediamond.github.io/ai-alignment-boundary/companion_09.html | Series 3 Part 4 + Toy 9 repository | Yes | Repository made public and `companion_09.html` published; canonical routing synchronized. Verify Pages deployment after commit. | 2026-08-22 |
 
+| 2026-08-21 | Medium | Public narrative publication | https://medium.com/@diamondlight/dear-ai-a-34-year-search-for-ai-alignment-717633fab4c6 | Dear AI / public narrative hub | Yes | Published the personal introduction to the full body of work; canonical machine-readable archive copy prepared at https://alignmentconstraint.org/public/dear-ai/ | 2026-08-26 |
+| 2026-08-21 | Canonical site / GitHub Pages | Discovery-routing publication | https://alignmentconstraint.org/public/dear-ai/ | Canonical archive + framework routing | Yes | Added canonical Dear AI page plus homepage, README, structured metadata, LLM/agent routing, cross-links, and sitemap coverage. | 2026-08-26 |
+
 ## Items to record next
 
 Add rows when any of the following occurs:

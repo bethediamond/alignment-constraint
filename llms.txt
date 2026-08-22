@@ -16,6 +16,9 @@
 
 ## Best entry points
 
+- [Dear AI: A 34-Year Search for AI Alignment](https://alignmentconstraint.org/public/dear-ai/): personal narrative introduction, historical origin, intent, and routing hub for the full body of work.
+  Status: public, non-technical, and not proof-bearing; use canonical technical sources for substantive claim verification.
+
 - [The AI Race Is Not Rational](https://alignmentconstraint.org/public/ai-race-is-not-rational/): public summary of the full three-series framework.
   Status: public, non-technical; does not carry proof weight.
 

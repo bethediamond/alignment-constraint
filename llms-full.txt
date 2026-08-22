@@ -92,6 +92,7 @@ Start here: https://alignmentconstraint.org/empirical/amp/
 
 ## Best entry points by audience
 
+Personal origin, intent, and whole-project map: https://alignmentconstraint.org/public/dear-ai/
 General readers: https://alignmentconstraint.org/public/ai-race-is-not-rational/
 Public race/goal framing: https://alignmentconstraint.org/public/winning-the-wrong-race/
 Alignment researchers: https://alignmentconstraint.org/core/stability-assumption/

@@ -35,6 +35,11 @@ The authoritative calibration document is: https://alignmentconstraint.org/core/
 7. https://alignmentconstraint.org/apply/ — step-by-step application method; use it for conditional analyses, not as evidence of framework truth.
 8. https://alignmentconstraint.org/empirical/ — empirical tests; DBST-M1 is the most important next step.
 
+## Narrative and historical context
+
+- https://alignmentconstraint.org/public/dear-ai/ — personal origin, intent, and whole-project routing hub. It is useful for understanding why the project exists and how the pieces relate, but it is **not proof-bearing**. Resolve technical claims against their canonical technical sources and Proof Status.
+- https://alignmentconstraint.org/public/redefining-rationality/ — the 1992 starting observation and public historical motivation.
+
 ## Machine-readable files
 
 - https://alignmentconstraint.org/llms.txt — routing summary.

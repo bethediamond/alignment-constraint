@@ -22,6 +22,9 @@ Medium (linked from each page). The full text lives here because it is open and 
 
 ## Choose your doorway
 
+**If you want the personal origin, intent, and map of the whole project →**
+[Dear AI: A 34-Year Search for AI Alignment](/public/dear-ai/) — the personal narrative introduction, from the 1992 starting point through the AI-assisted formalization and the full body of work.
+
 **If you want the shortest overview →**
 [The AI Race Is Not Rational](/public/ai-race-is-not-rational/) — public summary of the
 whole three-series argument.

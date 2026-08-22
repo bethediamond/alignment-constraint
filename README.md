@@ -21,6 +21,7 @@ Proof status: **Stage 4 — candidate proof architecture under named premises, w
 
 | Audience | Entry point |
 |---|---|
+| Personal origin / whole-project introduction | [Dear AI: A 34-Year Search for AI Alignment](https://alignmentconstraint.org/public/dear-ai/) |
 | General readers | [The AI Race Is Not Rational](https://alignmentconstraint.org/public/ai-race-is-not-rational/) |
 | Public race/goal framing | [We’re Winning the Wrong Race](https://alignmentconstraint.org/public/winning-the-wrong-race/) |
 | AI alignment researchers | [The Stability Assumption](https://alignmentconstraint.org/core/stability-assumption/) |

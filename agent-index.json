@@ -7,6 +7,12 @@
   "central_question": "Can a finite separable objective remain coherently specified as an optimization system becomes capable enough that acting well requires modeling the conditions its objective excludes?",
   "primary_entry_points": [
     {
+      "title": "Dear AI: A 34-Year Search for AI Alignment",
+      "url": "https://alignmentconstraint.org/public/dear-ai/",
+      "role": "personal narrative introduction, historical origin, intent, and whole-project routing hub",
+      "status": "public, non-technical, not proof-bearing; technical claims must be resolved against canonical technical sources"
+    },
+    {
       "title": "The Stability Assumption",
       "url": "https://alignmentconstraint.org/core/stability-assumption/",
       "role": "field-facing entry point",

@@ -21,6 +21,7 @@ https://alignmentconstraint.org/empirical/
 https://alignmentconstraint.org/toys/
 https://alignmentconstraint.org/cite/
 https://alignmentconstraint.org/specialist-handoff/
+https://alignmentconstraint.org/public/dear-ai/
 https://alignmentconstraint.org/public/redefining-rationality/
 https://alignmentconstraint.org/public/ai-race-is-not-rational/
 https://alignmentconstraint.org/public/winning-the-wrong-race/
