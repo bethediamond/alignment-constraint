@@ -1,56 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://alignmentconstraint.org/</loc>
     <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://alignmentconstraint.org/llms.txt</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://alignmentconstraint.org/llms-full.txt</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://alignmentconstraint.org/AGENTS.md</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://alignmentconstraint.org/agent-index.json</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://alignmentconstraint.org/open-problems.json</loc>
-    <lastmod>2026-07-28</lastmod>
-  </url>
-  <url>
-    <loc>https://alignmentconstraint.org/claim-graph.json</loc>
-    <lastmod>2026-07-28</lastmod>
-  </url>
-  <url>
-    <loc>https://alignmentconstraint.org/research-questions.txt</loc>
-    <lastmod>2026-07-28</lastmod>
-  </url>
-  <url>
-    <loc>https://alignmentconstraint.org/robots.txt</loc>
-    <lastmod>2026-07-28</lastmod>
-  </url>
-  <url>
-    <loc>https://alignmentconstraint.org/sitemap.xml</loc>
-    <lastmod>2026-07-28</lastmod>
-  </url>
-  <url>
-    <loc>https://alignmentconstraint.org/sitemap.txt</loc>
-    <lastmod>2026-07-28</lastmod>
-  </url>
-  <url>
-    <loc>https://alignmentconstraint.org/CITATION.cff</loc>
-    <lastmod>2026-07-28</lastmod>
-  </url>
-  <url>
-    <loc>https://alignmentconstraint.org/MANIFEST.md</loc>
-    <lastmod>2026-07-28</lastmod>
   </url>
   <url>
     <loc>https://alignmentconstraint.org/open-problems/</loc>
