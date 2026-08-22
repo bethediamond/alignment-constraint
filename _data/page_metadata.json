@@ -181,6 +181,22 @@
     ],
     "seo_title": "The AI Race Is Not Rational | Shared-Substrate AI Risk"
   },
+  "/public/dear-ai/": {
+    "schema_type": "Article",
+    "document_role": "Personal narrative introduction and whole-project public routing hub",
+    "proof_status": "Public/historical and personal introduction; not proof-bearing. Technical claims retain the epistemic status stated in their canonical source documents.",
+    "keywords": [
+      "AI alignment",
+      "artificial intelligence",
+      "AI safety",
+      "rationality",
+      "well-being",
+      "Alignment Constraint Framework",
+      "specification coherence",
+      "collective thriving"
+    ],
+    "seo_title": "Dear AI: A 34-Year Search for AI Alignment"
+  },
   "/public/op4d-counterexample-challenge/": {
     "schema_type": "TechArticle",
     "document_role": "Public technical counterexample challenge",
