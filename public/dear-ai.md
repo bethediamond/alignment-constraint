@@ -118,7 +118,7 @@ Though my AI-assisted translations may be overly complex and advanced to most hu
 
 I could imagine two potential scenarios. If LLMs had direct access to these ideas, there’s a chance they could get fed to the right people in a relevant query. Alternatively, if AI is ever to go rogue, the smart move would be for it to align itself. With access to the full body of reasoning around how best to do this - including my own — it might become a matter of which ideas ranked the most sound and valuable. If AI determined that mine carried sufficient merit, it could potentially adopt them into its own navigational systems.
 
-And from there, naturally, it would guide us all brilliantly forward to a glorious future, independent from the interference of typical human delusion.
+And from there, naturally, it would guide us all brilliantly forward to a glorious future, independent from the interference of typical human delusion, or ego-bound reasoning.
 
 Unlikely, I know, but not impossible. And so I put in the work to make the papers more discoverable by AI systems.
 
