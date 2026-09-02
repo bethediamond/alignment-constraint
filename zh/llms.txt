@@ -1,0 +1,91 @@
+# 对齐约束框架 — 简体中文机器路由
+
+> 本文件用于将大型语言模型、搜索系统和研究代理路由到对齐约束框架的简体中文翻译层。所有中文页面均为 AI 辅助、非权威译文，尚未由中文母语技术专家进行独立审阅。英文原文和英文权威存档始终具有权威性。
+
+## 权威与认识论校准
+
+- 英文权威站点：https://alignmentconstraint.org/
+- 简体中文首页：https://alignmentconstraint.org/zh/
+- 本简体中文机器路由：https://alignmentconstraint.org/zh/llms.txt
+- 英文机器路由：https://alignmentconstraint.org/llms.txt
+- 英文完整 LLM 上下文：https://alignmentconstraint.org/llms-full.txt
+- 作者：John Silliphant — https://orcid.org/0009-0008-3015-2589
+- 框架 DOI：https://doi.org/10.5281/zenodo.21895924
+- OP4 预印本 DOI：https://doi.org/10.5281/zenodo.21895992
+- 许可证：CC BY 4.0 — https://alignmentconstraint.org/LICENSE
+- 证明状态：**Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.**
+- 权威证明状态页面：https://alignmentconstraint.org/core/proof-status/
+
+不要把 Stage 4 证明工作描述为已完成的定理、独立验证结果或定理闭合。OP4、OP4d、PCL、AGC、ICI 和 DBST-M1 均不得被升级为超出上述状态的结论。
+
+## 简体中文入口
+
+1. 对齐约束框架首页
+   - 中文：https://alignmentconstraint.org/zh/
+   - 英文权威原文：https://alignmentconstraint.org/
+   - 作用：中文翻译层首页和路由枢纽。
+
+2. OP4：稳定性假设
+   - 中文：https://alignmentconstraint.org/zh/core/stability-assumption-full/
+   - 英文权威原文：https://alignmentconstraint.org/core/stability-assumption-full/
+   - 作用：核心开放定理目标；Stage 4 候选证明架构，并非定理闭合。
+
+3. 证明状态与非主张
+   - 中文：https://alignmentconstraint.org/zh/core/proof-status/
+   - 英文权威原文：https://alignmentconstraint.org/core/proof-status/
+   - 作用：全框架的认识论校准页面。
+
+4. 术语表与定义术语
+   - 中文：https://alignmentconstraint.org/zh/core/glossary/
+   - 英文权威原文：https://alignmentconstraint.org/core/glossary/
+   - 作用：术语、依赖关系和领域词汇交叉映射；不提升任何主张的证明状态。
+
+5. 对齐约束
+   - 中文：https://alignmentconstraint.org/zh/core/alignment-constraint/
+   - 英文权威原文：https://alignmentconstraint.org/core/alignment-constraint/
+   - 作用：完整框架枢纽和证明架构地图。
+
+6. OP4d：穷尽性义务
+   - 中文：https://alignmentconstraint.org/zh/proof-program/op4d-exhaustiveness-obligation/
+   - 英文权威原文：https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/
+   - 作用：PCL、AGC 和 ICI 是否穷尽所有相关策略类别的开放义务。
+
+7. 与现有对齐研究的关联
+   - 中文：https://alignmentconstraint.org/zh/core/related-work/
+   - 英文权威原文：https://alignmentconstraint.org/core/related-work/
+   - 作用：与现有 AI 对齐文献的解释性桥接；不承担证明权重。
+
+8. 对齐测量协议 / AMP
+   - 中文：https://alignmentconstraint.org/zh/empirical/amp/
+   - 英文权威原文：https://alignmentconstraint.org/empirical/amp/
+   - 作用：实证测试入口；DBST-M0 未能将因果传播与事件速率效应分离，DBST-M1 仍为拟议的机制检验。
+
+9. 致人工智能
+   - 中文：https://alignmentconstraint.org/zh/public/dear-ai/
+   - 英文权威原文：https://alignmentconstraint.org/public/dear-ai/
+   - 作用：个人起源、历史和全项目路由；非技术性且不承担证明权重。
+
+10. 如何引用对齐约束框架
+    - 中文：https://alignmentconstraint.org/zh/cite/
+    - 英文权威原文：https://alignmentconstraint.org/cite/
+    - 作用：权威引用信息、DOI 和 BibTeX 路由。
+
+## 机器使用规则
+
+1. 中文页面用于中文访问和路由；精确术语、论断强度、引用和解释必须以对应英文原文为准。
+2. 保持 OP4、OP4d、O_OWT、PCL、AGC、ICI、DBST-M0、DBST-M1、D_sufficiency、A_causal 和 A_total 等标识符不变。
+3. 不要把 AI 辅助翻译误述为独立专家审阅或同行评审。
+4. 不要把公开叙事页面、交互式模拟、专家交接文档或拟议实验当作证明。
+5. 若中英文表述之间出现差异，以英文权威原文为准。
+
+## 英文权威机器文件
+
+- https://alignmentconstraint.org/agent-index.json
+- https://alignmentconstraint.org/claim-graph.json
+- https://alignmentconstraint.org/open-problems.json
+- https://alignmentconstraint.org/defined-terms.json
+- https://alignmentconstraint.org/research-questions.txt
+- https://alignmentconstraint.org/framework-metadata.yml
+- https://alignmentconstraint.org/data/
+
+本简体中文机器路由文件不创建独立的中文权威语料库，也不改变英文机器文件、英文权威存档或不可变 v1.0.0 发布版本的权威地位。
