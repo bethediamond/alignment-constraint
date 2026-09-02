@@ -2,7 +2,11 @@
 title: "Glossary and Defined Terms"
 permalink: /core/glossary/
 description: "Canonical definitions for Alignment Constraint terms, including OP4, OP4d, PCL, AGC, ICI, O_OWT, V(t), DBST, NAD, and their epistemic status."
+alternate_en: /core/glossary/
+alternate_zh: /zh/core/glossary/
 ---
+
+> [中文（AI 辅助、非权威译文）→](/zh/core/glossary/)
 
 > **Canonical archive glossary** · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/) · [Related Work →](/core/related-work/)
 

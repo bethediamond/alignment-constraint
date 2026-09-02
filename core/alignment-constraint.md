@@ -2,7 +2,11 @@
 title: "The Alignment Constraint"
 description: "Framework hub for the Alignment Constraint: the Stability Assumption, OP4, proof architecture, empirical tests, open problems, and three series."
 permalink: /core/alignment-constraint/
+alternate_en: /core/alignment-constraint/
+alternate_zh: /zh/core/alignment-constraint/
 ---
+
+> [中文（AI 辅助、非权威译文）→](/zh/core/alignment-constraint/)
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/the-alignment-constraint-ebed3f6c4eae) · [Proof status →](/core/proof-status/) · [For researchers →](/core/for-researchers/)
 

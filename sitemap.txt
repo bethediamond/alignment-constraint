@@ -64,3 +64,13 @@ https://alignmentconstraint.org/specialist-handoff/passive-extraction-handoff/
 https://alignmentconstraint.org/specialist-handoff/proof-artifacts-locked-results/
 https://alignmentconstraint.org/specialist-handoff/five-problems-stage-4-handoff/
 https://alignmentconstraint.org/specialist-handoff/phases-1-7-formal-proof-handoff/
+https://alignmentconstraint.org/zh/
+https://alignmentconstraint.org/zh/core/stability-assumption-full/
+https://alignmentconstraint.org/zh/core/proof-status/
+https://alignmentconstraint.org/zh/core/glossary/
+https://alignmentconstraint.org/zh/core/alignment-constraint/
+https://alignmentconstraint.org/zh/proof-program/op4d-exhaustiveness-obligation/
+https://alignmentconstraint.org/zh/core/related-work/
+https://alignmentconstraint.org/zh/empirical/amp/
+https://alignmentconstraint.org/zh/public/dear-ai/
+https://alignmentconstraint.org/zh/cite/

@@ -2,7 +2,11 @@
 title: "OP4d: The Exhaustiveness Obligation"
 permalink: /proof-program/op4d-exhaustiveness-obligation/
 description: "Stage 4 technical note asking whether PCL, AGC, and ICI exhaust finite objective-boundary strategies and what counterexamples would break the claim."
+alternate_en: /proof-program/op4d-exhaustiveness-obligation/
+alternate_zh: /zh/proof-program/op4d-exhaustiveness-obligation/
 ---
+
+> [中文（AI 辅助、非权威译文）→](/zh/proof-program/op4d-exhaustiveness-obligation/)
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/op4d-the-exhaustiveness-obligation-e5710071f066) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
 

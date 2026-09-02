@@ -5,7 +5,11 @@ description: "An open letter on rationality, well-being, and AI alignment—and 
 image: /assets/images/dear-ai-alignment-collective-future.png
 date_published: 2026-08-21
 date_modified: 2026-08-22
+alternate_en: /public/dear-ai/
+alternate_zh: /zh/public/dear-ai/
 ---
+
+> [中文（AI 辅助、非权威译文）→](/zh/public/dear-ai/)
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/dear-ai-a-34-year-search-for-ai-alignment-717633fab4c6) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/) · [Original idea →](/public/redefining-rationality/)
 >

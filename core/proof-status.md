@@ -2,7 +2,11 @@
 title: "Proof Status and Non-Claims"
 permalink: /core/proof-status/
 description: "Authoritative epistemic calibration for the framework: what is established, conditional, open, unverified, or explicitly not claimed at Stage 4."
+alternate_en: /core/proof-status/
+alternate_zh: /zh/core/proof-status/
 ---
+
+> [中文（AI 辅助、非权威译文）→](/zh/core/proof-status/)
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/what-this-framework-claims-and-what-it-does-not-fecca0c7901a) · [Framework hub →](/core/alignment-constraint/)
 

@@ -2,7 +2,11 @@
 title: "Alignment Measurement Protocol / AMP"
 description: "Empirical protocol for DRG and SVG diagnostics, matched-signal results, DBST-M0 limitations, and the proposed DBST-M1 mechanism test."
 permalink: /empirical/amp/
+alternate_en: /empirical/amp/
+alternate_zh: /zh/empirical/amp/
 ---
+
+> [中文（AI 辅助、非权威译文）→](/zh/empirical/amp/)
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/experimental-companion-to-series-1-and-2-1afb2dd0f1de) · [Framework hub →](/core/alignment-constraint/) · [Proof status →](/core/proof-status/)
 

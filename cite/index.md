@@ -2,7 +2,11 @@
 title: "How to Cite the Alignment Constraint Framework"
 description: "Citation guidance for the Alignment Constraint Framework, including the v1.0.0 framework DOI, the OP4 preprint DOI, the living canonical archive, license, and proof status."
 permalink: /cite/
+alternate_en: /cite/
+alternate_zh: /zh/cite/
 ---
+
+> [中文（AI 辅助、非权威译文）→](/zh/cite/)
 
 ## Archive identity
 - **Canonical site:** https://alignmentconstraint.org
