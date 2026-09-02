@@ -6,7 +6,11 @@ citation_title: "The Stability Assumption: Specification-Coherence Limits in Sep
 citation_author: "John Silliphant"
 citation_publication_date: "2026-08-12"
 citation_doi: "10.5281/zenodo.21895992"
+alternate_en: /core/stability-assumption-full/
+alternate_zh: /zh/core/stability-assumption-full/
 ---
+
+> [中文（AI 辅助、非权威译文）→](/zh/core/stability-assumption-full/)
 
 > **Canonical archive version** · [Read on Medium →](https://medium.com/@diamondlight/op4-the-stability-assumption-e19955599adb) · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
 > **Scholarly preprint:** [10.5281/zenodo.21895992](https://doi.org/10.5281/zenodo.21895992) · **Framework v1.0.0:** [10.5281/zenodo.21895924](https://doi.org/10.5281/zenodo.21895924)

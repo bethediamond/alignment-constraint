@@ -1,7 +1,11 @@
 ---
 title: "The Alignment Constraint Framework"
 description: "A research framework on whether finite AI objectives remain coherent under deeper modeling, with proof status, falsifiers, tests, and applications."
+alternate_en: /
+alternate_zh: /zh/
 ---
+
+> [中文（AI 辅助、非权威译文）→](/zh/)
 
 A structural argument about a single question: **can an optimization system keep pursuing a
 finite, separable objective coherently as it becomes capable enough that acting well requires

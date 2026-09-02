@@ -48,6 +48,31 @@ PUBLIC_DIRS = {
     "zh",
 }
 
+ZH_TRANSLATION_PAIRS = {
+    "/": "/zh/",
+    "/core/stability-assumption-full/": "/zh/core/stability-assumption-full/",
+    "/core/proof-status/": "/zh/core/proof-status/",
+    "/core/glossary/": "/zh/core/glossary/",
+    "/core/alignment-constraint/": "/zh/core/alignment-constraint/",
+    "/proof-program/op4d-exhaustiveness-obligation/":
+        "/zh/proof-program/op4d-exhaustiveness-obligation/",
+    "/core/related-work/": "/zh/core/related-work/",
+    "/empirical/amp/": "/zh/empirical/amp/",
+    "/public/dear-ai/": "/zh/public/dear-ai/",
+    "/cite/": "/zh/cite/",
+}
+
+ZH_NOTICE_MARKERS = (
+    "翻译说明 / Translation notice",
+    "人工智能辅助生成",
+    "尚未由中文母语技术专家进行独立审阅",
+    "本译文为非权威译文",
+    "英文原文是权威版本",
+    "This translation is non-authoritative",
+    "the English original is authoritative",
+    "Authoritative English original",
+)
+
 SKIP_TOP_LEVEL_DIRS = {
     ".git",
     ".github",
@@ -680,6 +705,80 @@ def check_internal_links(
     return issues
 
 
+def check_chinese_translation_layer(
+    page_data: dict[Path, tuple[dict[str, str], str, int]],
+    route_by_page: dict[Path, str],
+) -> list[Issue]:
+    """Enforce the coordinated, explicitly non-authoritative Chinese layer."""
+    issues: list[Issue] = []
+    path_by_route = {route: path for path, route in route_by_page.items()}
+
+    for english_route, chinese_route in ZH_TRANSLATION_PAIRS.items():
+        english_path = path_by_route.get(english_route)
+        chinese_path = path_by_route.get(chinese_route)
+
+        if english_path is None:
+            issues.append(Issue(
+                "Chinese translation pairs", "scripts/validate_archive.py",
+                f"expected English route is missing: {english_route}", None,
+            ))
+            continue
+        if chinese_path is None:
+            issues.append(Issue(
+                "Chinese translation pairs", "scripts/validate_archive.py",
+                f"expected Chinese route is missing: {chinese_route}", None,
+            ))
+            continue
+
+        english_text = read_text(english_path)
+        if f"]({chinese_route})" not in english_text:
+            issues.append(Issue(
+                "reciprocal language navigation", rel(english_path),
+                f"English page does not link to its Chinese counterpart {chinese_route}", None,
+            ))
+
+        mapping, body, _body_start = page_data[chinese_path]
+        expected_fields = {
+            "lang": "zh-CN",
+            "permalink": chinese_route,
+            "alternate_en": english_route,
+            "alternate_zh": chinese_route,
+        }
+        for key, expected in expected_fields.items():
+            actual = mapping.get(key, "").strip()
+            if actual != expected:
+                issues.append(Issue(
+                    "Chinese language metadata", rel(chinese_path),
+                    f"{key} must be {expected!r}; found {actual!r}", 2,
+                ))
+
+        for marker in ZH_NOTICE_MARKERS:
+            if marker not in body:
+                issues.append(Issue(
+                    "Chinese translation notice", rel(chinese_path),
+                    f"required notice marker is missing: {marker!r}", None,
+                ))
+
+        authoritative_url = "https://alignmentconstraint.org" + english_route
+        if authoritative_url not in body:
+            issues.append(Issue(
+                "English-authoritative routing", rel(chinese_path),
+                f"Chinese page does not visibly link to {authoritative_url}", None,
+            ))
+        if "](/zh/)" not in body:
+            issues.append(Issue(
+                "Chinese navigation", rel(chinese_path),
+                "Chinese page does not link to the /zh/ home page", None,
+            ))
+        if "PRE-ADJUDICATION" in body or "DO NOT PUBLISH" in body:
+            issues.append(Issue(
+                "Chinese publication state", rel(chinese_path),
+                "pre-publication marker remains in deployable Chinese content", None,
+            ))
+
+    return issues
+
+
 def check_placeholders_and_obsolete_paths() -> list[Issue]:
     issues: list[Issue] = []
 
@@ -1088,6 +1187,7 @@ def main() -> int:
     issues.extend(check_json_files())
     issues.extend(check_sitemaps(page_routes, static_routes))
     issues.extend(check_internal_links(page_routes, static_routes, route_by_page))
+    issues.extend(check_chinese_translation_layer(page_data, route_by_page))
     issues.extend(check_placeholders_and_obsolete_paths())
     issues.extend(check_medium_artifacts(page_data))
     issues.extend(check_duplicate_title_h1(page_data))

@@ -2,7 +2,11 @@
 title: "Relation to Existing Alignment Work"
 permalink: /core/related-work/
 description: "How the framework relates to inner alignment, Goodhart, RLHF, scalable oversight, interpretability, corrigibility, and specification gaming."
+alternate_en: /core/related-work/
+alternate_zh: /zh/core/related-work/
 ---
+
+> [中文（AI 辅助、非权威译文）→](/zh/core/related-work/)
 
 > **Canonical archive version** · [Framework hub →](/core/alignment-constraint/) · [Proof Status →](/core/proof-status/)
 

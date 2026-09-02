@@ -391,5 +391,94 @@
     "document_role": "Illustrative simulation index",
     "proof_status": "Illustrative simulations; not proofs.",
     "seo_title": "AI Alignment Interactive Simulations | Alignment Constraint"
+  },
+  "/zh/": {
+    "schema_type": "WebPage",
+    "document_role": "Simplified Chinese framework homepage and routing hub",
+    "proof_status": "AI-assisted, non-authoritative Simplified Chinese translation; the English original is authoritative. The epistemic status of translated material remains document-specific.",
+    "seo_title": "对齐约束框架｜简体中文"
+  },
+  "/zh/core/stability-assumption-full/": {
+    "schema_type": "ScholarlyArticle",
+    "document_role": "Simplified Chinese translation of the primary technical manuscript for OP4 / The Stability Assumption",
+    "proof_status": "AI-assisted, non-authoritative Simplified Chinese translation; the English original is authoritative. Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.",
+    "seo_title": "OP4：稳定性假设｜简体中文"
+  },
+  "/zh/core/proof-status/": {
+    "schema_type": "TechArticle",
+    "document_role": "Simplified Chinese translation of the authoritative epistemic calibration and non-claims map",
+    "proof_status": "AI-assisted, non-authoritative Simplified Chinese translation; the English original is authoritative. Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.",
+    "seo_title": "证明状态与非主张｜简体中文"
+  },
+  "/zh/core/glossary/": {
+    "schema_type": "DefinedTermSet",
+    "document_role": "Simplified Chinese translation of the canonical glossary and terminology crosswalk",
+    "proof_status": "AI-assisted, non-authoritative Simplified Chinese translation; the English original is authoritative. Interpretation aid; it does not create new claims or upgrade existing claims.",
+    "seo_title": "对齐约束术语表｜简体中文"
+  },
+  "/zh/core/alignment-constraint/": {
+    "schema_type": "TechArticle",
+    "document_role": "Simplified Chinese translation of the framework hub and proof-architecture map",
+    "proof_status": "AI-assisted, non-authoritative Simplified Chinese translation; the English original is authoritative. Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.",
+    "seo_title": "对齐约束：框架与证明架构｜简体中文",
+    "keywords": [
+      "AI alignment",
+      "specification coherence",
+      "Stability Assumption",
+      "OP4",
+      "substrate constraint",
+      "valence constraint"
+    ]
+  },
+  "/zh/proof-program/op4d-exhaustiveness-obligation/": {
+    "schema_type": "TechArticle",
+    "document_role": "Simplified Chinese translation of the OP4d exhaustiveness technical note and counterexample specification",
+    "proof_status": "AI-assisted, non-authoritative Simplified Chinese translation; the English original is authoritative. Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.",
+    "seo_title": "OP4d：穷尽性义务｜简体中文"
+  },
+  "/zh/core/related-work/": {
+    "schema_type": "TechArticle",
+    "document_role": "Simplified Chinese translation of the related-work and field-vocabulary bridge",
+    "proof_status": "AI-assisted, non-authoritative Simplified Chinese translation; the English original is authoritative. Interpretive bridge document; not proof-bearing.",
+    "seo_title": "对齐约束与现有对齐研究｜简体中文",
+    "keywords": [
+      "AI alignment",
+      "inner alignment",
+      "reward hacking",
+      "Goodhart’s Law",
+      "RLHF",
+      "scalable oversight",
+      "interpretability",
+      "corrigibility",
+      "specification coherence"
+    ]
+  },
+  "/zh/empirical/amp/": {
+    "schema_type": "TechArticle",
+    "document_role": "Simplified Chinese translation of the empirical measurement protocol and evidence summary",
+    "proof_status": "AI-assisted, non-authoritative Simplified Chinese translation; the English original is authoritative. Empirical protocol within a Stage 4 framework; DBST-M0 did not isolate causal propagation, DBST-M1 has not yet run, and V(t)-validated SVG remains conditional on its prerequisite dissociation test.",
+    "seo_title": "对齐测量协议 AMP｜简体中文"
+  },
+  "/zh/public/dear-ai/": {
+    "schema_type": "Article",
+    "document_role": "Simplified Chinese translation of the personal narrative introduction and whole-project routing hub",
+    "proof_status": "AI-assisted, non-authoritative Simplified Chinese translation; the English original is authoritative. Public/historical and personal introduction; not proof-bearing. Technical claims retain the epistemic status stated in their canonical source documents.",
+    "seo_title": "致人工智能：对齐框架的个人起源｜简体中文",
+    "keywords": [
+      "AI alignment",
+      "artificial intelligence",
+      "AI safety",
+      "rationality",
+      "well-being",
+      "Alignment Constraint Framework",
+      "specification coherence",
+      "collective thriving"
+    ]
+  },
+  "/zh/cite/": {
+    "schema_type": "WebPage",
+    "document_role": "Simplified Chinese translation of the citation and versioning guide",
+    "proof_status": "AI-assisted, non-authoritative Simplified Chinese translation; the English original is authoritative. Citation guide; the epistemic status of cited claims remains document-specific.",
+    "seo_title": "如何引用对齐约束框架｜简体中文"
   }
 }
