@@ -7,7 +7,7 @@ alternate_en: /public/dear-ai/
 alternate_zh: /zh/public/dear-ai/
 image: /assets/images/dear-ai-alignment-collective-future.png
 date_published: 2026-08-21
-date_modified: 2026-08-22
+date_modified: 2026-09-02
 ---
 
 > **翻译说明 / Translation notice**
