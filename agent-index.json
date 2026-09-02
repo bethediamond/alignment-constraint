@@ -5,6 +5,79 @@
   "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.",
   "epistemic_calibration_url": "https://alignmentconstraint.org/core/proof-status/",
   "central_question": "Can a finite separable objective remain coherently specified as an optimization system becomes capable enough that acting well requires modeling the conditions its objective excludes?",
+  "translations": {
+    "zh-Hans": {
+      "language": "Simplified Chinese",
+      "language_code": "zh-CN",
+      "status": "AI-assisted, non-authoritative translation layer; not independently reviewed by a native-language technical specialist; English originals are authoritative.",
+      "authoritative_language": "en",
+      "homepage": "https://alignmentconstraint.org/zh/",
+      "machine_router": "https://alignmentconstraint.org/zh/llms.txt",
+      "proof_status": "Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.",
+      "pages": [
+        {
+          "title": "对齐约束框架",
+          "url": "https://alignmentconstraint.org/zh/",
+          "translation_of": "https://alignmentconstraint.org/",
+          "role": "translation-layer homepage and routing hub"
+        },
+        {
+          "title": "OP4：稳定性假设",
+          "url": "https://alignmentconstraint.org/zh/core/stability-assumption-full/",
+          "translation_of": "https://alignmentconstraint.org/core/stability-assumption-full/",
+          "role": "core open theorem target; Stage 4 candidate proof architecture"
+        },
+        {
+          "title": "证明状态与非主张",
+          "url": "https://alignmentconstraint.org/zh/core/proof-status/",
+          "translation_of": "https://alignmentconstraint.org/core/proof-status/",
+          "role": "epistemic calibration"
+        },
+        {
+          "title": "术语表与定义术语",
+          "url": "https://alignmentconstraint.org/zh/core/glossary/",
+          "translation_of": "https://alignmentconstraint.org/core/glossary/",
+          "role": "terminology, dependencies, and crosswalk routing"
+        },
+        {
+          "title": "对齐约束",
+          "url": "https://alignmentconstraint.org/zh/core/alignment-constraint/",
+          "translation_of": "https://alignmentconstraint.org/core/alignment-constraint/",
+          "role": "framework hub and proof-architecture map"
+        },
+        {
+          "title": "OP4d：穷尽性义务",
+          "url": "https://alignmentconstraint.org/zh/proof-program/op4d-exhaustiveness-obligation/",
+          "translation_of": "https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/",
+          "role": "open exhaustiveness obligation"
+        },
+        {
+          "title": "与现有对齐研究的关联",
+          "url": "https://alignmentconstraint.org/zh/core/related-work/",
+          "translation_of": "https://alignmentconstraint.org/core/related-work/",
+          "role": "interpretive bridge to existing alignment literature; not proof-bearing"
+        },
+        {
+          "title": "对齐测量协议 / AMP",
+          "url": "https://alignmentconstraint.org/zh/empirical/amp/",
+          "translation_of": "https://alignmentconstraint.org/empirical/amp/",
+          "role": "empirical testing gateway; DBST-M1 proposed"
+        },
+        {
+          "title": "致人工智能",
+          "url": "https://alignmentconstraint.org/zh/public/dear-ai/",
+          "translation_of": "https://alignmentconstraint.org/public/dear-ai/",
+          "role": "personal origin, history, and whole-project routing; not proof-bearing"
+        },
+        {
+          "title": "如何引用对齐约束框架",
+          "url": "https://alignmentconstraint.org/zh/cite/",
+          "translation_of": "https://alignmentconstraint.org/cite/",
+          "role": "citation, DOI, and BibTeX routing"
+        }
+      ]
+    }
+  },
   "primary_entry_points": [
     {
       "title": "Dear AI: A 34-Year Search for AI Alignment",
@@ -147,6 +220,7 @@
   "machine_readable_files": {
     "llms_txt": "https://alignmentconstraint.org/llms.txt",
     "llms_full_txt": "https://alignmentconstraint.org/llms-full.txt",
+    "zh_hans_llms_txt": "https://alignmentconstraint.org/zh/llms.txt",
     "agents_md": "https://alignmentconstraint.org/AGENTS.md",
     "agent_index": "https://alignmentconstraint.org/agent-index.json",
     "open_problems": "https://alignmentconstraint.org/open-problems.json",

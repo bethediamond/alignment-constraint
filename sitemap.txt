@@ -65,6 +65,7 @@ https://alignmentconstraint.org/specialist-handoff/proof-artifacts-locked-result
 https://alignmentconstraint.org/specialist-handoff/five-problems-stage-4-handoff/
 https://alignmentconstraint.org/specialist-handoff/phases-1-7-formal-proof-handoff/
 https://alignmentconstraint.org/zh/
+https://alignmentconstraint.org/zh/llms.txt
 https://alignmentconstraint.org/zh/core/stability-assumption-full/
 https://alignmentconstraint.org/zh/core/proof-status/
 https://alignmentconstraint.org/zh/core/glossary/

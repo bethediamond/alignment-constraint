@@ -33,6 +33,7 @@ Proof status: **Stage 4 — candidate proof architecture under named premises, w
 | Experimental researchers | [Alignment Measurement Protocol](https://alignmentconstraint.org/empirical/amp/) |
 | Full framework | [The Alignment Constraint](https://alignmentconstraint.org/core/alignment-constraint/) |
 | Historical origin | [Redefining Rationality](https://alignmentconstraint.org/public/redefining-rationality/) |
+| Simplified Chinese / 简体中文 | [Chinese translation layer / 简体中文翻译层](https://alignmentconstraint.org/zh/) — AI-assisted and non-authoritative; English originals remain authoritative |
 
 ---
 
@@ -89,6 +90,7 @@ These files are included to make the framework legible to search systems, LLMs, 
 
 - [llms.txt](https://alignmentconstraint.org/llms.txt) — short LLM-oriented summary and routing map
 - [llms-full.txt](https://alignmentconstraint.org/llms-full.txt) — fuller LLM context and usage guide
+- [zh/llms.txt](https://alignmentconstraint.org/zh/llms.txt) — compact Simplified Chinese translation router; AI-assisted and non-authoritative
 - [AGENTS.md](https://alignmentconstraint.org/AGENTS.md) — instructions for autonomous AI/research agents
 - [agent-index.json](https://alignmentconstraint.org/agent-index.json) — structured framework map
 - [open-problems.json](https://alignmentconstraint.org/open-problems.json) — machine-readable open problems

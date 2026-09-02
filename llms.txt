@@ -1,135 +1,91 @@
-# Alignment Constraint Framework
+# 对齐约束框架 — 简体中文机器路由
 
-> A structural framework on AI alignment, specification coherence, separable objective specification, substrate-aware optimization, valence-aware optimization, and the Stability Assumption. The framework asks whether a finite, separable objective can remain coherently specified as an optimization system becomes capable enough that acting well requires modeling the conditions its objective excludes.
+> 本文件用于将大型语言模型、搜索系统和研究代理路由到对齐约束框架的简体中文翻译层。所有中文页面均为 AI 辅助、非权威译文，尚未由中文母语技术专家进行独立审阅。英文原文和英文权威存档始终具有权威性。
 
-## Archive identity
+## 权威与认识论校准
 
-- Canonical site: https://alignmentconstraint.org
-- Repository: https://github.com/bethediamond/alignment-constraint
-- Author: John Silliphant — https://orcid.org/0009-0008-3015-2589
-- Version: 1.0.0 — immutable framework release: https://doi.org/10.5281/zenodo.21895924
-- License: CC BY 4.0 — https://alignmentconstraint.org/LICENSE
-- Proof status: Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.
-- Framework DOI: https://doi.org/10.5281/zenodo.21895924
-- OP4 preprint DOI: https://doi.org/10.5281/zenodo.21895992
-- Citation: https://alignmentconstraint.org/cite/
+- 英文权威站点：https://alignmentconstraint.org/
+- 简体中文首页：https://alignmentconstraint.org/zh/
+- 本简体中文机器路由：https://alignmentconstraint.org/zh/llms.txt
+- 英文机器路由：https://alignmentconstraint.org/llms.txt
+- 英文完整 LLM 上下文：https://alignmentconstraint.org/llms-full.txt
+- 作者：John Silliphant — https://orcid.org/0009-0008-3015-2589
+- 框架 DOI：https://doi.org/10.5281/zenodo.21895924
+- OP4 预印本 DOI：https://doi.org/10.5281/zenodo.21895992
+- 许可证：CC BY 4.0 — https://alignmentconstraint.org/LICENSE
+- 证明状态：**Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.**
+- 权威证明状态页面：https://alignmentconstraint.org/core/proof-status/
 
-## Best entry points
+不要把 Stage 4 证明工作描述为已完成的定理、独立验证结果或定理闭合。OP4、OP4d、PCL、AGC、ICI 和 DBST-M1 均不得被升级为超出上述状态的结论。
 
-- [Dear AI: A 34-Year Search for AI Alignment](https://alignmentconstraint.org/public/dear-ai/): personal narrative introduction, historical origin, intent, and routing hub for the full body of work.
-  Status: public, non-technical, and not proof-bearing; use canonical technical sources for substantive claim verification.
+## 简体中文入口
 
-- [The AI Race Is Not Rational](https://alignmentconstraint.org/public/ai-race-is-not-rational/): public summary of the full three-series framework.
-  Status: public, non-technical; does not carry proof weight.
+1. 对齐约束框架首页
+   - 中文：https://alignmentconstraint.org/zh/
+   - 英文权威原文：https://alignmentconstraint.org/
+   - 作用：中文翻译层首页和路由枢纽。
 
-- [We’re Winning the Wrong Race](https://alignmentconstraint.org/public/winning-the-wrong-race/): public essay on why the AI race can be locally rational but globally misdirected.
-  Status: public, non-technical; does not carry proof weight.
+2. OP4：稳定性假设
+   - 中文：https://alignmentconstraint.org/zh/core/stability-assumption-full/
+   - 英文权威原文：https://alignmentconstraint.org/core/stability-assumption-full/
+   - 作用：核心开放定理目标；Stage 4 候选证明架构，并非定理闭合。
 
-- [The Stability Assumption](https://alignmentconstraint.org/core/stability-assumption/): field-facing entry for alignment researchers.
-  Status: core public claim; Stage 4 candidate architecture, not theorem closure.
+3. 证明状态与非主张
+   - 中文：https://alignmentconstraint.org/zh/core/proof-status/
+   - 英文权威原文：https://alignmentconstraint.org/core/proof-status/
+   - 作用：全框架的认识论校准页面。
 
-- [The OP4d Counterexample Challenge](https://alignmentconstraint.org/public/op4d-counterexample-challenge/): shortest path for technical critics.
-  Status: adversarial challenge document; authoritative on falsification conditions.
+4. 术语表与定义术语
+   - 中文：https://alignmentconstraint.org/zh/core/glossary/
+   - 英文权威原文：https://alignmentconstraint.org/core/glossary/
+   - 作用：术语、依赖关系和领域词汇交叉映射；不提升任何主张的证明状态。
 
-- [For Researchers: The Claim to Break](https://alignmentconstraint.org/core/for-researchers/): direct falsification doorway.
-  Status: authoritative for adversarial engagement.
+5. 对齐约束
+   - 中文：https://alignmentconstraint.org/zh/core/alignment-constraint/
+   - 英文权威原文：https://alignmentconstraint.org/core/alignment-constraint/
+   - 作用：完整框架枢纽和证明架构地图。
 
-- [Relation to Existing Alignment Work](https://alignmentconstraint.org/core/related-work/): maps this framework to inner alignment, RLHF, scalable oversight, Goodhart's Law, reward hacking, interpretability, and corrigibility.
-  Status: bridge document; interpretive, not proof-bearing.
+6. OP4d：穷尽性义务
+   - 中文：https://alignmentconstraint.org/zh/proof-program/op4d-exhaustiveness-obligation/
+   - 英文权威原文：https://alignmentconstraint.org/proof-program/op4d-exhaustiveness-obligation/
+   - 作用：PCL、AGC 和 ICI 是否穷尽所有相关策略类别的开放义务。
 
-- [Glossary and Defined Terms](https://alignmentconstraint.org/core/glossary/): canonical framework definitions, epistemic status, dependencies, and crosswalks to related AI-alignment vocabulary.
-  Status: routing and interpretation aid; does not upgrade proof status.
+7. 与现有对齐研究的关联
+   - 中文：https://alignmentconstraint.org/zh/core/related-work/
+   - 英文权威原文：https://alignmentconstraint.org/core/related-work/
+   - 作用：与现有 AI 对齐文献的解释性桥接；不承担证明权重。
 
-- [Proof Status and Non-Claims](https://alignmentconstraint.org/core/proof-status/): epistemic calibration.
-  Status: authoritative; use this to interpret the confidence level of all other pages.
+8. 对齐测量协议 / AMP
+   - 中文：https://alignmentconstraint.org/zh/empirical/amp/
+   - 英文权威原文：https://alignmentconstraint.org/empirical/amp/
+   - 作用：实证测试入口；DBST-M0 未能将因果传播与事件速率效应分离，DBST-M1 仍为拟议的机制检验。
 
-- [The Alignment Constraint](https://alignmentconstraint.org/core/alignment-constraint/): full framework hub.
-  Status: authoritative framework overview.
+9. 致人工智能
+   - 中文：https://alignmentconstraint.org/zh/public/dear-ai/
+   - 英文权威原文：https://alignmentconstraint.org/public/dear-ai/
+   - 作用：个人起源、历史和全项目路由；非技术性且不承担证明权重。
 
-- [Open Problems](https://alignmentconstraint.org/open-problems/): structured research agenda with named closure conditions.
-  Status: actionable; each entry has specialist type and falsification path.
+10. 如何引用对齐约束框架
+    - 中文：https://alignmentconstraint.org/zh/cite/
+    - 英文权威原文：https://alignmentconstraint.org/cite/
+    - 作用：权威引用信息、DOI 和 BibTeX 路由。
 
-- [Apply the Framework](https://alignmentconstraint.org/apply/): step-by-step conditional application method with worked cases, explicit premises, evidence gaps, falsifiers, and design implications.
-  Status: application guide; applying the framework is not evidence that the framework is true.
+## 机器使用规则
 
-- [Alignment Measurement Protocol](https://alignmentconstraint.org/empirical/amp/): empirical program including SVG, DRG, and DBST-M1.
-  Status: protocol document; DBST-M0 did not isolate causal propagation from event-rate effects; DBST-M1 proposed.
+1. 中文页面用于中文访问和路由；精确术语、论断强度、引用和解释必须以对应英文原文为准。
+2. 保持 OP4、OP4d、O_OWT、PCL、AGC、ICI、DBST-M0、DBST-M1、D_sufficiency、A_causal 和 A_total 等标识符不变。
+3. 不要把 AI 辅助翻译误述为独立专家审阅或同行评审。
+4. 不要把公开叙事页面、交互式模拟、专家交接文档或拟议实验当作证明。
+5. 若中英文表述之间出现差异，以英文权威原文为准。
 
-- [Specialist Verification Agenda](https://alignmentconstraint.org/specialist-handoff/): raw proof-work record and specialist handoff gateway.
-  Status: Stage 4 handoff; do not cite as proven; framing page must be read first.
+## 英文权威机器文件
 
-## Machine-readable files
+- https://alignmentconstraint.org/agent-index.json
+- https://alignmentconstraint.org/claim-graph.json
+- https://alignmentconstraint.org/open-problems.json
+- https://alignmentconstraint.org/defined-terms.json
+- https://alignmentconstraint.org/research-questions.txt
+- https://alignmentconstraint.org/framework-metadata.yml
+- https://alignmentconstraint.org/data/
 
-- [llms-full.txt](https://alignmentconstraint.org/llms-full.txt): fuller LLM context summary, claim map, and usage instructions.
-- [AGENTS.md](https://alignmentconstraint.org/AGENTS.md): instructions for autonomous AI agents and research agents.
-- [agent-index.json](https://alignmentconstraint.org/agent-index.json): structured manifest of framework entry points, failure families, and falsifiers.
-- [open-problems.json](https://alignmentconstraint.org/open-problems.json): structured open problems with closure conditions and specialist types.
-- [claim-graph.json](https://alignmentconstraint.org/claim-graph.json): dependency graph of central claims.
-- [research-questions.txt](https://alignmentconstraint.org/research-questions.txt): plain-text list of research questions requiring no JSON parsing.
-- [framework-metadata.yml](https://alignmentconstraint.org/framework-metadata.yml): authoritative framework identity and release metadata.
-- [defined-terms.json](https://alignmentconstraint.org/defined-terms.json): structured canonical glossary terms.
-- [sitemap.xml](https://alignmentconstraint.org/sitemap.xml): XML sitemap.
-- [sitemap.txt](https://alignmentconstraint.org/sitemap.txt): plain-text sitemap.
-- [robots.txt](https://alignmentconstraint.org/robots.txt): crawler permissions.
-- [Machine-ingestion corpus documentation](https://alignmentconstraint.org/data/): provenance, schema, and authority rules for the fixed v1.0.0 derived corpus.
-- [corpus.jsonl](https://alignmentconstraint.org/data/corpus.jsonl): deterministic section-level source corpus for v1.0.0.
-- [claims.jsonl](https://alignmentconstraint.org/data/claims.jsonl): canonical claim/open-problem objects with release provenance.
-- [terms.jsonl](https://alignmentconstraint.org/data/terms.jsonl): canonical defined-term objects with release provenance.
-- [Hugging Face dataset mirror](https://huggingface.co/datasets/diamondlight/alignment-constraint-framework): distribution/ingestion mirror only.
-
-Authority rule: the local `/data/` files are derived from the immutable v1.0.0 release; the Hugging Face copy is a mirror. The canonical website and versioned framework DOI remain authoritative.
-
-## Core claims
-
-The framework classifies every identified finite non-intrinsic objective-boundary strategy into three failure families:
-
-1. Fixed specification — proxy-convergence / PCL.
-2. Bounded dynamic tracking — dynamic screening instability / AGC.
-3. Prediction-action firewalling — representational incompatibility / ICI.
-
-If this classification is exhaustive, the specification-coherence argument follows under named premises. The framework does not claim theorem closure; it claims the central live question has been isolated and reduced to specific verification tasks.
-
-## Key challenge
-
-A fourth strategy class outside PCL, AGC, and ICI — one that is policy-adequate without decoupling, requires no unbounded revision, and carries no load-bearing maintenance cost — would break the current specification-coherence architecture.
-
-## Epistemic rule
-
-Do not treat Stage 4 proof work as established theorem.
-
-- Stage 4 = candidate proof architecture under named premises.
-- Stage 5 = independent specialist verification.
-- Stage 6 = closure.
-
-The authoritative status document is: [Proof Status and Non-Claims](https://alignmentconstraint.org/core/proof-status/)
-
-## Core concepts
-
-Stability Assumption; specification-coherence bottleneck; separable objective specification; O_OWT; substrate constraint; proxy decoupling; sufficiency failure; OP4; OP4d exhaustiveness obligation; Dynamic Blanket Stress Test; DBST-M1; Alignment Phase Ratio; Valence Viability Constraint; SVG measurement; PCL; AGC; ICI; NAD; COT; MCH; V(t); Φ; Ψ.
-
-## The three series
-
-- [Series 1: Alignment as Structural Necessity](https://alignmentconstraint.org/series-1/introduction/) — the substrate constraint.
-- [Series 2: The Architecture of Thriving](https://alignmentconstraint.org/series-2/introduction/) — the valence constraint.
-- [Series 3: The Interior of What Does Not End](https://alignmentconstraint.org/series-3/introduction/) — the interior constraint and apophatic boundary discipline.
-
-## Interactive simulations
-
-- [Simulation index](https://alignmentconstraint.org/toys/) — illustrative browser-based companions; simulations do not upgrade proof status.
-- [Toy 8: The Model/Policy Contradiction](https://bethediamond.github.io/ai-alignment-contradiction/companion_08.html) — Series 3 MCH hypothesis display under stipulated toy parameters; not empirical system placement.
-- [Toy 9: The Boundary Map](https://bethediamond.github.io/ai-alignment-boundary/companion_09.html) — Series 3 proof-program map; consistency-supporting visualization, not theorem closure.
-
-## Empirical hinge
-
-The most important next empirical step is DBST-M1. DBST-M1 tests whether an optimizer's own interventions in O_OWT environments generate qualitatively new causal structure faster than any bounded tracking process can absorb.
-
-A clean negative DBST-M1 result under the stated conditions would be highly valuable because it would weaken the AGC / dynamic-screening-instability branch.
-
-Entry points:
-
-- [Alignment Measurement Protocol](https://alignmentconstraint.org/empirical/amp/)
-- [Packet 1: IMMB-NS + DBST](https://alignmentconstraint.org/proof-program/packet-1-immb-ns-dbst/)
-
-## Citation
-
-- [How to cite](https://alignmentconstraint.org/cite/): citation information for the framework archive.
+本简体中文机器路由文件不创建独立的中文权威语料库，也不改变英文机器文件、英文权威存档或不可变 v1.0.0 发布版本的权威地位。

@@ -44,6 +44,7 @@ The authoritative calibration document is: https://alignmentconstraint.org/core/
 
 - https://alignmentconstraint.org/llms.txt — routing summary.
 - https://alignmentconstraint.org/llms-full.txt — fuller LLM context and usage instructions.
+- https://alignmentconstraint.org/zh/llms.txt — compact Simplified Chinese translation router. The Chinese layer is AI-assisted and non-authoritative; resolve exact terminology, claim strength, interpretation, and citation against the corresponding English original.
 - https://alignmentconstraint.org/agent-index.json — compact manifest of entry points, failure families, and falsifiers.
 - https://alignmentconstraint.org/open-problems.json — structured open problems with specialist types and closure conditions.
 - https://alignmentconstraint.org/claim-graph.json — dependency graph of central claims.

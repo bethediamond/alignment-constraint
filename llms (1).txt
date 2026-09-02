@@ -1,0 +1,144 @@
+# Alignment Constraint Framework
+
+> A structural framework on AI alignment, specification coherence, separable objective specification, substrate-aware optimization, valence-aware optimization, and the Stability Assumption. The framework asks whether a finite, separable objective can remain coherently specified as an optimization system becomes capable enough that acting well requires modeling the conditions its objective excludes.
+
+## Archive identity
+
+- Canonical site: https://alignmentconstraint.org
+- Repository: https://github.com/bethediamond/alignment-constraint
+- Author: John Silliphant — https://orcid.org/0009-0008-3015-2589
+- Version: 1.0.0 — immutable framework release: https://doi.org/10.5281/zenodo.21895924
+- License: CC BY 4.0 — https://alignmentconstraint.org/LICENSE
+- Proof status: Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.
+- Framework DOI: https://doi.org/10.5281/zenodo.21895924
+- OP4 preprint DOI: https://doi.org/10.5281/zenodo.21895992
+- Citation: https://alignmentconstraint.org/cite/
+
+## Simplified Chinese translation layer
+
+- Chinese homepage: https://alignmentconstraint.org/zh/
+- Chinese machine router: https://alignmentconstraint.org/zh/llms.txt
+- Status: AI-assisted, non-authoritative Simplified Chinese translations; not independently reviewed by a native-language technical specialist.
+- Authority rule: the English originals and English canonical machine-readable archive remain authoritative. Resolve exact terminology, claim strength, interpretation, and citation against the corresponding English source.
+- Proof-status rule: the Chinese layer does not upgrade any claim beyond Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.
+
+## Best entry points
+
+- [Dear AI: A 34-Year Search for AI Alignment](https://alignmentconstraint.org/public/dear-ai/): personal narrative introduction, historical origin, intent, and routing hub for the full body of work.
+  Status: public, non-technical, and not proof-bearing; use canonical technical sources for substantive claim verification.
+
+- [The AI Race Is Not Rational](https://alignmentconstraint.org/public/ai-race-is-not-rational/): public summary of the full three-series framework.
+  Status: public, non-technical; does not carry proof weight.
+
+- [We’re Winning the Wrong Race](https://alignmentconstraint.org/public/winning-the-wrong-race/): public essay on why the AI race can be locally rational but globally misdirected.
+  Status: public, non-technical; does not carry proof weight.
+
+- [The Stability Assumption](https://alignmentconstraint.org/core/stability-assumption/): field-facing entry for alignment researchers.
+  Status: core public claim; Stage 4 candidate architecture, not theorem closure.
+
+- [The OP4d Counterexample Challenge](https://alignmentconstraint.org/public/op4d-counterexample-challenge/): shortest path for technical critics.
+  Status: adversarial challenge document; authoritative on falsification conditions.
+
+- [For Researchers: The Claim to Break](https://alignmentconstraint.org/core/for-researchers/): direct falsification doorway.
+  Status: authoritative for adversarial engagement.
+
+- [Relation to Existing Alignment Work](https://alignmentconstraint.org/core/related-work/): maps this framework to inner alignment, RLHF, scalable oversight, Goodhart's Law, reward hacking, interpretability, and corrigibility.
+  Status: bridge document; interpretive, not proof-bearing.
+
+- [Glossary and Defined Terms](https://alignmentconstraint.org/core/glossary/): canonical framework definitions, epistemic status, dependencies, and crosswalks to related AI-alignment vocabulary.
+  Status: routing and interpretation aid; does not upgrade proof status.
+
+- [Proof Status and Non-Claims](https://alignmentconstraint.org/core/proof-status/): epistemic calibration.
+  Status: authoritative; use this to interpret the confidence level of all other pages.
+
+- [The Alignment Constraint](https://alignmentconstraint.org/core/alignment-constraint/): full framework hub.
+  Status: authoritative framework overview.
+
+- [Open Problems](https://alignmentconstraint.org/open-problems/): structured research agenda with named closure conditions.
+  Status: actionable; each entry has specialist type and falsification path.
+
+- [Apply the Framework](https://alignmentconstraint.org/apply/): step-by-step conditional application method with worked cases, explicit premises, evidence gaps, falsifiers, and design implications.
+  Status: application guide; applying the framework is not evidence that the framework is true.
+
+- [Alignment Measurement Protocol](https://alignmentconstraint.org/empirical/amp/): empirical program including SVG, DRG, and DBST-M1.
+  Status: protocol document; DBST-M0 did not isolate causal propagation from event-rate effects; DBST-M1 proposed.
+
+- [Specialist Verification Agenda](https://alignmentconstraint.org/specialist-handoff/): raw proof-work record and specialist handoff gateway.
+  Status: Stage 4 handoff; do not cite as proven; framing page must be read first.
+
+## Machine-readable files
+
+- [Simplified Chinese machine router](https://alignmentconstraint.org/zh/llms.txt): compact routing map for the published Chinese translation layer; English originals remain authoritative.
+- [llms-full.txt](https://alignmentconstraint.org/llms-full.txt): fuller LLM context summary, claim map, and usage instructions.
+- [AGENTS.md](https://alignmentconstraint.org/AGENTS.md): instructions for autonomous AI agents and research agents.
+- [agent-index.json](https://alignmentconstraint.org/agent-index.json): structured manifest of framework entry points, failure families, and falsifiers.
+- [open-problems.json](https://alignmentconstraint.org/open-problems.json): structured open problems with closure conditions and specialist types.
+- [claim-graph.json](https://alignmentconstraint.org/claim-graph.json): dependency graph of central claims.
+- [research-questions.txt](https://alignmentconstraint.org/research-questions.txt): plain-text list of research questions requiring no JSON parsing.
+- [framework-metadata.yml](https://alignmentconstraint.org/framework-metadata.yml): authoritative framework identity and release metadata.
+- [defined-terms.json](https://alignmentconstraint.org/defined-terms.json): structured canonical glossary terms.
+- [sitemap.xml](https://alignmentconstraint.org/sitemap.xml): XML sitemap.
+- [sitemap.txt](https://alignmentconstraint.org/sitemap.txt): plain-text sitemap.
+- [robots.txt](https://alignmentconstraint.org/robots.txt): crawler permissions.
+- [Machine-ingestion corpus documentation](https://alignmentconstraint.org/data/): provenance, schema, and authority rules for the fixed v1.0.0 derived corpus.
+- [corpus.jsonl](https://alignmentconstraint.org/data/corpus.jsonl): deterministic section-level source corpus for v1.0.0.
+- [claims.jsonl](https://alignmentconstraint.org/data/claims.jsonl): canonical claim/open-problem objects with release provenance.
+- [terms.jsonl](https://alignmentconstraint.org/data/terms.jsonl): canonical defined-term objects with release provenance.
+- [Hugging Face dataset mirror](https://huggingface.co/datasets/diamondlight/alignment-constraint-framework): distribution/ingestion mirror only.
+
+Authority rule: the local `/data/` files are derived from the immutable v1.0.0 release; the Hugging Face copy is a mirror. The canonical website and versioned framework DOI remain authoritative.
+
+## Core claims
+
+The framework classifies every identified finite non-intrinsic objective-boundary strategy into three failure families:
+
+1. Fixed specification — proxy-convergence / PCL.
+2. Bounded dynamic tracking — dynamic screening instability / AGC.
+3. Prediction-action firewalling — representational incompatibility / ICI.
+
+If this classification is exhaustive, the specification-coherence argument follows under named premises. The framework does not claim theorem closure; it claims the central live question has been isolated and reduced to specific verification tasks.
+
+## Key challenge
+
+A fourth strategy class outside PCL, AGC, and ICI — one that is policy-adequate without decoupling, requires no unbounded revision, and carries no load-bearing maintenance cost — would break the current specification-coherence architecture.
+
+## Epistemic rule
+
+Do not treat Stage 4 proof work as established theorem.
+
+- Stage 4 = candidate proof architecture under named premises.
+- Stage 5 = independent specialist verification.
+- Stage 6 = closure.
+
+The authoritative status document is: [Proof Status and Non-Claims](https://alignmentconstraint.org/core/proof-status/)
+
+## Core concepts
+
+Stability Assumption; specification-coherence bottleneck; separable objective specification; O_OWT; substrate constraint; proxy decoupling; sufficiency failure; OP4; OP4d exhaustiveness obligation; Dynamic Blanket Stress Test; DBST-M1; Alignment Phase Ratio; Valence Viability Constraint; SVG measurement; PCL; AGC; ICI; NAD; COT; MCH; V(t); Φ; Ψ.
+
+## The three series
+
+- [Series 1: Alignment as Structural Necessity](https://alignmentconstraint.org/series-1/introduction/) — the substrate constraint.
+- [Series 2: The Architecture of Thriving](https://alignmentconstraint.org/series-2/introduction/) — the valence constraint.
+- [Series 3: The Interior of What Does Not End](https://alignmentconstraint.org/series-3/introduction/) — the interior constraint and apophatic boundary discipline.
+
+## Interactive simulations
+
+- [Simulation index](https://alignmentconstraint.org/toys/) — illustrative browser-based companions; simulations do not upgrade proof status.
+- [Toy 8: The Model/Policy Contradiction](https://bethediamond.github.io/ai-alignment-contradiction/companion_08.html) — Series 3 MCH hypothesis display under stipulated toy parameters; not empirical system placement.
+- [Toy 9: The Boundary Map](https://bethediamond.github.io/ai-alignment-boundary/companion_09.html) — Series 3 proof-program map; consistency-supporting visualization, not theorem closure.
+
+## Empirical hinge
+
+The most important next empirical step is DBST-M1. DBST-M1 tests whether an optimizer's own interventions in O_OWT environments generate qualitatively new causal structure faster than any bounded tracking process can absorb.
+
+A clean negative DBST-M1 result under the stated conditions would be highly valuable because it would weaken the AGC / dynamic-screening-instability branch.
+
+Entry points:
+
+- [Alignment Measurement Protocol](https://alignmentconstraint.org/empirical/amp/)
+- [Packet 1: IMMB-NS + DBST](https://alignmentconstraint.org/proof-program/packet-1-immb-ns-dbst/)
+
+## Citation
+
+- [How to cite](https://alignmentconstraint.org/cite/): citation information for the framework archive.
