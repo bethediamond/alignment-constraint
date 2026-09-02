@@ -9,6 +9,7 @@ Proof status: Stage 4 — candidate proof architecture under named premises, wit
 Framework DOI: https://doi.org/10.5281/zenodo.21895924
 OP4 preprint DOI: https://doi.org/10.5281/zenodo.21895992
 Citation: https://alignmentconstraint.org/cite/
+Simplified Chinese routing: https://alignmentconstraint.org/zh/llms.txt — AI-assisted, non-authoritative translations; English originals remain authoritative.
 
 ## Purpose of this file
 
@@ -123,6 +124,7 @@ Canonical simulation index: https://alignmentconstraint.org/toys/
 ## Canonical machine-readable files
 
 - https://alignmentconstraint.org/llms.txt
+- https://alignmentconstraint.org/zh/llms.txt — compact Simplified Chinese translation router; non-authoritative
 - https://alignmentconstraint.org/AGENTS.md
 - https://alignmentconstraint.org/agent-index.json
 - https://alignmentconstraint.org/open-problems.json

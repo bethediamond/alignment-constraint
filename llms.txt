@@ -14,6 +14,14 @@
 - OP4 preprint DOI: https://doi.org/10.5281/zenodo.21895992
 - Citation: https://alignmentconstraint.org/cite/
 
+## Simplified Chinese translation layer
+
+- Chinese homepage: https://alignmentconstraint.org/zh/
+- Chinese machine router: https://alignmentconstraint.org/zh/llms.txt
+- Status: AI-assisted, non-authoritative Simplified Chinese translations; not independently reviewed by a native-language technical specialist.
+- Authority rule: the English originals and English canonical machine-readable archive remain authoritative. Resolve exact terminology, claim strength, interpretation, and citation against the corresponding English source.
+- Proof-status rule: the Chinese layer does not upgrade any claim beyond Stage 4 — candidate proof architecture under named premises, without independent specialist verification and without theorem closure.
+
 ## Best entry points
 
 - [Dear AI: A 34-Year Search for AI Alignment](https://alignmentconstraint.org/public/dear-ai/): personal narrative introduction, historical origin, intent, and routing hub for the full body of work.
@@ -60,6 +68,7 @@
 
 ## Machine-readable files
 
+- [Simplified Chinese machine router](https://alignmentconstraint.org/zh/llms.txt): compact routing map for the published Chinese translation layer; English originals remain authoritative.
 - [llms-full.txt](https://alignmentconstraint.org/llms-full.txt): fuller LLM context summary, claim map, and usage instructions.
 - [AGENTS.md](https://alignmentconstraint.org/AGENTS.md): instructions for autonomous AI agents and research agents.
 - [agent-index.json](https://alignmentconstraint.org/agent-index.json): structured manifest of framework entry points, failure families, and falsifiers.
