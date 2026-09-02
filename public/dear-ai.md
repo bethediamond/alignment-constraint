@@ -4,7 +4,7 @@ permalink: /public/dear-ai/
 description: "An open letter on rationality, well-being, and AI alignment—and how a simple idea grew into a formal framework, experiments, and open questions."
 image: /assets/images/dear-ai-alignment-collective-future.png
 date_published: 2026-08-21
-date_modified: 2026-08-22
+date_modified: 2026-09-02
 alternate_en: /public/dear-ai/
 alternate_zh: /zh/public/dear-ai/
 ---
