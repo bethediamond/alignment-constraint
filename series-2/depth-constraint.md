@@ -8,6 +8,8 @@ description: "Series 2 account of depth, valence, proxy decoupling, and the cond
 
 ---
 
+![Abstract structural image representing AI alignment, RLHF, proxy decoupling, and the limits of preference learning.](/assets/images/ai-alignment-rlhf-proxy-decoupling.png)
+
 **Series navigation:**
 
 | Post | Title | Role |

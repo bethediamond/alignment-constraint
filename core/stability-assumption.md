@@ -8,6 +8,8 @@ description: "Field-facing statement of the Stability Assumption: whether separa
 
 ---
 
+![Parallel blue and gold branching lines run across a dark textured field.](/assets/images/ai-alignment-stability-assumption-objective-specification.png)
+
 ## Claim card
 
 - **Claim or question under investigation:** Does finite separable objective specification have a stable completion condition as accurate modeling deepens in coupled environments?

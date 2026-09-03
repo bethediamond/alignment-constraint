@@ -17,6 +17,8 @@ alternate_zh: /zh/core/stability-assumption-full/
 
 ---
 
+![Blue-lit and gold-lit cracked terrain meet at a central boundary.](/assets/images/ai-alignment-stability-assumption-separable-objectives.png)
+
 ## Claim card
 
 - **Claim or question under investigation:** **OP4 — No Stable Narrow-Boundary Regime:** can any finite separable objective remain stably adequate under accurate coupled modeling in O_OWT conditions?

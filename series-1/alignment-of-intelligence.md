@@ -10,6 +10,8 @@ description: "Series 1 introduction to the Substrate Constraint: why sustained o
 
 *Part 1 of 3 — The Constraint*
 
+![A dark cracked mass on the left meets a luminous blue branching network on the right.](/assets/images/ai-alignment-substrate-constraint-optimization.png)
+
 **Series navigation:**
 
 | Post | Title | Role |

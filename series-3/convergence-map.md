@@ -8,6 +8,8 @@ description: "Series 3 mapping of framework predictions to philosophical and con
 
 ---
 
+![Branching gold paths spread across a blue-violet landscape and converge near the center.](/assets/images/ai-alignment-convergence-map-contemplative-traditions.png)
+
 *← [Part 4: The Asymptote](/series-3/asymptote/)*
 
 ---

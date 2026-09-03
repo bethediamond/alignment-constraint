@@ -21,6 +21,8 @@ alternate_zh: /zh/empirical/amp/
 
 ---
 
+![蓝色与金色的分支波形在深色背景上平行延伸。](/assets/images/ai-alignment-measurement-protocol-proxy-divergence.png)
+
 ## 主张卡片
 
 - **待检验的主张或问题：** 框架的结构性压力能否通过 Φ/Ψ 相关指标、SVG/DRG 诊断以及动态毯式压力测试，在实证层面加以操作化并接受检验？

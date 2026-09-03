@@ -12,6 +12,8 @@ alternate_zh: /zh/core/proof-status/
 
 ---
 
+![Abstract proof-map image representing the claim status, open problems, and verification obligations of an AI alignment framework.](/assets/images/ai-alignment-proof-status-non-claims.png)
+
 ## Claim card
 
 - **Claim or question under investigation:** What has the framework actually established, what remains conditional, and what remains open?

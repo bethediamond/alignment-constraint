@@ -8,6 +8,8 @@ description: "Stage 4 OP4d apparatus: five axioms, eight lemmas, three specialis
 
 ---
 
+![Abstract normal-form classification diagram representing finite objective-boundary strategies in AI alignment and the search for a fourth failure class.](/assets/images/ai-alignment-normal-form-objective-boundaries.png)
+
 ## Claim card
 
 - **Claim or question under investigation:** Does the Candidate Normal Form correctly reduce every relevant finite objective-boundary strategy to the three known arms under its stated axioms, leaving no fourth class?

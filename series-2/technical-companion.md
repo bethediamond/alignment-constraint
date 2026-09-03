@@ -8,6 +8,8 @@ description: "Formal Series 2 companion developing V(t), the Valence Viability C
 
 ---
 
+![Sparse gold points form a faint network against a dark blue-black field.](/assets/images/ai-alignment-valence-constraint-rlhf.png)
+
 *This document formalizes the Valence Constraint developed in Articles 1–3 and the surviving region characterized in Article 4. It is a companion to the series, not a prerequisite. What follows is for readers who want to engage the mathematical structure of the argument rather than its narrative form.*
 
 ---

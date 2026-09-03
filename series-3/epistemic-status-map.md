@@ -10,7 +10,7 @@ description: "Map of claim strength, dependencies, falsification conditions, and
 
 ## What This Framework Claims — and What It Does Not
 
-![Layered cracked terrain shifts from blue formal structure through gold measurement nodes to a luminous boundary edge — a map of claim strengths.](https://miro.medium.com/v2/resize:fit:1400/1*RmxuuuIsT3pfkiTyuS7qlQ.png)
+![Layered cracked terrain shifts from blue formal structure through gold measurement nodes to a luminous boundary edge — a map of claim strengths.](/assets/images/ai-alignment-epistemic-status-map-framework-layers.png)
 
 _This document exists for one purpose: to tell you exactly where you are before Series 3 changes the register. It is a map, not an argument. Read it before Series 3. If you have already read Series 3, read it now to separate what was established from what was explored._
 

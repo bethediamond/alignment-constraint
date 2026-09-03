@@ -21,6 +21,8 @@ alternate_zh: /zh/core/proof-status/
 
 ---
 
+![表示 AI 对齐框架中主张状态、开放问题与验证义务的抽象证明图像。](/assets/images/ai-alignment-proof-status-non-claims.png)
+
 ## 主张卡片
 
 - **正在考察的主张或问题：** 框架实际上已经确立了什么、哪些仍是条件性的、哪些仍开放？

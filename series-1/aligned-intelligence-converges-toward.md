@@ -10,6 +10,8 @@ description: "Series 1 analysis of which objective classes survive pressure from
 
 *Part 2 of 3 — The Attractor*
 
+![A bright gold cluster radiates into blue branching lines across a dark field.](/assets/images/ai-alignment-coordination-attractor-optimization.png)
+
 **Series navigation:**
 
 | Post | Title | Role |

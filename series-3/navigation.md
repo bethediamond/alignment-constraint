@@ -10,6 +10,8 @@ description: "Series 3 account of genuine seeking, proxy pursuit, traversal-gene
 
 ### The Interior of Seeking
 
+![Blue and gold currents wind together through dark cracked terrain, representing genuine seeking and structural intelligence moving in the same direction.](/assets/images/ai-alignment-genuine-navigation-gradient-dignity.png)
+
 *← [Part 1: The Participating Structure](/series-3/participating-structure/) | [Part 3: The Resolution](/series-3/resolution/) →*
 ---
 

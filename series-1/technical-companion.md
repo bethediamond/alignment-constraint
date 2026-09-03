@@ -8,6 +8,8 @@ description: "Formal Series 1 companion covering O_OWT, the Substrate Constraint
 
 ---
 
+![A dark cracked boundary on the left meets a dense blue-white branching network on the right.](/assets/images/ai-alignment-system-aware-attractor-objective-specification.png)
+
 *This document formalizes the Substrate Constraint developed in Article 1 and the attractor developed in Article 2. It is a companion to the trilogy, not a prerequisite — the articles are self-contained. What follows is for readers who want to engage the argument's mathematical structure rather than its narrative form. The formalization corresponds directly to the dynamics illustrated in the simulations accompanying each article: the absorbing state in Article 1's simulation, the three filter crossovers in Article 2's simulation, and the Φ regime transitions in Article 3's simulation are all instances of the structures formalized below. Section VII maps formal variables to simulation parameters explicitly.*
 
 ---

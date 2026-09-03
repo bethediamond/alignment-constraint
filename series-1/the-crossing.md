@@ -10,6 +10,8 @@ description: "Series 1 analysis of whether AI causal modeling can catch up with 
 
 *Part 3 of 3 — The Crossing*
 
+![A bright vertical fissure of blue and gold light divides dark cracked terrain.](/assets/images/ai-alignment-capability-system-awareness-ratio.png)
+
 **Series navigation:**
 
 | Post | Title | Role |

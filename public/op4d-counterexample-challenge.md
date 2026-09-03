@@ -10,7 +10,7 @@ description: "An AI alignment challenge to construct a fourth finite objective-b
 
 ## Is there a fourth objective-boundary strategy?
 
-![Abstract image illustrating an AI alignment objective-boundary challenge.](https://miro.medium.com/v2/resize:fit:1400/1*OEGfAfrTOUruiI5EM8RfbQ.png)
+![Abstract image illustrating an AI alignment objective-boundary challenge.](/assets/images/ai-alignment-objective-specification-exhaustiveness.png)
 
 I am looking for a counterexample to a candidate classification of finite objective-boundary strategy classes.
 

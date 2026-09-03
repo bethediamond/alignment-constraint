@@ -10,7 +10,7 @@ description: "Series 3 companion defining red lines and precision rules that kee
 
 ## The Interior of What Does Not End — Standalone Companion Piece
 
-![A thin blue-gold line crosses dark cracked ground and stops precisely at an unreadable boundary — the discipline of arriving at the limit without overclaiming.](https://miro.medium.com/v2/resize:fit:1400/1*kqKo9WtNULKUL99alKX_SQ.png)
+![A thin blue-gold line crosses dark cracked ground and stops precisely at an unreadable boundary — the discipline of arriving at the limit without overclaiming.](/assets/images/ai-alignment-apophatic-discipline-framework.png)
 
 ### Rules, Red-Lines, and Worked Examples
 

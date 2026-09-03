@@ -8,6 +8,8 @@ description: "Series 2 foundation defining seeking, genuine resolution, gradient
 
 ---
 
+![Abstract structural image representing AI alignment, directed behavior, motivation, and completion recognition in intelligent systems.](/assets/images/ai-alignment-motivation-completion-recognition.png)
+
 **Series navigation:**
 
 | Post | Title | Role |

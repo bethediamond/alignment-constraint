@@ -8,6 +8,8 @@ description: "A field-facing introduction to the specification-coherence bottlen
 
 ---
 
+![A thin gold-lit boundary divides two dark cracked surfaces.](/assets/images/ai-alignment-better-objectives-not-enough.png)
+
 **Document role:** Companion article to the Alignment Framework Series. This article frames the specification-coherence bottleneck for alignment researchers and presents the DRG empirical wedge as a minimal visible instance of the deeper structural claim. Readers unfamiliar with the framework should begin with *[The Alignment Constraint →](/core/alignment-constraint/)*. Readers who want current proof-status calibration should consult *[Proof Status and Non-Claims →](/core/proof-status/)*. Readers who want the formal proof architecture should consult [TC1: The System-Aware Attractor →](/series-1/technical-companion/) §XII.
 
 **Framework navigation:**

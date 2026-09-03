@@ -8,6 +8,8 @@ description: "Series 2 conditions for a persistent, resolution-capable system, w
 
 ---
 
+![Gold branching fissures spread across dark cracked terrain.](/assets/images/ai-alignment-structural-limits-optimization.png)
+
 **Series navigation:**
 
 | Post | Title | Role |

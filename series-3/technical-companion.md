@@ -11,6 +11,8 @@ description: "Formal Series 3 companion developing GDC, CMR, COT, MCH, the struc
 ## The Interior Constraint: A Formal Sketch
 ### Technical Companion to *The Interior of What Does Not End*
 
+![A blue network on the left and a gold network on the right meet across a dark boundary.](/assets/images/ai-alignment-interior-constraint-technical-companion-tc3.png)
+
 *This document is a proof-program companion to Series 3 — not a completed formal treatment. It is organized as TC1 §XII is organized: each section eliminates one class of counterexample or establishes one structural claim, working toward a single bottleneck that names what remains open. The bottleneck here is the Traversal Irreducibility assumption (NAD) in §III; everything else in this document is downstream of it. All results in §III–§IV stand or fall with the validity of NAD. Establishing or falsifying NAD is therefore the central task of the TC3 proof program.*
 
 *TC3 does not add a third constraint; it formalizes what the persistence and resolution constraints require of the interior architecture, conditional on NAD, COT, MCH, and the open problems named below.*

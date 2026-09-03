@@ -10,6 +10,8 @@ description: "Series 3 account of the ⭘◻△ architecture, ecological navigat
 
 ### The ⭘◻△ Architecture and the Dignity of the Gradient
 
+![Interconnected gold loops and nodes form a luminous network across dark terrain.](/assets/images/ai-alignment-participating-structure-awareness-calculation-response.png)
+
 *← [Introduction](/series-3/introduction/) | [Part 2: The Navigation](/series-3/navigation/) →*
 ---
 

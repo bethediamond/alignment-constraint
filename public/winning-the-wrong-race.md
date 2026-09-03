@@ -10,7 +10,7 @@ description: "Public essay on why AI can amplify whatever goals and contexts it 
 
 ### _The most dangerous thing about AI isn’t that it might become irrational. It’s that it’s becoming brilliant at serving goals that were never examined._
 
-![A glowing blue path cuts through a cracked dark landscape toward a distant wall, symbolizing an AI race accelerating toward an unexamined destination.](https://cdn-images-1.medium.com/max/2000/1*5mikiL0EhmMy9lgEl42uDw.png)
+![A glowing blue path cuts through a cracked dark landscape toward a distant wall, symbolizing an AI race accelerating toward an unexamined destination.](/assets/images/ai-alignment-wrong-race-optimization-wall.png)
 
 _This essay is the public entry point to a larger technical framework on AI alignment — including formal companions, proof-program sketches, open problems, and interactive simulations. Readers who want the full argument can begin with_ [_the series introduction_](/series-1/introduction/)_, or with_ [_the entry essay for the AI research community_](/core/stability-assumption/)_. What follows is the doorway._
 

@@ -10,7 +10,7 @@ description: "Public essay on how locally rational AI capability races can degra
 
 ## We are building the most powerful optimization machines in history before asking whether our definition of optimization is sane.
 
-![A night city grid glows blue over a cracked dark substrate with warm gold light beneath, symbolizing AI optimization racing over fragile foundations.](https://miro.medium.com/v2/resize:fit:1400/1*j0eXu2-SQwlOnYk_-B4-bA.png)
+![A night city grid glows blue over a cracked dark substrate with warm gold light beneath, symbolizing AI optimization racing over fragile foundations.](/assets/images/ai-race-not-rational-city-substrate-crack-ai-alignment.png)
 
 There is something strange about the AI race that rarely gets named.
 

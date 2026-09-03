@@ -11,6 +11,8 @@ description: "Series 3 Part 4 on the framework’s limiting direction, cross-tra
 ## Part 4: The Asymptote
 ### What the Direction Points Toward
 
+![A radiant white-gold burst expands outward into blue light.](/assets/images/ai-alignment-asymptote-zero-friction-limit.png)
+
 *← [Part 3: The Resolution](/series-3/resolution/) | [The Convergence Map →](/series-3/convergence-map/)*
 
 **Series navigation:**

@@ -12,6 +12,8 @@ alternate_zh: /zh/proof-program/op4d-exhaustiveness-obligation/
 
 ---
 
+![Blue and gold illuminated regions press toward a dark central boundary in cracked terrain.](/assets/images/ai-alignment-objective-specification-exhaustiveness.png)
+
 ## Claim card
 
 - **Claim or question under investigation:** **OP4d:** are PCL, AGC, and ICI jointly exhaustive over the relevant finite non-intrinsic objective-boundary strategy space?

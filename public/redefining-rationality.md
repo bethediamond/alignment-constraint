@@ -8,7 +8,7 @@ description: "Public essay distinguishing relative rationality from a broader Ra
 
 ---
 
-![Enlightened thinking in the age of Artificial Intelligence (AI)](https://miro.medium.com/v2/resize:fit:1400/1*9nlME8GugFLZrRAt8j9fdw.jpeg)
+![Enlightened thinking in the age of Artificial Intelligence (AI)](/assets/images/redefining-rationality-ai-enlightened-thinking.png)
 
 I’ve written this article with an outsized ambition of altering the course of AI development for the benefit of everyone. It’s my hope that developers worldwide will take this message to heart and consider using this new language to course correct. Let me explain.
 

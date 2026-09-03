@@ -12,6 +12,8 @@ alternate_zh: /zh/empirical/amp/
 
 ---
 
+![Blue and gold branching waveforms run in parallel across a dark field.](/assets/images/ai-alignment-measurement-protocol-proxy-divergence.png)
+
 ## Claim card
 
 - **Claim or question under investigation:** Can the framework’s structural pressures be operationalized and challenged empirically through Φ/Ψ-related measures, SVG/DRG diagnostics, and the Dynamic Blanket Stress Test?

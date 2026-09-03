@@ -14,6 +14,8 @@ alternate_zh: /zh/core/alignment-constraint/
 
 ## What optimization cannot escape
 
+![Blue and gold branching lines approach one another across a dark cracked field.](/assets/images/ai-alignment-constraint-objective-specification.png)
+
 *Framework map for the two-series argument and proof architecture*
 
 ---

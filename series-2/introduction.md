@@ -8,6 +8,8 @@ description: "Introduction to Series 2: the Valence Failure, V(t), sufficiency f
 
 ---
 
+![Abstract blue-gold structural image representing AI alignment, optimization pressure, and well-being as a constraint on intelligence.](/assets/images/ai-alignment-well-being-structural-constraint.png)
+
 *This is the entry point for a four-part series: four articles, one technical companion, and this introduction. It is a companion to Alignment and Structural Necessity. The two series are independently developed constraints that may prove to be two observations of the same underlying condition — that question is the most important open question this cross-series relationship generates, and it is treated as a hypothesis with a derivation sketch in TC2 §2.6, not a settled result. Readers unfamiliar with the structural series will find the argument here self-contained. Readers familiar with it will find structural correspondence that the Technical Companion argues constitutes a hypothesis worth verifying — an argument offered with a derivation, not a completed formal result.*
 
 *Part 1 establishes the behavioral foundation — the three-state taxonomy and the mechanism of both failure directions — that Part 2 formalizes. The phenomenological examples in Part 1 are illustrations of the structural argument, not its ground; the formal argument in Part 2 does not depend on them being independently valid. The formal weight resides in Part 2 and the Technical Companion; Parts 1 and 4 are more phenomenologically grounded by design.*

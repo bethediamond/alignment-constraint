@@ -8,6 +8,8 @@ description: "Specialist packet defining IMMB-NS, the Synchronization Condition,
 
 ---
 
+![Blue and gold fractured patterns radiate symmetrically from a dark central seam.](/assets/images/ai-alignment-dynamic-blanket-stress-test.png)
+
 ## Claim card
 
 - **Claim or question under investigation:** Does **IMMB-NS** hold — do an optimizer’s own interventions generate qualitatively new adequacy-relevant causal structure that a bounded tracking process cannot absorb — and can DBST-M1 discriminate that mechanism?

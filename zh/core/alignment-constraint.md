@@ -23,6 +23,8 @@ alternate_zh: /zh/core/alignment-constraint/
 
 ## 优化无法回避什么
 
+![蓝色与金色的分支光线在深色龟裂的背景上彼此趋近。](/assets/images/ai-alignment-constraint-objective-specification.png)
+
 *两个系列论证与证明架构的框架导图*
 
 ---

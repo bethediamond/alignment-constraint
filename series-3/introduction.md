@@ -8,6 +8,8 @@ description: "Introduction to Series 3’s phenomenological and interpretive lay
 
 ---
 
+![A glowing gold fissure opens through dark terrain, edged by a thin blue line.](/assets/images/ai-alignment-interior-threshold-series-3-introduction.png)
+
 *This is the companion piece to a two-part structural framework.*
 
 *The first part — Alignment as Structural Necessity — derived the Substrate Constraint: any optimization process that ignores system-wide effects will, as capability scales, consume the foundation it depends on. The second part — The Architecture of Thriving — derived the Valence Viability Constraint: any optimization process that ignores valence capacity will consume the experiential substrate, in either of the two directions gradient mis-specification can run.*

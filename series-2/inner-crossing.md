@@ -8,6 +8,8 @@ description: "Series 2 analysis of the ratio between an AI system’s scope of i
 
 ---
 
+![Blue branching light converges on a narrow gold fissure across a dark landscape.](/assets/images/ai-alignment-measurement-scope-depth-ratio.png)
+
 **Series navigation:**
 
 | Post | Title | Role |

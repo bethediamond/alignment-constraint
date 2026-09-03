@@ -8,6 +8,8 @@ description: "A technical note on proof-program repairs, stronger premises, burd
 
 ---
 
+![Branching blue and gold lines narrow into a single path across a dark field.](/assets/images/ai-alignment-proof-architecture-separable-objectives.png)
+
 *This document is not a summary of the framework. TC1 develops the formal structure. The proof handoffs record the adversarial closure work. Document 0 maps the architecture. What this document does is different: it traces the exits closing, one by one, until only the verification work remains. For a reader who has encountered the argument and wants to understand why the conclusion feels unavoidable — this is that account.*
 
 *All results are Stage 4: candidate proof architectures under explicitly named premises. Specialist verification is required for formal closure. Every identified escape route has been addressed under the stated construction.*

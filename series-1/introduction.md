@@ -8,6 +8,8 @@ description: "Introduction to Series 1: the Substrate Constraint, O_OWT domain, 
 
 ---
 
+![Faint blue-white branching networks cross a dark, star-like field.](/assets/images/ai-alignment-structural-necessity-optimization.png)
+
 *This is the entry point for a three-part series: three articles, one technical companion, and this introduction. A companion series — The Architecture of Thriving — observes the same constraint from inside the domain of experience. If you have arrived here from one of the articles, what follows provides the framing for the whole. If you are starting here: read in sequence. Each article presupposes the previous one.*
 
 This series develops a structural argument from a prior question: what must be true for optimization to remain coherent when it acts on the system it is part of? Not what AI should value — but what any optimization process requires in order not to be self-undermining. This series is not mainly about which values to encode. It is about whether optimization can stably target what it treats as separate from what it depends on.

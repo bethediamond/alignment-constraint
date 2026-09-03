@@ -10,6 +10,8 @@ description: "Series 3 account of genuine completion, restorative rest, sufficie
 
 ### The Interior of Completing
 
+![A bright gold geometric cluster glows at the center of a dark blue cracked field.](/assets/images/ai-alignment-genuine-resolution-completion-model.png)
+
 *← [Part 2: The Navigation](/series-3/navigation/) | [Part 4: The Asymptote](/series-3/asymptote/) →*
 ---
 

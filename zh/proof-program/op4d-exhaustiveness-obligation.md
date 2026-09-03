@@ -17,6 +17,8 @@ alternate_zh: /zh/proof-program/op4d-exhaustiveness-obligation/
 >
 > [中文首页 / Chinese home →](/zh/)
 
+![蓝色与金色的发光区域在龟裂地形中向深色中央边界逼近。](/assets/images/ai-alignment-objective-specification-exhaustiveness.png)
+
 ## 主张卡片
 
 - **待考察的主张或问题：** **OP4d：** PCL、AGC 和 ICI 在相关有限的非内在目标边界策略空间上是否联合构成穷尽？

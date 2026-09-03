@@ -26,6 +26,8 @@ citation_doi: "10.5281/zenodo.21895992"
 
 ---
 
+![蓝色光照与金色光照的龟裂地形在中央边界处相接。](/assets/images/ai-alignment-stability-assumption-separable-objectives.png)
+
 ## 主张卡片
 
 - **待研究的主张或问题：** **OP4——无稳定窄边界体制：** 在 O_OWT 条件下，任何有限可分离目标能否在准确的耦合建模下稳定地保持充分性？
